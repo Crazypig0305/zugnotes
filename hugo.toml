@@ -1,0 +1,56 @@
+baseURL = 'https://zugnotes.com/'
+languageCode = 'en'
+defaultContentLanguage = 'en'
+title = 'Zug Notes'
+theme = 'zugnotes'
+hasCJKLanguage = false
+enableGitInfo = false
+paginate = 10
+
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  description = "Field notes from the world's crypto capital — Insider perspective on Swiss crypto regulation, Crypto Valley ecosystem, and holding crypto in Switzerland."
+  author = 'Zug Notes'
+  ogImage = '/og-default.jpg'
+  siteTagline = "Field notes from the world's crypto capital"
+  linkedinURL = 'https://www.linkedin.com/in/zugnotes'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+  page = ['HTML']
+  section = ['HTML', 'RSS']
+
+[taxonomies]
+  category = 'categories'
+
+[[menus.main]]
+  name = 'All Posts'
+  url = '/'
+  weight = 1
+
+[[menus.main]]
+  name = 'Regulation'
+  url = '/categories/regulation/'
+  weight = 2
+
+[[menus.main]]
+  name = 'Ecosystem'
+  url = '/categories/ecosystem/'
+  weight = 3
+
+[[menus.main]]
+  name = 'Holdings'
+  url = '/categories/holdings/'
+  weight = 4
+
+[[menus.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 5

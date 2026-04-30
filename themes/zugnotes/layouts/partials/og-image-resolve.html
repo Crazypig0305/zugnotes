@@ -1,0 +1,21 @@
+{{/*
+  og-image-resolve.html (§十一·一)
+  Input: page context (call via partial "og-image-resolve.html" .)
+  Output: resolved absolute URL string, or "" if no image found
+  Logic:
+    1. Page bundle: .Params.image = "hero.webp" → .Resources.GetMatch → Permalink
+    2. Static path: .Params.image = "/images/foo.jpg" → absURL
+    3. No image → returns ""
+  Caller is responsible for fallback to /og-default.jpg
+*/}}
+{{ $page := . }}
+{{ $imgURL := "" }}
+{{ with $page.Params.image }}
+  {{ $imgRef := . }}
+  {{ with $page.Resources.GetMatch $imgRef }}
+    {{ $imgURL = .Permalink }}
+  {{ else }}
+    {{ $imgURL = $imgRef | absURL }}
+  {{ end }}
+{{ end }}
+{{ return $imgURL }}

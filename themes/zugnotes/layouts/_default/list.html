@@ -1,0 +1,62 @@
+{{ define "main" }}
+<div class="page-wrapper">
+  <div class="content-with-sidebar">
+
+    <div class="main-content">
+
+      {{/* Category / section header */}}
+      <div class="category-header">
+        <p class="eyebrow">Category</p>
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}
+        <p>{{ . }}</p>
+        {{ else }}
+        {{ with .Params.description }}
+        <p>{{ . }}</p>
+        {{ end }}
+        {{ end }}
+      </div>
+
+      {{/* Category tabs */}}
+      <div class="category-tabs">
+        <a href="/" class="category-tab">All</a>
+        <a href="/categories/regulation/" class="category-tab{{ if eq (.Title | lower) "regulation" }} active{{ end }}">Regulation</a>
+        <a href="/categories/ecosystem/" class="category-tab{{ if eq (.Title | lower) "ecosystem" }} active{{ end }}">Ecosystem</a>
+        <a href="/categories/holdings/" class="category-tab{{ if eq (.Title | lower) "holdings" }} active{{ end }}">Holdings</a>
+      </div>
+
+      {{/* Article list */}}
+      <ul class="article-list">
+        {{ range .Pages.ByDate.Reverse }}
+        {{ $page := . }}
+        <li class="article-list-item">
+          <div class="article-meta">
+            {{ with .Params.categories }}
+            {{ range first 1 . }}
+            <span class="category-label">{{ . }}</span>
+            {{ end }}
+            {{ end }}
+            {{ if not .Date.IsZero }}
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+            {{ end }}
+          </div>
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          {{ with .Description }}
+          <p class="article-excerpt">{{ . }}</p>
+          {{ else }}
+          <p class="article-excerpt">{{ .Summary | plainify | truncate 160 }}</p>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ul>
+
+      {{/* Pagination */}}
+      {{ template "_internal/pagination.html" . }}
+
+    </div>
+
+    {{ partial "sidebar.html" . }}
+
+  </div>
+</div>
+{{ end }}

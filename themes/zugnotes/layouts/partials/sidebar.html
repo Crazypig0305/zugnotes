@@ -1,0 +1,85 @@
+{{/*
+  sidebar.html — context-aware sidebar
+  On single posts: shows glossary (from .Params.glossary), sources (from .Params.sources), author bio
+  On home/list pages: shows site description, tracked sources, author bio
+  Glossary front matter format:
+    glossary:
+      - term: "FINMA"
+        def: "Swiss Financial Market Supervisory Authority..."
+  Sources front matter format:
+    sources:
+      - name: "FINMA official circulars"
+        url: "https://finma.ch"
+        desc: "finma.ch — guidance and enforcement"
+*/}}
+<aside class="sidebar" aria-label="Sidebar">
+
+  {{/* Glossary module — show on single posts if glossary defined in front matter */}}
+  {{ if and .IsPage .Params.glossary }}
+  <div class="sidebar-module">
+    <p class="sidebar-module-title">Acronyms in this piece</p>
+    <ul class="glossary-list">
+      {{ range .Params.glossary }}
+      <li>
+        <span class="glossary-term">{{ .term }}</span>
+        <span class="glossary-def">{{ .def }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ else if not .IsPage }}
+  {{/* Default "what this is" module on home/list pages */}}
+  <div class="sidebar-module">
+    <p class="sidebar-module-title">What this is</p>
+    <p>Field notes on Swiss crypto regulation and Crypto Valley — from someone who actually lives here. Not legal advice. Not investment advice.</p>
+  </div>
+  {{ end }}
+
+  {{/* Sources module — per-post if defined, else default tracked sources */}}
+  {{ if and .IsPage .Params.sources }}
+  <div class="sidebar-module">
+    <p class="sidebar-module-title">Sources I'm tracking</p>
+    <ul class="source-list">
+      {{ range .Params.sources }}
+      <li>
+        <a href="{{ .url }}">{{ .name }}</a>
+        <span class="source-desc">{{ .desc }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ else }}
+  <div class="sidebar-module">
+    <p class="sidebar-module-title">Sources I'm tracking</p>
+    <ul class="source-list">
+      <li>
+        <a href="https://www.finma.ch/en/" rel="noopener">FINMA</a>
+        <span class="source-desc">Swiss Financial Market Supervisory Authority</span>
+      </li>
+      <li>
+        <a href="https://cryptovalley.swiss/" rel="noopener">Crypto Valley Association</a>
+        <span class="source-desc">CVA — Zug ecosystem organization</span>
+      </li>
+      <li>
+        <a href="https://www.six-group.com/" rel="noopener">SIX Group</a>
+        <span class="source-desc">Swiss regulated exchange infrastructure</span>
+      </li>
+    </ul>
+  </div>
+  {{ end }}
+
+  {{/* Author bio module — always shown */}}
+  <div class="sidebar-module">
+    <p class="sidebar-module-title">About the author</p>
+    <div class="author-mini">
+      <div class="author-avatar" aria-hidden="true">Z</div>
+      <div>
+        <p class="author-bio">Based in Zug. Writing about Swiss crypto regulation and Crypto Valley from the inside. Not a lawyer, not a financial advisor.</p>
+        {{ with .Site.Params.linkedinURL }}
+        <a href="{{ . }}" class="author-bio" rel="noopener" target="_blank">LinkedIn &rarr;</a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+</aside>

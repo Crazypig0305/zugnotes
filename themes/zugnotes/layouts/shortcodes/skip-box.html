@@ -1,0 +1,4 @@
+{{- /* skip-box shortcode (§十二·12.2) — requires closing tag because uses .Inner
+     Usage: {{< skip-box title="When to skip this" >}} ... {{< /skip-box >}} */ -}}
+{{- $title := .Get "title" | default "When this doesn't apply to you" -}}
+<div class="skip-box"><div class="skip-box-header"><span class="skip-box-icon">!</span><span class="skip-box-title">{{ $title }}</span></div><div class="skip-box-body">{{ .Inner | markdownify }}</div></div>

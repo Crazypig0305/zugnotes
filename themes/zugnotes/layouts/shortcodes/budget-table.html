@@ -1,0 +1,5 @@
+{{- /* budget-table shortcode (§十二·12.3) — requires closing tag because uses .Inner
+     Usage: {{< budget-table title="Comparison table" sub="subtitle" >}} | col | col | ... {{< /budget-table >}} */ -}}
+{{- $title := .Get "title" -}}
+{{- $sub := .Get "sub" -}}
+<div class="budget-table-wrap">{{ with $title }}<div class="budget-table-head"><span class="budget-table-head-title">{{ . }}</span>{{ with $sub }}<span class="budget-table-head-sub">{{ . }}</span>{{ end }}</div>{{ end }}<div class="budget-table-inner">{{ .Inner | markdownify }}</div></div>

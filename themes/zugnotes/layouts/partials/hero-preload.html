@@ -1,0 +1,24 @@
+{{/*
+  hero-preload.html (§十一·七)
+  D站 LCP element: H1 text (not hero image) — field notes, no hero banner.
+  Preload still beneficial for FCP on pages that have a featured image.
+  Insert before Google Fonts CSS link in head.html.
+*/}}
+{{ if .IsHome }}
+  {{ $pages := where .Site.RegularPages "Section" "posts" }}
+  {{ with $pages }}
+    {{ $featured := index (.ByDate.Reverse) 0 }}
+    {{ with $featured }}
+      {{ with .Resources.GetMatch "*.{webp,jpg,jpeg,png}" }}
+  <link rel="preload" as="image" href="{{ .RelPermalink }}" fetchpriority="high">
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ else if .IsPage }}
+  {{ with .Params.image }}
+    {{ $imgRef := . }}
+    {{ with $.Resources.GetMatch $imgRef }}
+  <link rel="preload" as="image" href="{{ .RelPermalink }}" fetchpriority="high">
+    {{ end }}
+  {{ end }}
+{{ end }}

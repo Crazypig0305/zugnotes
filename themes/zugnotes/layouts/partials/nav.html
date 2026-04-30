@@ -1,0 +1,40 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ "/" | relURL }}" class="site-logo">
+      <span class="site-logo-name">{{ .Site.Title }}</span>
+      <span class="site-logo-tagline">{{ .Site.Params.siteTagline }}</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}"{{ if or (eq $.RelPermalink .URL) (and (eq .URL "/") $.IsHome) }} class="active"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+      <a href="/about/#subscribe" class="nav-cta">Subscribe</a>
+    </nav>
+    <button class="hamburger-btn" aria-label="Open menu" aria-expanded="false" id="hamburger-btn">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-drawer" id="mobile-drawer" role="dialog" aria-label="Navigation menu">
+  <p class="mobile-drawer-tagline">{{ .Site.Params.siteTagline }}</p>
+  <ul class="mobile-nav-links">
+    {{ range .Site.Menus.main }}
+    <li><a href="{{ .URL }}"{{ if or (eq $.RelPermalink .URL) (and (eq .URL "/") $.IsHome) }} class="active"{{ end }}>{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+  <a href="/about/#subscribe" class="mobile-drawer-cta">Subscribe to Updates</a>
+</div>
+
+<script>
+(function() {
+  var btn = document.getElementById('hamburger-btn');
+  var drawer = document.getElementById('mobile-drawer');
+  if (!btn || !drawer) return;
+  btn.addEventListener('click', function() {
+    var open = drawer.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+})();
+</script>

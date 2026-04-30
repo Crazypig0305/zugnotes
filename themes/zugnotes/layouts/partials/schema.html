@@ -1,0 +1,56 @@
+{{/*
+  schema.html — JSON-LD structured data (§十一·三)
+  Must use dict + jsonify + safeJS pattern. Never inline single-field | jsonify.
+  Outputs: Person (site-level) + Article (single posts) + FAQPage (if .Params.faq exists)
+*/}}
+{{ $ogImage := partial "og-image-resolve.html" . }}
+{{ if not $ogImage }}
+  {{ $ogImage = "/og-default.jpg" | absURL }}
+{{ end }}
+
+{{/* Person schema — site-level on all pages */}}
+{{- $person := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" .Site.Params.author
+  "url" .Site.BaseURL
+  "sameAs" (slice .Site.Params.linkedinURL)
+  "knowsAbout" (slice "Swiss crypto regulation" "FINMA" "Crypto Valley" "MiCA" "CARF" "DLT Act" "Web3 Switzerland")
+-}}
+<script type="application/ld+json">
+{{ $person | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+
+{{ if and .IsPage (not .Date.IsZero) }}
+{{/* Article schema — single posts only */}}
+{{- $article := dict
+  "@context" "https://schema.org"
+  "@type" "BlogPosting"
+  "headline" .Title
+  "description" (cond (ne .Description "") .Description .Site.Params.description)
+  "image" $ogImage
+  "url" .Permalink
+  "datePublished" (.Date.Format "2006-01-02")
+  "dateModified" (.Lastmod.Format "2006-01-02")
+  "author" (dict "@type" "Person" "name" .Site.Params.author "url" .Site.BaseURL)
+  "publisher" (dict "@type" "Organization" "name" .Site.Title "url" .Site.BaseURL)
+  "speakableSpecification" (dict "@type" "SpeakableSpecification" "cssSelector" (slice ".article-body h2" ".article-body p"))
+-}}
+<script type="application/ld+json">
+{{ $article | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{ end }}
+
+{{ if .IsHome }}
+{{/* WebSite schema — home page */}}
+{{- $website := dict
+  "@context" "https://schema.org"
+  "@type" "WebSite"
+  "name" .Site.Title
+  "url" .Site.BaseURL
+  "description" .Site.Params.description
+-}}
+<script type="application/ld+json">
+{{ $website | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{ end }}

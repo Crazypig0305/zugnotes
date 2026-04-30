@@ -1,0 +1,114 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{{/* ---- Hero image preload (§十一·七) ---- */}}
+{{ partial "hero-preload.html" . }}
+
+{{/* ---- Google Fonts (display=optional per §四 Gate 1 perf rules) ---- */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@400;600&family=JetBrains+Mono:wght@400&display=optional">
+
+{{/* ---- Critical inline CSS (above-fold) ---- */}}
+<style>
+:root {
+  --pine: #2E5D4B;
+  --pine-light: #F0F4ED;
+  --pine-mid: #3D7A63;
+  --offwhite: #FAFAFA;
+  --body-text: #1C2B3A;
+  --text-muted: #4A5A68;
+  --text-light: #7A8A98;
+  --border: #D8DFD7;
+  --border-pine: #2E5D4B;
+  --bg-subtle: #F4F7F5;
+  --mono-bg: #EEF2EE;
+  --link-color: #2E5D4B;
+  --link-hover: #1E3D32;
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px}
+body{font-family:var(--font-body);font-weight:400;background:var(--offwhite);color:var(--body-text);line-height:1.7;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--font-heading);font-weight:700;line-height:1.25;color:var(--body-text)}
+h1{font-size:2.4rem}h2{font-size:1.7rem}h3{font-size:1.25rem}h4{font-size:1.05rem}
+p{margin-bottom:1.15em}
+a{color:var(--link-color);text-decoration:none;transition:color 0.18s ease}
+a:hover{color:var(--link-hover);text-decoration:underline}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}
+.site-header{background:var(--offwhite);border-bottom:1.5px solid var(--border);position:sticky;top:0;z-index:100}
+.header-inner{max-width:1120px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:62px;gap:2rem}
+.site-logo{display:flex;flex-direction:column;text-decoration:none}
+.site-logo-name{font-family:var(--font-heading);font-weight:700;font-size:1.18rem;color:var(--body-text);line-height:1.1;transition:color 0.18s ease}
+.site-logo:hover .site-logo-name{color:var(--pine)}
+.site-logo-tagline{font-family:var(--font-mono);font-size:0.66rem;color:var(--text-muted);letter-spacing:0.04em;margin-top:2px}
+.page-wrapper{max-width:1120px;margin:0 auto;padding:0 2rem}
+</style>
+
+{{/* ---- Main CSS (lazy load + cache busting §十一·五) ---- */}}
+<link rel="preload" as="style"
+      href="{{ "/css/main.css" | absURL }}?v={{ now.Unix }}"
+      onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ "/css/main.css" | absURL }}?v={{ now.Unix }}"></noscript>
+
+{{/* ---- Title ---- */}}
+<title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.siteTagline }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+{{/* ---- Canonical ---- */}}
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* ---- Meta description ---- */}}
+{{ if .Description }}
+<meta name="description" content="{{ .Description }}">
+{{ else if .IsHome }}
+<meta name="description" content="{{ .Site.Params.description }}">
+{{ else }}
+<meta name="description" content="{{ .Site.Params.description }}">
+{{ end }}
+
+{{/* ---- OG image resolve (§十一·一) ---- */}}
+{{ $ogImage := partial "og-image-resolve.html" . }}
+{{ if not $ogImage }}
+  {{ $ogImage = "/og-default.jpg" | absURL }}
+{{ end }}
+
+{{/* ---- Open Graph ---- */}}
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:image" content="{{ $ogImage }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+
+{{/* ---- Twitter Card ---- */}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta name="twitter:image" content="{{ $ogImage }}">
+
+{{/* ---- Article dates (for single posts) ---- */}}
+{{ if and (not .IsHome) (not .IsSection) (.Date) }}
+{{ if not .Date.IsZero }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+{{ end }}
+{{ end }}
+
+{{/* ---- JSON-LD Schema (§十一·三 dict + jsonify + safeJS pattern) ---- */}}
+{{ partial "schema.html" . }}
+
+{{/* ---- Favicon ---- */}}
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/favicon-16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+{{/* ---- RSS ---- */}}
+{{ range .AlternativeOutputFormats }}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
+{{ end }}

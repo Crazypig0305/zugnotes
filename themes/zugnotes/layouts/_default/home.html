@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div class="page-wrapper">
+  <div class="content-with-sidebar">
+
+    <div class="main-content">
+
+      {{/* Section 1: Intro banner (hero-free) */}}
+      <section class="home-intro">
+        <p class="eyebrow">zugnotes.com</p>
+        <h1>Field notes from the world's crypto capital</h1>
+        <p class="intro-desc">Insider observation on Swiss crypto regulation, Crypto Valley ecosystem reality, and what holding crypto actually looks like in Zug — written for globally curious readers, not industry insiders.</p>
+      </section>
+
+      {{/* Section 2: Article list */}}
+      <section>
+        <div class="section-header">
+          <h2 class="page-section-label">Recent Field Notes</h2>
+          <a href="/posts/" class="view-all">All posts &rarr;</a>
+        </div>
+        <ul class="article-list">
+          {{ $pages := where .Site.RegularPages "Section" "posts" }}
+          {{ range ($pages.ByDate.Reverse) }}
+          {{ $page := . }}
+          <li class="article-list-item">
+            <div class="article-meta">
+              {{ with .Params.categories }}
+              {{ range first 1 . }}
+              <span class="category-label">{{ . }}</span>
+              {{ end }}
+              {{ end }}
+              {{ if not .Date.IsZero }}
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+              {{ end }}
+            </div>
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            {{ with .Description }}
+            <p class="article-excerpt">{{ . }}</p>
+            {{ else }}
+            <p class="article-excerpt">{{ .Summary | plainify | truncate 160 }}</p>
+            {{ end }}
+          </li>
+          {{ end }}
+        </ul>
+      </section>
+
+      {{/* Section 3: Category quick access */}}
+      <section class="category-quick-access">
+        <p class="page-section-label">Browse by Topic</p>
+        <div class="category-tabs">
+          <a href="/" class="category-tab{{ if .IsHome }} active{{ end }}">All</a>
+          <a href="/categories/regulation/" class="category-tab">Regulation</a>
+          <a href="/categories/ecosystem/" class="category-tab">Ecosystem</a>
+          <a href="/categories/holdings/" class="category-tab">Holdings</a>
+        </div>
+      </section>
+
+    </div>
+
+    {{ partial "sidebar.html" . }}
+
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,8 @@
+{{- /* num-highlight shortcode (self-closing, §十二·12.1)
+     Usage: {{< num-highlight value="65%" label="Market share" note="2026 est." >}}
+     For multi-cell layout use raw HTML <div class="num-highlight">...</div> */ -}}
+{{- $value := .Get "value" -}}
+{{- $unit := .Get "unit" -}}
+{{- $label := .Get "label" -}}
+{{- $note := .Get "note" -}}
+<div class="num-highlight"><div class="num-cell">{{ with $label }}<div class="num-label">{{ . }}</div>{{ end }}<div class="num-value">{{ $value }}</div>{{ with $unit }}<div class="num-unit">{{ . }}</div>{{ end }}{{ with $note }}<div class="num-note">{{ . }}</div>{{ end }}</div></div>

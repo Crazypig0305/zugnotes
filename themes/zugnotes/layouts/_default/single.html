@@ -1,0 +1,72 @@
+{{ define "main" }}
+<div class="page-wrapper">
+  <div class="content-with-sidebar">
+
+    <div class="main-content">
+
+      {{/* Article header */}}
+      <header class="article-header">
+        <div class="article-meta">
+          {{ with .Params.categories }}
+          {{ range first 1 . }}
+          <span class="category-label">{{ . }}</span>
+          {{ end }}
+          {{ end }}
+          {{ if not .Date.IsZero }}
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+          {{ end }}
+        </div>
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}
+        <p class="article-subtitle">{{ . }}</p>
+        {{ end }}
+        <div class="article-byline">
+          <span>By the Zug Notes editor</span>
+          {{ if not .Date.IsZero }}
+          <span class="byline-sep">&mdash;</span>
+          <span>{{ .Date.Format "January 2, 2006" }}</span>
+          {{ end }}
+          {{ with .Params.readtime }}
+          <span class="byline-sep">&mdash;</span>
+          <span>~{{ . }} min read</span>
+          {{ end }}
+          <span class="byline-sep">&mdash;</span>
+          <span>Not legal advice</span>
+        </div>
+      </header>
+
+      {{/* Article hero image (page bundle aware, §十) */}}
+      {{ $page := . }}
+      {{ with .Params.image }}
+        {{ $imgRef := . }}
+        {{ with $page.Resources.GetMatch $imgRef }}
+        <figure class="article-cover">
+          <img src="{{ .Permalink }}"
+               alt="{{ $page.Title }}"
+               width="{{ .Width }}"
+               height="{{ .Height }}"
+               loading="eager"
+               fetchpriority="high">
+        </figure>
+        {{ end }}
+      {{ end }}
+
+      {{/* Article body — drop cap via CSS pseudo-element on first p */}}
+      <article class="article-body">
+        {{ .Content }}
+      </article>
+
+      {{/* Article footer disclaimer */}}
+      <footer class="article-footer">
+        <div class="disclaimer-box">
+          <strong>Not legal or financial advice.</strong> This is a field notes blog — observation and context, not professional guidance. Swiss crypto regulation changes frequently. Verify with a qualified Swiss lawyer or financial advisor before making decisions.
+        </div>
+      </footer>
+
+    </div>
+
+    {{ partial "sidebar.html" . }}
+
+  </div>
+</div>
+{{ end }}
