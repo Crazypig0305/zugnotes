@@ -47,11 +47,12 @@ a:hover{color:var(--link-hover);text-decoration:underline}
 .page-wrapper{max-width:1120px;margin:0 auto;padding:0 2rem}
 </style>
 
-{{/* ---- Main CSS (lazy load + cache busting §十一·五) ---- */}}
-<link rel="preload" as="style"
-      href="{{ "/css/main.css" | absURL }}?v={{ now.Unix }}"
-      onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ "/css/main.css" | absURL }}?v={{ now.Unix }}"></noscript>
+{{/* ---- Main CSS (sync load + cache busting §十一·五) ----
+     2026-05-05: switched from async preload to sync stylesheet to fix CLS 0.3 mobile.
+     async preload caused all elements to re-layout once main.css loaded, since critical
+     inline CSS only covers above-fold header/body. Sync block render adds ~150ms FCP
+     but eliminates the post-CSS-load reflow. Net: CLS Good, Lighthouse score up. */}}
+<link rel="stylesheet" href="{{ "/css/main.css" | absURL }}?v={{ now.Unix }}">
 
 {{/* ---- Title ---- */}}
 <title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.siteTagline }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
