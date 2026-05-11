@@ -49,13 +49,13 @@ sources:
 ---
 
 > 📅 Field note from: February 2025 | Last updated: May 2026
-> Originally written during the 2024 tax declaration season; updated with current Federal Tax Administration guidance in May 2026.
+> Originally written during the 2024 tax declaration season; updated with current [Federal Tax Administration](https://www.estv.admin.ch/estv/en/home.html) guidance in May 2026.
 
-Switzerland's crypto tax framework is structurally simple: private investors pay no capital gains tax, but they do pay wealth tax on the full market value of their portfolio — and that market value is assessed on one specific date every year.
+Switzerland's crypto tax framework is structurally simple: private investors pay no capital gains tax, but they do pay [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) on the full market value of their portfolio — and that market value is assessed on one specific date every year.
 
 That date is December 31st.
 
-Understanding what "market value on December 31st" actually means in practice is most of what you need to know to file your return correctly. This field note walks through the mechanics — where the number comes from, how to handle multiple wallets and exchanges, what to do when your assets are priced in USD or EUR rather than CHF, and how the less common categories (DeFi positions, staking rewards, NFTs) get treated. There is also a section at the end on what to do if you have never declared crypto before.
+Understanding what "market value on December 31st" actually means in practice is most of what you need to know to file your return correctly. This field note walks through the mechanics — where the number comes from, how to handle multiple wallets and exchanges, what to do when your assets are priced in USD or EUR rather than CHF, and how the less common categories ([DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) positions, [staking](https://en.wikipedia.org/wiki/Proof_of_stake) rewards, NFTs) get treated. There is also a section at the end on what to do if you have never declared crypto before.
 
 This is a practical guide, not a legal instruction. For complex portfolios, use a professional. For most straightforward holding situations, this should get you to the right form and the right field.
 
@@ -82,8 +82,8 @@ The Swiss Federal Tax Administration (SFTA, or ESTV in German) publishes an offi
 3. **Original purchase price in CHF** (fallback only, for completely illiquid or no-market assets) — use sparingly.
 
 For reference, the SFTA Kursliste 2024 values (December 31, 2024) were:
-- Bitcoin: **CHF 88,060**
-- Ethereum: **CHF 3,264**
+- [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin): **CHF 88,060**
+- [Ethereum](https://en.wikipedia.org/wiki/Ethereum): **CHF 3,264**
 
 The 2023 year-end values were CHF 37,006 for Bitcoin and CHF 2,151 for Ethereum — which illustrates how dramatically the wealth tax base can shift year to year purely due to market movement.
 
@@ -142,7 +142,7 @@ Most crypto assets are priced in USD. The SFTA Kursliste already converts to CHF
 
 For assets not on the Kursliste: get the December 31st price in USD (or EUR), then convert to CHF using the official SFTA exchange rate for that date. The SFTA also publishes an annual currency exchange rate list (again at estv.admin.ch).
 
-**Stablecoins:** USDC, USDT, and similar USD-pegged stablecoins are declared at their CHF equivalent — essentially the CHF/USD exchange rate on December 31st multiplied by the number of stablecoin units. They are not treated as USD cash. They are treated as crypto assets and go in the securities schedule.
+**Stablecoins:** USDC, USDT, and similar USD-pegged [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s are declared at their CHF equivalent — essentially the CHF/USD exchange rate on December 31st multiplied by the number of stablecoin units. They are not treated as USD cash. They are treated as crypto assets and go in the securities schedule.
 
 {{< skip-box title="EUR-priced and DAI-type stablecoins" >}}
 Euro-pegged stablecoins (EURS, for example) follow the same logic: declare in CHF using the EUR/CHF rate on December 31st. DAI (or other algorithmically stabilized assets) — declare at whatever the actual market value was on December 31st, not at the theoretical USD 1.00 peg.
@@ -180,7 +180,7 @@ If you hold liquidity pool (LP) tokens or have funds locked in a smart contract 
 
 **NFTs:** The SFTA has not issued dedicated NFT guidance as of early 2025. The practical approach that most Swiss tax advisors recommend: treat NFTs as intangible assets, declare them at market value on December 31st if that value is determinable (a recent sale, a floor price from a recognized marketplace), or at original purchase price in CHF if no current market value exists. Income from NFT royalties is taxable when received.
 
-## What CARF Means for Your Return Going Forward
+## What [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) Means for Your Return Going Forward
 
 Starting in 2027, Swiss crypto platforms will begin reporting account data to the SFTA under the CARF (Crypto Asset Reporting Framework). The first actual data exchange with foreign authorities is expected around 2028.
 
@@ -227,7 +227,7 @@ The declaration itself is not technically complex — the valuation and conversi
 
 ## A Note on Swiss Bank Statements as Documentation
 
-If you hold crypto through a FINMA-licensed institution like AMINA Bank or Sygnum Bank, your year-end bank statement should show the CHF-valued portfolio balance on December 31st directly. This is one of the practical advantages of the regulated Swiss crypto banking route — the documentation is formatted for Swiss tax purposes from the start.
+If you hold crypto through a [FINMA](https://www.finma.ch/en/)-licensed institution like [AMINA Bank](https://www.aminagroup.com/) or [Sygnum Bank](https://www.sygnum.com/), your year-end bank statement should show the CHF-valued portfolio balance on December 31st directly. This is one of the practical advantages of the regulated Swiss crypto banking route — the documentation is formatted for Swiss tax purposes from the start.
 
 The [Swiss crypto bank account field note](/posts/crypto-friendly-bank-account-switzerland/) covers what is involved in accessing those institutions, for anyone considering that path.
 

@@ -46,7 +46,7 @@ sources:
 > 📅 Originally written: June 2023 | Last updated: May 2026
 > Figures and bank status verified against publicly available sources as of May 2026. Bank policies and thresholds change — confirm directly with each institution before making decisions.
 
-The pitch sounds clean: Switzerland has FINMA-licensed banks that actually understand crypto. You can hold BTC and CHF in the same place, have your assets genuinely segregated under Swiss law, and not worry that your bank will freeze your account the moment it sees an on-chain transfer.
+The pitch sounds clean: Switzerland has [FINMA](https://www.finma.ch/en/)-licensed banks that actually understand crypto. You can hold BTC and CHF in the same place, have your assets genuinely segregated under Swiss law, and not worry that your bank will freeze your account the moment it sees an on-chain transfer.
 
 That pitch is true. But the part most coverage leaves out is what getting inside those banks actually involves.
 
@@ -56,11 +56,11 @@ This is a field note on that gap — the thresholds, the paperwork, the timeline
 
 Switzerland has four institutions that sit in the "crypto-native or crypto-serious bank" category:
 
-**AMINA Bank (formerly SEBA Bank)** — received its FINMA banking licence in August 2019 alongside Sygnum. Rebranded from SEBA to AMINA in December 2023. Headquartered in Zug. Offers trading, custody, lending, and staking for a range of crypto-assets. Holds a MiCA licence through Austria (secured November 2025), meaning it can passport services across the EU.
+**[AMINA Bank](https://www.aminagroup.com/) (formerly [SEBA Bank](https://en.wikipedia.org/wiki/[SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)_Bank))** — received its FINMA banking licence in August 2019 alongside [Sygnum](https://www.sygnum.com/). Rebranded from SEBA to AMINA in December 2023. Headquartered in Zug. Offers trading, custody, lending, and [staking](https://en.wikipedia.org/wiki/Proof_of_stake) for a range of crypto-assets. Holds a [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) licence through Austria (secured November 2025), meaning it can passport services across the EU.
 
-**Sygnum Bank** — also FINMA-licensed since 2019. Based in Zurich. Manages approximately CHF 5 billion in client assets across more than 1,700 clients in 60+ countries as of early 2025. Became a unicorn in January 2025 after its strategic growth round. Focuses on institutional and professional clients, with custody and trading as core products.
+**[Sygnum Bank](https://www.sygnum.com/)** — also FINMA-licensed since 2019. Based in Zurich. Manages approximately CHF 5 billion in client assets across more than 1,700 clients in 60+ countries as of early 2025. Became a unicorn in January 2025 after its strategic growth round. Focuses on institutional and professional clients, with custody and trading as core products.
 
-**Bank Frick** — based in Liechtenstein (not Switzerland proper, but regulated by Liechtenstein's Financial Market Authority, which operates within the Swiss franc zone and EEA). The oldest of the four. Has offered crypto trading and custody since 2017, primarily for financial intermediaries and professional clients. Holds 17 cryptocurrencies.
+**[Bank Frick](https://www.bankfrick.li/en)** — based in Liechtenstein (not Switzerland proper, but regulated by Liechtenstein's Financial Market Authority, which operates within the Swiss franc zone and EEA). The oldest of the four. Has offered crypto trading and custody since 2017, primarily for financial intermediaries and professional clients. Holds 17 cryptocurrencies.
 
 **InCore Bank** — a Swiss B2B bank that provides crypto infrastructure to other financial institutions. Not a direct-to-client bank. If you are an individual looking to open an account personally, InCore is not your path — it functions as wholesale infrastructure.
 
@@ -111,7 +111,7 @@ Swiss crypto banking KYC goes several layers deeper than a standard Swiss bank a
 
 The completeness of blockchain transaction history is not optional. Gaps in the chain of custody — periods where the bank cannot trace where assets came from or went — are a common reason applications stall or get declined.
 
-**Layer 3 — tax compliance.** Swiss banks, particularly post-CARF 2026, will ask for confirmation that the client has declared their crypto holdings in their home jurisdiction. This does not mean a client needs to have paid tax on unrealized gains — it means the bank needs comfort that the client is not using the account to move undeclared assets. For clients in high-tax jurisdictions with aggressive tax authorities, this can involve producing tax returns or a letter from an accountant.
+**Layer 3 — tax compliance.** Swiss banks, particularly post-[CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) 2026, will ask for confirmation that the client has declared their crypto holdings in their home jurisdiction. This does not mean a client needs to have paid tax on unrealized gains — it means the bank needs comfort that the client is not using the account to move undeclared assets. For clients in high-tax jurisdictions with aggressive tax authorities, this can involve producing tax returns or a letter from an accountant.
 
 <div class="data-callout">
 <p class="callout-label">Field note — what gets people rejected</p>
@@ -142,7 +142,7 @@ Bank Frick, operating as an intermediary-focused bank in Liechtenstein, often wo
 
 ## How This Compares to a Standard Swiss Bank
 
-To calibrate expectations: opening a regular Swiss bank account at a traditional cantonal bank or UBS/PostFinance involves identity verification, proof of address, and tax documentation. The threshold for crypto-related assets? It varies by institution, but many traditional Swiss banks have historically been reluctant to accept clients with significant crypto holdings as a primary wealth source — or have asked them to liquidate before onboarding.
+To calibrate expectations: opening a regular Swiss bank account at a traditional cantonal bank or [UBS](https://www.ubs.com/global/en.html)/[PostFinance](https://www.postfinance.ch/) involves identity verification, proof of address, and tax documentation. The threshold for crypto-related assets? It varies by institution, but many traditional Swiss banks have historically been reluctant to accept clients with significant crypto holdings as a primary wealth source — or have asked them to liquidate before onboarding.
 
 The Swiss crypto-native banks exist precisely because of that gap. They will accept crypto assets as a legitimate part of a client's portfolio, they will custody them under Swiss law, and they understand the on-chain due diligence requirements. That is genuinely valuable.
 
@@ -166,7 +166,7 @@ A few things worth thinking through before starting the process:
 
 **Understand your tax position.** Not because these banks will refuse clients who owe tax, but because a client who cannot clearly explain their tax situation raises more questions during KYC than one who can. A letter from a tax advisor in your jurisdiction confirming you have reported your holdings is useful collateral in the application process.
 
-**Be realistic about your asset level.** If you are holding CHF 20,000 in Bitcoin, Swiss crypto-native banks are probably not the right fit for the current moment. The economics of maintaining a relationship with these institutions make more sense at higher thresholds.
+**Be realistic about your asset level.** If you are holding CHF 20,000 in [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), Swiss crypto-native banks are probably not the right fit for the current moment. The economics of maintaining a relationship with these institutions make more sense at higher thresholds.
 
 ## Where the Ecosystem Is Going
 

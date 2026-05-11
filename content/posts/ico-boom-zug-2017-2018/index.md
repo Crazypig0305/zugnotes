@@ -54,17 +54,17 @@ sources:
 ---
 
 > 📅 Field note from: December 2017 | Last updated: May 2026
-> Originally written near the peak of the ICO boom from inside Zug; updated with eight years of retrospective in May 2026.
+> Originally written near the peak of the [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) boom from inside Zug; updated with eight years of retrospective in May 2026.
 
 By December 2017, Zug was doing something it had never done before: it was loud.
 
-Not loud in the way a city is loud — Zug is still Zug, population under 30,000, the lake still grey-green in winter, the cobblestone still quiet after 9 p.m. But the lobbies and coffee shops and the new floors of CV Labs were loud with a particular kind of noise. Somewhere between a startup pitch and a casino floor. Everyone had a whitepaper. Everyone needed to talk to someone who knew someone who knew a lawyer.
+Not loud in the way a city is loud — Zug is still Zug, population under 30,000, the lake still grey-green in winter, the cobblestone still quiet after 9 p.m. But the lobbies and coffee shops and the new floors of [CV Labs](https://cvlabs.com/) were loud with a particular kind of noise. Somewhere between a startup pitch and a casino floor. Everyone had a whitepaper. Everyone needed to talk to someone who knew someone who knew a lawyer.
 
-The ICO boom came to Crypto Valley in 2017. And from the inside, it looked nothing like the post-mortem stories that came later.
+The ICO boom came to [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) in 2017. And from the inside, it looked nothing like the post-mortem stories that came later.
 
 ## What the Numbers Said at the Time
 
-In the first half of 2017, ICOs globally raised more than $1.5 billion. Switzerland captured a disproportionate share: by the end of the year, more than one quarter of all ICO funds had been raised through Swiss-registered entities, and five of the ten largest ICOs globally were Swiss-based. That included projects like Tezos, Bancor, and Status — all with Zug or Zurich foundations.
+In the first half of 2017, ICOs globally raised more than $1.5 billion. Switzerland captured a disproportionate share: by the end of the year, more than one quarter of all ICO funds had been raised through Swiss-registered entities, and five of the ten largest ICOs globally were Swiss-based. That included projects like [Tezos](https://en.wikipedia.org/wiki/Tezos), Bancor, and Status — all with Zug or Zurich foundations.
 
 The headline number was Tezos.
 
@@ -72,7 +72,7 @@ The headline number was Tezos.
 
 The scale was incomprehensible to most people outside the space, and frankly to some inside it. A project had raised roughly the equivalent of a medium-sized Series B — except from a global pool of retail participants, in 13 days, with no equity and no formal securities disclosure. The legal structure that made this possible was the Swiss Stiftung: a non-profit foundation that could hold the funds for a defined purpose without being obligated to return them as investor profit.
 
-That structure, as I wrote about in the [Ethereum origin story](/posts/why-ethereum-born-in-zug/), was exactly what Ethereum had used in 2014. By 2017, every project that could afford a Zug lawyer had copied it. The difference was that Ethereum had built the template carefully, with Mihai Alisie navigating Swiss regulatory groundwork for months before the presale. The 2017 cohort was moving faster.
+That structure, as I wrote about in the [Ethereum origin story](/posts/why-ethereum-born-in-zug/), was exactly what [Ethereum](https://en.wikipedia.org/wiki/Ethereum) had used in 2014. By 2017, every project that could afford a Zug lawyer had copied it. The difference was that Ethereum had built the template carefully, with Mihai Alisie navigating Swiss regulatory groundwork for months before the presale. The 2017 cohort was moving faster.
 
 ## The Atmosphere in Zug, Which Nobody Wrote Down Accurately
 
@@ -94,11 +94,11 @@ By 2017, Crypto Valley had competition. Singapore's Monetary Authority had posit
 
 Three reasons, from what I observed:
 
-**FINMA engagement, not silence.** Other jurisdictions offered regulatory ambiguity as a feature — essentially, "we haven't said no, so go ahead." FINMA had been in active dialogue with blockchain projects since 2014. That engagement was not permissive in every case, but it meant projects in Switzerland knew where they stood, or could find out. A FINMA no-action letter — even an informal one — carried more weight than operating in a jurisdiction that simply hadn't gotten around to the question yet.
+**[FINMA](https://www.finma.ch/en/) engagement, not silence.** Other jurisdictions offered regulatory ambiguity as a feature — essentially, "we haven't said no, so go ahead." FINMA had been in active dialogue with blockchain projects since 2014. That engagement was not permissive in every case, but it meant projects in Switzerland knew where they stood, or could find out. A FINMA no-action letter — even an informal one — carried more weight than operating in a jurisdiction that simply hadn't gotten around to the question yet.
 
 **Swiss banking relationships.** Zug had developed an ecosystem of banks willing to take on crypto-related accounts by 2017. This sounds obvious until you remember that in 2017, getting a bank account for a crypto project in most jurisdictions meant either a bank that specialized in high-risk accounts at high fees, or a flatly closed door. Swiss cantonal banks and some private banks had, by this point, decided that properly structured Crypto Valley foundations were bankable. That would change after the Tezos scandal — but in mid-2017, it was a real competitive advantage.
 
-**Peer density.** A founder arriving in Zug in 2017 could get to the right lawyer, the right auditor, the right Ethereum developer, the right cantonal official, and the right previous-generation project within a short walk or a short train ride. Singapore and Cayman could not replicate that cluster in 2017. The Crypto Valley Association, formally established in January 2017, had given structure to what had previously been an informal network.
+**Peer density.** A founder arriving in Zug in 2017 could get to the right lawyer, the right auditor, the right Ethereum developer, the right cantonal official, and the right previous-generation project within a short walk or a short train ride. Singapore and Cayman could not replicate that cluster in 2017. The [Crypto Valley Association](https://cryptovalley.swiss/), formally established in January 2017, had given structure to what had previously been an informal network.
 
 {{< skip-box title="What Switzerland's ICO advantage was not" >}}
 The favorable tax environment — Zug's low cantonal tax rates and Switzerland's zero capital gains tax for private investors — is frequently cited as the primary reason for ICO concentration in Zug. This overstates the tax motive for early-stage projects. An ICO-stage project that has raised funds into a foundation is not yet generating taxable capital gains. The foundation itself is a non-profit entity and its income is generally tax-exempt if used for its stated purpose. The tax advantages that Switzerland offers for crypto holders (covered in the [Swiss crypto tax guide](/posts/swiss-crypto-tax-advantage-guide/)) are primarily relevant to individual investors post-launch, not to foundation fundraising mechanics. The reasons projects chose Zug in 2017 were legal infrastructure, banking access, and peer density — not cantonal tax rates.
@@ -110,7 +110,7 @@ Tezos was supposed to be the proof case that Crypto Valley's approach could prod
 
 The project had a genuine technical thesis: self-amending blockchain governance, designed to avoid the contentious hard forks that had split the Ethereum community in 2016. Arthur and Kathleen Breitman had been developing the protocol since 2014. The Zug foundation structure, set up in April 2017 with MME's assistance, was designed to give the project a legally defensible fundraise vehicle.
 
-The ICO ran July 1-13, 2017. It raised $232 million in Bitcoin and Ethereum — 65,627 BTC and 361,122 ETH at then-current prices. It was, at that moment, the largest fundraise in crypto history. In Zug, people noticed.
+The ICO ran July 1-13, 2017. It raised $232 million in [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and Ethereum — 65,627 BTC and 361,122 ETH at then-current prices. It was, at that moment, the largest fundraise in crypto history. In Zug, people noticed.
 
 What happened in October 2017 was less celebrated.
 
@@ -160,7 +160,7 @@ Not every 2017-era project collapsed. It is worth being specific about what surv
 
 Tezos itself eventually launched. The technical project — self-amending governance, proof-of-stake consensus — delivered on its core thesis, even if the foundation drama delayed it and the lawsuits followed it. The XTZ token trades today. The Tezos Foundation, reconstituted after the Gevers departure, became one of the better-run crypto foundations in Switzerland by most accounts.
 
-Bancor, which had raised $150 million in June 2017 — the record before Tezos broke it weeks later — built its decentralized exchange protocol and operates as a functioning DeFi product. It went through the bear market, cut operations, and emerged smaller and more focused.
+Bancor, which had raised $150 million in June 2017 — the record before Tezos broke it weeks later — built its decentralized exchange protocol and operates as a functioning [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) product. It went through the bear market, cut operations, and emerged smaller and more focused.
 
 Status, which raised $64 million in June 2017 for a decentralized messaging application built on Ethereum, continued development. The 2017 ICO funded years of work on a product that remains live.
 
@@ -176,7 +176,7 @@ In Zug, the transition was visible in texture rather than in sudden crisis. CV L
 
 But the energy was different. The coffees that had been pitches became conversations. The whitepapers stopped. People who had arrived in 2017 looking to raise quickly were making decisions: stay and build, or fold and go home.
 
-The ones who stayed built the next layer of Crypto Valley. The SEBA and Sygnum banking licenses in 2019 — covered in the [field note on FINMA's first crypto banking licenses](/posts/finma-crypto-license-2019/) — required the kind of institutional trust that came specifically from surviving 2018 with your regulatory record intact. The crypto winter was, from inside Zug, a sorting mechanism.
+The ones who stayed built the next layer of Crypto Valley. The [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) banking licenses in 2019 — covered in the [field note on FINMA's first crypto banking licenses](/posts/finma-crypto-license-2019/) — required the kind of institutional trust that came specifically from surviving 2018 with your regulatory record intact. The crypto winter was, from inside Zug, a sorting mechanism.
 
 ## What the ICO Era Changed That Did Not Change Back
 
@@ -184,13 +184,13 @@ Eight years later, three things from the 2017-2018 period seem durable.
 
 First: the foundation structure, stress-tested by Tezos, got better. Swiss crypto foundations post-2018 tend to have more explicit governance documentation, clearer provisions for founder-board conflict, and more rigorous auditing requirements. The template did not break; it improved under pressure.
 
-Second: FINMA's engagement approach became a model. The token classification framework from February 2018 — payment, utility, asset — was adopted or referenced by regulators in other jurisdictions. Switzerland's willingness to classify rather than prohibit set a template that shaped subsequent regulatory conversations globally, including elements of what eventually became MiCA on the EU side. For how those two frameworks compare today, the [MiCA vs FINMA field note](/posts/mica-vs-finma-field-note/) covers the current landscape.
+Second: FINMA's engagement approach became a model. The token classification framework from February 2018 — payment, utility, asset — was adopted or referenced by regulators in other jurisdictions. Switzerland's willingness to classify rather than prohibit set a template that shaped subsequent regulatory conversations globally, including elements of what eventually became [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) on the EU side. For how those two frameworks compare today, the [MiCA vs FINMA field note](/posts/mica-vs-finma-field-note/) covers the current landscape.
 
 Third: Crypto Valley's peer density — the thing that actually differentiated Zug from Singapore and Cayman in 2017 — survived the winter. By the time the 2020 bull market arrived, the infrastructure that had built up through 2017 and held through 2018-2019 was more robust than it had been at the boom's peak. The companies that survived were more operationally serious. The legal and compliance ecosystem was more sophisticated.
 
 The ICO boom was not, from this vantage point, a bubble that destroyed value and left nothing behind. It was a very rapid accumulation of capital and talent into a small geography, followed by a compression that removed the least committed participants and left behind a stronger core. The projects that made it through funded the institutional infrastructure that defined Crypto Valley's next chapter.
 
-That chapter — the Crypto Valley of 1,749 companies, $728 million in disclosed 2025 investment, the banking licenses and the DLT Act and the FINMA guidance framework — is what the [2026 snapshot](/posts/crypto-valley-2026-snapshot/) covers. It did not emerge from nothing. It emerged from a very loud few years in which a lot of money moved through a small city in Switzerland, and the city's regulatory and legal infrastructure absorbed it, sorted through it, and came out changed.
+That chapter — the Crypto Valley of 1,749 companies, $728 million in disclosed 2025 investment, the banking licenses and the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act) and the FINMA guidance framework — is what the [2026 snapshot](/posts/crypto-valley-2026-snapshot/) covers. It did not emerge from nothing. It emerged from a very loud few years in which a lot of money moved through a small city in Switzerland, and the city's regulatory and legal infrastructure absorbed it, sorted through it, and came out changed.
 
 ---
 

@@ -41,7 +41,7 @@ sources:
 ---
 
 > 📅 Field note from: February 2018 | Last updated: May 2026
-> Originally written days after FINMA published the ICO Guidelines from inside Zug; updated with eight years of regulatory follow-on observations in May 2026.
+> Originally written days after [FINMA](https://www.finma.ch/en/) published the [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) Guidelines from inside Zug; updated with eight years of regulatory follow-on observations in May 2026.
 
 February 16, 2018 was not a day that produced a press conference or a major announcement event. FINMA published its ICO guidelines on a Friday, in German and English, six pages long. They went up on the FINMA website with the usual restrained formatting of Swiss regulatory communications.
 
@@ -63,7 +63,7 @@ That shift — from case-by-case opacity to explicit classification — was the 
 
 The classification framework divided tokens into three functional types. Understanding how FINMA reasoned through each category reveals more about Swiss regulatory philosophy than the categories themselves suggest.
 
-**Payment tokens** were treated as cryptocurrencies: means of payment with no further development link. They attracted anti-money laundering obligations from the moment they could be transferred, but FINMA explicitly stated they would not be treated as securities. This was a deliberate signal. At a moment when US regulators were actively exploring whether Bitcoin and Ether might constitute securities, FINMA drew a clear line: tokens functioning as currency do not attract securities law.
+**Payment tokens** were treated as cryptocurrencies: means of payment with no further development link. They attracted anti-money laundering obligations from the moment they could be transferred, but FINMA explicitly stated they would not be treated as securities. This was a deliberate signal. At a moment when US regulators were actively exploring whether [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and Ether might constitute securities, FINMA drew a clear line: tokens functioning as currency do not attract securities law.
 
 **Utility tokens** offered access to a service. FINMA's treatment here was economically rigorous in a way that surprised some commentators: a token promising future access to a platform not yet built was not, in FINMA's reading, a utility token. It might look like one in its documentation, but if the platform did not exist at issuance, the token was closer to an investment in the project's development — which made it an asset token, attracting securities law.
 
@@ -71,9 +71,9 @@ The phrase "if the utility token can actually be used in this way at the time of
 
 **Asset tokens** were unambiguously securities: tokens representing company stakes, earnings entitlements, or dividend rights. These triggered Swiss securities law requirements and corresponding disclosure obligations. The category was the clearest of the three, because the economic reality was unambiguous. If a token gives you a share of future profits, it is functionally a share.
 
-{{< num-highlight value="3 + hybrid" label="Token categories in FINMA's 2018 framework" note="Payment, utility, asset — plus explicit acknowledgment that hybrid tokens with features of multiple categories would be assessed by their primary economic function. The hybrid concept anticipated governance tokens and stablecoins before either had standard definitions." >}}
+{{< num-highlight value="3 + hybrid" label="Token categories in FINMA's 2018 framework" note="Payment, utility, asset — plus explicit acknowledgment that hybrid tokens with features of multiple categories would be assessed by their primary economic function. The hybrid concept anticipated governance tokens and [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s before either had standard definitions." >}}
 
-## Why FINMA Did Not Do What the SEC Was Doing
+## Why FINMA Did Not Do What the [SEC](https://www.sec.gov/) Was Doing
 
 The contrast with the US Securities and Exchange Commission's approach in the same period is instructive.
 
@@ -105,15 +105,15 @@ The phrase that circulated in the professional community at the time was not abo
 
 The guidelines were six pages. Most of the global commentary at the time focused on whether they were comprehensive enough. The more interesting question, from the vantage point of 2026, is what happened to the framework they established.
 
-The three-category approach — payment, utility, asset — was adopted or referenced by regulators in other jurisdictions. The European Banking Authority's analysis of crypto-asset regulation, which preceded MiCA, drew on similar functional distinctions. Singapore's MAS approach to digital payment tokens reflected FINMA's payment token logic. The UK's FCA token classification, published in 2019, acknowledged the Swiss framework in its own analytical structure.
+The three-category approach — payment, utility, asset — was adopted or referenced by regulators in other jurisdictions. The European Banking Authority's analysis of crypto-asset regulation, which preceded [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets), drew on similar functional distinctions. Singapore's [MAS](https://www.mas.gov.sg/) approach to digital payment tokens reflected FINMA's payment token logic. The UK's FCA token classification, published in 2019, acknowledged the Swiss framework in its own analytical structure.
 
 Switzerland had not invented token classification. But FINMA was the first major regulator to publish a comprehensive, operational framework for it. That document arrived when regulators globally were still deciding how to approach the question.
 
 More directly, the guidelines became the first link in a chain of Swiss regulatory development that runs through 2026.
 
-The August 2019 banking licenses granted to SEBA and Sygnum — the [FINMA crypto banking licenses field note](/posts/finma-crypto-license-2019/) covers this — built on the regulatory architecture the 2018 guidelines had established. They demonstrated that Swiss-licensed crypto institutions would be held to the same standards as traditional banks, extending the functional analysis principle into institutional oversight.
+The August 2019 banking licenses granted to [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) — the [FINMA crypto banking licenses field note](/posts/finma-crypto-license-2019/) covers this — built on the regulatory architecture the 2018 guidelines had established. They demonstrated that Swiss-licensed crypto institutions would be held to the same standards as traditional banks, extending the functional analysis principle into institutional oversight.
 
-The DLT Act, in force from February 2021, took the token classification framework and embedded it in Swiss civil law — creating specific legal instruments for DLT-based securities that corresponded to the asset token category the 2018 guidelines had identified as securities-equivalent. The [DLT Act field note](/posts/dlt-act-switzerland-explained/) covers what that legislative step actually meant in practice.
+The [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act), in force from February 2021, took the token classification framework and embedded it in Swiss civil law — creating specific legal instruments for DLT-based securities that corresponded to the asset token category the 2018 guidelines had identified as securities-equivalent. The [DLT Act field note](/posts/dlt-act-switzerland-explained/) covers what that legislative step actually meant in practice.
 
 FINMA's 2026 crypto custody guidance — the [FINMA Crypto Guidance 01/2026 field note](/posts/finma-crypto-guidance-01-2026/) covers the most recent iteration — continues to apply functional analysis to new structures in ways that trace directly to the 2018 approach.
 
@@ -127,9 +127,9 @@ FINMA had options in early 2018 that it did not take. It could have declared ICO
 
 What FINMA actually did was publish a functional framework, commit to ongoing supervisory engagement, and decline to presume violation. The guidelines explicitly stated that FINMA aimed to "remove all unnecessary obstacles to innovative business models while ensuring transparency and legal clarity."
 
-From inside Zug in February 2018, after a year of ICO boom followed by a market collapse in January and the ongoing Tezos governance crisis, that statement did not read as marketing language. It read as a description of an institution that had watched a significant financial innovation arrive in its jurisdiction, had spent a year engaging with it seriously, and had concluded that a functional framework applied with supervisory judgment was more durable than either prohibition or blanket permissiveness.
+From inside Zug in February 2018, after a year of ICO boom followed by a market collapse in January and the ongoing [Tezos](https://en.wikipedia.org/wiki/Tezos) governance crisis, that statement did not read as marketing language. It read as a description of an institution that had watched a significant financial innovation arrive in its jurisdiction, had spent a year engaging with it seriously, and had concluded that a functional framework applied with supervisory judgment was more durable than either prohibition or blanket permissiveness.
 
-Whether that judgment was correct — whether the functional approach held up through the 2019 banking licenses, the 2021 DLT Act, the 2022 FTX crisis, and the 2026 custody guidance — is the story the subsequent field notes cover. The starting point was six pages on a February Friday in 2018.
+Whether that judgment was correct — whether the functional approach held up through the 2019 banking licenses, the 2021 DLT Act, the 2022 [FTX](https://en.wikipedia.org/wiki/FTX_(company)) crisis, and the 2026 custody guidance — is the story the subsequent field notes cover. The starting point was six pages on a February Friday in 2018.
 
 ---
 

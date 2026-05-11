@@ -45,11 +45,11 @@ sources:
 ---
 
 > 📅 Field note from: November 2022 | Last updated: May 2026
-> Originally written days after the FTX bankruptcy filing from inside Zug; updated with three years of follow-on observations in May 2026.
+> Originally written days after the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) bankruptcy filing from inside Zug; updated with three years of follow-on observations in May 2026.
 
-The week FTX collapsed, it was cold in Zug. That detail has stayed with me — the way the fog sat over the lake in the mornings, the kind of November that makes you want to be inside. A lot of us were inside. In coffeeshops, in coworking spaces, in the CV Labs corridors on Grafenauweg. On laptops, phones, scrolling the same damage reports.
+The week FTX collapsed, it was cold in Zug. That detail has stayed with me — the way the fog sat over the lake in the mornings, the kind of November that makes you want to be inside. A lot of us were inside. In coffeeshops, in coworking spaces, in the [CV Labs](https://cvlabs.com/) corridors on Grafenauweg. On laptops, phones, scrolling the same damage reports.
 
-November 11, 2022. FTX filed for Chapter 11. Sam Bankman-Fried resigned. Eleven billion dollars in customer funds had vanished into the gap between a centralized exchange and its affiliated trading firm.
+November 11, 2022. FTX filed for Chapter 11. [Sam Bankman-Fried](https://en.wikipedia.org/wiki/Sam_Bankman-Fried) resigned. Eleven billion dollars in customer funds had vanished into the gap between a centralized exchange and its affiliated trading firm.
 
 The question in Zug that morning was not "is crypto dead?" That question was too large and too abstract for the specific dread that was circulating. The question was: *who here was on FTX?*
 
@@ -57,13 +57,13 @@ The question in Zug that morning was not "is crypto dead?" That question was too
 
 It came fast, and it came from one of the more prominent Zug-registered projects.
 
-Oxygen Protocol — founded in 2020, backed by an estimated $40 million from Alameda Research, built on Solana — disclosed that approximately 95% of its OXY and MAPS token supply was held on the FTX platform. Not in cold storage. Not in a regulated Swiss custodian. On FTX itself.
+Oxygen Protocol — founded in 2020, backed by an estimated $40 million from [Alameda Research](https://en.wikipedia.org/wiki/Alameda_Research), built on [Solana](https://en.wikipedia.org/wiki/Solana_(blockchain_platform)) — disclosed that approximately 95% of its OXY and MAPS token supply was held on the FTX platform. Not in cold storage. Not in a regulated Swiss custodian. On FTX itself.
 
-The Oxy token lost essentially all of its value within days. The MAPS token followed. Two projects that had been part of the Crypto Valley story — with Zug addresses, Swiss foundation structures, the whole architecture — collapsed not because of any Swiss regulatory failure, but because of a counterparty they had trusted entirely.
+The Oxy token lost essentially all of its value within days. The MAPS token followed. Two projects that had been part of the [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) story — with Zug addresses, Swiss foundation structures, the whole architecture — collapsed not because of any Swiss regulatory failure, but because of a counterparty they had trusted entirely.
 
 The FTX connection in these cases went deeper than custody: Alameda Research, FTX's sister firm, had been the principal investor. The governance structures that should have provided independence from Alameda had not been sufficient to prevent this kind of concentration risk.
 
-{{< num-highlight value="95%" label="Percentage of OXY and MAPS tokens held on FTX at the time of its bankruptcy filing" note="Oxygen Protocol — a Zug-registered project backed by Alameda Research — disclosed this figure in mid-November 2022. Both tokens became effectively worthless within days. Source: CoinDesk, November 2022." >}}
+{{< num-highlight value="95%" label="Percentage of OXY and MAPS tokens held on FTX at the time of its bankruptcy filing" note="Oxygen Protocol — a Zug-registered project backed by Alameda Research — disclosed this figure in mid-November 2022. Both tokens became effectively worthless within days. Source: [CoinDesk](https://www.coindesk.com/), November 2022." >}}
 
 ## What the CV Labs Corridors Felt Like
 
@@ -75,25 +75,25 @@ The differentiation conversation started almost immediately. The people who had 
 
 The people who were building on centralized exchange ecosystems, or who had taken Alameda money without scrutinizing the counterparty risk — those conversations were harder.
 
-Mathias Ruch, founder of CV VC (the venture capital fund attached to CV Labs), gave the assessment that most people around the Grafenauweg already felt: "This will set us back by at least one or two years." Precise. Unsentimental. Not wrong.
+[Mathias Ruch](https://www.linkedin.com/in/mathias-ruch/), founder of [CV VC](https://cvvc.com/) (the venture capital fund attached to CV Labs), gave the assessment that most people around the Grafenauweg already felt: "This will set us back by at least one or two years." Precise. Unsentimental. Not wrong.
 
 ## The Swiss Banks' Unusual Week
 
 While Zug processed the wreckage, something counterintuitive was happening at the regulated end of the ecosystem.
 
-Sygnum, the Zurich-based crypto bank that had been fully licensed since 2019, reported significant inflows of CHF 270 million in the first weeks of November 2022, with the figure expected to reach at least CHF 400 million by month's end. CEO Mathias Imbach attributed this to existing clients consolidating assets from unregulated exchanges into Sygnum's regulated custody services. The message implicit in those flows: if you needed to be reminded that Swiss segregation rules matter, FTX had just provided the lesson.
+[Sygnum](https://www.sygnum.com/), the Zurich-based crypto bank that had been fully licensed since 2019, reported significant inflows of CHF 270 million in the first weeks of November 2022, with the figure expected to reach at least CHF 400 million by month's end. CEO Mathias Imbach attributed this to existing clients consolidating assets from unregulated exchanges into Sygnum's regulated custody services. The message implicit in those flows: if you needed to be reminded that Swiss segregation rules matter, FTX had just provided the lesson.
 
-SEBA Bank — which had received an investment from Alameda Research — moved quickly to clarify the relationship. The Alameda stake was less than 1% and carried no voting rights. SEBA had not traded on FTX, had not held FTT tokens, and its client assets were held under Swiss banking law — which meant they were segregated, legally protected, and not subject to the commingling that had destroyed FTX's customers.
+[SEBA Bank](https://en.wikipedia.org/wiki/[SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)_Bank) — which had received an investment from Alameda Research — moved quickly to clarify the relationship. The Alameda stake was less than 1% and carried no voting rights. SEBA had not traded on FTX, had not held FTT tokens, and its client assets were held under Swiss banking law — which meant they were segregated, legally protected, and not subject to the commingling that had destroyed FTX's customers.
 
 The PR language was measured, as Swiss banking always is. But the subtext was legible to anyone watching closely: *we are the opposite of what just happened.*
 
-{{< num-highlight value="CHF 270M+" label="Net new inflows reported by Sygnum Bank in the first weeks of November 2022" note="CEO Mathias Imbach disclosed this figure to finews.com in late November 2022, attributing the inflows to clients moving assets from unregulated exchanges to Swiss-regulated custody. The figure grew to over CHF 400M by month's end." >}}
+{{< num-highlight value="CHF 270M+" label="Net new inflows reported by [Sygnum Bank](https://www.sygnum.com/) in the first weeks of November 2022" note="CEO Mathias Imbach disclosed this figure to [finews](https://www.finews.com/).com in late November 2022, attributing the inflows to clients moving assets from unregulated exchanges to Swiss-regulated custody. The figure grew to over CHF 400M by month's end." >}}
 
 ## The Institutional Investor Silence
 
 One element of the November 2022 aftermath that received less attention in the Zug community at the time: the institutional investors.
 
-Firms like Pantera Capital had exposure to FTX through their Blockfolio acquisition proceeds — denominated in FTT tokens and FTX equity. Pantera disclosed that its FTT position was under 3% of AUM and that it had liquidated as much as possible on November 8. The language in their letter was instructive: they had been trying to manage counterparty risk from centralized exchanges, and FTX had underscored why DeFi infrastructure mattered.
+Firms like Pantera Capital had exposure to FTX through their Blockfolio acquisition proceeds — denominated in FTT tokens and FTX equity. Pantera disclosed that its FTT position was under 3% of AUM and that it had liquidated as much as possible on November 8. The language in their letter was instructive: they had been trying to manage counterparty risk from centralized exchanges, and FTX had underscored why [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) infrastructure mattered.
 
 These firms were not physically present in Zug, but they were part of the same institutional ecosystem — attending the same conferences, backing some of the same projects. The conversations that happened in late November, at the margins of industry calls and over encrypted messaging, were calibrating questions: which Zug-based projects had exchange custody risk? Which had kept assets in regulated Swiss institutions?
 
@@ -109,7 +109,7 @@ None of that was catastrophic for an ecosystem that had been through 2018. But i
 
 ## What This Looked Like From the Outside vs. the Inside
 
-Here is the version of November 2022 that became the standard narrative over the following months: Swiss crypto survived FTX. Regulated Swiss banks gained inflows. FINMA's framework was vindicated. Crypto Valley proved resilient.
+Here is the version of November 2022 that became the standard narrative over the following months: Swiss crypto survived FTX. Regulated Swiss banks gained inflows. [FINMA](https://www.finma.ch/en/)'s framework was vindicated. Crypto Valley proved resilient.
 
 That is all accurate. But it compresses something.
 

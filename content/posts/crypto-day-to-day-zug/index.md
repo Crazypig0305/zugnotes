@@ -46,7 +46,7 @@ sources:
 > 📅 Originally written: September 2025 | Last updated: May 2026
 > Merchant availability and payment infrastructure verified against publicly available sources as of May 2026. The landscape changes quickly — confirm with individual merchants before making plans around crypto payments.
 
-The headline is real: you can pay your cantonal taxes with Bitcoin in Zug. The headline has been real since 2021. But the more interesting question, the one that rarely gets answered, is what happens after you file your tax return.
+The headline is real: you can pay your cantonal taxes with [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) in Zug. The headline has been real since 2021. But the more interesting question, the one that rarely gets answered, is what happens after you file your tax return.
 
 Can you buy lunch with Bitcoin? Fill a prescription? Park your car? Pay the grocery bill?
 
@@ -56,7 +56,7 @@ The honest answer to each of those is: sometimes, somewhere, with varying degree
 
 Start with the headline act, because it is more nuanced than most coverage suggests.
 
-Since February 2021, the Canton of Zug has accepted Bitcoin and Ether for cantonal tax bills up to CHF 1.5 million. The process works through Bitcoin Suisse, which converts the crypto to CHF before settling with the cantonal Finance Department. The canton does not hold crypto itself — it holds CHF, and the currency risk is yours until the moment of conversion.
+Since February 2021, the [Canton of Zug](https://en.wikipedia.org/wiki/Canton_of_Zug) has accepted Bitcoin and Ether for cantonal tax bills up to CHF 1.5 million. The process works through [Bitcoin Suisse](https://www.bitcoinsuisse.com/), which converts the crypto to CHF before settling with the cantonal Finance Department. The canton does not hold crypto itself — it holds CHF, and the currency risk is yours until the moment of conversion.
 
 {{< num-highlight number="1%" label="fee charged by Bitcoin Suisse to convert crypto for Zug tax payments" >}}
 
@@ -129,9 +129,9 @@ Knowing where crypto payments work is useful. Knowing where they do not — and 
 
 ## What "Crypto Capital" Actually Means for Daily Commerce
 
-The Crypto Valley label refers primarily to the concentration of blockchain companies, FINMA-regulated entities, and crypto-native professional services in the region — not to the retail payment landscape. Those are two different ecosystems.
+The [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) label refers primarily to the concentration of blockchain companies, [FINMA](https://www.finma.ch/en/)-regulated entities, and crypto-native professional services in the region — not to the retail payment landscape. Those are two different ecosystems.
 
-The institutional density is real: as of 2026, over 1,700 blockchain companies operate in or around Zug. The consequence for daily life is that you will encounter crypto as a topic in professional conversations at a dramatically higher rate than anywhere else. Baristas who understand what a DeFi protocol does. Restaurant owners who have opinions about CARF. That cultural density is part of what makes Zug distinct.
+The institutional density is real: as of 2026, over 1,700 blockchain companies operate in or around Zug. The consequence for daily life is that you will encounter crypto as a topic in professional conversations at a dramatically higher rate than anywhere else. Baristas who understand what a [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) protocol does. Restaurant owners who have opinions about [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm). That cultural density is part of what makes Zug distinct.
 
 But "the density of crypto knowledge" and "the density of merchant crypto acceptance" are not the same curve. The former is high. The latter is growing from a low base.
 
@@ -139,7 +139,7 @@ The direction of travel is consistent with where Spar's Lightning integration po
 
 ## The Internal Link This Article Owes You
 
-If you are thinking about crypto in Zug as a holding and management question rather than a payment question, the [Swiss crypto tax overview](/posts/swiss-crypto-tax-advantage-guide/) covers the capital gains and wealth tax framework that shapes how most residents here actually think about their positions. And if you are curious about what the institutional banking layer looks like — the FINMA-licensed banks that actually custody significant crypto — the [crypto-friendly bank account field note](/posts/crypto-friendly-bank-account-switzerland/) goes through that in detail.
+If you are thinking about crypto in Zug as a holding and management question rather than a payment question, the [Swiss crypto tax overview](/posts/swiss-crypto-tax-advantage-guide/) covers the capital gains and [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) framework that shapes how most residents here actually think about their positions. And if you are curious about what the institutional banking layer looks like — the FINMA-licensed banks that actually custody significant crypto — the [crypto-friendly bank account field note](/posts/crypto-friendly-bank-account-switzerland/) goes through that in detail.
 
 The payment question and the custody question are related but separate. Knowing where you can spend crypto at a restaurant is useful context. Knowing where you can hold CHF 500,000 in BTC under Swiss banking law is a different conversation.
 

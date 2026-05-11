@@ -56,7 +56,7 @@ sources:
 
 Every November here in Zug, I notice the same pattern in the community. Someone who has been happily holding since January starts asking a very specific question: "What does my portfolio actually look like on December 31st — and what does that mean for my tax bill?"
 
-The confusion is understandable. Switzerland's most famous crypto advantage — the capital gains exemption — gets all the attention. You buy BTC, it goes up, you sell, you pay nothing. That story spreads fast and spreads far. What travels less is the other side of the ledger: the wealth tax. It runs quietly in the background every year, calculated on the value of every coin you still hold when midnight hits on December 31st.
+The confusion is understandable. Switzerland's most famous crypto advantage — the capital gains exemption — gets all the attention. You buy BTC, it goes up, you sell, you pay nothing. That story spreads fast and spreads far. What travels less is the other side of the ledger: the [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax). It runs quietly in the background every year, calculated on the value of every coin you still hold when midnight hits on December 31st.
 
 I have watched people arrive in Zug, absorb the capital gains story, and miss the wealth tax entirely — until their first tax return arrives. This note is for them. And for anyone who has been here longer but still wonders exactly how the number gets calculated.
 
@@ -72,11 +72,11 @@ The practical implication: if you are considering a significant withdrawal or re
 
 ## The SFTA Kursliste: Where the Official Number Comes From
 
-The Swiss Federal Tax Administration (SFTA, or ESTV in German) publishes an official price list — the Kursliste, accessible through the ICTax portal at ictax.admin.ch — every year. This list is updated annually and contains the official December 31st valuation for the most commonly held cryptocurrencies.
+The Swiss [Federal Tax Administration](https://www.estv.admin.ch/estv/en/home.html) (SFTA, or ESTV in German) publishes an official price list — the Kursliste, accessible through the ICTax portal at ictax.admin.ch — every year. This list is updated annually and contains the official December 31st valuation for the most commonly held cryptocurrencies.
 
-{{< num-highlight number="69,571.99 CHF" label="Bitcoin official SFTA tax value — December 31, 2025" >}}
+{{< num-highlight number="69,571.99 CHF" label="[Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) official SFTA tax value — December 31, 2025" >}}
 
-{{< num-highlight number="2,364.08 CHF" label="Ethereum official SFTA tax value — December 31, 2025" >}}
+{{< num-highlight number="2,364.08 CHF" label="[Ethereum](https://en.wikipedia.org/wiki/Ethereum) official SFTA tax value — December 31, 2025" >}}
 
 These are not necessarily the exact spot prices you see on Coinbase or Kraken at midnight on December 31st. The SFTA calculates an average of prices across multiple exchanges for the reference date. The result is the Steuerwert — the legally recognised tax value that you use when filling in the securities and credits schedule (Wertschriftenverzeichnis) in your cantonal tax form.
 
@@ -86,7 +86,7 @@ Where it gets more complicated is when you move beyond BTC, ETH, and the small n
 
 ## The Valuation Hierarchy: What Happens When Your Coin Is Not on the List
 
-The SFTA Kursliste covers a limited number of cryptocurrencies. If you hold anything beyond the mainstream — altcoins, newer layer-1 tokens, governance tokens, smaller DeFi protocol tokens — you are outside the official list. This is where the valuation hierarchy applies:
+The SFTA Kursliste covers a limited number of cryptocurrencies. If you hold anything beyond the mainstream — altcoins, newer layer-1 tokens, governance tokens, smaller [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) protocol tokens — you are outside the official list. This is where the valuation hierarchy applies:
 
 **Level 1 — Official SFTA rate:** If your coin appears on the Kursliste, use that rate. End of story.
 
@@ -141,7 +141,7 @@ Yes: the complexity comes in documentation. The cantonal tax office does not aut
 
 DeFi creates the most grey area. If you have liquidity provided to an AMM pool, or tokens locked in a yield protocol, those assets are still yours on December 31st — they count toward your wealth tax base at their December 31st value. The practical challenge is that some protocols make it less straightforward to extract a clean "here is what you owned on December 31st" figure. Crypto tax software (Koinly, Blockpit, CoinTracking) has improved at pulling these positions, but it is worth reviewing the output carefully rather than relying on automation alone.
 
-For staked tokens, a related complication: your staked position is counted in your wealth tax base, and the staking rewards you received during the year are taxed as income — a double-layer that catches people off guard. I covered this in more detail in the [staking income field note](/posts/staking-rewards-swiss-income-tax/).
+For staked tokens, a related complication: your staked position is counted in your wealth tax base, and the [staking](https://en.wikipedia.org/wiki/Proof_of_stake) rewards you received during the year are taxed as income — a double-layer that catches people off guard. I covered this in more detail in the [staking income field note](/posts/staking-rewards-swiss-income-tax/).
 
 ## The Part Nobody Explains Well: Cantonal Valuation Differences
 

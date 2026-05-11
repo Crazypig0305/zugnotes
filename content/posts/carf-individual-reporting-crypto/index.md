@@ -48,7 +48,7 @@ sources:
 ---
 
 > 📅 Field note from: November 2025 | Last updated: May 2026
-> Originally written when CARF implementation timelines were finalised across OECD jurisdictions; updated with Switzerland's 2027 delay confirmation in May 2026.
+> Originally written when [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) implementation timelines were finalised across [OECD](https://www.oecd.org/) jurisdictions; updated with Switzerland's 2027 delay confirmation in May 2026.
 
 Most coverage of CARF focuses on the timeline: when will data cross borders, which countries are included, what does the Swiss delay actually mean. Those are reasonable questions, and I have written about them separately.
 
@@ -94,13 +94,13 @@ Each category is reported on an annual aggregate basis — total amount received
 
 The framework has clear limits, and understanding them is as important as understanding the scope.
 
-**DeFi and decentralized protocols are out of scope.** If you interact directly with a decentralized exchange, a lending protocol, or a yield farm — without a Swiss-supervised intermediary involved — there is no RCASP to report on your behalf. CARF's reporting obligation falls on institutional service providers. Peer-to-peer transactions and direct smart contract interactions remain outside the framework as currently written.
+**[DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) and decentralized protocols are out of scope.** If you interact directly with a decentralized exchange, a lending protocol, or a yield farm — without a Swiss-supervised intermediary involved — there is no RCASP to report on your behalf. CARF's reporting obligation falls on institutional service providers. Peer-to-peer transactions and direct smart contract interactions remain outside the framework as currently written.
 
-**Self-custodied assets held without service provider involvement are out of scope.** If you acquired crypto outside Switzerland, hold it in a hardware wallet, and have never transferred it through a Swiss exchange or custodian, no Swiss RCASP has collected information on those holdings. CARF reporting would not apply. This does not affect your Swiss wealth tax obligations, which exist independently.
+**Self-custodied assets held without service provider involvement are out of scope.** If you acquired crypto outside Switzerland, hold it in a hardware wallet, and have never transferred it through a Swiss exchange or custodian, no Swiss RCASP has collected information on those holdings. CARF reporting would not apply. This does not affect your Swiss [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) obligations, which exist independently.
 
 **Non-tradable digital collectibles are excluded.** The framework covers assets that "can be used for payment or investment purposes." NFTs with no secondary market, limited-use gaming tokens, and similar assets fall outside the definition of relevant crypto-assets.
 
-**Account balances are not the primary reporting element.** Unlike CRS, which reports ending balances, CARF focuses on transaction flows. A holder who buys Bitcoin through a Swiss exchange and does nothing else for a year would have limited reportable activity — the acquisition event itself, and potentially a fair market value figure for any fiat-to-crypto exchange.
+**Account balances are not the primary reporting element.** Unlike CRS, which reports ending balances, CARF focuses on transaction flows. A holder who buys [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) through a Swiss exchange and does nothing else for a year would have limited reportable activity — the acquisition event itself, and potentially a fair market value figure for any fiat-to-crypto exchange.
 
 {{< skip-box title="What about non-reporting assets?" >}}
 CBDC (central bank digital currencies) are explicitly excluded from CARF's scope. Stablecoins issued by regulated financial institutions may also be excluded depending on their classification. The framework includes a mechanism for jurisdictions to remove specific assets from scope if those assets are already covered by other reporting regimes. Check the OECD's current asset classification guidance if you hold instruments at the boundary of the definition.
@@ -171,7 +171,7 @@ CARF is a transparency framework. Its stated purpose is to close the gap that al
 
 Whether that is a good thing depends on your starting position.
 
-For holders with clean filing histories — Swiss residents who declare their crypto portfolios in the annual wealth tax return, who report staking income as capital income, who have not used foreign exchanges specifically to avoid domestic reporting — CARF adds a reporting layer at the institutional level but does not change their legal position. They are already in compliance. CARF confirms what their filings already reflect.
+For holders with clean filing histories — Swiss residents who declare their crypto portfolios in the annual wealth tax return, who report [staking](https://en.wikipedia.org/wiki/Proof_of_stake) income as capital income, who have not used foreign exchanges specifically to avoid domestic reporting — CARF adds a reporting layer at the institutional level but does not change their legal position. They are already in compliance. CARF confirms what their filings already reflect.
 
 For holders with material unreported crypto positions — in any jurisdiction, not just Switzerland — CARF represents a genuine shift in risk. The relevant window is the period between when collection is active (January 2026) and when exchange begins (anticipated 2027, with first actual data crossing borders in 2028 for 2027 transactions). Self-disclosure mechanisms exist in Switzerland (Nachdeklaration) and in most other jurisdictions. The mechanics and timelines vary by country; professional advice specific to your situation is the relevant first step, not general reading.
 

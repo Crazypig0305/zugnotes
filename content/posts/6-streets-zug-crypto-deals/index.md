@@ -19,9 +19,9 @@ This is a geographic field note — a slow walk through the six streets that con
 
 ## 1. Dammstrasse: The Heartbeat of the Valley
 
-If you could only walk one street in Zug to understand Crypto Valley, it's Dammstrasse. **Number 16** is the address that most insiders would tell you first: CV VC and CV Labs occupy the building, making it the closest thing Zug has to a crypto campus.
+If you could only walk one street in Zug to understand [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley), it's Dammstrasse. **Number 16** is the address that most insiders would tell you first: [CV VC](https://cvvc.com/) and [CV Labs](https://cvlabs.com/) occupy the building, making it the closest thing Zug has to a crypto campus.
 
-CV VC is one of the most active blockchain-focused venture funds in Europe — the firm behind the widely-cited annual Crypto Valley Top 50 report. CV Labs runs the co-working operation underneath, a flexible workspace that has hosted early-stage founders from across the ecosystem. The incubator structure has been involved in some remarkable history: the Tezos ICO in 2017, which raised $232 million, was coordinated partly through this address.
+CV VC is one of the most active blockchain-focused venture funds in Europe — the firm behind the widely-cited annual Crypto Valley Top 50 report. CV Labs runs the co-working operation underneath, a flexible workspace that has hosted early-stage founders from across the ecosystem. The incubator structure has been involved in some remarkable history: the [Tezos](https://en.wikipedia.org/wiki/Tezos) [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) in 2017, which raised $232 million, was coordinated partly through this address.
 
 The building also houses the **SHED Club**, an exclusive members-only space that opened in 2021 with a restaurant and private meeting rooms. It's the kind of place that doesn't advertise itself, which is characteristic of how Zug's more significant transactions tend to work.
 
@@ -35,11 +35,11 @@ Dammstrasse sits roughly parallel to the main train station and about three minu
 
 Gubelstrasse doesn't look like a historic street. It's largely residential and commercial, a slightly quieter corridor that rises north from the old town toward the hills. But **number 22** contains some of the most consequential square meters in crypto history.
 
-MME Legal, the law firm that established the **Ethereum Foundation** on February 1, 2014, operates out of this address. Luka Müller and the MME team structured the foundation model that Vitalik Buterin and the Ethereum co-founders used to legally organize the project — the first blockchain foundation of its kind. Almost every major Swiss blockchain foundation that followed used the same template. If you want to understand why Switzerland became the go-to jurisdiction for token foundations, the story starts at Gubelstrasse 22.
+MME Legal, the law firm that established the **[Ethereum](https://en.wikipedia.org/wiki/Ethereum) Foundation** on February 1, 2014, operates out of this address. Luka Müller and the MME team structured the foundation model that [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin) and the Ethereum co-founders used to legally organize the project — the first blockchain foundation of its kind. Almost every major Swiss blockchain foundation that followed used the same template. If you want to understand why Switzerland became the go-to jurisdiction for token foundations, the story starts at Gubelstrasse 22.
 
 The Zug city administration (Stadtverwaltung) also operates from nearby. In 2016, Zug became the **first city in the world** to accept bitcoin for administrative fees — a symbolic gesture that nonetheless broadcast a clear signal about the canton's regulatory intentions.
 
-Gubelstrasse is not a deal-making street so much as a legal infrastructure street. The real estate here is law firms and compliance consultants, not founders pitching products. If your business needs a Swiss legal structure — a foundation for token issuance, a VASP registration, or advice on FINMA's current guidance — this is where you'll have those conversations.
+Gubelstrasse is not a deal-making street so much as a legal infrastructure street. The real estate here is law firms and compliance consultants, not founders pitching products. If your business needs a Swiss legal structure — a foundation for token issuance, a VASP registration, or advice on [FINMA](https://www.finma.ch/en/)'s current guidance — this is where you'll have those conversations.
 
 **Walk this street if you want to:** understand the compliance and legal layer. It's the reason Zug has credibility as a jurisdiction, not just a tax-friendly address.
 
@@ -63,9 +63,9 @@ Gotthardstrasse is less of a single-company corridor and more of a mid-density c
 
 ## 4. Grafenauweg: Where the Old-Guard Crypto Finance Sits
 
-Grafenauweg is a short business street running northeast from the Zug city center. **Number 12** is Bitcoin Suisse's current address — one of the earliest and most established crypto financial intermediaries in Switzerland.
+Grafenauweg is a short business street running northeast from the Zug city center. **Number 12** is [Bitcoin Suisse](https://www.bitcoinsuisse.com/)'s current address — one of the earliest and most established crypto financial intermediaries in Switzerland.
 
-Bitcoin Suisse was founded in 2013, making it one of the oldest crypto brokerages operating in Europe. It's regulated under Swiss financial law and manages assets across crypto brokerage, custody, and staking. Before moving to Grafenauweg, Bitcoin Suisse spent years in an industrial zone, which reflects how the company grew alongside the ecosystem rather than being housed in premium real estate from the start.
+Bitcoin Suisse was founded in 2013, making it one of the oldest crypto brokerages operating in Europe. It's regulated under Swiss financial law and manages assets across crypto brokerage, custody, and [staking](https://en.wikipedia.org/wiki/Proof_of_stake). Before moving to Grafenauweg, Bitcoin Suisse spent years in an industrial zone, which reflects how the company grew alongside the ecosystem rather than being housed in premium real estate from the start.
 
 A few doors down at **Grafenauweg 6**, Restaurant Meating was one of the first dining establishments in Zug to accept cryptocurrency as payment. It was a practical statement as much as a symbolic one — the founders of early crypto companies ate here, and the fact that payment could be settled in bitcoin was simply a convenience, not a novelty.
 
@@ -79,7 +79,7 @@ Grafenauweg has a quieter, slightly more institutional feel than Dammstrasse. Th
 
 ## 5. Baarerstrasse: The Association District
 
-Baarerstrasse runs parallel to the main train station area, about two minutes east of Dammstrasse. **Number 8** is the registered address of the **Crypto Valley Association (CVA)**, the non-profit body that functions as the ecosystem's formal coordination layer.
+Baarerstrasse runs parallel to the main train station area, about two minutes east of Dammstrasse. **Number 8** is the registered address of the **[Crypto Valley Association](https://cryptovalley.swiss/) (CVA)**, the non-profit body that functions as the ecosystem's formal coordination layer.
 
 The CVA has been operating since 2017, and its membership network includes over 850 crypto professionals and more than 250 corporate organizations. It organizes the annual Crypto Valley Conference, the largest blockchain event in Switzerland, and the networking events that give the ecosystem a calendar.
 
@@ -93,13 +93,13 @@ Baarerstrasse more broadly is a transitional zone — not quite the old town, no
 
 ## 6. Kolinplatz and the Old Town Core: Where the Deals Used to Happen (and Still Do)
 
-Kolinplatz is the main square in Zug's medieval old town, and it functions as the geographic and social center of the ecosystem's informal layer. **Number 15 on Kolinplatz** is SEBA Bank (now rebranded as Amina Bank after the 2023 merger) — one of the two Swiss banks to receive a full banking license for crypto services in August 2019. That moment was significant: FINMA granting SEBA and Sygnum banking licenses within weeks of each other signaled that Switzerland intended to integrate crypto into regulated finance rather than tolerate it at the margins.
+Kolinplatz is the main square in Zug's medieval old town, and it functions as the geographic and social center of the ecosystem's informal layer. **Number 15 on Kolinplatz** is [SEBA Bank](https://en.wikipedia.org/wiki/[SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)_Bank) (now rebranded as Amina Bank after the 2023 merger) — one of the two Swiss banks to receive a full banking license for crypto services in August 2019. That moment was significant: FINMA granting SEBA and [Sygnum](https://www.sygnum.com/) banking licenses within weeks of each other signaled that Switzerland intended to integrate crypto into regulated finance rather than tolerate it at the margins.
 
-**Hotel Ochsen** at Kolinplatz 11 hosted some of the earliest Bitcoin meetups in Zug, starting in 2014. These gatherings were small — a few dozen people at most — but they formed the initial network from which much of Crypto Valley's social infrastructure grew.
+**Hotel Ochsen** at Kolinplatz 11 hosted some of the earliest [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) meetups in Zug, starting in 2014. These gatherings were small — a few dozen people at most — but they formed the initial network from which much of Crypto Valley's social infrastructure grew.
 
 The **Starbucks in the Metalli shopping center**, near Bahnhofstrasse, became one of the most unlikely recurring venues in the ecosystem. Multiple people have described it as an informal epicenter of crypto meetings — not because it's a particularly good space for business, but because it's steps from the train station and open at hours when other venues are not. The who's-who of Crypto Valley has been spotted here, at tables that wouldn't look out of place in any other city.
 
-The old town itself — Kolinplatz, the streets around the Stadthaus, the lake promenade — is where Zug's historic character intersects with its crypto identity. The **Seepromenade** is where the Ethereum Foundation reportedly paid its first salaries in cryptocurrency in 2014, which is either deeply significant or a good piece of local mythology, depending on your tolerance for origin stories.
+The old town itself — Kolinplatz, the streets around the Stadthaus, the lake promenade — is where Zug's historic character intersects with its crypto identity. The **Seepromenade** is where the [Ethereum Foundation](https://ethereum.foundation/) reportedly paid its first salaries in cryptocurrency in 2014, which is either deeply significant or a good piece of local mythology, depending on your tolerance for origin stories.
 
 **Walk this area if you want to:** understand the social history of the ecosystem and access the informal networking layer that still operates through bars, restaurants, and chance encounters.
 

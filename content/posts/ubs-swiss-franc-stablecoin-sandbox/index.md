@@ -42,7 +42,7 @@ sources:
     desc: "The Block — April 2026"
 ---
 
-On April 8, 2026, UBS put out a press release. Six institutions — UBS, PostFinance, Sygnum, Raiffeisen, Zürcher Kantonalbank, and Banque Cantonale Vaudoise — alongside Swiss Stablecoin AG announced a joint sandbox to test a Swiss franc stablecoin throughout 2026.
+On April 8, 2026, [UBS](https://www.ubs.com/global/en.html) put out a press release. Six institutions — UBS, [PostFinance](https://www.postfinance.ch/), [Sygnum](https://www.sygnum.com/), Raiffeisen, Zürcher Kantonalbank, and Banque Cantonale Vaudoise — alongside Swiss Stablecoin AG announced a joint sandbox to test a Swiss franc [stablecoin](https://en.wikipedia.org/wiki/Stablecoin) throughout 2026.
 
 The coverage framed it as a breakthrough moment. Swiss banking heavyweights finally embracing on-chain money.
 
@@ -52,11 +52,11 @@ The structural read is more nuanced than that.
 
 The sandbox is testing CHFD — a CHF-denominated stablecoin issued by Swiss Stablecoin AG, pegged 1:1 to the Swiss franc, with reserves held in cash at a regulated Swiss bank.
 
-The six banking partners are not issuing the stablecoin themselves. They are participating in a controlled live environment to generate operational experience with using CHFD in real payment flows — settlement, interbank transfers, DeFi-adjacent applications that require programmable CHF liquidity.
+The six banking partners are not issuing the stablecoin themselves. They are participating in a controlled live environment to generate operational experience with using CHFD in real payment flows — settlement, interbank transfers, [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance)-adjacent applications that require programmable CHF liquidity.
 
 The sandbox runs throughout 2026 and is open to additional participants. Volume is capped below CHF 1 million — that threshold is the key regulatory gate I will come back to.
 
-{{< num-highlight value="CHF <1M" label="Transaction volume cap" note="FINMA fintech sandbox threshold, 2026" >}}
+{{< num-highlight value="CHF <1M" label="Transaction volume cap" note="[FINMA](https://www.finma.ch/en/) fintech sandbox threshold, 2026" >}}
 
 ## The Regulatory Scaffolding: What FINMA's Fintech Sandbox Actually Enables
 
@@ -94,7 +94,7 @@ Deposit tokens (bank-issued, direct claim) and stablecoins (non-bank issuer, res
 
 The participant roster is worth reading carefully.
 
-Sygnum is the obvious entry — Switzerland's crypto-native bank, already offering a CHF stablecoin limited to institutional clients since before this sandbox. Its presence means the sandbox has institutional DLT credibility from day one.
+Sygnum is the obvious entry — Switzerland's crypto-native bank, already offering a [CHF stablecoin](https://en.wikipedia.org/wiki/Stablecoin) limited to institutional clients since before this sandbox. Its presence means the sandbox has institutional DLT credibility from day one.
 
 Zürcher Kantonalbank and Raiffeisen are cantonal and cooperative banking anchors, respectively. Their participation signals that this is not a pure fintech-adjacent experiment — it involves the backbone of Swiss retail banking infrastructure.
 
@@ -111,13 +111,13 @@ UBS is the weight that changes the narrative. As the largest Swiss bank and a si
 
 No CHF stablecoin has gained significant traction to date. That sentence from Ledger Insights' coverage cuts to the practical problem.
 
-For anyone building on public blockchains and needing CHF liquidity — DeFi applications, tokenized securities settlement, blockchain-based payment infrastructure for Swiss business — the current state is a friction point. The options have been: use USDC or USDT (USD-denominated, FX exposure), use Sygnum's CHF stablecoin (institutional access only), or use the Swiss National Bank's Project Helvetia wholesale CBDC (available only to financial market infrastructure participants).
+For anyone building on public blockchains and needing CHF liquidity — DeFi applications, tokenized securities settlement, blockchain-based payment infrastructure for Swiss business — the current state is a friction point. The options have been: use USDC or USDT (USD-denominated, FX exposure), use Sygnum's CHF stablecoin (institutional access only), or use the [Swiss National Bank](https://www.snb.ch/en)'s Project Helvetia wholesale CBDC (available only to financial market infrastructure participants).
 
 There is no retail-accessible, broadly programmable CHF on-chain asset.
 
-The CHFD sandbox is exploring whether a licensed-but-non-bank issuer model, operating within a clear FINMA framework, can close that gap. The Ethereum ERC-20 choice matters here — it means the token is designed for interoperability with existing DeFi infrastructure from day one, not siloed in a permissioned private chain.
+The CHFD sandbox is exploring whether a licensed-but-non-bank issuer model, operating within a clear FINMA framework, can close that gap. The [Ethereum](https://en.wikipedia.org/wiki/Ethereum) ERC-20 choice matters here — it means the token is designed for interoperability with existing DeFi infrastructure from day one, not siloed in a permissioned private chain.
 
-{{< num-highlight value="3" label="Parallel CHF digital money tracks" note="Wholesale CBDC (SNB) / Deposit token (banks) / Stablecoin (Swiss Stablecoin AG)" >}}
+{{< num-highlight value="3" label="Parallel CHF digital money tracks" note="Wholesale CBDC ([SNB](https://www.snb.ch/en)) / Deposit token (banks) / Stablecoin (Swiss Stablecoin AG)" >}}
 
 ## What Practitioners Are Getting Wrong
 
@@ -150,4 +150,4 @@ The conversation I have been tracking in Zug is less "will there be a CHF stable
 
 *This is a field note, not financial advice. Participants in the stablecoin sandbox should consult qualified legal counsel on applicable FINMA requirements for their specific use case.*
 
-*For context on the broader Swiss regulatory framework, see [FINMA's Guidance 01/2026 on crypto custody](/posts/finma-crypto-guidance-01-2026/) and [the DLT Act's foundational infrastructure changes](/posts/dlt-act-switzerland-explained/).*
+*For context on the broader Swiss regulatory framework, see [FINMA's Guidance 01/2026 on crypto custody](/posts/finma-crypto-guidance-01-2026/) and [the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act)'s foundational infrastructure changes](/posts/dlt-act-switzerland-explained/).*

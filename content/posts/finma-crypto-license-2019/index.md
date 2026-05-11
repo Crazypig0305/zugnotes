@@ -39,7 +39,7 @@ sources:
 ---
 
 > 📅 Field note from: September 2019 | Last updated: May 2026
-> Originally written shortly after the FINMA announcement; updated with current SEBA/Sygnum status in May 2026.
+> Originally written shortly after the [FINMA](https://www.finma.ch/en/) announcement; updated with current [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)/[Sygnum](https://www.sygnum.com/) status in May 2026.
 
 August 26, 2019 was not a day that made headlines outside of crypto circles. But in Zug, people who had been watching FINMA's posture toward blockchain companies for the previous five years understood that something significant had just happened.
 
@@ -59,7 +59,7 @@ The simultaneous grant to both firms was reportedly deliberate. FINMA wanted to 
 
 To understand the weight of the announcement in 2019, it helps to remember the context.
 
-The 2017 ICO boom had collapsed in a year of enforcement actions, exit scams, and regulatory crackdowns across most major jurisdictions. By mid-2018, most crypto projects that had raised significant capital in Switzerland had either wound down or shifted operations. The "Crypto Winter" that ran through 2018 and into 2019 had thinned the Zug ecosystem considerably.
+The 2017 [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) boom had collapsed in a year of enforcement actions, exit scams, and regulatory crackdowns across most major jurisdictions. By mid-2018, most crypto projects that had raised significant capital in Switzerland had either wound down or shifted operations. The "Crypto Winter" that ran through 2018 and into 2019 had thinned the Zug ecosystem considerably.
 
 FINMA had maintained its engagement with the industry through that period. It had issued guidance on ICOs in February 2018, clarifying how it classified different token types under Swiss law. It had not capitulated to political pressure from other jurisdictions to ban or severely restrict crypto activities. But it also had not moved decisively to extend the full structure of Swiss banking law to crypto-native firms.
 
@@ -68,7 +68,7 @@ The August 2019 licences answered a question that had been hanging over the Zug 
 The answer, in FINMA's language, was integration.
 
 {{< skip-box title="What this did not resolve" >}}
-The 2019 banking licences were a structural milestone, not an end point. They did not resolve questions about how crypto assets would be taxed in Switzerland at the individual level — wealth tax treatment and the capital gains exemption for private investors remained governed by cantonal practice and federal guidance that continues to evolve. For how Swiss crypto tax works today, see the [Swiss crypto tax advantage guide](/posts/swiss-crypto-tax-advantage-guide/). The 2019 licences also did not address the cross-border reporting framework that CARF later established — for that context, see [Switzerland's CARF delay explained](/posts/switzerland-carf-delay-2027/).
+The 2019 banking licences were a structural milestone, not an end point. They did not resolve questions about how crypto assets would be taxed in Switzerland at the individual level — [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) treatment and the capital gains exemption for private investors remained governed by cantonal practice and federal guidance that continues to evolve. For how Swiss crypto tax works today, see the [Swiss crypto tax advantage guide](/posts/swiss-crypto-tax-advantage-guide/). The 2019 licences also did not address the cross-border reporting framework that [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) later established — for that context, see [Switzerland's CARF delay explained](/posts/switzerland-carf-delay-2027/).
 {{< /skip-box >}}
 
 ## The Two Banks and Their Backers
@@ -77,9 +77,9 @@ SEBA and Sygnum had different profiles even at the point of licensing. Understan
 
 **SEBA Crypto AG** was headquartered in Zug — fitting given the city's crypto identity. Its notable backer was Julius Baer, one of Switzerland's most established private banks, which had invested in SEBA's funding round. That relationship with a traditional institution was not incidental: SEBA positioned itself as the bridge between the old Swiss banking world and the new one. The Julius Baer connection gave it credibility with the kind of high-net-worth clients that Zug's private banking scene had historically served.
 
-SEBA was operational by October 2019, having met the "secondary criteria" FINMA required following the licence grant. In December 2023 it rebranded to AMINA Bank, citing trademark conflicts with SEB Bank in Sweden. The AMINA name now anchors a group with operations in Zug, Hong Kong, Abu Dhabi, and — since November 2025 — an EU passport through an Austrian MiCA licence.
+SEBA was operational by October 2019, having met the "secondary criteria" FINMA required following the licence grant. In December 2023 it rebranded to [AMINA Bank](https://www.aminagroup.com/), citing trademark conflicts with SEB Bank in Sweden. The AMINA name now anchors a group with operations in Zug, Hong Kong, Abu Dhabi, and — since November 2025 — an EU passport through an Austrian [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) licence.
 
-**Sygnum** was Zurich-based, and its board composition pointed toward a different target market. Former UBS CEO Peter Wuffli sat on its board. Former Swiss National Bank member Philipp Hildebrand was an advisor. Its partner network included Deutsche Börse and Swisscom, positioning Sygnum toward institutional clients rather than the private banking segment. Its focus on DLT-based securities settlement gave it a distinct technical identity from SEBA's broader banking ambitions.
+**Sygnum** was Zurich-based, and its board composition pointed toward a different target market. Former [UBS](https://www.ubs.com/global/en.html) CEO Peter Wuffli sat on its board. Former [Swiss National Bank](https://www.snb.ch/en) member Philipp Hildebrand was an advisor. Its partner network included Deutsche Börse and Swisscom, positioning Sygnum toward institutional clients rather than the private banking segment. Its focus on DLT-based securities settlement gave it a distinct technical identity from SEBA's broader banking ambitions.
 
 Sygnum's path since 2019 has been methodical. It reported its first profitable half-year in H1 2024, with client assets exceeding $4.5 billion. In September 2024 it registered a subsidiary with Liechtenstein's financial regulator — the entry point for MiCA-compliant EU expansion across all 30 EU and EEA countries, planned for Q1 2025.
 
@@ -87,13 +87,13 @@ Sygnum's path since 2019 has been methodical. It reported its first profitable h
 
 ## What Zug Looked Like the Week After
 
-The announcement landed on a Monday. By the following week, it had generated a predictable wave of commentary: headlines in Swiss financial media, analysis pieces from law firms, and celebratory posts from the broader Crypto Valley community.
+The announcement landed on a Monday. By the following week, it had generated a predictable wave of commentary: headlines in Swiss financial media, analysis pieces from law firms, and celebratory posts from the broader [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) community.
 
 The reaction in Zug's actual blockchain offices was more measured. The banking licences validated what people in the ecosystem had argued for years — that Switzerland would integrate, not exclude, crypto. But validation does not immediately change the daily reality of building companies. SEBA still needed to become operational. Sygnum still needed to build its client base. The ecosystem still had to work through the aftermath of the 2018 downturn.
 
 What the licences did change, quickly, was the tone of conversations with institutional counterparts outside Switzerland. The question "but is it actually legal and regulated?" — which had hung over Swiss crypto banking discussions for years — now had a cleaner answer. FINMA had licensed two institutions to do exactly what they were doing. That answer mattered in discussions with potential institutional clients, with correspondent banks, and with regulators in other jurisdictions watching the Swiss experiment.
 
-The licences also influenced what kinds of businesses began planning Swiss operations in the following two years. The DLT Act, which came into force in February 2021, built directly on the regulatory architecture the 2019 licensing had established. The two moves together — banking licences in 2019, DLT Act in 2021 — created the coherent framework that made Switzerland's position in the post-2021 institutional adoption wave more than just historical branding.
+The licences also influenced what kinds of businesses began planning Swiss operations in the following two years. The [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act), which came into force in February 2021, built directly on the regulatory architecture the 2019 licensing had established. The two moves together — banking licences in 2019, DLT Act in 2021 — created the coherent framework that made Switzerland's position in the post-2021 institutional adoption wave more than just historical branding.
 
 ## From 2019 to Now
 
@@ -103,7 +103,7 @@ AMINA (formerly SEBA) has expanded geographically and rebranded to shed the nami
 
 Sygnum has stayed more narrowly focused on institutional and professional clients, built a profitable business, and taken a deliberate route to EU expansion through Liechtenstein's MiCA framework rather than the faster Austrian path AMINA chose.
 
-Both have survived multiple market cycles — the 2021 bull run, the FTX collapse and 2022 bear market, the 2024 recovery — while operating under FINMA's ongoing supervision. Neither has folded. Neither has had its licence revoked.
+Both have survived multiple market cycles — the 2021 bull run, the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) collapse and 2022 bear market, the 2024 recovery — while operating under FINMA's ongoing supervision. Neither has folded. Neither has had its licence revoked.
 
 That track record is probably the most significant thing about the 2019 announcement, viewed from 2026. The sceptics who predicted that full banking regulation would prove unworkable for crypto-native firms have not been vindicated. The licences held. The banks built businesses. The regulatory experiment that FINMA began in August 2019 produced two operating institutions that are, by conventional measures, working.
 

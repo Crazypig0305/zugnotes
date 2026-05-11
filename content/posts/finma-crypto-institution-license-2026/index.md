@@ -43,17 +43,17 @@ sources:
 ---
 
 > 📅 Field note from: March 2026 | Last updated: May 2026
-> Written shortly after FINMA published the consultation paper; updated with consultation progress observations in May 2026.
+> Written shortly after [FINMA](https://www.finma.ch/en/) published the consultation paper; updated with consultation progress observations in May 2026.
 
-On October 22, 2025, the Swiss Federal Council released a draft amendment to the Financial Institutions Act — FinIA — and opened a public consultation. The document proposes two new license categories: the *crypto-institution* (Krypto-Institut) and the *payment instrument institution* (Zahlungsmittelinstitut). The consultation period closed on February 6, 2026.
+On October 22, 2025, the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) released a draft amendment to the Financial Institutions Act — FinIA — and opened a public consultation. The document proposes two new license categories: the *crypto-institution* (Krypto-Institut) and the *payment instrument institution* (Zahlungsmittelinstitut). The consultation period closed on February 6, 2026.
 
-I have been watching the Swiss crypto regulatory timeline since [FINMA issued its first banking licenses to SEBA and Sygnum in 2019](/posts/finma-crypto-license-2019/). That was a moment where Switzerland signaled it was serious about institutional crypto infrastructure. This proposal feels like the next structural layer: not just licensing a handful of elite firms, but building a taxonomy for the entire sector.
+I have been watching the Swiss crypto regulatory timeline since [FINMA issued its first banking licenses to [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) in 2019](/posts/finma-crypto-license-2019/). That was a moment where Switzerland signaled it was serious about institutional crypto infrastructure. This proposal feels like the next structural layer: not just licensing a handful of elite firms, but building a taxonomy for the entire sector.
 
 Here is what I have pieced together from reading the consultation document and the legal commentary around it.
 
 ## The Problem the Proposal Is Trying to Solve
 
-The current situation is messy in a way that is hard to see from the outside. If you look at Switzerland's crypto landscape from a distance, it looks orderly: FINMA, the DLT Act, clear rules, respectable institutions. From closer in, the picture is more fragmented.
+The current situation is messy in a way that is hard to see from the outside. If you look at Switzerland's crypto landscape from a distance, it looks orderly: FINMA, the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act), clear rules, respectable institutions. From closer in, the picture is more fragmented.
 
 Crypto firms operating in Switzerland today can be in one of several regulatory buckets. Some hold banking licenses — like SEBA (now AMINA) and Sygnum. A much larger group operates under self-regulatory organization (SRO) supervision purely for AML/CFT compliance, with limited formal FINMA oversight over their core activities. A smaller number hold the fintech license introduced in 2019, which capped deposits at CHF 100 million and never quite fit what most crypto businesses actually do.
 
@@ -65,11 +65,11 @@ The FinIA amendment is the structural fix.
 
 The crypto-institution license is designed for companies providing custody and trading of crypto-based assets with trading characteristics. In practice, that means:
 
-- Custody of payment tokens such as Bitcoin and Ether
-- Provision of staking services
+- Custody of payment tokens such as [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and Ether
+- Provision of [staking](https://en.wikipedia.org/wiki/Proof_of_stake) services
 - Client brokerage and trading services
 - Short-term proprietary trading and exchange operations
-- Custody of foreign stablecoins
+- Custody of foreign [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s
 
 What it explicitly does *not* cover: pure utility tokens, central bank digital currencies (CBDCs), and securities tokens. Those remain in separate regulatory territory.
 
@@ -117,7 +117,7 @@ The new structure adds two purpose-built categories below the banking license ti
 
 For firms currently under SRO supervision, this is the significant shift. SRO oversight covers AML compliance, but it does not subject firms to FINMA's ongoing supervision of their business conduct, governance, or capital adequacy. The crypto-institution license changes that. Once this framework is in force, custodians and exchanges that previously operated under SRO-only oversight will need to obtain a crypto-institution license and enter direct FINMA supervision — or stop operating.
 
-## How It Maps onto EU MiCA
+## How It Maps onto EU [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets)
 
 Comparing Swiss crypto regulation to the EU's Markets in Crypto-Assets Regulation (MiCA) is something I covered more systematically [in the MiCA vs FINMA field note](/posts/mica-vs-finma-field-note/). The short version of how the FinIA amendment relates to MiCA:
 
@@ -149,7 +149,7 @@ After reading the consultation paper and the commentary around it, a few things 
 
 **For payment-focused fintech firms:** The removal of the CHF 100 million cap is genuinely useful. Firms that have been constrained by that ceiling can now plan for growth without needing to convert to a full banking license.
 
-**For stablecoin issuers:** The CHF stablecoin exclusivity granted to payment instrument institutions creates a clear legal path. Currently, CHF-pegged stablecoins exist in a grey area. This would define what a legally sound CHF stablecoin looks like and who can issue it.
+**For stablecoin issuers:** The [CHF stablecoin](https://en.wikipedia.org/wiki/Stablecoin) exclusivity granted to payment instrument institutions creates a clear legal path. Currently, CHF-pegged stablecoins exist in a grey area. This would define what a legally sound CHF stablecoin looks like and who can issue it.
 
 **For banks:** The requirement that banks spin off a separate subsidiary to participate in stablecoin issuance is worth noting. It is not a prohibition — it is a structural constraint that reflects the policy view that banks should not mix traditional deposit functions with stablecoin issuance.
 

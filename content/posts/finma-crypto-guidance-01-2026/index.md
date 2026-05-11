@@ -38,7 +38,7 @@ sources:
     desc: "Post-Trade 360 — industry implications, January 2026"
 ---
 
-On January 12, 2026, FINMA published Guidance 01/2026 — its clearest statement yet on how Swiss regulated institutions must handle crypto-asset custody. The document is dense, technically precise, and written for compliance officers, not individual holders.
+On January 12, 2026, [FINMA](https://www.finma.ch/en/) published Guidance 01/2026 — its clearest statement yet on how Swiss regulated institutions must handle crypto-asset custody. The document is dense, technically precise, and written for compliance officers, not individual holders.
 
 This is an attempt to translate what it actually says, what it changes in practice, and where it leaves open questions that still matter if you hold crypto in Switzerland.
 
@@ -46,7 +46,7 @@ This is an attempt to translate what it actually says, what it changes in practi
 
 The timing is not accidental. Three things converged at the start of 2026.
 
-First, CARF — the OECD Crypto-Asset Reporting Framework — became active in Switzerland on January 1, 2026. The institutional custody infrastructure that CARF reporting depends on had to be formalized.
+First, [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) — the [OECD](https://www.oecd.org/) Crypto-Asset Reporting Framework — became active in Switzerland on January 1, 2026. The institutional custody infrastructure that CARF reporting depends on had to be formalized.
 
 Second, MiCA (the EU's Markets in Crypto-Assets Regulation) came fully into force in December 2024. With a large, adjacent jurisdiction now operating a coherent crypto regulatory framework, FINMA faced pressure to clarify how Swiss-supervised institutions should evaluate EU-based custodians.
 
@@ -65,7 +65,7 @@ The guidance addresses five distinct custody scenarios. Each has its own logic a
 
 When a FINMA-licensed bank holds crypto directly for clients, the assets must be held in a way that is "bankruptcy-remote" — meaning they cannot be claimed by the bank's own creditors if the institution fails.
 
-Swiss law (via the DLT Act and existing banking law) already requires this in principle. The guidance makes it explicit: client assets must be segregated at the individual ledger address level, not just as an aggregate balance. The bank's own holdings must remain separate from client holdings at all times.
+Swiss law (via the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act) and existing banking law) already requires this in principle. The guidance makes it explicit: client assets must be segregated at the individual ledger address level, not just as an aggregate balance. The bank's own holdings must remain separate from client holdings at all times.
 
 {{< num-highlight value="2" label="Custody types FINMA accepts" note="individual segregation or collective custody with documented client shares" >}}
 
@@ -75,7 +75,7 @@ This is the part that has attracted the most legal commentary, and where the pra
 
 Swiss institutions can delegate crypto custody to foreign providers — but only if two conditions are independently satisfied:
 
-**Prudential supervision equivalence:** The foreign custodian must face comparable regulatory oversight regarding capital, liquidity, and risk management. This means MiCA-licensed custodians in the EU now have a clear pathway to qualifying — something the guidance explicitly acknowledges.
+**Prudential supervision equivalence:** The foreign custodian must face comparable regulatory oversight regarding capital, liquidity, and risk management. This means [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets)-licensed custodians in the EU now have a clear pathway to qualifying — something the guidance explicitly acknowledges.
 
 **Bankruptcy protection equivalence:** Foreign law must ensure that client crypto assets are excluded from the custodian's insolvency estate. Supervision alone is not enough. An institution can be well-regulated and still lack the legal mechanism to segregate client assets in bankruptcy.
 
@@ -113,7 +113,7 @@ The language is targeted at the infrastructure layer of crypto ETPs and structur
 
 ## What This Actually Changes in Practice
 
-The guidance mostly formalizes expectations that FINMA had already been communicating in supervisory conversations. For the major Swiss crypto banks — SEBA Bank (now rebranded), Sygnum, and others — the operational reality changes less than the compliance documentation requirement.
+The guidance mostly formalizes expectations that FINMA had already been communicating in supervisory conversations. For the major Swiss crypto banks — [SEBA Bank](https://en.wikipedia.org/wiki/[SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)_Bank) (now rebranded), [Sygnum](https://www.sygnum.com/), and others — the operational reality changes less than the compliance documentation requirement.
 
 What does change more materially:
 
@@ -141,7 +141,7 @@ Worth being clear about what this document is not.
 
 **It does not change the tax treatment of crypto assets.** Wealth tax obligations, the capital gains exemption for private investors, and CARF reporting thresholds are unaffected by custody structure — they depend on your status as a taxpayer, not on where your assets are held.
 
-**It does not resolve the stablecoin custody question.** FINMA has signaled that guidance on stablecoin custody — particularly relevant given MiCA's stablecoin rules — is forthcoming. The current guidance focuses on crypto assets more broadly and does not distinguish between stablecoins and other tokens in custody terms.
+**It does not resolve the [stablecoin](https://en.wikipedia.org/wiki/Stablecoin) custody question.** FINMA has signaled that guidance on stablecoin custody — particularly relevant given MiCA's stablecoin rules — is forthcoming. The current guidance focuses on crypto assets more broadly and does not distinguish between stablecoins and other tokens in custody terms.
 
 **It does not create an equivalence whitelist.** The guidance tells institutions what the test is but does not publish a list of foreign custodians that automatically qualify. Institutions must conduct their own equivalence assessments, with documentation.
 
@@ -170,4 +170,4 @@ Three developments are worth tracking in the months following this guidance:
 
 ---
 
-*Zug Notes publishes field observations on Swiss crypto regulation and the Crypto Valley ecosystem. Nothing on this site is legal or financial advice. The views expressed are those of the author based on publicly available information.*
+*Zug Notes publishes field observations on Swiss crypto regulation and the [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) ecosystem. Nothing on this site is legal or financial advice. The views expressed are those of the author based on publicly available information.*

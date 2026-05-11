@@ -47,7 +47,7 @@ sources:
     desc: "Compliance consultancy — MiCA authorization timelines and CASP requirements"
 ---
 
-Most regulatory comparisons frame MiCA and FINMA as competitors — two jurisdictions fighting over the same pool of crypto businesses. That framing is wrong, and it gets more wrong the closer you sit to the Swiss-EU border.
+Most regulatory comparisons frame [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) and [FINMA](https://www.finma.ch/en/) as competitors — two jurisdictions fighting over the same pool of crypto businesses. That framing is wrong, and it gets more wrong the closer you sit to the Swiss-EU border.
 
 I am writing this from Zug. Two of the companies I follow closely have EU clients. One has a Swiss banking license. The practical question they are asking right now is not "MiCA or FINMA?" It is "How do these two frameworks interact when your customers are in Frankfurt but your custody infrastructure is in Zurich?"
 
@@ -75,9 +75,9 @@ This distinction matters because it reframes the whole comparison. Asking "Is FI
 
 Understanding the competitive dynamic between these two frameworks requires understanding how far apart they are in regulatory age.
 
-Switzerland began building its crypto-specific framework in **2017**, when FINMA published its first guidance on ICOs. By 2018, FINMA had issued the formal ICO guidelines that established the foundational taxonomy — payment tokens, utility tokens, asset tokens — that still shapes how Swiss regulators think about crypto today.
+Switzerland began building its crypto-specific framework in **2017**, when FINMA published its first guidance on [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering)s. By 2018, FINMA had issued the formal ICO guidelines that established the foundational taxonomy — payment tokens, utility tokens, asset tokens — that still shapes how Swiss regulators think about crypto today.
 
-The DLT Act came into force in **February 2021**, creating formal legal status for blockchain-based securities and establishing the regulatory infrastructure that FINMA uses to supervise crypto custody, tokenized assets, and DLT-based trading.
+The [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act) came into force in **February 2021**, creating formal legal status for blockchain-based securities and establishing the regulatory infrastructure that FINMA uses to supervise crypto custody, tokenized assets, and DLT-based trading.
 
 MiCA, by contrast, was finally adopted by the European Parliament in **April 2023** — roughly six years after Switzerland's first crypto-specific guidance. The regulation came fully into force on **December 30, 2024**, with CASPs that were already operating in the EU granted a transitional period until **July 1, 2026** to obtain formal authorization.
 
@@ -115,7 +115,7 @@ The firms that succeed with FINMA are typically the ones who engage early, docum
 
 One of the most common misconceptions in this comparison is that Switzerland is the strict jurisdiction and the EU is the permissive one. The data does not support this.
 
-**Stablecoin issuance** is a clear case where MiCA is significantly more restrictive than Switzerland. Under MiCA, issuers of asset-referenced tokens (ARTs) and e-money tokens (EMTs) must be authorized as credit institutions or e-money institutions, maintain reserve assets in approved forms, and comply with detailed issuance and redemption rules. For significant stablecoins — those exceeding 10 million holders or €5 billion in market cap — the European Banking Authority takes over supervision directly from national regulators.
+**Stablecoin issuance** is a clear case where MiCA is significantly more restrictive than Switzerland. Under MiCA, issuers of asset-referenced tokens (ARTs) and e-money tokens (EMTs) must be authorized as credit institutions or e-money institutions, maintain reserve assets in approved forms, and comply with detailed issuance and redemption rules. For significant [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s — those exceeding 10 million holders or €5 billion in market cap — the European Banking Authority takes over supervision directly from national regulators.
 
 FINMA, by contrast, assesses stablecoin structures under existing banking and securities law. A stablecoin pegged to the Swiss franc and backed by segregated reserves might be regulated as a bank-like deposit — but the regulatory pathway is negotiated with FINMA directly, not mandated by a specific code. Swiss stablecoin issuers have more design flexibility, at the cost of higher regulatory uncertainty in the early stages.
 
@@ -135,7 +135,7 @@ This is also why FINMA Guidance 01/2026 explicitly created an equivalence pathwa
 
 **Substance requirements** in Switzerland are genuine. FINMA expects licensed entities to have real operational presence, proper risk management frameworks, and competent management actually based in Switzerland. The principle-based review process includes FINMA assessing whether governance arrangements are fit for purpose. MiCA authorization in some EU member states has attracted criticism for approving entities with thin local substance — a dynamic that FINMA's approach largely prevents.
 
-**Banking license integration** for crypto businesses is a Swiss-specific advantage that creates distinctive regulatory standards. SEBA Bank and Sygnum Bank, which hold full Swiss banking licenses, are subject to the entire Swiss banking regulatory framework — capital adequacy requirements, liquidity standards, and ongoing supervision that goes beyond what a standalone CASP authorization under MiCA requires.
+**Banking license integration** for crypto businesses is a Swiss-specific advantage that creates distinctive regulatory standards. [SEBA Bank](https://en.wikipedia.org/wiki/[SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)_Bank) and [Sygnum Bank](https://www.sygnum.com/), which hold full Swiss banking licenses, are subject to the entire Swiss banking regulatory framework — capital adequacy requirements, liquidity standards, and ongoing supervision that goes beyond what a standalone CASP authorization under MiCA requires.
 
 ---
 
@@ -202,7 +202,7 @@ I want to be direct about what each framework actually delivers, because the mar
 | Custody standards | MiCA CASP requirements | FINMA Guidance 01/2026 (detailed, strict) |
 | Enforcement activity | High (€540M+ fines since Dec 2024) | Low public visibility, case-by-case |
 | Cross-border interaction | Passporting within EU | Reverse solicitation for EU clients |
-| Crypto bank licensing | Not applicable | Full banking license available (SEBA, Sygnum model) |
+| Crypto bank licensing | Not applicable | Full banking license available (SEBA, [Sygnum](https://www.sygnum.com/) model) |
 | First crypto-specific framework | December 2024 | 2017 (ICO guidance) |
 {{< /budget-table >}}
 

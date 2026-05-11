@@ -39,7 +39,7 @@ sources:
     desc: "blockpit.io — RCASP obligations and first exchange timeline"
 ---
 
-The announcement came on January 2, 2026 — two days into the year CARF was supposed to go live. Switzerland's Federal Council confirmed that the Crypto-Asset Reporting Framework had been enacted into Swiss law as planned, but that actual data exchange with foreign tax authorities would not happen until at least 2027.
+The announcement came on January 2, 2026 — two days into the year [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) was supposed to go live. Switzerland's Federal Council confirmed that the Crypto-Asset Reporting Framework had been enacted into Swiss law as planned, but that actual data exchange with foreign tax authorities would not happen until at least 2027.
 
 The headline spread fast. "Switzerland delays crypto tax sharing" was the framing most outlets used, and it was accurate enough to quote. But the implications for people who actually hold crypto here are more layered than that framing suggests.
 
@@ -68,7 +68,7 @@ The answer is significant, even without international data sharing.
 
 **Data collection obligations are live.** Swiss Reporting Crypto-Asset Service Providers — meaning your bank, your exchange, your Swiss-based wallet operator — are required to collect and retain detailed information on your crypto-asset transactions starting January 1, 2026. This is not contingent on any exchange date. The collection happens now.
 
-**Due diligence and registration are live.** RCASPs must identify relevant clients, verify their tax residency, collect standardized account information, and register with the Swiss Federal Tax Administration (SFTA). Institutions that were not already tracking crypto-asset transaction detail at the individual account level must be doing so now.
+**Due diligence and registration are live.** RCASPs must identify relevant clients, verify their tax residency, collect standardized account information, and register with the Swiss [Federal Tax Administration](https://www.estv.admin.ch/estv/en/home.html) (SFTA). Institutions that were not already tracking crypto-asset transaction detail at the individual account level must be doing so now.
 
 **The reporting structure is defined.** What gets reported — to the SFTA first, then potentially onward to foreign authorities — is now specified in ordinance language. Swiss banks and exchanges are not waiting on regulatory guidance to know what data to collect; the framework is clear.
 
@@ -78,14 +78,14 @@ The answer is significant, even without international data sharing.
 
 Understanding what CARF covers requires understanding what counts as a reportable transaction.
 
-**In scope:** exchanges of crypto for fiat currency, crypto-to-crypto swaps, transfers between service providers, and outbound transfers to external wallets. The definition of "relevant crypto-assets" is broad — it covers any digital asset that can be used for payment or investment purposes, which includes Bitcoin, Ethereum, stablecoins, tokenized securities, and investment-purpose NFTs.
+**In scope:** exchanges of crypto for fiat currency, crypto-to-crypto swaps, transfers between service providers, and outbound transfers to external wallets. The definition of "relevant crypto-assets" is broad — it covers any digital asset that can be used for payment or investment purposes, which includes [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), [Ethereum](https://en.wikipedia.org/wiki/Ethereum), [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s, tokenized securities, and investment-purpose NFTs.
 
 **Out of scope:** non-tradable digital collectibles (think limited-edition art with no secondary market), central bank digital currencies, and — critically — self-custodied assets held without any Swiss service provider involvement. If you hold crypto in your own hardware wallet and never use a Swiss exchange or bank to acquire, transfer, or trade it, there is no RCASP to report on your behalf.
 
 {{< skip-box title="Does CARF apply to self-custody?" >}}
 CARF's reporting obligation falls on Reporting Crypto-Asset Service Providers, not on individual holders directly. If you hold crypto entirely in self-custody — acquired outside Switzerland, held in your own wallet, transacted without using a Swiss-supervised institution — no Swiss RCASP has an obligation to report your holdings.
 
-This does not affect your Swiss wealth tax or income tax obligations, which exist independently of CARF. It means, more narrowly, that CARF data exchange would not be the mechanism through which foreign tax authorities learn about those holdings.
+This does not affect your Swiss [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) or income tax obligations, which exist independently of CARF. It means, more narrowly, that CARF data exchange would not be the mechanism through which foreign tax authorities learn about those holdings.
 {{< /skip-box >}}
 
 ## The 2026 vs. 2027 Comparison That Actually Matters
@@ -112,7 +112,7 @@ The delay does not mean the data disappears. It means you have time before it cr
 
 The reason for the delay is worth understanding, because it tells you something about how durable the pause is likely to be.
 
-The National Council's Economic Affairs and Taxation Committee suspended deliberations not because Switzerland changed its mind about CARF in principle — the legislation passed with clear parliamentary support, and Switzerland was among the first countries to fully adopt the OECD framework. The pause was procedural: the committee halted work on approving the list of 74 partner jurisdictions, citing concerns about data security and confidentiality standards in some of the proposed recipient countries.
+The National Council's Economic Affairs and Taxation Committee suspended deliberations not because Switzerland changed its mind about CARF in principle — the legislation passed with clear parliamentary support, and Switzerland was among the first countries to fully adopt the [OECD](https://www.oecd.org/) framework. The pause was procedural: the committee halted work on approving the list of 74 partner jurisdictions, citing concerns about data security and confidentiality standards in some of the proposed recipient countries.
 
 This is a different category of delay than a policy reversal. Switzerland is not walking back its commitment to international crypto data sharing. It is applying the same scrutiny it has historically applied to traditional CRS data exchange: the quality of the recipient country's data protection infrastructure matters before Swiss authorities send sensitive taxpayer data.
 
@@ -123,7 +123,7 @@ This is a different category of delay than a policy reversal. Switzerland is not
 
 ## What This Means for Swiss Crypto Banks
 
-For SEBA Bank (now rebranded as Swiss Bitcoin Bank), Sygnum, and the crypto custody arms of the major cantonal banks, the delay in exchange does not translate into a delay in compliance obligations.
+For [SEBA Bank](https://en.wikipedia.org/wiki/[SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)_Bank) (now rebranded as Swiss Bitcoin Bank), [Sygnum](https://www.sygnum.com/), and the crypto custody arms of the major cantonal banks, the delay in exchange does not translate into a delay in compliance obligations.
 
 These institutions have been building out CARF-compliant data collection infrastructure since 2024. The SFTA registration requirements and the due diligence obligations are active. Banks that serve clients with reportable crypto-asset transactions are identifying those clients, collecting standardized data, and retaining it per the AEOI Ordinance requirements.
 
@@ -137,7 +137,7 @@ Here is what the delay does not mean.
 
 It does not mean Switzerland has backed away from CARF. The law is in force. The infrastructure is being built. The 74-country partner list is temporarily paused, not withdrawn.
 
-It does not mean you have until 2027 to get your holdings in order. Your Swiss wealth tax obligations — which require declaring the market value of your crypto portfolio as of December 31 each year — exist completely independently of CARF and were unaffected by the delay. The same applies to any income tax obligations arising from staking rewards or crypto classified as business income.
+It does not mean you have until 2027 to get your holdings in order. Your Swiss wealth tax obligations — which require declaring the market value of your crypto portfolio as of December 31 each year — exist completely independently of CARF and were unaffected by the delay. The same applies to any income tax obligations arising from [staking](https://en.wikipedia.org/wiki/Proof_of_stake) rewards or crypto classified as business income.
 
 It does not mean foreign tax authorities cannot access information about your Swiss crypto holdings through other channels. Mutual legal assistance treaties, CRS data on crypto-linked fiat accounts, and direct requests remain available. CARF is a new mechanism, not the only one.
 

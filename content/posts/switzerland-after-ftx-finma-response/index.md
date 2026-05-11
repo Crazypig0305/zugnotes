@@ -47,11 +47,11 @@ sources:
 ---
 
 > 📅 Field note from: January 2023 | Last updated: May 2026
-> Originally written two months after the FTX collapse from inside Zug; updated with three years of regulatory follow-on observations in May 2026.
+> Originally written two months after the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) collapse from inside Zug; updated with three years of regulatory follow-on observations in May 2026.
 
-November 11, 2022 was a Friday. FTX had filed for Chapter 11 bankruptcy the day before. Sam Bankman-Fried had resigned. Eleven billion dollars in customer funds had vanished.
+November 11, 2022 was a Friday. FTX had filed for Chapter 11 bankruptcy the day before. [Sam Bankman-Fried](https://en.wikipedia.org/wiki/Sam_Bankman-Fried) had resigned. Eleven billion dollars in customer funds had vanished.
 
-I remember checking Telegram channels that morning. There was the usual noise — speculation about contagion, lists of which platforms had exposure to FTX or Alameda Research, arguments about whether this was the end of crypto or just another cycle bottom. What struck me, working out of Zug, was a different question: what was FINMA going to do?
+I remember checking Telegram channels that morning. There was the usual noise — speculation about contagion, lists of which platforms had exposure to FTX or [Alameda Research](https://en.wikipedia.org/wiki/Alameda_Research), arguments about whether this was the end of crypto or just another cycle bottom. What struck me, working out of Zug, was a different question: what was [FINMA](https://www.finma.ch/en/) going to do?
 
 The Swiss regulator had been quiet during the collapse. No press releases. No emergency statements. That silence, in FINMA's case, is usually deliberate. It does things when it has something definitive to say.
 
@@ -61,7 +61,7 @@ Over the following three months, the response came — not as a dramatic regulat
 
 To understand FINMA's response, you have to understand what was already in place before November 2022.
 
-Switzerland had been building its crypto regulatory architecture since at least 2018, when FINMA issued its ICO guidelines. The 2019 banking licences for SEBA and Sygnum established the principle that crypto-native firms could operate under full banking supervision. The DLT Act, in force from February 2021, amended the Debt Enforcement and Bankruptcy Act (DEBA) to create explicit legal ground for crypto asset segregation in bankruptcy — meaning that if a licensed Swiss custodian failed, client crypto assets were protected from the custodian's creditors, provided the technical segregation requirements were met.
+Switzerland had been building its crypto regulatory architecture since at least 2018, when FINMA issued its [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) guidelines. The 2019 banking licences for [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) established the principle that crypto-native firms could operate under full banking supervision. The [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act), in force from February 2021, amended the [Debt Enforcement and Bankruptcy Act](https://www.fedlex.admin.ch/eli/cc/11/529_488_529/en) (DEBA) to create explicit legal ground for crypto asset segregation in bankruptcy — meaning that if a licensed Swiss custodian failed, client crypto assets were protected from the custodian's creditors, provided the technical segregation requirements were met.
 
 That last piece — the DEBA amendment — is what made Switzerland's position structurally different from FTX's jurisdiction. FTX operated as a Bahamas-registered exchange. Client funds and proprietary trading funds were commingled. There was no legal segregation requirement that applied, and no regulator enforcing one.
 
@@ -81,7 +81,7 @@ The document confirmed what FINMA's posture had suggested throughout 2022: the r
 
 ## What FINMA Actually Changed
 
-The response to FTX was not a new law. FINMA does not make law — that is the Swiss Federal Council's domain. What FINMA did was apply and reinforce the tools it already had.
+The response to FTX was not a new law. FINMA does not make law — that is the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html)'s domain. What FINMA did was apply and reinforce the tools it already had.
 
 **Tightened AML thresholds for virtual currency transactions.** On 1 January 2023, a revised version of the Anti-Money Laundering Ordinance (AMLO-FINMA) entered into force. Among its provisions: the CHF 1,000 AML reporting threshold for virtual currency transactions was clarified to apply to linked transactions across a 30-day window, not per individual transaction. The revision was designed to close the structuring loophole — the practice of splitting large transactions into smaller amounts to avoid identity checks. FTX had not engaged in this specifically, but the post-FTX environment had heightened FINMA's sensitivity to AML risk in the crypto sector.
 
@@ -111,7 +111,7 @@ The atmosphere in Zug's crypto offices in November and December 2022 was not wha
 
 What I heard most in those weeks was a version of "this is why regulation matters." It was not triumphalism — nobody in Zug was glad that billions in customer funds had been lost. But there was a real sense that the Swiss framework had been designed, consciously, to prevent exactly this. The DEBA segregation rules. The mandatory FINMA oversight. The prohibition on commingling. These were not abstract compliance requirements. They were the specific protections that FTX lacked.
 
-The firms at CV Labs and in the broader Zug ecosystem that were most affected were those with indirect FTX connections — portfolio companies that had raised capital from FTX Ventures, service providers that had FTX as a significant client, or projects with FTX-adjacent token economics. Some of those firms wound down over the following six months. Others restructured. The adjustment was real, but it was not a systemic collapse of the Zug ecosystem.
+The firms at [CV Labs](https://cvlabs.com/) and in the broader Zug ecosystem that were most affected were those with indirect FTX connections — portfolio companies that had raised capital from FTX Ventures, service providers that had FTX as a significant client, or projects with FTX-adjacent token economics. Some of those firms wound down over the following six months. Others restructured. The adjustment was real, but it was not a systemic collapse of the Zug ecosystem.
 
 The ecosystem that emerged from late 2022 and into 2023 was, if anything, better positioned for institutional adoption. The argument that Switzerland's regulatory framework produced safer infrastructure had just been validated by the most dramatic possible counter-example.
 
@@ -119,9 +119,9 @@ The ecosystem that emerged from late 2022 and into 2023 was, if anything, better
 
 The contrast with other jurisdictions is worth noting briefly, because it clarifies what was distinctive about FINMA's approach.
 
-**The United States** responded to FTX with a wave of enforcement actions, legislative proposals, and regulatory turf wars between the SEC and CFTC. The regulatory framework was contested and politically charged. It produced litigation — against Coinbase, Binance, Kraken — but not the kind of clear, predictable framework that institutional participants needed.
+**The United States** responded to FTX with a wave of enforcement actions, legislative proposals, and regulatory turf wars between the [SEC](https://www.sec.gov/) and CFTC. The regulatory framework was contested and politically charged. It produced litigation — against Coinbase, Binance, Kraken — but not the kind of clear, predictable framework that institutional participants needed.
 
-**The European Union** had MiCA in the pipeline when FTX collapsed, and the event accelerated its final passage. MiCA — which came fully into force in December 2024 — represents a comprehensive statutory overhaul: new license categories, new conduct requirements, new segregation rules. It addressed the regulatory gap by legislating across it.
+**The European Union** had [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) in the pipeline when FTX collapsed, and the event accelerated its final passage. MiCA — which came fully into force in December 2024 — represents a comprehensive statutory overhaul: new license categories, new conduct requirements, new segregation rules. It addressed the regulatory gap by legislating across it.
 
 **Switzerland** did neither. It had no need to legislate — the gap had already been addressed. It had no need for enforcement drama — the firms that failed were outside its jurisdiction. What it did was reinforce and apply the existing framework, tighten the AML thresholds at the margin, and improve its data surveillance of the licensed sector.
 

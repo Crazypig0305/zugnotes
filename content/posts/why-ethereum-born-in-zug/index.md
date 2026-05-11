@@ -43,13 +43,13 @@ sources:
     desc: "Switzerland Global Enterprise — Ethereum's account of choosing Switzerland, including co-founder quotes on Swiss regulatory openness"
   - name: "CV Labs — ETH10X: Celebrating a Decade with Ethereum's Co-Founders"
     url: "https://www.cvlabs.com/blog-posts/eth10x---celebrating-a-decade-of-innovation-alongside-ethereums-co-founders"
-    desc: "CV Labs — 2024 retrospective with co-founder perspectives on Zug's early ecosystem"
+    desc: "[CV Labs](https://cvlabs.com/) — 2024 retrospective with co-founder perspectives on Zug's early ecosystem"
 ---
 
 > 📅 Original post: August 2017 | Last updated: May 2026
-> This field note was first written shortly after Ethereum's first major upgrade cycle. The origin history section has been verified against primary sources and updated with retrospective detail from co-founder accounts published 2020–2024.
+> This field note was first written shortly after [Ethereum](https://en.wikipedia.org/wiki/Ethereum)'s first major upgrade cycle. The origin history section has been verified against primary sources and updated with retrospective detail from co-founder accounts published 2020–2024.
 
-The version of this story that gets told most often goes something like: Vitalik Buterin chose Switzerland because of low taxes and crypto-friendly banking. That version is not wrong exactly, but it is missing the part that actually mattered in 2014.
+The version of this story that gets told most often goes something like: [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin) chose Switzerland because of low taxes and crypto-friendly banking. That version is not wrong exactly, but it is missing the part that actually mattered in 2014.
 
 The real story is a legal structure problem, a bank account problem, and a six-person email chain problem — and Zug solved all three at a moment when no other jurisdiction in the world had the right framework to do it.
 
@@ -59,7 +59,7 @@ Ask someone why Ethereum ended up in Zug and you will hear two common answers. T
 
 Both answers are too simple for 2014.
 
-In early 2014, Switzerland's wealth tax environment had nothing specific to offer a blockchain foundation that planned to conduct a public token sale — a structure that had essentially no legal precedent anywhere. And "crypto-friendly" regulatory environment in 2014 meant something much narrower than it does today. FINMA had issued a statement in early 2014 that it would not formally regulate Bitcoin as a currency, which created a window of legal ambiguity that was, counterintuitively, more useful than formal regulation at that stage.
+In early 2014, Switzerland's [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) environment had nothing specific to offer a blockchain foundation that planned to conduct a public token sale — a structure that had essentially no legal precedent anywhere. And "crypto-friendly" regulatory environment in 2014 meant something much narrower than it does today. [FINMA](https://www.finma.ch/en/) had issued a statement in early 2014 that it would not formally regulate [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) as a currency, which created a window of legal ambiguity that was, counterintuitively, more useful than formal regulation at that stage.
 
 The question the Ethereum founders actually needed answered in early 2014 was not "which country has the lowest taxes." It was: "Which legal structure lets us raise funds from the public in exchange for a digital token, hold those funds in a transparent and legally defensible way, and distribute them to developers without any single founder personally controlling the treasury?"
 
@@ -73,21 +73,21 @@ The confusion about "why Zug" partly comes from a failure to distinguish two sep
 
 **EthSuisse** — Ethereum Switzerland GmbH, a standard Swiss limited liability company — was established in early 2014 in Zug. This was the operational vehicle. Gavin Wood developed the Yellow Paper (the technical specification for the Ethereum Virtual Machine) under this company. It gave the team a legal address, allowed them to hire, and provided the contractual backbone for development work. EthSuisse is the entity that formally conducted the ether presale.
 
-**Stiftung Ethereum** — the Ethereum Foundation — was registered on July 9, 2014, also in Zug. This is the non-profit foundation that receives and stewards the funds raised. Once the presale completed, operations transferred from EthSuisse to the Foundation. EthSuisse was eventually liquidated.
+**Stiftung Ethereum** — the [Ethereum Foundation](https://ethereum.foundation/) — was registered on July 9, 2014, also in Zug. This is the non-profit foundation that receives and stewards the funds raised. Once the presale completed, operations transferred from EthSuisse to the Foundation. EthSuisse was eventually liquidated.
 
 Why both? Because Swiss foundation law separates the fundraising mechanics from the fund custody in a way that made the legal risk manageable. The foundation cannot distribute funds to its founders as profit. It is legally obligated to use assets for its stated purpose — in this case, supporting Ethereum's development. For a 2014 token sale with no regulatory template, that structural constraint was a feature, not a limitation. It made the presale defensible to participants: the funds would not simply disappear into a founder's pocket.
 
 This is the part of the origin story that gets glossed over in the "Switzerland has low taxes" summary. The tax environment was a secondary benefit. The foundation structure was the primary enabler.
 
 {{< skip-box title="What this field note does not cover" >}}
-This is a history of Ethereum's legal and structural origin in Zug, not a guide to Swiss foundation law for crypto projects. The regulatory landscape has changed substantially since 2014 — including the DLT Act (2021), FINMA's updated crypto guidance, and MiCA's indirect influence. For how Swiss crypto regulation works today, the [field note on FINMA Guidance 01/2026](/posts/finma-crypto-guidance-01-2026/) and the [MiCA vs FINMA comparison](/posts/mica-vs-finma-field-note/) cover the current framework. For how Swiss crypto tax works for individual holders today, see the [Swiss crypto tax advantage guide](/posts/swiss-crypto-tax-advantage-guide/).
+This is a history of Ethereum's legal and structural origin in Zug, not a guide to Swiss foundation law for crypto projects. The regulatory landscape has changed substantially since 2014 — including the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act) (2021), FINMA's updated crypto guidance, and [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets)'s indirect influence. For how Swiss crypto regulation works today, the [field note on FINMA Guidance 01/2026](/posts/finma-crypto-guidance-01-2026/) and the [MiCA vs FINMA comparison](/posts/mica-vs-finma-field-note/) cover the current framework. For how Swiss crypto tax works for individual holders today, see the [Swiss crypto tax advantage guide](/posts/swiss-crypto-tax-advantage-guide/).
 {{< /skip-box >}}
 
 ## The June 7 Meeting and the Decision to Go Non-Profit
 
 The legal structure was not inevitable. It was decided at a specific meeting, on a specific date, in Zug.
 
-On June 7, 2014, all eight of Ethereum's co-founders gathered in Switzerland for an internal summit. The gathering happened at a rented house that the team called "the spaceship" — a modest property in the Canton of Zug that functioned as something between a meeting room and a hostel. Ethereum Foundation advisor Bernd Lapp later described it: "It was like a shoe box. A family house. People were living there on mattresses, almost like a hostel."
+On June 7, 2014, all eight of Ethereum's co-founders gathered in Switzerland for an internal summit. The gathering happened at a rented house that the team called "the spaceship" — a modest property in the [Canton of Zug](https://en.wikipedia.org/wiki/Canton_of_Zug) that functioned as something between a meeting room and a hostel. Ethereum Foundation advisor Bernd Lapp later described it: "It was like a shoe box. A family house. People were living there on mattresses, almost like a hostel."
 
 The agenda was consequential: what kind of entity should Ethereum be? The options on the table ranged from a for-profit company to various partnership structures to a non-profit foundation. Vitalik Buterin, at that meeting, told the assembled co-founders that the project would proceed as a non-profit. The decision was not unanimous in the room — it meant some co-founders would receive significantly less financial upside than a for-profit structure would allow. Charles Hoskinson and Amir Chetrit, both of whom had pushed for a commercial model, departed the project shortly after.
 
@@ -101,9 +101,9 @@ Vitalik Buterin is the name that attaches to Ethereum's founding. The person who
 
 Alisie, one of the eight co-founders, handled the administrative groundwork that most blockchain origin stories skip. He incorporated the initial Swiss startup. He opened a bank account for the project — "not an easy process," as he later described it, understating considerably the difficulty of convincing a traditional Swiss bank to take on a crypto company in early 2014. He dealt with lawyers, Swiss officials, and the regulatory framework necessary to conduct the presale legally.
 
-While doing this work in Zug in 2014, Alisie coined a phrase in conversation with the city's economic promotion office. Discussing the potential for Zug to become a hub for blockchain companies, he described it as a "Crypto Valley" — a Silicon Valley for the emerging technology. The name stuck before the concept it described fully existed.
+While doing this work in Zug in 2014, Alisie coined a phrase in conversation with the city's economic promotion office. Discussing the potential for Zug to become a hub for blockchain companies, he described it as a "[Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley)" — a Silicon Valley for the emerging technology. The name stuck before the concept it described fully existed.
 
-The Crypto Valley Association would not be formally founded until January 2017. But the term was circulating in Zug from 2014, rooted in Alisie's conversations with local officials during the period when he was doing the legal groundwork for Ethereum's Swiss structure.
+The [Crypto Valley Association](https://cryptovalley.swiss/) would not be formally founded until January 2017. But the term was circulating in Zug from 2014, rooted in Alisie's conversations with local officials during the period when he was doing the legal groundwork for Ethereum's Swiss structure.
 
 Alisie served as vice-president of the Ethereum Foundation until late 2015, then shifted focus to Akasha, a social application built on Ethereum. The administrative work he did in 2014 remains the operational foundation of everything that came after.
 
@@ -153,4 +153,4 @@ The rest is the history you can read in the official reports. This is the part t
 
 ---
 
-*Related field notes: [What Crypto Valley Actually Looks Like in 2026](/posts/crypto-valley-2026-snapshot/) — the ecosystem that grew from this 2014 foundation, in numbers. [The ICO Boom Seen From Zug: What 2017-2018 Was Actually Like](/posts/ico-boom-zug-2017-2018/) — the wave that followed Ethereum's legal template, when it started getting applied carelessly. [MiCA vs FINMA: A Field Note from Someone Who Watches Both](/posts/mica-vs-finma-field-note/) — how the regulatory framework that made Ethereum possible in 2014 compares to today's Swiss and EU frameworks.*
+*Related field notes: [What Crypto Valley Actually Looks Like in 2026](/posts/crypto-valley-2026-snapshot/) — the ecosystem that grew from this 2014 foundation, in numbers. [The [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) Boom Seen From Zug: What 2017-2018 Was Actually Like](/posts/ico-boom-zug-2017-2018/) — the wave that followed Ethereum's legal template, when it started getting applied carelessly. [MiCA vs FINMA: A Field Note from Someone Who Watches Both](/posts/mica-vs-finma-field-note/) — how the regulatory framework that made Ethereum possible in 2014 compares to today's Swiss and EU frameworks.*

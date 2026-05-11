@@ -44,17 +44,17 @@ sources:
 ---
 
 > 📅 Field note from: April 2022 | Last updated: May 2026
-> Originally written when Swiss tax authorities first issued clear staking guidance; updated with current cantonal practice and post-Merge staking context in May 2026.
+> Originally written when Swiss tax authorities first issued clear [staking](https://en.wikipedia.org/wiki/Proof_of_stake) guidance; updated with current cantonal practice and post-Merge staking context in May 2026.
 
 Most explanations of Swiss crypto tax policy start with the good news: capital gains are tax-free for private investors. That part is accurate and important.
 
 What those same explanations often understate is what happens when your crypto generates yield. Staking rewards do not fall under the capital gains exemption. They are taxed as ordinary income — and understanding exactly why, and what that means across different staking setups and Swiss cantons, takes a bit more unpacking than the headline suggests.
 
-This field note covers the logic behind the income classification, the interaction with wealth tax (which creates a double-layer effect that catches people off guard), and the practical differences between staking in Zug versus Zurich versus Geneva.
+This field note covers the logic behind the income classification, the interaction with [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) (which creates a double-layer effect that catches people off guard), and the practical differences between staking in Zug versus Zurich versus Geneva.
 
 ## Why Staking Rewards Are Not Capital Gains
 
-The Swiss Federal Tax Administration's (SFTA) position on staking rewards has been consistent since its December 2021 working paper on cryptocurrency taxation: staking rewards are taxable income, not capital gains.
+The Swiss [Federal Tax Administration](https://www.estv.admin.ch/estv/en/home.html)'s (SFTA) position on staking rewards has been consistent since its December 2021 working paper on cryptocurrency taxation: staking rewards are taxable income, not capital gains.
 
 The legal reasoning follows from how Swiss tax law categorizes asset returns. Capital gains — the increase in value of an asset you bought and later sold — are tax-free for private investors. But income earned *through* holding an asset (dividends, interest, and by analogy, staking rewards) falls into a different category: **Kapitalertrag**, or capital income from movable assets.
 
@@ -99,9 +99,9 @@ The federal position on staking rewards as income is uniform. But Switzerland's 
 
 The same CHF 5,000 in staking rewards costs roughly CHF 1,100 in income tax for a Zug resident and roughly CHF 2,150 for a Geneva resident. The difference compounds at scale.
 
-This is not a novel observation — it is why a disproportionate share of Swiss crypto holders, validators, and staking operations are based in Zug and Schwyz. The cantonal income tax treatment of staking rewards is one of the variables that makes Crypto Valley's location relevant to something other than the weather.
+This is not a novel observation — it is why a disproportionate share of Swiss crypto holders, validators, and staking operations are based in Zug and Schwyz. The cantonal income tax treatment of staking rewards is one of the variables that makes [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley)'s location relevant to something other than the weather.
 
-## Pool Staking, Liquid Staking, and DeFi: Where Treatment Gets More Complex
+## Pool Staking, Liquid Staking, and [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance): Where Treatment Gets More Complex
 
 The basic income-at-receipt rule applies cleanly to direct staking: you validate, you receive rewards, you declare them. But the staking landscape has grown more complicated since 2022, and Swiss tax guidance has not fully caught up with every variant.
 
@@ -109,7 +109,7 @@ The basic income-at-receipt rule applies cleanly to direct staking: you validate
 
 **Liquid staking tokens** (stETH, rETH, cbETH, and similar) add a layer of complexity. When you deposit ETH into Lido, you receive stETH — a token that accrues staking rewards by increasing in value rather than distributing periodic rewards directly. The SFTA has not issued specific guidance on liquid staking tokens as of 2025. Practitioner consensus is that the accrued value of liquid staking tokens is treated as income when it becomes realizable (i.e., when you unstake and receive ETH), but this remains an area of genuine uncertainty. If you hold significant liquid staking positions, this is worth discussing with a Swiss tax advisor before year-end.
 
-**DeFi yield farming and lending protocols** fall into the same income category as staking, but with more case-by-case judgment. Yield from lending ETH or stablecoins on Aave or Compound is treated as capital income at receipt. Complex DeFi positions — impermanent loss compensation, governance token rewards, protocol incentives — are often assessed individually by cantonal offices. The principle remains: if you receive tokens as compensation for providing capital or services, that is income.
+**DeFi yield farming and lending protocols** fall into the same income category as staking, but with more case-by-case judgment. Yield from lending ETH or [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s on Aave or Compound is treated as capital income at receipt. Complex DeFi positions — impermanent loss compensation, governance token rewards, protocol incentives — are often assessed individually by cantonal offices. The principle remains: if you receive tokens as compensation for providing capital or services, that is income.
 
 {{< num-highlight number="Date of Receipt" label="The valuation date for all staking and DeFi reward income — not the date you sell, swap, or unstake" >}}
 
@@ -117,7 +117,7 @@ The basic income-at-receipt rule applies cleanly to direct staking: you validate
 
 For most stakers, AHV (Swiss social security) is not relevant. The SFTA's position is that staking by private individuals as a passive income activity does not trigger AHV contributions — it is analogous to receiving interest on a bond, not to running a business.
 
-The exception: solo validation at scale. If you are running Ethereum validators full-time as a business activity, managing significant infrastructure, or treating staking as your primary professional occupation, cantonal tax authorities may reclassify this as self-employment income. That triggers AHV contributions on top of the income tax — currently around 10.6% for self-employed individuals (combined AHV/IV/EO rate, 2024-2025 rate).
+The exception: solo validation at scale. If you are running [Ethereum](https://en.wikipedia.org/wiki/Ethereum) validators full-time as a business activity, managing significant infrastructure, or treating staking as your primary professional occupation, cantonal tax authorities may reclassify this as self-employment income. That triggers AHV contributions on top of the income tax — currently around 10.6% for self-employed individuals (combined AHV/IV/EO rate, 2024-2025 rate).
 
 For the vast majority of people who stake through platforms or delegate to pools, this threshold is not reached. But if you are a professional validator or have structured your staking activity as a business, the AHV question is worth addressing explicitly.
 

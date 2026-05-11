@@ -21,20 +21,20 @@ glossary:
 sources:
   - name: "FINMA — Enforcement proceedings against envion AG (March 2019)"
     url: "https://www.finma.ch/en/news/2019/03/20190327---mm---envion/"
-    desc: "finma.ch — official FINMA press release confirming Envion's ICO illegal and enforcement outcome, March 27, 2019"
-  - name: "SWI swissinfo.ch — Watchdog confirms illegal activity by cryptocurrency firm Envion"
+    desc: "finma.ch — official [FINMA](https://www.finma.ch/en/) press release confirming Envion's [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) illegal and enforcement outcome, March 27, 2019"
+  - name: "SWI [swissinfo](https://www.swissinfo.ch/eng).ch — Watchdog confirms illegal activity by cryptocurrency firm Envion"
     url: "https://www.swissinfo.ch/eng/business/banking-licence_watchdog-confirms-illegal-activity-by-cryptocurrency-firm-envion/44854350"
     desc: "swissinfo.ch — reporting on FINMA's Envion enforcement action, 2019"
-  - name: "CV VC — Top 50 Report: Swiss Blockchain Industry Defying Crypto Winter"
+  - name: "[CV VC](https://cvvc.com/) — Top 50 Report: Swiss Blockchain Industry Defying Crypto Winter"
     url: "https://medium.com/cv-vc/top-50-report-swiss-blockchain-industry-defying-crypto-winter-8b245760e4d2"
     desc: "CV VC Medium — Q4 2018 Top 50 report showing market cap decline from $44B to $20B and ecosystem resilience data"
   - name: "FINMA — Banking and securities dealer licences for two providers of blockchain services"
     url: "https://www.finma.ch/en/news/2019/08/20190826-mm-banken-wertpapierhaendler/"
-    desc: "finma.ch — official press release granting SEBA and Sygnum their banking licences, August 26, 2019"
+    desc: "finma.ch — official press release granting [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) their banking licences, August 26, 2019"
   - name: "SWI swissinfo.ch — Switzerland's first crypto banks receive licences"
     url: "https://www.swissinfo.ch/eng/business/crypto-banks/45067690"
     desc: "swissinfo.ch — reporting on the August 2019 SEBA and Sygnum licensing event"
-  - name: "Crypto Valley Pioneers — Top Five Tops and Flops in Crypto Valley"
+  - name: "[Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) Pioneers — Top Five Tops and Flops in Crypto Valley"
     url: "https://www.cryptovalleypioneers.ch/en/top-five-tops-und-flops-im-crypto-valley/"
     desc: "cryptovalleypioneers.ch — historical summary of Crypto Valley's major successes and failures including Envion and Swiss Real Coin"
   - name: "FintechNews Switzerland — Crypto Valley's Top 50 Blockchain Startups in 2019"
@@ -45,7 +45,7 @@ sources:
 > 📅 Field note from: January 2019 | Last updated: May 2026
 > Originally written at the depth of the 2018-2019 crypto winter from inside Zug; updated with seven years of post-recovery perspective in May 2026.
 
-January 2019. Bitcoin was trading around $3,500 — down 82% from its December 2017 peak. The Bahnhofstrasse in Zug was as quiet as it always is in winter, which is to say: very quiet. A few crypto-branded hoodies visible in the coffee shop near the station. Fewer than there had been a year earlier.
+January 2019. [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) was trading around $3,500 — down 82% from its December 2017 peak. The Bahnhofstrasse in Zug was as quiet as it always is in winter, which is to say: very quiet. A few crypto-branded hoodies visible in the coffee shop near the station. Fewer than there had been a year earlier.
 
 That's what I want to document here: not the price chart (you've seen it), but what the winter actually felt like from inside the town that had spent two years calling itself the world's crypto capital. What closed. What survived. And why one piece of news in August 2019 mattered more than any token recovery.
 
@@ -77,13 +77,13 @@ Envion's failure was not primarily a market story — it was a governance story.
 
 What is notable about 2019, in retrospect, is how many substantial operations did not leave.
 
-**The Ethereum Foundation** maintained its Zug presence. Ethereum's market cap was a fraction of its peak — but the Foundation was not an ICO startup with a treasury problem. It had structured itself deliberately for a long time horizon, and Zug's legal and regulatory environment remained one of the few places where a non-profit foundation controlling a large crypto asset pool had a coherent legal framework.
+**The [Ethereum](https://en.wikipedia.org/wiki/Ethereum) Foundation** maintained its Zug presence. Ethereum's market cap was a fraction of its peak — but the Foundation was not an ICO startup with a treasury problem. It had structured itself deliberately for a long time horizon, and Zug's legal and regulatory environment remained one of the few places where a non-profit foundation controlling a large crypto asset pool had a coherent legal framework.
 
-**The Cardano Foundation**, headquartered in Zug since 2016, stayed. **Tezos Foundation** stayed — despite the very public governance dispute between the Foundation's board and the Breitmans that had dominated 2018 headlines. Tezos was a cautionary tale about foundation governance (see [the ICO boom field note for the backstory](/posts/ico-boom-zug-2017-2018/)), but the Foundation itself remained operational in Zug throughout the winter.
+**The [Cardano](https://en.wikipedia.org/wiki/Cardano_(blockchain_platform)) Foundation**, headquartered in Zug since 2016, stayed. **[Tezos](https://en.wikipedia.org/wiki/Tezos) Foundation** stayed — despite the very public governance dispute between the Foundation's board and the Breitmans that had dominated 2018 headlines. Tezos was a cautionary tale about foundation governance (see [the ICO boom field note for the backstory](/posts/ico-boom-zug-2017-2018/)), but the Foundation itself remained operational in Zug throughout the winter.
 
 The firms that stayed shared a common feature: they were either well-capitalised enough to weather the drawdown, or they were infrastructure-layer projects whose value proposition did not depend on token price. A smart contract platform is not less useful when ETH is at $90.
 
-CV Labs, which opened on Dammstrasse 16 in 2018 — right at the start of the winter — continued operating. The co-working space and incubator was quieter than it would become, but it was open. [The CV Labs field note covers what the space looked like in later years](/posts/cv-labs-zug-coworking-scene/); in early 2019, the hallways were less crowded, the coffee mornings smaller, but the doors were open.
+[CV Labs](https://cvlabs.com/), which opened on Dammstrasse 16 in 2018 — right at the start of the winter — continued operating. The co-working space and incubator was quieter than it would become, but it was open. [The CV Labs field note covers what the space looked like in later years](/posts/cv-labs-zug-coworking-scene/); in early 2019, the hallways were less crowded, the coffee mornings smaller, but the doors were open.
 
 ## The Morale Reading: January 2019
 
@@ -97,7 +97,7 @@ One thing I remember clearly: conversations about building for the long term fel
 
 ## The Licensing Signal: Why August 2019 Mattered
 
-On August 26, 2019, FINMA granted banking and securities dealer licences to **SEBA Bank** (Zug) and **Sygnum** (Zurich). These were the first banking licences ever issued to pure-play crypto firms by a reputed financial authority.
+On August 26, 2019, FINMA granted banking and securities dealer licences to **[SEBA Bank](https://en.wikipedia.org/wiki/SEBA_Bank)** (Zug) and **Sygnum** (Zurich). These were the first banking licences ever issued to pure-play crypto firms by a reputed financial authority.
 
 I am covering this briefly here because [the full field report on that day is in the R04 piece](/posts/finma-crypto-license-2019/). But from the perspective of what the crypto winter felt like and when it started to feel like it might end: this was the moment.
 

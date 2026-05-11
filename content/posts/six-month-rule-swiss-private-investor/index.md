@@ -48,7 +48,7 @@ sources:
 
 The Swiss crypto tax headline is simple: capital gains are tax-free for private investors. Most people stop reading there.
 
-What the headline omits is that "private investor" is not a default state. It is a classification you need to actively maintain — and the Swiss Federal Tax Administration has published five specific criteria that determine whether you qualify.
+What the headline omits is that "private investor" is not a default state. It is a classification you need to actively maintain — and the Swiss [Federal Tax Administration](https://www.estv.admin.ch/estv/en/home.html) has published five specific criteria that determine whether you qualify.
 
 The six-month holding rule is the most frequently cited of the five. It is also the most misunderstood. Holding for six months does not automatically make you a private investor. It is one condition among five, and failing any one of them can put your entire capital gains exemption at risk.
 
@@ -58,7 +58,7 @@ This field note covers all five criteria, what borderline cases actually look li
 
 Before getting into the criteria, it helps to understand what is actually at stake.
 
-A private investor who sells CHF 500,000 worth of Bitcoin at a gain: pays zero capital gains tax. None. The same outcome in Germany, France, or the UK would trigger a substantial tax bill.
+A private investor who sells CHF 500,000 worth of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) at a gain: pays zero capital gains tax. None. The same outcome in Germany, France, or the UK would trigger a substantial tax bill.
 
 The same person, reclassified as a professional securities dealer: pays income tax on those same gains. At Zug's marginal rates, that could be 18–25%. At Geneva's rates, closer to 40–43%. And on top of income tax, AHV contributions apply — roughly 10.6% on the taxable income from trading.
 
@@ -121,11 +121,11 @@ If you are actively managing a portfolio and want confidence about your classifi
 
 ## The Interaction with Wealth Tax and Staking Income
 
-Private investor status affects capital gains tax — it does not change your wealth tax obligations. Every crypto holder in Switzerland, regardless of classification, pays annual cantonal wealth tax on their portfolio value as of December 31st.
+Private investor status affects capital gains tax — it does not change your [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) obligations. Every crypto holder in Switzerland, regardless of classification, pays annual cantonal wealth tax on their portfolio value as of December 31st.
 
 The [Swiss Crypto Tax Advantage guide](/posts/swiss-crypto-tax-advantage-guide/) covers the full structure: what qualifies for the capital gains exemption, how wealth tax works separately, and why the combination is still favorable compared to most European jurisdictions.
 
-Staking income adds another layer. If you stake ETH while holding it as part of a long-term private investor strategy, the staking rewards themselves are taxed as income — that part is unaffected by your private investor classification. The classification only matters for capital gains. The [staking income field note](/posts/staking-rewards-swiss-income-tax/) covers this distinction in detail.
+Staking income adds another layer. If you stake ETH while holding it as part of a long-term private investor strategy, the [staking](https://en.wikipedia.org/wiki/Proof_of_stake) rewards themselves are taxed as income — that part is unaffected by your private investor classification. The classification only matters for capital gains. The [staking income field note](/posts/staking-rewards-swiss-income-tax/) covers this distinction in detail.
 
 And separately, the [wealth tax calculation field note](/posts/swiss-wealth-tax-crypto-calculation/) explains how the December 31st portfolio snapshot works, including the SFTA Kursliste reference rates — which applies to all crypto holders, private investors and professional traders alike.
 

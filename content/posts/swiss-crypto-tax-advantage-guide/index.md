@@ -48,13 +48,13 @@ sources:
 ---
 
 > 📅 Original post: August 2024 | Last updated: May 2026
-> Swiss tax rules verified against SFTA Circular No. 36 and the 2025 FTA rate list. Canton-level wealth tax rates current as of 2025. Rules can change — treat this as a starting map, not a filing instruction.
+> Swiss tax rules verified against SFTA Circular No. 36 and the 2025 FTA rate list. Canton-level [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) rates current as of 2025. Rules can change — treat this as a starting map, not a filing instruction.
 
 The headline travels well: Switzerland does not tax capital gains on crypto.
 
 That part is accurate. A private investor in Switzerland who buys ETH, holds it, and sells it at a profit pays zero tax on that profit. The gain is simply not subject to income tax or a separate capital gains levy. In a world where most developed countries are building increasingly aggressive crypto tax regimes, this is a genuine structural advantage.
 
-The part that gets less airtime in the promotional summaries: you will pay wealth tax on the full market value of your portfolio every year, staking rewards are taxed as ordinary income when you receive them, and the "private investor" classification that makes the capital gains exemption possible is not automatic — it requires you to meet five specific criteria, and Swiss cantonal authorities do scrutinize high-volume traders.
+The part that gets less airtime in the promotional summaries: you will pay wealth tax on the full market value of your portfolio every year, [staking](https://en.wikipedia.org/wiki/Proof_of_stake) rewards are taxed as ordinary income when you receive them, and the "private investor" classification that makes the capital gains exemption possible is not automatic — it requires you to meet five specific criteria, and Swiss cantonal authorities do scrutinize high-volume traders.
 
 This field note is the long version. It covers how the full tax picture actually works for someone holding crypto in Switzerland, where the canton-level differences matter most, and what the year-end December 31st valuation moment means in practice.
 
@@ -100,7 +100,7 @@ Switzerland levies a cantonal wealth tax (Vermögenssteuer) on net assets once p
 
 The SFTA publishes an official rate list (Kursliste) each year, typically in February or March following the close of the tax year. This list specifies the official CHF value of listed cryptocurrencies on December 31st — the values cantonal tax authorities are required to use.
 
-For the 2024 tax year (filed in 2025): Bitcoin's official SFTA reference value on December 31, 2024 was CHF 88,060. Ethereum's was CHF 3,271. For cryptocurrencies not on the official list, most cantons accept documented market prices from platforms like coinmarketcap.com on that date.
+For the 2024 tax year (filed in 2025): [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)'s official SFTA reference value on December 31, 2024 was CHF 88,060. [Ethereum](https://en.wikipedia.org/wiki/Ethereum)'s was CHF 3,271. For cryptocurrencies not on the official list, most cantons accept documented market prices from platforms like coinmarketcap.com on that date.
 
 {{< num-highlight value="Dec 31" label="The only date that determines your taxable crypto wealth" note="Hold or sell before midnight: that determines whether the position appears in your wealth tax declaration for that year." >}}
 
@@ -167,7 +167,7 @@ Switzerland's tax federalism means that effective tax rates vary significantly b
 
 ## Crypto Not on the SFTA List: How to Declare It
 
-The SFTA rate list covers the major cryptocurrencies — Bitcoin, Ethereum, and some others. For tokens, DeFi positions, NFTs, and smaller assets, the approach is:
+The SFTA rate list covers the major cryptocurrencies — Bitcoin, Ethereum, and some others. For tokens, [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) positions, NFTs, and smaller assets, the approach is:
 
 - Use the documented market price on December 31st from a reputable source (coinmarketcap.com is widely accepted by cantonal offices).
 - Keep records of the source and the timestamp. Cantons do not always specify a format, but a screenshot with date, platform, and CHF conversion provides a clear audit trail.
@@ -195,7 +195,7 @@ No. Selling before six months does not automatically make you a professional tra
 
 **What happens to crypto held at a Swiss bank or custodian for wealth tax purposes?**
 
-The position is still fully included in your wealth tax declaration. The institution you use to hold crypto does not change the tax treatment — FINMA's custody rules (covered in a [related field note on Guidance 01/2026](/posts/finma-crypto-guidance-01-2026/)) govern how the institution must handle the assets, not whether the assets are taxable. If the institution segregates your crypto properly under the DLT Act framework, it remains your asset and appears in your wealth tax declaration at its December 31st value.
+The position is still fully included in your wealth tax declaration. The institution you use to hold crypto does not change the tax treatment — [FINMA](https://www.finma.ch/en/)'s custody rules (covered in a [related field note on Guidance 01/2026](/posts/finma-crypto-guidance-01-2026/)) govern how the institution must handle the assets, not whether the assets are taxable. If the institution segregates your crypto properly under the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act) framework, it remains your asset and appears in your wealth tax declaration at its December 31st value.
 
 **Is staking income taxed at federal or cantonal rates?**
 
@@ -227,4 +227,4 @@ That is, as frameworks go, not a bad deal.
 
 *Field notes are observations, not legal or tax advice. Swiss cantonal tax law changes and is interpreted with discretion at the cantonal level. For significant positions or complex situations, a qualified Swiss tax advisor or a written cantonal ruling (*Steuerruling*) is the appropriate next step.*
 
-*Related: [FINMA's Crypto Guidance 01/2026 — What It Actually Means for Custody](/posts/finma-crypto-guidance-01-2026/) | [What Crypto Valley Actually Looks Like in 2026](/posts/crypto-valley-2026-snapshot/)*
+*Related: [FINMA's Crypto Guidance 01/2026 — What It Actually Means for Custody](/posts/finma-crypto-guidance-01-2026/) | [What [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) Actually Looks Like in 2026](/posts/crypto-valley-2026-snapshot/)*

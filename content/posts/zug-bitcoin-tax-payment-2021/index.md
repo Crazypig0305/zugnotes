@@ -37,9 +37,9 @@ sources:
 ---
 
 > 📅 Field note from: September 2021 | Last updated: May 2026
-> Originally written shortly after Canton Zug's first full tax year accepting Bitcoin and Ether; updated with five years of practical observations in May 2026.
+> Originally written shortly after Canton Zug's first full tax year accepting [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and Ether; updated with five years of practical observations in May 2026.
 
-By September 2021, the headline had been running for seven months. "Crypto Valley Lets You Pay Taxes in Bitcoin." It appeared in every major crypto publication, most of the Swiss financial press, and a surprising number of mainstream technology outlets that had never previously cared about Zug.
+By September 2021, the headline had been running for seven months. "[Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) Lets You Pay Taxes in Bitcoin." It appeared in every major crypto publication, most of the Swiss financial press, and a surprising number of mainstream technology outlets that had never previously cared about Zug.
 
 What the headlines rarely explained was how the system actually worked, what the practical constraints were, or why a crypto-skeptical reader should find this more interesting than a novelty payment stunt.
 
@@ -51,7 +51,7 @@ The 2021 announcement did not come from nowhere. It was the third act of a progr
 
 In July 2016, the City of Zug — note the distinction: the city municipality, not the canton — launched a small pilot program accepting Bitcoin for government service fees up to CHF 200. Birth certificates, proof-of-residence documents, administrative copies. Roughly a dozen transactions were completed in the first two months. By most commercial measures, the pilot was a near-zero event.
 
-But the city council was explicit about what they were actually doing: signaling. Zug was already attracting blockchain companies at a meaningful rate. Ethereum's foundation had incorporated there in 2014. The ICO wave of 2017 would shortly bring a flood of new registrations. The CHF 200 Bitcoin pilot was a public statement about what kind of place Zug intended to be — not a revenue initiative.
+But the city council was explicit about what they were actually doing: signaling. Zug was already attracting blockchain companies at a meaningful rate. [Ethereum](https://en.wikipedia.org/wiki/Ethereum)'s foundation had incorporated there in 2014. The [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) wave of 2017 would shortly bring a flood of new registrations. The CHF 200 Bitcoin pilot was a public statement about what kind of place Zug intended to be — not a revenue initiative.
 
 The signal was received. International coverage of the pilot was disproportionate to its practical scale. That disproportionality was precisely the point.
 
@@ -67,7 +67,7 @@ On February 18, 2021 — during the first major Bitcoin bull run since 2017, wit
 
 The ceiling was set at CHF 100,000 per tax invoice. An invoice below that threshold could be paid in crypto; an invoice above it had to be paid in CHF. Partial payment — some crypto, some CHF — was not permitted. You chose one payment method per bill.
 
-The operational mechanics were handled by Bitcoin Suisse, headquartered in Zug and already one of the most established Swiss crypto-financial services firms. When a taxpayer chose to pay in BTC or ETH, Bitcoin Suisse processed the transaction, converted the cryptocurrency to Swiss Francs at the prevailing exchange rate, and transferred CHF to the cantonal Finance Department.
+The operational mechanics were handled by [Bitcoin Suisse](https://www.bitcoinsuisse.com/), headquartered in Zug and already one of the most established Swiss crypto-financial services firms. When a taxpayer chose to pay in BTC or ETH, Bitcoin Suisse processed the transaction, converted the cryptocurrency to Swiss Francs at the prevailing exchange rate, and transferred CHF to the cantonal Finance Department.
 
 The canton never held crypto. This detail matters: Zug was not making a statement about Bitcoin as a store of value or about the future of money. It was accepting crypto as an input and immediately converting it to CHF. The exchange rate risk sat entirely with the taxpayer between the moment they decided to pay and the moment the transaction was processed.
 
@@ -86,7 +86,7 @@ By 2023, two years after launch, Canton Zug had processed approximately 150 cryp
 
 One hundred and fifty transactions across two years in a canton with 130,000+ residents and thousands of registered companies is a number worth sitting with. It tells you something specific about who the system was actually serving.
 
-The average transaction of CHF 13,300 is not a mid-size income taxpayer paying their annual bill. It is a person or entity with a meaningful crypto position — a wealth tax payment on a significant holding, or a corporate tax liability for one of the crypto-native companies that registered in Zug precisely because of the ecosystem. The system was used by the people it was designed to serve: holders with large enough positions that paying taxes directly in crypto had genuine convenience or accounting value.
+The average transaction of CHF 13,300 is not a mid-size income taxpayer paying their annual bill. It is a person or entity with a meaningful crypto position — a [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) payment on a significant holding, or a corporate tax liability for one of the crypto-native companies that registered in Zug precisely because of the ecosystem. The system was used by the people it was designed to serve: holders with large enough positions that paying taxes directly in crypto had genuine convenience or accounting value.
 
 The broader population of Zug residents with modest crypto holdings continued to pay taxes in CHF. This was not a failure of the program — it was the program working as designed. Optional infrastructure for those with a specific use case.
 
@@ -103,7 +103,7 @@ Zug's approach was structurally different at every point. Crypto was an optional
 The Zug model succeeded as measured by its actual goal: demonstrating that a properly regulated jurisdiction could integrate crypto payment infrastructure for government services without operational disruption. That is a significantly narrower claim than "Bitcoin as money," and it is sustainable precisely because it is narrower.
 
 {{< skip-box title="What Zug's model was not" >}}
-The Canton of Zug's 2021 tax payment program was not a statement about Bitcoin as legal tender, a crypto reserve policy, or an endorsement of any particular blockchain. It was an optional payment channel for a single use case, immediately converting to CHF, with CHF 100,000 cap. The framework is specifically designed to be immune to crypto price volatility.
+The [Canton of Zug](https://en.wikipedia.org/wiki/Canton_of_Zug)'s 2021 tax payment program was not a statement about Bitcoin as legal tender, a crypto reserve policy, or an endorsement of any particular blockchain. It was an optional payment channel for a single use case, immediately converting to CHF, with CHF 100,000 cap. The framework is specifically designed to be immune to crypto price volatility.
 {{< /skip-box >}}
 
 ## Why September 2021 Felt Like the Right Moment
@@ -126,7 +126,7 @@ The city's 2016 pilot had established a handful of merchants accepting Bitcoin i
 
 What was not there: mainstream grocery retail, pharmacies, public transport, any of the large Swiss chains. The [daily use reality in Zug](/posts/crypto-day-to-day-zug/) in 2021 was that crypto payments worked where someone had made a specific decision to accept them, and nowhere else. The tax system was the cleanest implementation precisely because it involved a single counterparty (the canton), a single institution managing the conversion (Bitcoin Suisse), and a well-defined use case.
 
-The [broader Crypto Valley ecosystem](/posts/crypto-valley-2026-snapshot/) in 2021 was also at an interesting inflection point. The 2020-2021 bull market had brought new attention and new registrations. The DeFi boom was generating interest in Swiss-based entities. The question of how FINMA would approach DeFi, NFTs, and the evolving token landscape was live but unresolved.
+The [broader Crypto Valley ecosystem](/posts/crypto-valley-2026-snapshot/) in 2021 was also at an interesting inflection point. The 2020-2021 bull market had brought new attention and new registrations. The [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) boom was generating interest in Swiss-based entities. The question of how [FINMA](https://www.finma.ch/en/) would approach DeFi, NFTs, and the evolving token landscape was live but unresolved.
 
 The tax payment announcement fitted that moment: it was practical, limited, and deliberately unglamorous. In a year when every crypto headline was fighting for maximum drama, a well-functioning tax payment system that processed 150 transactions quietly was almost conspicuously undramatic.
 

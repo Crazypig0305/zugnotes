@@ -53,9 +53,9 @@ sources:
 ---
 
 > 📅 Original post: March 2024 | Last updated: May 2026
-> CV Labs tenant and incorporation figures drawn from CV VC official data (published May 2025, covering 2024 results). Trust Square figures from official site as of early 2026.
+> [CV Labs](https://cvlabs.com/) tenant and incorporation figures drawn from [CV VC](https://cvvc.com/) official data (published May 2025, covering 2024 results). Trust Square figures from official site as of early 2026.
 
-The building that calls itself the heartbeat of Crypto Valley sits on Dammstrasse 16, a two-minute walk from Zug train station. It is not hard to find. The question worth asking before you commit to a desk there is whether the claim holds up when you look past the tagline.
+The building that calls itself the heartbeat of [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) sits on Dammstrasse 16, a two-minute walk from Zug train station. It is not hard to find. The question worth asking before you commit to a desk there is whether the claim holds up when you look past the tagline.
 
 This is a field note on what the Zug co-working scene actually looks like in practice — the density that CV Labs represents, what its community events are actually like, why some crypto companies in Zug choose not to be there, and where Trust Square fits into the picture as the Zurich alternative that comes up in almost every comparison conversation.
 
@@ -101,7 +101,7 @@ The answer is usually one of three things.
 
 **They have grown past the format.** A company that started with two founders sharing a hot desk and has since hired fifteen people will often move to a dedicated leased office in Zug or nearby. CV Labs works well for the early-to-mid stage. At a certain headcount, the density advantages get outweighed by the noise and layout constraints of shared space.
 
-**They are using domicile elsewhere.** Not every registered company in Zug is trying to build community. A token foundation that needs a Swiss address and FINMA-legible structure may register a domicile with a Zug fiduciary service or law firm rather than CV Labs, handle its banking through SEBA or Sygnum, and have its actual working team in Lisbon or London. The canton is the address; the co-working is optional.
+**They are using domicile elsewhere.** Not every registered company in Zug is trying to build community. A token foundation that needs a Swiss address and [FINMA](https://www.finma.ch/en/)-legible structure may register a domicile with a Zug fiduciary service or law firm rather than CV Labs, handle its banking through [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) or [Sygnum](https://www.sygnum.com/), and have its actual working team in Lisbon or London. The canton is the address; the co-working is optional.
 
 {{< budget-table title="CV Labs vs Other Zug Co-working Contexts" sub="Not a comprehensive pricing comparison — a framing of what each format actually provides" >}}
 | Space | Location | Crypto-specific | Best for | Notable limit |

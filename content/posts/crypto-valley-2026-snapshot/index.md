@@ -42,7 +42,7 @@ sources:
 ---
 
 > 📅 Original post: April 2026 | Last updated: May 2026
-> Statistics drawn from the CV VC Crypto Valley Top 50 & Ecosystem Report (published May 2025, covering 2024 data) and the CV VC 2026 funding analysis (published April 2026).
+> Statistics drawn from the [CV VC](https://cvvc.com/) [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) Top 50 & Ecosystem Report (published May 2025, covering 2024 data) and the CV VC 2026 funding analysis (published April 2026).
 
 The number that travels the farthest is 1,749.
 
@@ -58,12 +58,12 @@ Start with the context that rarely makes the summary slides.
 
 {{< num-highlight value="1,749" label="Active blockchain companies" note="Switzerland + Liechtenstein, May 2025 CV VC count. Up 132% since 2020." >}}
 
-But "active blockchain company" is a wide category. It includes the infrastructure layer (about 20% of the total), financial services firms (18%), consulting and advisory outfits (17%), and a long tail of security, audit, GameFi, NFT, DeFi, software development, and exchange businesses. The ecosystem is diverse in a way that matters: this is not a monoculture built on one protocol or one founder circle. It has redundancy.
+But "active blockchain company" is a wide category. It includes the infrastructure layer (about 20% of the total), financial services firms (18%), consulting and advisory outfits (17%), and a long tail of security, audit, GameFi, NFT, [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance), software development, and exchange businesses. The ecosystem is diverse in a way that matters: this is not a monoculture built on one protocol or one founder circle. It has redundancy.
 
 The valuation figure for the Top 50 alone — $467 billion as of April 2026 — is the number that tells you something different. It tells you that a very small number of companies hold a very large share of the value. Sixteen of the top 25 blockchain platforms by valuation are headquartered in Zug. Those sixteen account for 97% of the total Top 50 valuation. The broader 1,749 is real growth. The value concentration is a different story.
 
 {{< skip-box title="What this post does not cover" >}}
-This is an ecosystem snapshot, not a company directory. For granular breakdowns of specific firms, the [CV VC press release](https://www.cvvc.com/press-releases/crypto-valley-grows-132-since-2020-now-hosts-1-749-companies) and the full Top 50 report (downloadable via cv vc.com) are the primary sources. For what FINMA's January 2026 guidance means for how those companies must handle custody, see the [related field note on FINMA Guidance 01/2026](/posts/finma-crypto-guidance-01-2026/).
+This is an ecosystem snapshot, not a company directory. For granular breakdowns of specific firms, the [CV VC press release](https://www.cvvc.com/press-releases/crypto-valley-grows-132-since-2020-now-hosts-1-749-companies) and the full Top 50 report (downloadable via cv vc.com) are the primary sources. For what [FINMA](https://www.finma.ch/en/)'s January 2026 guidance means for how those companies must handle custody, see the [related field note on FINMA Guidance 01/2026](/posts/finma-crypto-guidance-01-2026/).
 {{< /skip-box >}}
 
 ## Zug's Monopoly: 41% of Companies, 88% of the Capital
@@ -76,7 +76,7 @@ But the incorporation share only tells part of the story. What is more striking 
 
 {{< num-highlight value="88%" label="Swiss blockchain capital concentrated in Zug" note="Of $728M raised across Switzerland in 2025. Source: CV VC Top 50 & Ecosystem Report." >}}
 
-Two reasons explain this. First, the largest companies — Sygnum Bank ($58M round in 2025), the TON ecosystem presence, the infrastructure layer firms — are based in Zug. Second, the "Crypto Valley" brand itself creates a network effect in capital: international investors arriving in Switzerland tend to fly into Zurich, take the 25-minute train to Zug, meet three companies, and go home. The brand concentrates attention, which concentrates capital, which concentrates company formation.
+Two reasons explain this. First, the largest companies — [Sygnum Bank](https://www.sygnum.com/) ($58M round in 2025), the TON ecosystem presence, the infrastructure layer firms — are based in Zug. Second, the "Crypto Valley" brand itself creates a network effect in capital: international investors arriving in Switzerland tend to fly into Zurich, take the 25-minute train to Zug, meet three companies, and go home. The brand concentrates attention, which concentrates capital, which concentrates company formation.
 
 What makes Zug's new incorporation rate particularly telling: its share of new registrations jumped from 35% in 2020 to 49% in 2024. Founders who might once have registered in Zurich for the talent pool, or Geneva for the international finance connections, are increasingly choosing Zug from the start. The regulatory predictability matters. So does the cluster effect — if your lawyers, your auditors, your potential co-founders, and your first investors all have Zug addresses, friction is lower there than anywhere else in Switzerland.
 
@@ -108,7 +108,7 @@ Here is where institutional reports and field notes diverge.
 
 Zug is a small Swiss city of about 30,000 residents. Its old town is well-preserved, its lake is beautiful by any standard, and its tax rates remain among the lowest in Switzerland. These things are all true and all widely reported.
 
-What the reports do not convey is texture: the restaurant in Altstadt where three founders and their legal team are having a working lunch that will determine whether they incorporate a foundation or a company; the coffee shop near the train station where two developers are troubleshooting a smart contract before their 2pm VC meeting; the fact that the conference rooms at CV Labs are booked three weeks out in April because May conference season is approaching and everyone is trying to close term sheets before the distraction.
+What the reports do not convey is texture: the restaurant in Altstadt where three founders and their legal team are having a working lunch that will determine whether they incorporate a foundation or a company; the coffee shop near the train station where two developers are troubleshooting a smart contract before their 2pm VC meeting; the fact that the conference rooms at [CV Labs](https://cvlabs.com/) are booked three weeks out in April because May conference season is approaching and everyone is trying to close term sheets before the distraction.
 
 The lake is genuinely expensive, incidentally. Apartment rents in Zug routinely exceed Zurich levels — the city's tax advantages attract wealth that then bids up real estate. For the founders who arrive here from Berlin or Singapore expecting the tax savings to offset living costs, the arithmetic can be surprising in the first year. The ecosystem absorbs this because the people who need to be in Zug can afford to be in Zug. That is itself a form of selection pressure.
 
@@ -152,7 +152,7 @@ The co-working scene in Zug more broadly is tighter than the company count sugge
 
 The Crypto Valley Conference 2026 runs May 28–29 in Rotkreuz — close enough to Zug to be in the same gravity field, large enough this year to have grown past a single venue. The format: 40+ presentations, 7 masterclasses, 125+ speakers, closing with a boat cruise on Lake Zug.
 
-The thematic shift from last year is instructive. The 2026 programme centres on "blockchain and Web3 for traditional banking" — the headline framing is institutional adoption, not protocol launches or NFT cycles. Thomas Moser from the Swiss National Bank is on the speaker list. So is Pascal Gauthier from Ledger and Lily Liu from the Solana Foundation.
+The thematic shift from last year is instructive. The 2026 programme centres on "blockchain and Web3 for traditional banking" — the headline framing is institutional adoption, not protocol launches or NFT cycles. Thomas Moser from the [Swiss National Bank](https://www.snb.ch/en) is on the speaker list. So is Pascal Gauthier from Ledger and Lily Liu from the [Solana](https://en.wikipedia.org/wiki/Solana_(blockchain_platform)) Foundation.
 
 The presence of a Swiss National Bank researcher at a Crypto Valley conference is not incidental. It reflects a maturation in the relationship between Switzerland's traditional financial infrastructure and its blockchain layer. FINMA's [January 2026 custody guidance](/posts/finma-crypto-guidance-01-2026/) is part of the same arc — the regulatory perimeter is being drawn more precisely, not because the regulator is becoming more hostile, but because the industry is large enough to require it.
 
@@ -168,7 +168,7 @@ All of that is accurate.
 
 The field note version: a small Swiss city with expensive rent, a concentrated co-working scene, a regulatory regime that is sophisticated but demanding, and a company register that includes both genuinely active businesses and legal entities attached to distributed teams that are physically located elsewhere.
 
-The gap between those two versions is not a contradiction. It is just the difference between a statistic and a place. The ecosystem is real and substantive. The institutions — FINMA, the DLT Act framework, the banking infrastructure at Sygnum and SEBA — are world-class. The conference in May is worth attending if you are trying to understand where the European and global crypto regulatory conversation is heading.
+The gap between those two versions is not a contradiction. It is just the difference between a statistic and a place. The ecosystem is real and substantive. The institutions — FINMA, the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act) framework, the banking infrastructure at [Sygnum](https://www.sygnum.com/) and [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) — are world-class. The conference in May is worth attending if you are trying to understand where the European and global crypto regulatory conversation is heading.
 
 What the brochure cannot tell you is whether Zug is the right place for a specific company or person right now. That depends on what you need from a jurisdiction: the legal framework, the talent, the investor proximity, the tax structure, the physical presence, or simply the address on the business card that signals to counterparties that you are part of this ecosystem.
 
