@@ -113,7 +113,7 @@ The language is targeted at the infrastructure layer of crypto ETPs and structur
 
 ## What This Actually Changes in Practice
 
-The guidance mostly formalizes expectations that FINMA had already been communicating in supervisory conversations. For the major Swiss crypto banks — [SEBA Bank](https://en.wikipedia.org/wiki/[SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)_Bank) (now rebranded), [Sygnum](https://www.sygnum.com/), and others — the operational reality changes less than the compliance documentation requirement.
+The guidance mostly formalizes expectations that FINMA had already been communicating in supervisory conversations. For the major Swiss crypto banks — [SEBA Bank](https://en.wikipedia.org/wiki/SEBA_Bank) (now rebranded), [Sygnum](https://www.sygnum.com/), and others — the operational reality changes less than the compliance documentation requirement.
 
 What does change more materially:
 

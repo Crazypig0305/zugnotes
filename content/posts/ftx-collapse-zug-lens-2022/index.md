@@ -83,7 +83,7 @@ While Zug processed the wreckage, something counterintuitive was happening at th
 
 [Sygnum](https://www.sygnum.com/), the Zurich-based crypto bank that had been fully licensed since 2019, reported significant inflows of CHF 270 million in the first weeks of November 2022, with the figure expected to reach at least CHF 400 million by month's end. CEO Mathias Imbach attributed this to existing clients consolidating assets from unregulated exchanges into Sygnum's regulated custody services. The message implicit in those flows: if you needed to be reminded that Swiss segregation rules matter, FTX had just provided the lesson.
 
-[SEBA Bank](https://en.wikipedia.org/wiki/[SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)_Bank) — which had received an investment from Alameda Research — moved quickly to clarify the relationship. The Alameda stake was less than 1% and carried no voting rights. SEBA had not traded on FTX, had not held FTT tokens, and its client assets were held under Swiss banking law — which meant they were segregated, legally protected, and not subject to the commingling that had destroyed FTX's customers.
+[SEBA Bank](https://en.wikipedia.org/wiki/SEBA_Bank) — which had received an investment from Alameda Research — moved quickly to clarify the relationship. The Alameda stake was less than 1% and carried no voting rights. SEBA had not traded on FTX, had not held FTT tokens, and its client assets were held under Swiss banking law — which meant they were segregated, legally protected, and not subject to the commingling that had destroyed FTX's customers.
 
 The PR language was measured, as Swiss banking always is. But the subtext was legible to anyone watching closely: *we are the opposite of what just happened.*
 

@@ -123,7 +123,7 @@ This is a different category of delay than a policy reversal. Switzerland is not
 
 ## What This Means for Swiss Crypto Banks
 
-For [SEBA Bank](https://en.wikipedia.org/wiki/[SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)_Bank) (now rebranded as Swiss Bitcoin Bank), [Sygnum](https://www.sygnum.com/), and the crypto custody arms of the major cantonal banks, the delay in exchange does not translate into a delay in compliance obligations.
+For [SEBA Bank](https://en.wikipedia.org/wiki/SEBA_Bank) (now rebranded as Swiss Bitcoin Bank), [Sygnum](https://www.sygnum.com/), and the crypto custody arms of the major cantonal banks, the delay in exchange does not translate into a delay in compliance obligations.
 
 These institutions have been building out CARF-compliant data collection infrastructure since 2024. The SFTA registration requirements and the due diligence obligations are active. Banks that serve clients with reportable crypto-asset transactions are identifying those clients, collecting standardized data, and retaining it per the AEOI Ordinance requirements.
 

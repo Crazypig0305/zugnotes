@@ -56,7 +56,7 @@ This is a field note on that gap — the thresholds, the paperwork, the timeline
 
 Switzerland has four institutions that sit in the "crypto-native or crypto-serious bank" category:
 
-**[AMINA Bank](https://www.aminagroup.com/) (formerly [SEBA Bank](https://en.wikipedia.org/wiki/[SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)_Bank))** — received its FINMA banking licence in August 2019 alongside [Sygnum](https://www.sygnum.com/). Rebranded from SEBA to AMINA in December 2023. Headquartered in Zug. Offers trading, custody, lending, and [staking](https://en.wikipedia.org/wiki/Proof_of_stake) for a range of crypto-assets. Holds a [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) licence through Austria (secured November 2025), meaning it can passport services across the EU.
+**[AMINA Bank](https://www.aminagroup.com/) (formerly [SEBA Bank](https://en.wikipedia.org/wiki/SEBA_Bank))** — received its FINMA banking licence in August 2019 alongside [Sygnum](https://www.sygnum.com/). Rebranded from SEBA to AMINA in December 2023. Headquartered in Zug. Offers trading, custody, lending, and [staking](https://en.wikipedia.org/wiki/Proof_of_stake) for a range of crypto-assets. Holds a [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) licence through Austria (secured November 2025), meaning it can passport services across the EU.
 
 **[Sygnum Bank](https://www.sygnum.com/)** — also FINMA-licensed since 2019. Based in Zurich. Manages approximately CHF 5 billion in client assets across more than 1,700 clients in 60+ countries as of early 2025. Became a unicorn in January 2025 after its strategic growth round. Focuses on institutional and professional clients, with custody and trading as core products.
 

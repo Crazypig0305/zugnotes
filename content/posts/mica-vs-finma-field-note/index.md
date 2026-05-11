@@ -135,7 +135,7 @@ This is also why FINMA Guidance 01/2026 explicitly created an equivalence pathwa
 
 **Substance requirements** in Switzerland are genuine. FINMA expects licensed entities to have real operational presence, proper risk management frameworks, and competent management actually based in Switzerland. The principle-based review process includes FINMA assessing whether governance arrangements are fit for purpose. MiCA authorization in some EU member states has attracted criticism for approving entities with thin local substance — a dynamic that FINMA's approach largely prevents.
 
-**Banking license integration** for crypto businesses is a Swiss-specific advantage that creates distinctive regulatory standards. [SEBA Bank](https://en.wikipedia.org/wiki/[SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)_Bank) and [Sygnum Bank](https://www.sygnum.com/), which hold full Swiss banking licenses, are subject to the entire Swiss banking regulatory framework — capital adequacy requirements, liquidity standards, and ongoing supervision that goes beyond what a standalone CASP authorization under MiCA requires.
+**Banking license integration** for crypto businesses is a Swiss-specific advantage that creates distinctive regulatory standards. [SEBA Bank](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum Bank](https://www.sygnum.com/), which hold full Swiss banking licenses, are subject to the entire Swiss banking regulatory framework — capital adequacy requirements, liquidity standards, and ongoing supervision that goes beyond what a standalone CASP authorization under MiCA requires.
 
 ---
 
