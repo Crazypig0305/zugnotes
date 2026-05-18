@@ -79,7 +79,7 @@ The practical implication: NFT-specific situations benefit from professional adv
 
 If you hold NFTs as personal investments — buying, holding, potentially selling — without meeting the thresholds that would reclassify you as a professional trader, Swiss tax law treats your NFT gains the same way it treats Bitcoin gains: as private capital gains, which are exempt from income tax for private investors.
 
-The five safe-haven criteria from [SFTA Circular No. 36](https://www.estv.admin.ch/estv/en/home/direct-federal-tax/directives-circulars/circulars/2022/2-36-2022.html) apply here in the same way they apply to fungible crypto:
+The five safe-haven criteria from [SFTA Circular No. 36](https://www.estv.admin.ch/estv/en/home/direct-federal-tax/directives-circulars/circulars/2022/2-36-2022.html) — covered in detail in the [Swiss crypto tax advantage guide]({{< ref "swiss-crypto-tax-advantage-guide" >}}) — apply here in the same way they apply to fungible crypto:
 
 | Criterion | Threshold | Application to NFTs |
 |---|---|---|
@@ -91,7 +91,7 @@ The five safe-haven criteria from [SFTA Circular No. 36](https://www.estv.admin.
 
 The same six-month rule that protects Swiss crypto holders in the fungible world applies here. The difference is that most NFT holders do not actually track their holding periods systematically — which creates exposure that is easy to avoid with basic record-keeping.
 
-**Wealth tax is the layer that private collectors consistently underestimate.** NFTs are classified as movable property (Fahrhabe) in Swiss tax law, and they are included in the wealth tax base at their assessed value on December 31st of each year. The challenge is valuation — which I will cover in its own section below.
+**Wealth tax is the layer that private collectors consistently underestimate.** NFTs are classified as movable property (Fahrhabe) in Swiss tax law, and they are included in the wealth tax base at their assessed value on December 31st of each year. The mechanics work identically to fungible crypto wealth tax — the [Swiss wealth tax calculation guide]({{< ref "swiss-wealth-tax-crypto-calculation" >}}) breaks down the SFTA Kursliste and fallback valuation rules that apply directly here. The challenge is valuation — which I will cover in its own section below.
 
 ## Tier Two: The Professional Trader
 
@@ -117,7 +117,7 @@ The reclassification matters because it is binary and retroactive within a tax y
 
 This is where Swiss NFT taxation diverges most sharply from the collector framework. If you create NFTs — writing code, generating art, building generative collections — and sell them, you are not receiving capital gains income. You are receiving self-employment income.
 
-The legal logic follows directly from Swiss self-employment classification. A person who invests work and capital in an activity, operates at their own economic risk, and repeats the pattern systematically with profit intent is self-employed under Swiss law. Every significant mint-and-sell cycle meets this definition.
+The legal logic follows directly from Swiss self-employment classification. A person who invests work and capital in an activity, operates at their own economic risk, and repeats the pattern systematically with profit intent is self-employed under Swiss law. Every significant mint-and-sell cycle meets this definition. The same income-vs-capital-gain distinction shows up in the [Swiss income tax treatment of staking rewards]({{< ref "staking-rewards-swiss-income-tax" >}}), where systematic crypto yield is taxed as ordinary income rather than tax-exempt private capital gains.
 
 **What this means in practice:**
 
