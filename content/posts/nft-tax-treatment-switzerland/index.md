@@ -51,6 +51,7 @@ sources:
   - name: "Non-fungible token — Wikipedia"
     url: "https://en.wikipedia.org/wiki/Non-fungible_token"
     desc: "Wikipedia — background on NFT technology, standards, and market structure relevant to understanding how Swiss tax authorities classify these assets."
+image: /og-default.jpg
 ---
 
 > 📅 Field note from: March 2024 | Last updated: May 2026
