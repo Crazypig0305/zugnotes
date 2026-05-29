@@ -1,7 +1,13 @@
 {{/*
   schema.html — JSON-LD structured data (§十一·三)
   Must use dict + jsonify + safeJS pattern. Never inline single-field | jsonify.
-  Outputs: Person (site-level) + Article (single posts) + FAQPage (if .Params.faq exists)
+  Outputs:
+    - Person (site-level on all pages)
+    - BlogPosting + BreadcrumbList + FAQPage(conditional) → real articles only (.Section "posts")
+    - WebPage → ceremony / non-article single pages (about/privacy/contact, no zero-date BlogPosting)
+    - WebSite → home
+  Article判定：.IsPage + .Section == "posts" + 非零日期。ceremony 頁（about/privacy/contact、
+  .Section 空、雖帶 date 但非真正文章）→ WebPage、不吐 BlogPosting（修 G19 ceremony 病根）。
 */}}
 {{ $ogImage := partial "og-image-resolve.html" . }}
 {{ if not $ogImage }}
@@ -21,7 +27,10 @@
 {{ $person | jsonify (dict "indent" "  ") | safeJS }}
 </script>
 
-{{ if and .IsPage (not .Date.IsZero) }}
+{{/* 單一頁面分流：真正文章（.Section "posts" + 非零日期）vs ceremony 頁 */}}
+{{- $isArticle := and .IsPage (eq .Section "posts") (not .Date.IsZero) }}
+
+{{ if $isArticle }}
 {{/* Article schema — single posts only */}}
 {{- $article := dict
   "@context" "https://schema.org"
@@ -62,6 +71,106 @@
 -}}
 <script type="application/ld+json">
 {{ $breadcrumb | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+
+{{/* FAQPage schema — conditional (G19 hard gate)
+     偵測渲染後 .Content 兩種 Q&A 樣式、各取問句 + 答案、≥ 2 組才輸出 FAQPage：
+       樣式 A（rhetorical / 真問句 heading）：以「?/？」結尾的 H2/H3。
+         口徑對齊 stage-08 G19 _count_question_headings（H2/H3 結尾 ? / ？）。
+         答案 = 該 heading 到下一個 H2/H3 之間的純文字。
+       樣式 B（FAQ 區塊 bold 問句）：<p><strong>...?</strong> 的 bold 問句 Q&A
+         （dlt-act / mica / swiss-tax / carf 數篇 ## FAQ 區塊用此格式、heading 本身不是
+         問句、故 G19 gate 抓不到、但屬真實 Q&A、補上 FAQPage 取 GEO 富結果）。
+         答案見下方樣式 B 段（涵蓋 B1 同段 / B2 次段兩子型）。
+     兩樣式各自 append 進 mainEntity（A 抓 heading、B 抓 <p><strong>、不重疊故不需去重）；
+     每 Question 帶 acceptedAnswer。 */}}
+{{- $content := .Content }}
+{{- $faqItems := slice }}
+
+{{/* ── 樣式 A：?/？ 結尾的 H2/H3 heading ── */}}
+{{- $marked := replaceRE "(?i)(<h[23][ >])" "␟$1" $content }}
+{{- $chunks := split $marked "␟" }}
+{{- range $chunks }}
+  {{- $chunk := . }}
+  {{- $hMatch := findRE "(?is)<h[23][^>]*>(.*?)</h[23]>" $chunk 1 }}
+  {{- if $hMatch }}
+    {{- $hFull := index $hMatch 0 }}
+    {{- $qText := $hFull | plainify | strings.TrimSpace }}
+    {{- if or (hasSuffix $qText "？") (hasSuffix $qText "?") }}
+      {{- $afterH := replaceRE "(?is)^.*?</h[23]>" "" $chunk }}
+      {{- $answerRaw := replaceRE "(?is)<h[1-6][^>]*>.*$" "" $afterH }}
+      {{- $answer := $answerRaw | plainify | strings.TrimSpace }}
+      {{- if and (gt (len $qText) 0) (gt (len $answer) 0) }}
+        {{- $faqItems = $faqItems | append (dict
+          "@type" "Question"
+          "name" $qText
+          "acceptedAnswer" (dict "@type" "Answer" "text" $answer)
+        ) }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{/* ── 樣式 B：<p><strong>問句?</strong> ... 的 bold 問句 Q&A ──
+     涵蓋兩子型：B1 答案在同 <p>（<p><strong>Q?</strong> 答案</p>）；
+     B2 答案在下一個 <p>（<p><strong>Q?</strong></p>\n<p>答案</p>）。
+     做法：split at「<p><strong>」切段、每段 = 一個 bold 問句 + 其後答案（到下個
+     <p><strong> 段界 或 下個 heading）。兩子型都自然涵蓋（B1 答案在同段、B2 答案在
+     段內次一 <p>）。
+     為何不用單一 combined regex（<p><strong>Q</strong>...(?:<p>A</p>)?）：RE2 無 lookahead、
+     optional 答案群會誤吞「下一個問句段」造成漏題（實測 dlt-act 5 題掉成 3）。split 切段
+     天然不重疊、避免此 bug。
+     注意：.Content 為 Goldmark 未壓縮輸出（block 間帶 \n、與 --minify 後的檔不同）。 */}}
+{{- $bMarked := replaceRE "(?i)(<p><strong>)" "␟$1" $content }}
+{{- $bChunks := split $bMarked "␟" }}
+{{- range $bChunks }}
+  {{- $chunk := . }}
+  {{- $qMatch := findRE "(?is)^<p><strong>(.*?)</strong>" $chunk 1 }}
+  {{- if $qMatch }}
+    {{- $qText := (index $qMatch 0) | plainify | strings.TrimSpace }}
+    {{- if or (hasSuffix $qText "？") (hasSuffix $qText "?") }}
+      {{/* 答案 = chunk 去掉「<p><strong>問句</strong>」前綴後、第一段內文（到下個 heading 前）*/}}
+      {{- $afterQ := replaceRE "(?is)^<p><strong>.*?</strong>" "" $chunk }}
+      {{- $answerRaw := replaceRE "(?is)<h[1-6][^>]*>.*$" "" $afterQ }}
+      {{- $answer := $answerRaw | plainify | strings.TrimSpace }}
+      {{- if gt (len $answer) 0 }}
+        {{- $faqItems = $faqItems | append (dict
+          "@type" "Question"
+          "name" $qText
+          "acceptedAnswer" (dict "@type" "Answer" "text" $answer)
+        ) }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- if ge (len $faqItems) 2 }}
+{{- $faqPage := dict
+  "@context" "https://schema.org"
+  "@type" "FAQPage"
+  "mainEntity" $faqItems
+-}}
+<script type="application/ld+json">
+{{ $faqPage | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{- end }}
+
+{{ else if .IsPage }}
+{{/* ceremony / 無真正文章身份的單頁（about / privacy / contact、.Section 非 "posts"）
+     → WebPage、不輸出零日期或假 BlogPosting（修 G19 ceremony 病根：原本任何帶 date 的
+     .IsPage 都吐 BlogPosting、ceremony 頁帶 date 2026-04-30 故被誤判為文章）。 */}}
+{{- $pageDesc := (cond (ne .Description "") .Description .Site.Params.description) }}
+{{- $webpage := dict
+  "@context" "https://schema.org"
+  "@type" "WebPage"
+  "name" .Title
+  "url" .Permalink
+  "description" $pageDesc
+  "inLanguage" "en"
+  "isPartOf" (dict "@type" "WebSite" "name" .Site.Title "url" .Site.BaseURL)
+-}}
+<script type="application/ld+json">
+{{ $webpage | jsonify (dict "indent" "  ") | safeJS }}
 </script>
 {{ end }}
 
