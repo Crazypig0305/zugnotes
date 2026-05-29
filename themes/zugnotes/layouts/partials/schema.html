@@ -39,6 +39,30 @@
 <script type="application/ld+json">
 {{ $article | jsonify (dict "indent" "  ") | safeJS }}
 </script>
+
+{{/* BreadcrumbList schema — single posts only (G18 hard gate)
+     Home -> section (.Parent) -> article. Each ListItem has position + name +
+     item (absolute URL). .Parent points to the section list page (e.g. /posts/,
+     title "All Posts"). When .Parent is missing or is Home, degrade to a two-level
+     Home -> article crumb. */}}
+{{- $crumbs := slice }}
+{{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 1 "name" .Site.Title "item" .Site.Home.Permalink) }}
+{{- $pos := 2 }}
+{{- with .Parent }}
+  {{- if not .IsHome }}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" .Title "item" .Permalink) }}
+    {{- $pos = add $pos 1 }}
+  {{- end }}
+{{- end }}
+{{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" .Title "item" .Permalink) }}
+{{- $breadcrumb := dict
+  "@context" "https://schema.org"
+  "@type" "BreadcrumbList"
+  "itemListElement" $crumbs
+-}}
+<script type="application/ld+json">
+{{ $breadcrumb | jsonify (dict "indent" "  ") | safeJS }}
+</script>
 {{ end }}
 
 {{ if .IsHome }}
