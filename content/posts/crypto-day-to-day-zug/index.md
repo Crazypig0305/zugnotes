@@ -1,7 +1,7 @@
 ---
 title: "Using Crypto Day-to-Day in Zug: What Actually Works and What's Still Friction"
 date: 2025-09-14
-lastmod: 2026-05-03
+lastmod: 2026-06-02
 description: "Zug is famous for letting you pay taxes in Bitcoin. But what about coffee, groceries, or parking? A field note on which crypto payment channels actually function in daily Zug life, where the friction still lives, and what the adoption reality looks like beyond the headlines."
 categories: ["holding"]
 tags: ["crypto daily use switzerland", "bitcoin payments zug", "swiss crypto adoption", "lightning network", "merchant crypto zug", "Bitcoin Suisse Pay"]
@@ -46,7 +46,7 @@ sources:
 > 📅 Originally written: September 2025 | Last updated: May 2026
 > Merchant availability and payment infrastructure verified against publicly available sources as of May 2026. The landscape changes quickly — confirm with individual merchants before making plans around crypto payments.
 
-The headline is real: you can pay your cantonal taxes with [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) in Zug. The headline has been real since 2021. But the more interesting question, the one that rarely gets answered, is what happens after you file your tax return.
+The headline is real: you can pay your cantonal taxes with [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) in Zug. The headline has been real since 2021 — I wrote a [field note from the year Zug first let you pay taxes in Bitcoin](/posts/zug-bitcoin-tax-payment-2021/) on how that actually worked when it launched. But the more interesting question, the one that rarely gets answered, is what happens after you file your tax return.
 
 Can you buy lunch with Bitcoin? Fill a prescription? Park your car? Pay the grocery bill?
 

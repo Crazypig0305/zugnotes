@@ -1,7 +1,7 @@
 ---
 title: "The ICO Boom Seen From Zug: What 2017-2018 Was Actually Like Here"
 date: 2017-12-15
-lastmod: 2026-05-04
+lastmod: 2026-06-02
 description: "From Tezos raising $232M to FINMA's February 2018 guidelines and the Crypto Winter that followed — a field note on what the ICO boom actually looked like from inside Zug, including what worked, what failed, and why Switzerland's approach still mattered."
 categories: ["ecosystem"]
 tags: ["ICO 2017 crypto valley", "tezos zug", "ICO boom switzerland", "FINMA ICO guidelines", "crypto winter 2018", "zug blockchain history"]
@@ -176,7 +176,7 @@ In Zug, the transition was visible in texture rather than in sudden crisis. CV L
 
 But the energy was different. The coffees that had been pitches became conversations. The whitepapers stopped. People who had arrived in 2017 looking to raise quickly were making decisions: stay and build, or fold and go home.
 
-The ones who stayed built the next layer of Crypto Valley. The [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) banking licenses in 2019 — covered in the [field note on FINMA's first crypto banking licenses](/posts/finma-crypto-license-2019/) — required the kind of institutional trust that came specifically from surviving 2018 with your regulatory record intact. The crypto winter was, from inside Zug, a sorting mechanism.
+The ones who stayed built the next layer of Crypto Valley. The [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) banking licenses in 2019 — covered in the [field note on FINMA's first crypto banking licenses](/posts/finma-crypto-license-2019/) — required the kind of institutional trust that came specifically from surviving 2018 with your regulatory record intact. The crypto winter was, from inside Zug, a sorting mechanism. How the ecosystem actually held together through those two lean years — which companies stayed, what changed in the texture of daily life here — is its own [field note on how Zug's Web3 ecosystem survived 2018-2019](/posts/crypto-winter-zug-2018-2019/).
 
 ## What the ICO Era Changed That Did Not Change Back
 
@@ -184,7 +184,7 @@ Eight years later, three things from the 2017-2018 period seem durable.
 
 First: the foundation structure, stress-tested by Tezos, got better. Swiss crypto foundations post-2018 tend to have more explicit governance documentation, clearer provisions for founder-board conflict, and more rigorous auditing requirements. The template did not break; it improved under pressure.
 
-Second: FINMA's engagement approach became a model. The token classification framework from February 2018 — payment, utility, asset — was adopted or referenced by regulators in other jurisdictions. Switzerland's willingness to classify rather than prohibit set a template that shaped subsequent regulatory conversations globally, including elements of what eventually became [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) on the EU side. For how those two frameworks compare today, the [MiCA vs FINMA field note](/posts/mica-vs-finma-field-note/) covers the current landscape.
+Second: FINMA's engagement approach became a model. The token classification framework from February 2018 — payment, utility, asset — was adopted or referenced by regulators in other jurisdictions. What those guidelines revealed about Switzerland's underlying regulatory philosophy, and why classifying tokens by function rather than banning them was such a consequential choice, is worth its own read: [FINMA's ICO guidelines in 2018](/posts/finma-ico-guidelines-2018/). Switzerland's willingness to classify rather than prohibit set a template that shaped subsequent regulatory conversations globally, including elements of what eventually became [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) on the EU side. For how those two frameworks compare today, the [MiCA vs FINMA field note](/posts/mica-vs-finma-field-note/) covers the current landscape.
 
 Third: Crypto Valley's peer density — the thing that actually differentiated Zug from Singapore and Cayman in 2017 — survived the winter. By the time the 2020 bull market arrived, the infrastructure that had built up through 2017 and held through 2018-2019 was more robust than it had been at the boom's peak. The companies that survived were more operationally serious. The legal and compliance ecosystem was more sophisticated.
 

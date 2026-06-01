@@ -1,7 +1,7 @@
 ---
 title: "FINMA's Crypto Guidance 01/2026: What It Actually Means for Custody (Not the Legal Version)"
 date: 2026-02-14
-lastmod: 2026-05-03
+lastmod: 2026-06-02
 description: "FINMA published Guidance 01/2026 on crypto custody in January 2026. Here is what the circular actually requires — asset segregation, foreign custodian rules, and what changes for individuals holding crypto via Swiss institutions. Plain language, not a law firm memo."
 categories: ["regulation"]
 tags: ["FINMA", "custody", "swiss crypto regulation", "DLT Act", "asset segregation"]
@@ -157,7 +157,7 @@ Post-Trade 360's industry analysis noted that the requirements "may accelerate c
 
 Three developments are worth tracking in the months following this guidance:
 
-**FINMA's stablecoin follow-up.** The regulator indicated further guidance on stablecoin custody is forthcoming. Given MiCA's detailed stablecoin framework, the pressure to clarify Swiss treatment is real.
+**FINMA's stablecoin follow-up.** The regulator indicated further guidance on stablecoin custody is forthcoming. Given MiCA's detailed stablecoin framework, the pressure to clarify Swiss treatment is real. One concrete signal of where this is heading is the [UBS Swiss franc stablecoin sandbox](/posts/ubs-swiss-franc-stablecoin-sandbox/) — a field note on what FINMA's move there means for CHF-denominated crypto rails.
 
 **How institutions document equivalence.** There is no standard template for equivalence assessments. How the industry develops a common approach — and whether FINMA publishes any additional guidance on the methodology — will determine how workable the framework is in practice.
 

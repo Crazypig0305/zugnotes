@@ -1,7 +1,7 @@
 ---
 title: "What Crypto Valley Actually Looks Like in 2026: 1,749 Companies and One Very Expensive Lake"
 date: 2026-04-15
-lastmod: 2026-05-03
+lastmod: 2026-06-02
 description: "The CVA report says 1,749 blockchain companies. Switzerland captured 47% of European crypto VC in 2025. But what does Crypto Valley actually look like in 2026? A field note from Zug on the numbers, the geography, and the gap between the brochure and the street."
 categories: ["ecosystem"]
 tags: ["crypto valley", "zug", "web3 switzerland", "CV VC", "CVA", "2026 snapshot"]
@@ -108,7 +108,7 @@ Here is where institutional reports and field notes diverge.
 
 Zug is a small Swiss city of about 30,000 residents. Its old town is well-preserved, its lake is beautiful by any standard, and its tax rates remain among the lowest in Switzerland. These things are all true and all widely reported.
 
-What the reports do not convey is texture: the restaurant in Altstadt where three founders and their legal team are having a working lunch that will determine whether they incorporate a foundation or a company; the coffee shop near the train station where two developers are troubleshooting a smart contract before their 2pm VC meeting; the fact that the conference rooms at [CV Labs](https://cvlabs.com/) are booked three weeks out in April because May conference season is approaching and everyone is trying to close term sheets before the distraction.
+What the reports do not convey is texture: the restaurant in Altstadt where three founders and their legal team are having a working lunch that will determine whether they incorporate a foundation or a company; the coffee shop near the train station where two developers are troubleshooting a smart contract before their 2pm VC meeting; the fact that the conference rooms at [CV Labs](https://cvlabs.com/) are booked three weeks out in April because May conference season is approaching and everyone is trying to close term sheets before the distraction. That texture is concentrated into a remarkably small footprint — most of the deal-making happens on [the same six streets in Zug](/posts/6-streets-zug-crypto-deals/), which is its own field note on the physical geography of the ecosystem.
 
 The lake is genuinely expensive, incidentally. Apartment rents in Zug routinely exceed Zurich levels — the city's tax advantages attract wealth that then bids up real estate. For the founders who arrive here from Berlin or Singapore expecting the tax savings to offset living costs, the arithmetic can be surprising in the first year. The ecosystem absorbs this because the people who need to be in Zug can afford to be in Zug. That is itself a form of selection pressure.
 

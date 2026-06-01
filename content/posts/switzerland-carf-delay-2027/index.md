@@ -1,7 +1,7 @@
 ---
 title: "Switzerland's CARF Delay Explained: What 2027 Really Means for Crypto Holders Here"
 date: 2026-01-08
-lastmod: 2026-05-03
+lastmod: 2026-06-02
 description: "Switzerland enacted CARF law in January 2026 but delayed actual data exchange to 2027. Here is what the delay means in practice: what your bank collects now, what gets shared later, and what a Swiss crypto holder should actually do differently in 2026."
 categories: ["regulation"]
 tags: ["CARF", "automatic exchange", "swiss crypto regulation", "AEOI", "SFTA", "OECD", "crypto tax reporting"]
@@ -90,7 +90,7 @@ This does not affect your Swiss [wealth tax](https://en.wikipedia.org/wiki/Wealt
 
 ## The 2026 vs. 2027 Comparison That Actually Matters
 
-Most coverage focused on what changed (the exchange date). The more useful comparison for someone holding crypto in Switzerland is what is different between the two years in practical terms.
+Most coverage focused on what changed (the exchange date). The more useful comparison for someone holding crypto in Switzerland is what is different between the two years in practical terms. If you want the prior question answered first — what CARF actually reports about you as an individual, line by line through the framework — there is a plain reading of that here: [What CARF Actually Reports About You](/posts/carf-individual-reporting-crypto/).
 
 {{< budget-table title="Switzerland CARF: 2026 vs. 2027 — What Actually Changes" sub="For individual crypto holders using Swiss service providers" >}}
 | | 2026 | 2027 (anticipated) |

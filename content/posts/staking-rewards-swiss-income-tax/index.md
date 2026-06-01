@@ -1,7 +1,7 @@
 ---
 title: "Staking Rewards in Switzerland: Why They're Taxed as Income (And What That Means for You)"
 date: 2022-04-08
-lastmod: 2026-05-04
+lastmod: 2026-06-02
 description: "Swiss law taxes staking rewards as ordinary income, not capital gains. Why, the wealth tax double-layer, and what it means staking in Zug versus Geneva."
 categories: ["holding"]
 tags: ["crypto staking tax switzerland", "swiss staking income tax", "staking rewards switzerland", "SFTA crypto income", "wealth tax staking", "DeFi tax switzerland", "canton tax staking"]
@@ -109,7 +109,7 @@ The basic income-at-receipt rule applies cleanly to direct staking: you validate
 
 **Liquid staking tokens** (stETH, rETH, cbETH, and similar) add a layer of complexity. When you deposit ETH into Lido, you receive stETH — a token that accrues staking rewards by increasing in value rather than distributing periodic rewards directly. The SFTA has not issued specific guidance on liquid staking tokens as of 2025. Practitioner consensus is that the accrued value of liquid staking tokens is treated as income when it becomes realizable (i.e., when you unstake and receive ETH), but this remains an area of genuine uncertainty. If you hold significant liquid staking positions, this is worth discussing with a Swiss tax advisor before year-end.
 
-**DeFi yield farming and lending protocols** fall into the same income category as staking, but with more case-by-case judgment. Yield from lending ETH or [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s on Aave or Compound is treated as capital income at receipt. Complex DeFi positions — impermanent loss compensation, governance token rewards, protocol incentives — are often assessed individually by cantonal offices. The principle remains: if you receive tokens as compensation for providing capital or services, that is income.
+**DeFi yield farming and lending protocols** fall into the same income category as staking, but with more case-by-case judgment. Yield from lending ETH or [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s on Aave or Compound is treated as capital income at receipt. Complex DeFi positions — impermanent loss compensation, governance token rewards, protocol incentives — are often assessed individually by cantonal offices. The principle remains: if you receive tokens as compensation for providing capital or services, that is income. The specifics of how liquidity providing, yield farming, and governance tokens each get handled deserve more room than this section gives them — there is a dedicated set of [field notes on DeFi tax treatment in Switzerland](/posts/defi-tax-treatment-switzerland/) that works through each case.
 
 {{< num-highlight number="Date of Receipt" label="The valuation date for all staking and DeFi reward income — not the date you sell, swap, or unstake" >}}
 

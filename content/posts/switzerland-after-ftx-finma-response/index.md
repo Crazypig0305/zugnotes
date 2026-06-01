@@ -1,7 +1,7 @@
 ---
 title: "Switzerland After FTX: How FINMA Responded and What It Changed"
 date: 2023-01-12
-lastmod: 2026-05-04
+lastmod: 2026-06-02
 description: "FTX collapsed in November 2022. FINMA's response — tighter AML thresholds, mandatory crypto reporting, and stricter enforcement of segregation rules — was incremental, not dramatic. A field note from Zug on what actually changed and why the Swiss banks came out ahead."
 categories: ["regulation"]
 tags: ["switzerland crypto regulation FTX response", "FINMA 2022 2023", "FTX collapse switzerland", "crypto asset segregation", "FINMA risk monitor", "swiss crypto banks"]
@@ -107,7 +107,7 @@ Both banks survived the FTX period without incident. Neither had their FINMA lic
 
 ## Zug in the Weeks After
 
-The atmosphere in Zug's crypto offices in November and December 2022 was not what I would call panic. The community here had been through the 2018 Crypto Winter — a longer, slower attrition of companies and talent that had genuinely hollowed out parts of the ecosystem. FTX was different: sudden, centralized in one firm, and affecting primarily retail and institutional clients of an offshore exchange.
+The atmosphere in Zug's crypto offices in November and December 2022 was not what I would call panic. The community here had been through the 2018 Crypto Winter — a longer, slower attrition of companies and talent that had genuinely hollowed out parts of the ecosystem. FTX was different: sudden, centralized in one firm, and affecting primarily retail and institutional clients of an offshore exchange. I wrote down what those weeks actually felt like at the time, before the regulatory follow-on was clear — that contemporaneous account is its own field note: [The FTX Collapse Through a Zug Lens](/posts/ftx-collapse-zug-lens-2022/).
 
 What I heard most in those weeks was a version of "this is why regulation matters." It was not triumphalism — nobody in Zug was glad that billions in customer funds had been lost. But there was a real sense that the Swiss framework had been designed, consciously, to prevent exactly this. The DEBA segregation rules. The mandatory FINMA oversight. The prohibition on commingling. These were not abstract compliance requirements. They were the specific protections that FTX lacked.
 
