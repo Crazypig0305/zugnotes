@@ -10,7 +10,7 @@ draft: false
 
 Have a question, a correction, or a tip about Swiss crypto regulation or the Crypto Valley ecosystem?
 
-**Email:** Use the address in the site footer, or reach out via [LinkedIn](https://www.linkedin.com/in/zugnotes).
+**Email:** [hello@zugnotes.com](mailto:hello@zugnotes.com) — or reach out via [LinkedIn](https://www.linkedin.com/in/zugnotes).
 
 **Response time:** Field notes are written on a flexible schedule. Response times vary — typically within a week for substantive questions.
 
