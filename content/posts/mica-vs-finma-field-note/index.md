@@ -147,7 +147,7 @@ Switzerland is surrounded by the EU. A Swiss-licensed crypto firm operating in Z
 
 Under MiCA, a Swiss CASP cannot freely solicit EU clients. The only legal basis for a Swiss firm to serve EU customers without obtaining a CASP authorization in an EU member state is **reverse solicitation** — the EU client must initiate contact without any solicitation, advertising, or marketing from the Swiss provider.
 
-ESMA has interpreted this exception very narrowly. If you run advertisements targeting EU customers, if you send marketing emails to German clients, if your website offers services in German aimed at German residents — reverse solicitation does not apply. You need an EU CASP authorization.
+ESMA has interpreted this exception very narrowly. If you run advertisements targeting EU customers, if you send marketing emails to German clients, if your website offers services in German aimed at German residents — reverse solicitation does not apply. You need an EU CASP authorization. I unpacked exactly how this reach works — and why it still touches Swiss firms and holders even though [MiCA does not directly apply in Switzerland](/posts/does-mica-apply-in-switzerland/) — in a separate field note.
 
 This creates a real operational question for Zug-based firms. Options include:
 
