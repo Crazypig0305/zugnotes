@@ -1,7 +1,7 @@
 ---
 title: "What CARF Actually Reports About You: A Plain Reading of the Framework for Individuals"
 date: 2025-11-18
-lastmod: 2026-05-04
+lastmod: 2026-06-11
 description: "CARF requires your Swiss exchange or bank to collect your name, TIN, tax residency, and aggregate transaction data. Here is a plain-language breakdown of exactly what gets reported, how individual reporting differs from entities, how CARF compares to FATCA and CRS, and what the Swiss 2027 delay means in practice for your privacy."
 categories: ["holding"]
 tags: ["CARF", "individual reporting", "crypto asset reporting framework", "FATCA", "CRS", "swiss crypto regulation", "AEOI", "privacy", "tax transparency"]
@@ -94,7 +94,7 @@ Each category is reported on an annual aggregate basis — total amount received
 
 The framework has clear limits, and understanding them is as important as understanding the scope.
 
-**[DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) and decentralized protocols are out of scope.** If you interact directly with a decentralized exchange, a lending protocol, or a yield farm — without a Swiss-supervised intermediary involved — there is no RCASP to report on your behalf. CARF's reporting obligation falls on institutional service providers. Peer-to-peer transactions and direct smart contract interactions remain outside the framework as currently written.
+**[DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) and decentralized protocols are out of scope.** If you interact directly with a decentralized exchange, a lending protocol, or a yield farm — without a Swiss-supervised intermediary involved — there is no RCASP to report on your behalf. CARF's reporting obligation falls on institutional service providers. Peer-to-peer transactions and direct smart contract interactions remain outside the framework as currently written — a category that includes the ordinary [wallet-to-wallet USDT transfer on TRON](/posts/tron-usdt-transfer-fees-energy-rental/), where no RCASP is involved at any step.
 
 **Self-custodied assets held without service provider involvement are out of scope.** If you acquired crypto outside Switzerland, hold it in a hardware wallet, and have never transferred it through a Swiss exchange or custodian, no Swiss RCASP has collected information on those holdings. CARF reporting would not apply. This does not affect your Swiss [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) obligations, which exist independently.
 

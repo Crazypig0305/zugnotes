@@ -1,7 +1,7 @@
 ---
 title: "Using Crypto Day-to-Day in Zug: What Actually Works and What's Still Friction"
 date: 2025-09-14
-lastmod: 2026-06-02
+lastmod: 2026-06-11
 description: "Zug is famous for letting you pay taxes in Bitcoin. But what about coffee, groceries, or parking? A field note on which crypto payment channels actually function in daily Zug life, where the friction still lives, and what the adoption reality looks like beyond the headlines."
 categories: ["holding"]
 tags: ["crypto daily use switzerland", "bitcoin payments zug", "swiss crypto adoption", "lightning network", "merchant crypto zug", "Bitcoin Suisse Pay"]
@@ -142,6 +142,8 @@ The direction of travel is consistent with where Spar's Lightning integration po
 If you are thinking about crypto in Zug as a holding and management question rather than a payment question, the [Swiss crypto tax overview](/posts/swiss-crypto-tax-advantage-guide/) covers the capital gains and [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) framework that shapes how most residents here actually think about their positions. And if you are curious about what the institutional banking layer looks like — the FINMA-licensed banks that actually custody significant crypto — the [crypto-friendly bank account field note](/posts/crypto-friendly-bank-account-switzerland/) goes through that in detail.
 
 The payment question and the custody question are related but separate. Knowing where you can spend crypto at a restaurant is useful context. Knowing where you can hold CHF 500,000 in BTC under Swiss banking law is a different conversation.
+
+And if the payment question that brought you here is the global one — stablecoins rather than Lightning, sending digital dollars peer-to-peer — the field note on [why a USDT transfer on TRON costs what it costs](/posts/tron-usdt-transfer-fees-energy-rental/) walks through the fee mechanics most newcomers meet first, and how the locals avoid paying the tourist price.
 
 ## The Honest Summary
 

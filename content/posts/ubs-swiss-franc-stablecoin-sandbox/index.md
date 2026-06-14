@@ -1,7 +1,7 @@
 ---
 title: "The UBS Swiss Franc Stablecoin Sandbox: What FINMA's Latest Move Means for CHF Crypto Rails"
 date: 2026-04-10
-lastmod: 2026-05-11
+lastmod: 2026-06-11
 description: "Six Swiss banks including UBS and Sygnum launched a CHF stablecoin sandbox in April 2026. Here is what the FINMA regulatory framework actually enables, why deposit tokens and stablecoins are different things, and what this means for Switzerland's crypto payment rails."
 categories: ["ecosystem"]
 tags: ["swiss franc stablecoin", "UBS stablecoin", "CHF crypto rails", "FINMA sandbox", "Swiss Stablecoin AG", "DLT payments switzerland", "deposit token"]
@@ -111,7 +111,7 @@ UBS is the weight that changes the narrative. As the largest Swiss bank and a si
 
 No CHF stablecoin has gained significant traction to date. That sentence from Ledger Insights' coverage cuts to the practical problem.
 
-For anyone building on public blockchains and needing CHF liquidity — DeFi applications, tokenized securities settlement, blockchain-based payment infrastructure for Swiss business — the current state is a friction point. The options have been: use USDC or USDT (USD-denominated, FX exposure), use Sygnum's CHF stablecoin (institutional access only), or use the [Swiss National Bank](https://www.snb.ch/en)'s Project Helvetia wholesale CBDC (available only to financial market infrastructure participants).
+For anyone building on public blockchains and needing CHF liquidity — DeFi applications, tokenized securities settlement, blockchain-based payment infrastructure for Swiss business — the current state is a friction point. The options have been: use USDC or USDT (USD-denominated, FX exposure — and a transfer-fee model of its own, which I unpacked in [the field note on USDT transfer fees on TRON](/posts/tron-usdt-transfer-fees-energy-rental/)), use Sygnum's CHF stablecoin (institutional access only), or use the [Swiss National Bank](https://www.snb.ch/en)'s Project Helvetia wholesale CBDC (available only to financial market infrastructure participants).
 
 There is no retail-accessible, broadly programmable CHF on-chain asset.
 
