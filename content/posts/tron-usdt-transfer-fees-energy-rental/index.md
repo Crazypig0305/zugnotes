@@ -1,6 +1,6 @@
 ---
 title: "Why a USDT Transfer on TRON Can Burn 13 TRX — and How Energy Rental Cuts That by Up to 85%"
-date: 2026-06-11
+date: 2025-03-12
 lastmod: 2026-06-11
 description: "Sending USDT on TRON the default way burns 6.5 to 13 TRX per transfer. Here is how TRON's energy and bandwidth model actually works, why burning TRX is the expensive path, and how the energy rental market cuts the cost by up to 85% — explained for people who do not live inside crypto."
 categories: ["ecosystem"]
