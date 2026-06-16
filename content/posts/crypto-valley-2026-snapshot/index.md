@@ -160,6 +160,8 @@ The presence of a Swiss National Bank researcher at a Crypto Valley conference i
 
 The conference's boat cruise closing on Lake Zug is a detail that gets included in every description of the event and is usually treated as color. It is also, practically, the moment when deals get advanced. The formal programme is where the ideas get presented. The boat is where the founders and the investors spend ninety minutes without an agenda. Zug's geography — the lake, the compact old town, the easy train connections — is not incidental to how the ecosystem functions. It is infrastructure of a different kind.
 
+The Crypto Valley Conference is not the only event worth the train ticket if you live near Zug, but it is the one most worth clearing the calendar for. For the full Swiss-orbit shortlist — the Web3 Banking Symposium, Point Zero Forum, and the international names you can safely skip — see the separate field note on [which crypto conferences actually matter from Zug in 2026](/posts/crypto-conferences-worth-it-zug/).
+
 ## The Gap Between the Brochure and the Reality
 
 The Crypto Valley brochure version: 1,749 companies, 132% growth, $728M raised, 47% of European VC, 17 unicorns, the world's most crypto-friendly regulatory environment.
