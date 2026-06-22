@@ -1,8 +1,8 @@
 ---
 title: "Declaring Crypto on Your Swiss Tax Return: What \"Market Value on December 31st\" Actually Means"
 date: 2025-02-14
-lastmod: 2026-05-04
-description: "Every Swiss canton tax form asks for the market value of your crypto on December 31st. Here is a plain-language field guide to where you find that number, how to handle multiple wallets and non-CHF assets, and what happens with staking, DeFi, and NFTs."
+lastmod: 2026-06-23
+description: "Every Swiss canton tax form asks for the market value of your crypto on December 31st. A plain-language field guide to where you find that number, multiple wallets and non-CHF assets, staking and DeFi — plus what CARF reporting means for you as an individual holder in 2026-2027."
 categories: ["holding"]
 tags: ["crypto tax return switzerland", "swiss crypto declaration", "wealth tax crypto", "SFTA rate list", "canton tax software", "staking tax switzerland", "DeFi tax", "self-disclosure"]
 draft: false
@@ -48,8 +48,8 @@ sources:
     desc: "Zug Notes H02 — bank statements from SEBA/Sygnum can serve as source documentation for your tax declaration."
 ---
 
-> 📅 Field note from: February 2025 | Last updated: May 2026
-> Originally written during the 2024 tax declaration season; updated with current [Federal Tax Administration](https://www.estv.admin.ch/estv/en/home.html) guidance in May 2026.
+> 📅 Field note from: February 2025 | Last updated: June 2026
+> Originally written during the 2024 tax declaration season; updated June 2026 with current [Federal Tax Administration](https://www.estv.admin.ch/estv/en/home.html) guidance and an expanded section on what CARF reporting means for individual holders in the 2026-2027 window.
 
 Switzerland's crypto tax framework is structurally simple: private investors pay no capital gains tax, but they do pay [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) on the full market value of their portfolio — and that market value is assessed on one specific date every year.
 
@@ -180,13 +180,43 @@ If you hold liquidity pool (LP) tokens or have funds locked in a smart contract 
 
 **NFTs:** The SFTA has not issued dedicated NFT guidance as of early 2025. The practical approach that most Swiss tax advisors recommend: treat NFTs as intangible assets, declare them at market value on December 31st if that value is determinable (a recent sale, a floor price from a recognized marketplace), or at original purchase price in CHF if no current market value exists. Income from NFT royalties is taxable when received.
 
-## What [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) Means for Your Return Going Forward
+## What [CARF](https://www.oecd.org/en/topics/sub-issues/crypto-asset-reporting-framework.html) Means for You as an Individual Holder
 
-Starting in 2027, Swiss crypto platforms will begin reporting account data to the SFTA under the CARF (Crypto Asset Reporting Framework). The first actual data exchange with foreign authorities is expected around 2028.
+<!-- IG-angle: plain-language explainer of CARF individual reporting — you don't file under CARF, RCASPs report your transactions for you; transaction-level vs the wealth-tax snapshot; the four reportable categories + USD 50,000 retail threshold; verified Swiss timeline -->
 
-This does not change what you should be declaring right now — the obligation to declare has always existed. But it does mean that the era of practical obscurity for crypto holdings is ending. If you have not been declaring, the window for clean voluntary disclosure is open now and will narrow once automated reporting begins.
+Here is the single most common misunderstanding about CARF, and the one worth getting straight: **as an individual crypto holder, you do not file anything under CARF.** The reporting obligation sits entirely on your exchange or custodian — what the OECD calls a Reporting Crypto-Asset Service Provider (RCASP). CARF is not a new form on your tax return. It is a pipe that runs *around* you, from your platform to the tax authorities.
 
-The [CARF delay field note](/posts/switzerland-carf-delay-2027/) covers the 2027 timeline and what it means for Swiss holders in more detail.
+That distinction matters because it changes what you actually need to do. Your obligation is the same one that already exists: declare your December 31st portfolio value in the Wertschriften schedule and your staking/yield income in the income schedule, as described above. CARF does not add a filing step. What it adds is a parallel data stream that lets the tax office check whether what you declared matches what your platform reported.
+
+### What your platform will actually report about you
+
+CARF is structurally different from the wealth tax in one important way. The Swiss wealth tax is an annual *snapshot* — one value, on one date. CARF is **transaction-level**. Your platform reports activity across the year, not a single year-end figure. Under the [OECD framework](https://en.wikipedia.org/wiki/Crypto-Asset_Reporting_Framework), an RCASP collects a self-certification of your tax residence plus your [taxpayer identification number](https://en.wikipedia.org/wiki/Taxpayer_Identification_Number) (TIN), then reports four categories of activity annually:
+
+{{< budget-table title="What an RCASP reports about you under CARF" >}}
+| Reportable category | What it covers | Note |
+|---|---|---|
+| Crypto-to-fiat exchanges | Selling crypto for CHF, USD, EUR, etc. | Aggregate value per year |
+| Crypto-to-crypto exchanges | Swapping one crypto-asset for another | Each swap counts |
+| Transfers | Sends and receives, including to unhosted (self-custody) wallets | Transfers off-platform are flagged |
+| Reportable retail payments | Paying a merchant in crypto for goods/services | Only above the USD 50,000 threshold |
+{{< /budget-table >}}
+
+The OECD's own framing is unambiguous about where the duty lands:
+
+> "The CARF will require Reporting Crypto-Asset Service Providers to collect and report information on the Crypto-Asset transactions of their customers." — OECD, Crypto-Asset Reporting Framework (2026)
+
+Two practical implications follow. First, the crypto-to-crypto and transfer categories mean CARF captures activity that never touches CHF — exactly the activity that, in the past, felt invisible. Second, transfers to your own self-custody wallet are reportable; moving coins to a hardware wallet does not remove them from the record, it just records them as an outbound transfer.
+
+### The Swiss timeline, verified
+
+The dates that matter for an individual planning ahead, as confirmed by the Federal Council:
+
+- **2026** — Switzerland enacts the legal basis for CARF, but the reporting and due-diligence duties do **not** apply during 2026. No data is collected under CARF this year.
+- **2027** — the first automatic exchange of crypto-asset information with partner jurisdictions begins, at the earliest. Switzerland has committed to exchange with a group of partner countries that includes all EU member states.
+
+This is the practical upshot of the [2026 delay decision](/posts/switzerland-carf-delay-2027/): you have a clean, defined window. The obligation to declare your holdings has always existed and has not changed. But the era of *practical* obscurity is closing on a known schedule. If you have never declared, the cleanest time to use the voluntary self-disclosure route (below) is now — before the first automated exchange in 2027 puts your transaction history in front of the SFTA anyway.
+
+The [CARF delay field note](/posts/switzerland-carf-delay-2027/) covers the 2027 timeline and the negotiating history behind the delay in more detail.
 
 ## The Nachdeklaration: What to Do If You Have Never Declared
 

@@ -1,8 +1,8 @@
 ---
-title: "The Six-Month Rule: How to Stay a \"Private Investor\" Under Swiss Crypto Tax Law"
+title: "Swiss Six-Month Crypto Rule: Why It Alone Won't Keep You Tax-Free"
 date: 2020-09-14
 lastmod: 2026-05-04
-description: "Swiss crypto capital gains are tax-free — but only if you qualify as a private investor. The SFTA's five safe-harbour criteria, what happens if you fail them, and why six months is only part of the story."
+description: "Holding crypto six months does not make your Swiss gains tax-free — it is only 1 of 5 safe-harbour tests. The five SFTA criteria, the one that quietly catches active traders, and what reclassification really costs."
 categories: ["holding"]
 tags: ["switzerland crypto private investor status", "six month holding rule crypto", "SFTA KS 36", "professional trader classification switzerland", "swiss crypto tax safe harbour", "capital gains tax free switzerland"]
 draft: false
