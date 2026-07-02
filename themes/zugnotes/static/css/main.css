@@ -835,6 +835,14 @@ time, .mono {
   .footer-inner { flex-direction: column; align-items: flex-start; }
 
   .num-highlight { flex-direction: column; }
+
+  /* Mobile RWD fixes: article table/img/pre horizontal overflow + tap targets */
+  .article-body table { display: block; overflow-x: auto; max-width: 100%; }
+  .article-body img { max-width: 100%; height: auto; }
+  .article-body pre { overflow-x: auto; max-width: 100%; }
+  .article-body { overflow-wrap: break-word; }
+  .hamburger-btn { min-width: 44px; min-height: 44px; }
+  footer a { padding: 6px 0; display: inline-block; }
 }
 
 /* TABLET — 768px–1023px */
