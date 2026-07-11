@@ -7,43 +7,37 @@
 {{/* ---- Google Fonts (display=optional per §四 Gate 1 perf rules) ---- */}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@400;600&family=JetBrains+Mono:wght@400&display=optional">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500&display=optional">
 
 {{/* ---- Critical inline CSS (above-fold) ---- */}}
 <style>
 :root {
+  --paper: #FAF9F5;
+  --ink: #1E2A26;
+  --muted: #5A635E;
+  --faint: #8C938D;
+  --rule: #E5E3DC;
+  --rule-soft: #EEEDE7;
+  --tint: #F3F2EC;
   --pine: #2E5D4B;
-  --pine-light: #F0F4ED;
-  --pine-mid: #3D7A63;
-  --offwhite: #FAFAFA;
-  --body-text: #1C2B3A;
-  --text-muted: #4A5A68;
-  --text-light: #7A8A98;
-  --border: #D8DFD7;
-  --border-pine: #2E5D4B;
-  --bg-subtle: #F4F7F5;
-  --mono-bg: #EEF2EE;
-  --link-color: #2E5D4B;
-  --link-hover: #1E3D32;
-  --font-heading: 'Playfair Display', Georgia, serif;
-  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --pine-deep: #21463A;
+  --font-serif: 'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
   --font-mono: 'JetBrains Mono', monospace;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{font-size:16px}
-body{font-family:var(--font-body);font-weight:400;background:var(--offwhite);color:var(--body-text);line-height:1.7;-webkit-font-smoothing:antialiased}
-h1,h2,h3,h4{font-family:var(--font-heading);font-weight:700;line-height:1.25;color:var(--body-text)}
-h1{font-size:2.4rem}h2{font-size:1.7rem}h3{font-size:1.25rem}h4{font-size:1.05rem}
+body{font-family:var(--font-serif);font-weight:400;font-size:1.0625rem;background:var(--paper);color:var(--ink);line-height:1.75;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3,h4{font-family:var(--font-serif);font-weight:600;line-height:1.2;color:var(--ink);letter-spacing:-0.005em}
+h1{font-size:2.35rem}h2{font-size:1.6rem}h3{font-size:1.2rem}h4{font-size:1.05rem}
 p{margin-bottom:1.15em}
-a{color:var(--link-color);text-decoration:none;transition:color 0.18s ease}
-a:hover{color:var(--link-hover);text-decoration:underline}
+a{color:var(--pine);text-decoration:none;transition:color 0.18s ease}
+a:hover{color:var(--pine-deep);text-decoration:underline;text-underline-offset:2px}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}
-.site-header{background:var(--offwhite);border-bottom:1.5px solid var(--border);position:sticky;top:0;z-index:100}
-.header-inner{max-width:1120px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:62px;gap:2rem}
+.site-header{background:var(--paper);border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:100}
+.header-inner{max-width:1120px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:66px;gap:2rem}
 .site-logo{display:flex;flex-direction:column;text-decoration:none}
-.site-logo-name{font-family:var(--font-heading);font-weight:700;font-size:1.18rem;color:var(--body-text);line-height:1.1;transition:color 0.18s ease}
-.site-logo:hover .site-logo-name{color:var(--pine)}
-.site-logo-tagline{font-family:var(--font-mono);font-size:0.66rem;color:var(--text-muted);letter-spacing:0.04em;margin-top:2px}
+.site-logo-name{font-family:var(--font-serif);font-weight:600;font-size:1.25rem;color:var(--ink);line-height:1.05;letter-spacing:-0.01em}
+.site-logo-tagline{font-family:var(--font-mono);font-size:0.62rem;color:var(--faint);letter-spacing:0.04em;margin-top:3px}
 .page-wrapper{max-width:1120px;margin:0 auto;padding:0 2rem}
 </style>
 
