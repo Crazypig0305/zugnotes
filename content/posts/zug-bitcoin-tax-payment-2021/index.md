@@ -76,6 +76,8 @@ The canton never held crypto. This detail matters: Zug was not making a statemen
 <p>The CHF 100,000 ceiling, the mandatory full-invoice payment, and the instant conversion to CHF were not limitations — they were the architecture that made the system viable for a canton that operates on a balanced-budget mandate. A municipality cannot hold volatile assets. Bitcoin Suisse absorbed the conversion complexity; Zug received CHF. That is the design.</p>
 </div>
 
+<!-- IG-data: Working the reported two-year totals (about 150 transactions, roughly CHF 2 million) down to a per-transaction average of ~CHF 13,300, then reading the user profile out of that figure — not mid-size income taxpayers but holders with sizeable positions and crypto-native companies settling wealth or corporate liabilities; the coverage reports the headline totals and stops before the arithmetic that shows who the system actually served -->
+
 ## What the Actual Usage Looked Like
 
 This is where the field note becomes more interesting than most of the 2021 coverage suggested.

@@ -67,6 +67,8 @@ That is a foundation law question. And the answer — in 2014 — was Zug.
 
 {{< num-highlight value="2014" label="Year Stiftung Ethereum registered in Zug" note="July 9, 2014. The foundation structure enabled the 2014 presale to proceed with legal clarity unavailable elsewhere." >}}
 
+<!-- IG-angle: Disentangling the two Swiss entities the origin story collapses into one — EthSuisse (GmbH, operational vehicle, actually conducted the presale) versus Stiftung Ethereum (foundation, registered July 9 2014, stewards the funds) — which is what shows the deciding factor was foundation law offering a founder-independent, purpose-bound container for a public token sale, not the cantonal tax rate the summaries credit -->
+
 ## The Two Legal Entities Nobody Explains
 
 The confusion about "why Zug" partly comes from a failure to distinguish two separate legal entities that Ethereum set up in Switzerland, in two different months, for two different purposes.

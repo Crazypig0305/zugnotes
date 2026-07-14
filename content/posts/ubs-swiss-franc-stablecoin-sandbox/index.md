@@ -119,6 +119,8 @@ The CHFD sandbox is exploring whether a licensed-but-non-bank issuer model, oper
 
 {{< num-highlight value="3" label="Parallel CHF digital money tracks" note="Wholesale CBDC ([SNB](https://www.snb.ch/en)) / Deposit token (banks) / Stablecoin (Swiss Stablecoin AG)" >}}
 
+<!-- IG-angle: Separating the two experiments the launch coverage merges — September 2025 was deposit tokens (bank-issued, direct claim, interbank settlement), April 2026 is CHFD (non-bank issuer, external reserves, programmable access); they carry different counterparty risk and insolvency treatment, address different layers, and are not competing, so reading them as one story misreads the regulatory signal entirely -->
+
 ## What Practitioners Are Getting Wrong
 
 The coverage pattern I am seeing conflates two separate things: the proof of concept (completed September 2025, deposit tokens, interbank) and the sandbox (launched April 2026, stablecoin, CHFD, live use cases).

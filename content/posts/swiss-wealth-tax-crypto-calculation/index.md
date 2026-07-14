@@ -84,6 +84,8 @@ The practical workflow is straightforward for major assets: you look up Bitcoin 
 
 Where it gets more complicated is when you move beyond BTC, ETH, and the small number of other major coins that appear on the official list.
 
+<!-- IG-synthesis: Four-level valuation ladder induced from scattered cantonal practice for the assets the Kursliste does not cover — official rate, then CoinMarketCap/CoinGecko year-end, then cost basis as the floor, then zero only on demonstrable worthlessness (a bar "it went down a lot" does not clear); the official list tells you what it covers and stops there, leaving the fallback order undocumented -->
+
 ## The Valuation Hierarchy: What Happens When Your Coin Is Not on the List
 
 The SFTA Kursliste covers a limited number of cryptocurrencies. If you hold anything beyond the mainstream — altcoins, newer layer-1 tokens, governance tokens, smaller [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) protocol tokens — you are outside the official list. This is where the valuation hierarchy applies:

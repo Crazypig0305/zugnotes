@@ -92,6 +92,8 @@ This does not affect your Swiss [wealth tax](https://en.wikipedia.org/wiki/Wealt
 
 Most coverage focused on what changed (the exchange date). The more useful comparison for someone holding crypto in Switzerland is what is different between the two years in practical terms. If you want the prior question answered first — what CARF actually reports about you as an individual, line by line through the framework — there is a plain reading of that here: [What CARF Actually Reports About You](/posts/carf-individual-reporting-crypto/).
 
+<!-- IG-data: Row-by-row 2026 vs 2027 comparison built for the individual holder rather than the compliance department — separating what the delay actually moved (the cross-border exchange date) from the seven things it did not touch (collection, registration, wealth tax, self-custody scope); assembled from the decoupled law and exchange timelines that the "Switzerland delays crypto tax sharing" headline collapses into one -->
+
 {{< budget-table title="Switzerland CARF: 2026 vs. 2027 — What Actually Changes" sub="For individual crypto holders using Swiss service providers" >}}
 | | 2026 | 2027 (anticipated) |
 |---|---|---|

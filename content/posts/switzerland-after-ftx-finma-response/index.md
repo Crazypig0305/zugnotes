@@ -115,6 +115,8 @@ The firms at [CV Labs](https://cvlabs.com/) and in the broader Zug ecosystem tha
 
 The ecosystem that emerged from late 2022 and into 2023 was, if anything, better positioned for institutional adoption. The argument that Switzerland's regulatory framework produced safer infrastructure had just been validated by the most dramatic possible counter-example.
 
+<!-- IG-angle: Treating the absence of a Swiss response as the actual finding — the US produced enforcement actions and turf wars, the EU accelerated MiCA into law, and Switzerland did neither because the DEBA segregation gap had already been closed in 2021; read this way the "Swiss complacency" charge inverts, and MiCA's convergence on mandatory segregation becomes the EU adopting the architecture FTX lacked and Switzerland already had -->
+
 ## How Switzerland's Response Compared
 
 The contrast with other jurisdictions is worth noting briefly, because it clarifies what was distinctive about FINMA's approach.

@@ -141,6 +141,8 @@ Liquidity mining rewards, lending interest, and yield farming returns are genera
 
 **What this means for stakers in Zug specifically:** The income tax rate in Zug is materially lower than in Zurich or Geneva. The effective combined rate (federal + cantonal + municipal) for a single individual earning CHF 100,000 in Zug is roughly 22–24%, compared to 30–35% in Zurich and upward of 40% in Geneva. For high-volume stakers, the canton of residence matters as much as the activity classification.
 
+<!-- IG-angle: Reading the Swiss regime as a wealth model rather than a realization model, which inverts the incentive every other jurisdiction trains you for — there is no taxable event to defer, so holding carries an annual cost instead of a deferral benefit, and the December 31 snapshot becomes the decision point rather than the sale; the guides list the capital gains exemption and the wealth tax separately and never draw the behavioural consequence -->
+
 ## How the December 31st Valuation Creates Real Planning Decisions
 
 The combination of wealth tax and no capital gains tax creates a tax structure that rewards different behavior than most people expect.
