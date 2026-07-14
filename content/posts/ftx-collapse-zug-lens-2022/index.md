@@ -65,6 +65,8 @@ The FTX connection in these cases went deeper than custody: Alameda Research, FT
 
 {{< num-highlight value="95%" label="Percentage of OXY and MAPS tokens held on FTX at the time of its bankruptcy filing" note="Oxygen Protocol — a Zug-registered project backed by Alameda Research — disclosed this figure in mid-November 2022. Both tokens became effectively worthless within days. Source: [CoinDesk](https://www.coindesk.com/), November 2022." >}}
 
+<!-- IG-firsthand: Eyewitness account of the CV Labs corridors during the week of the bankruptcy filing — damage assessment rather than panic, the "are you okay?" Telegram messages, and the split between infrastructure builders who had already lived through 2018 and the teams holding Alameda money; the texture that the later "Swiss regulation vindicated" narrative compressed out -->
+
 ## What the CV Labs Corridors Felt Like
 
 I want to be honest about what I observed that week, because the narrative that emerged later — Zug as safe haven, Swiss regulation as vindication — was true, but it was not the whole texture of those few days.

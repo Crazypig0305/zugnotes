@@ -115,6 +115,8 @@ A few things worth correcting that come up in conversations around this legislat
 
 **It is not the same as [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets).** The EU's Markets in Crypto-Assets regulation is a comprehensive supervisory framework covering crypto-asset issuers and service providers across 27 member states. The DLT Act is narrower in scope and different in approach — it is a set of private law and financial market law amendments, not a new supervisory regime. Switzerland is not an EU member, so MiCA does not directly apply — but Swiss firms accessing EU markets need to account for both. [A field note on MiCA vs FINMA](/posts/mica-vs-finma-field-note/) covers that comparison in more detail.
 
+<!-- IG-synthesis: Five-year differential verdict on the three innovations, graded separately rather than as one "Switzerland led on blockchain law" claim — custody segregation delivered the real-world impact, ledger-based securities lagged the 2021 optimism, and the DLT Trading Facility licence stayed underutilised; the legal commentary that announced the Act has not gone back to score it -->
+
 ## Five Years On: What the DLT Act Actually Did
 
 Looking back from 2026, the DLT Act's impact has been real but measured. It did what it was designed to do — remove specific legal friction points — without generating the transformative market expansion that some proponents predicted.

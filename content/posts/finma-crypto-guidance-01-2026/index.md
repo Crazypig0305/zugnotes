@@ -133,6 +133,8 @@ What does change more materially:
 | Structured products / ETPs | Legally enforceable guarantees over underlying assets | Retail product collateral chain clarified |
 {{< /budget-table >}}
 
+<!-- IG-angle: Reading a compliance-officer circular for the boundary an individual holder actually needs — the four places the guidance stops (self-custody, tax treatment, stablecoin custody, and the absent equivalence whitelist); the legal commentary maps what the document covers, not where it becomes irrelevant to you -->
+
 ## What the Guidance Does Not Address
 
 Worth being clear about what this document is not.

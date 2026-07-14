@@ -85,6 +85,8 @@ Sygnum's path since 2019 has been methodical. It reported its first profitable h
 
 {{< num-highlight value="$4.5B" label="Sygnum client assets as of mid-2024" note="Reported alongside H1 2024 profit. Sygnum simultaneously reported a 500% rise in crypto derivatives trading volume and a >360% increase in loan volumes." >}}
 
+<!-- IG-firsthand: Ground-level reaction from Zug's blockchain offices the week after the grant — measured rather than celebratory, against the wave of headlines and law-firm alerts; what actually shifted fast was the tone of conversations with institutional counterparts abroad, which the coverage of the announcement could not observe -->
+
 ## What Zug Looked Like the Week After
 
 The announcement landed on a Monday. By the following week, it had generated a predictable wave of commentary: headlines in Swiss financial media, analysis pieces from law firms, and celebratory posts from the broader [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) community.

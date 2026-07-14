@@ -91,6 +91,8 @@ The case-by-case commitment embedded in the guidelines — FINMA was explicit th
 The case-by-case language was sometimes interpreted by commentators outside Switzerland as evidence that the guidelines lacked teeth — that FINMA had provided categories without enforcement clarity. The interpretation misread how Swiss financial supervision operates. FINMA's model is supervisory engagement rather than preemptive rule-setting: publish a framework, remain accessible for inquiries, and apply enforcement to clear violations. The February 2018 guidelines received 155 detailed regulatory queries by year's end. FINMA investigated 60 ICOs in 2018. More than ten were found to violate AML rules; enforcement proceedings were started against eight. The case-by-case commitment was functional, not evasive.
 {{< /skip-box >}}
 
+<!-- IG-firsthand: How the guidelines actually landed inside Zug's professional community — the firms handling ICO work had informal advance signals through their regulatory relationships, so the document confirmed their existing advice rather than redirecting it, while mid-ICO projects funding unbuilt platforms had to re-examine their token's functional classification; a differentiated reaction the international coverage flattened into "Switzerland publishes rules" -->
+
 ## What the Reaction in Zug Actually Looked Like
 
 The reaction in Zug's professional community in the days after February 16 was more differentiated than the international coverage suggested.

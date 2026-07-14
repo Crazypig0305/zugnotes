@@ -155,6 +155,8 @@ After reading the consultation paper and the commentary around it, a few things 
 
 What does not change immediately: the underlying regulatory philosophy. Switzerland is still calibrating — not prohibiting. The direction continues to be toward formalization of a sector that exists, rather than attempts to suppress or redirect it.
 
+<!-- IG-angle: Naming the undisclosed variable the consultation coverage skips — no CHF capital threshold has been specified, and that single unspecified number decides whether the crypto-institution licence is reachable for mid-sized Swiss firms or becomes another well-capitalised-players-only regime; the legal summaries cover what the paper states, not the omission that determines who it serves -->
+
 ## A Word on Capital Requirements
 
 One noticeable gap in the consultation paper, at least in the version that has been publicly discussed: specific numerical capital requirements for the crypto-institution license have not been disclosed. The proposal references "adequate capital" and "progressive capital requirements" for significant payment instrument institutions, but no CHF thresholds have been specified in the commentary I have seen.
