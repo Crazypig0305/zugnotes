@@ -97,6 +97,8 @@ In Zug specifically, the categories that show up most reliably:
 
 **Parking and government services** — Zug canton has extended crypto payment options to some government service fees beyond taxes. The infrastructure tends to follow the same Bitcoin Suisse / QR code pathway as the tax system.
 
+<!-- IG-data: Original category-by-category crypto payment coverage table for Zug — cross-referencing public BTCmap listings with reported merchant installations (Spar Lightning checkout, Bitcoin Suisse Pay terminals, cantonal QR tax flow), a practical-availability view the headline coverage never assembles -->
+
 {{< budget-table title="Crypto Payment Coverage in Zug (2025)" sub="Practical availability by category, based on public BTCmap data and reported merchant installations" >}}
 | Category | Bitcoin accepted | Lightning supported | Friction level |
 |---|---|---|---|
