@@ -74,6 +74,8 @@ The scale was incomprehensible to most people outside the space, and frankly to 
 
 That structure, as I wrote about in the [Ethereum origin story](/posts/why-ethereum-born-in-zug/), was exactly what [Ethereum](https://en.wikipedia.org/wiki/Ethereum) had used in 2014. By 2017, every project that could afford a Zug lawyer had copied it. The difference was that Ethereum had built the template carefully, with Mihai Alisie navigating Swiss regulatory groundwork for months before the presale. The 2017 cohort was moving faster.
 
+<!-- IG-firsthand: Contemporaneous record of what the boom actually sounded like on the ground — the shift in coffee-queue conversation between the 2015-16 cohort and the 2017 wave, CV Labs filling with a qualitatively different energy, and the disappearance of any public mechanism to tell serious teams from whitepapers at fundraise time; the retrospectives settled into hagiography or indictment and lost this texture -->
+
 ## The Atmosphere in Zug, Which Nobody Wrote Down Accurately
 
 The accounts of the ICO boom that circulate now tend to read as either hagiography or indictment. The reality in Zug in 2017 was more textured than either version.

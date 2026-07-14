@@ -78,6 +78,8 @@ The Swiss Federal Tax Administration's Kreisschreiben Nr. 36, issued in July 201
 | 5 | **Derivatives for hedging only** | Options, futures, and other derivatives are used only to hedge existing positions — not as standalone speculative instruments. |
 {{< /budget-table >}}
 
+<!-- IG-angle: Identifying which of the five cumulative criteria actually produces reclassifications — the six-month rule carries the name and the attention, but the transaction-volume test (5x opening balance, where every swap counts as both a sale and a purchase) is the one that catches active holders without warning; drawn from years of watching people navigate this locally rather than from the criterion list the tax guides reproduce -->
+
 ## Where People Actually Run Into Problems
 
 The holding period criterion is the most visible, but in my observation — watching people navigate this in Zug over several years — it is not the one that creates the most unexpected reclassifications.

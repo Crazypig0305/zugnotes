@@ -69,6 +69,8 @@ The practical implication is that you have two separate tax events when staking:
 
 The subsequent price movement of those reward tokens is a capital gain or loss, but since you are (presumably) a private investor, that part remains tax-free. The taxable moment is receipt, not sale.
 
+<!-- IG-synthesis: Combining two separately-documented Swiss rules — income tax at receipt-date value, and the December 31 wealth tax snapshot — to surface the interaction neither source states on its own: the same reward tokens are taxed twice under different frameworks, and no offset mechanism exists between them; immaterial at small scale, material for validators holding size at year-end -->
+
 ## The Double-Layer Effect: Income Tax Plus Wealth Tax
 
 Here is the situation that surprises most people who come from other jurisdictions.

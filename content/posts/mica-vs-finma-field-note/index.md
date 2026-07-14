@@ -55,6 +55,8 @@ That interaction is what I want to map out here.
 
 ---
 
+<!-- IG-angle: Reframing the standard "MiCA vs FINMA, which is better" comparison as a category error — one is a market access framework built on passporting, the other is a supervision framework covering a single country, so they are not competing for the same thing; the question most comparisons ask cannot be answered because it is malformed -->
+
 ## The Foundational Asymmetry: One Is a Market Access Framework, the Other Is Not
 
 The most important thing to understand about MiCA and FINMA is that they are solving different problems.
