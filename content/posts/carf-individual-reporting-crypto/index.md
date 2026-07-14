@@ -114,6 +114,8 @@ For **individuals**, CARF reporting is triggered when an individual holds a repo
 
 For **entities** (companies, foundations, trusts, partnerships), the reporting obligation is more layered. RCASPs must look through the entity to identify its controlling persons — the natural individuals who ultimately own or control the entity. This is the same beneficial ownership standard used under CRS. An entity that holds crypto through a Swiss exchange triggers reporting on both the entity itself and on its controlling persons, if those persons are tax-resident in reportable jurisdictions.
 
+<!-- IG-data: Side-by-side breakdown of CARF's individual vs. entity reporting — the look-through obligation and passive-NFI rule that general CARF coverage collapses into a single "reporting" label, assembled here from the OECD framework text -->
+
 {{< budget-table title="CARF: Individual vs. Entity Reporting — Key Differences" sub="How the framework treats personal and corporate crypto holdings differently" >}}
 | | Individual Holder | Entity Holder |
 |---|---|---|

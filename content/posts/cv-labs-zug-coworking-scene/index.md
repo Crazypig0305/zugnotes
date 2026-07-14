@@ -71,6 +71,8 @@ That adjacency is not incidental. It is the actual value proposition. A desk at 
 
 The 200+ tenant figure is the one CV Labs leads with. It is worth contextualizing against the broader ecosystem: CV VC's own data puts Crypto Valley at 1,749 active blockchain companies, with Zug hosting 41% of the total — roughly 719 companies in the canton. CV Labs' 200+ tenants represent a meaningful slice of that, approximately 11% of the entire ecosystem and close to 28% of Zug-based companies, depending on how you count domicile registrations versus working tenants.
 
+<!-- IG-angle: The unpublished split behind the "200+ tenants" headline — domicile registrations and working tenants are counted together, so the figure measures legal addresses rather than daily density; worked through against the 719 Zug-company base to show what the tagline can and cannot support -->
+
 ## The Domicile Question: How Many Are Actually There?
 
 This is the part that the summary statistics do not tell you.

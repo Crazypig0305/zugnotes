@@ -86,6 +86,8 @@ Sygnum's published materials suggest a minimum portfolio value of **CHF 50,000 i
 
 Bank Frick's thresholds are not publicly listed and are negotiated as part of the onboarding process. The bank is explicit that its primary client base is financial intermediaries and professional investors, not retail.
 
+<!-- IG-data: Original four-bank comparison assembling what the marketing pages leave out — realistic entry thresholds, KYC depth, and which institutions accept individuals at all (InCore is B2B-only, Bank Frick negotiates undisclosed minimums), cross-referenced from published professional-client criteria and practitioner reviews -->
+
 {{< budget-table title="Swiss Crypto-Native Bank Comparison" sub="FINMA-licensed institutions offering direct crypto services (May 2026)" >}}
 | Bank | FINMA licence | Individual accounts | Approx. AUM/crypto minimum | KYC depth |
 |---|---|---|---|---|

@@ -102,6 +102,8 @@ The $400M TON deal is an outlier that inflates the average. Strip it out, and 30
 
 Switzerland's 47% share of European blockchain venture funding is the statistic that has attracted the most external commentary in 2026. The framing — "Switzerland dominates European crypto VC" — is accurate but slightly misleading. What it reflects is not that Switzerland has become more attractive relative to its historical position. It is that London post-Brexit, Berlin in economic contraction, and Paris facing regulatory ambiguity have all become less reliable as crypto capital destinations. Switzerland's share is partly absolute growth, partly relative to competitors weakening.
 
+<!-- IG-angle: The registration-vs-presence distinction the ecosystem reports structurally cannot make — CV VC counts registered entities, but a resident view shows how many of the 1,749 are a Zug address attached to a team in Berlin or Singapore; the headline company count and the street-level population are different variables -->
+
 ## What "Crypto Valley" Actually Looks Like From Street Level
 
 Here is where institutional reports and field notes diverge.

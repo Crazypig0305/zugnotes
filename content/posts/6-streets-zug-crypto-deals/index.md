@@ -107,6 +107,8 @@ The old town itself — Kolinplatz, the streets around the Stadthaus, the lake p
 
 ---
 
+<!-- IG-firsthand: Original walking route assembled by covering the six clusters on foot — ~3 km, ~90 minutes, ordered so the VC, legal, financial and social layers connect in sequence; a route-level field note the ecosystem's news and directory coverage never assembles -->
+
 ## The Afternoon Walk Route
 
 If you want to cover all six areas in a single afternoon, the route is about 3 kilometers and takes roughly 90 minutes at a comfortable pace, with time to pause.

@@ -85,6 +85,8 @@ The firms that stayed shared a common feature: they were either well-capitalised
 
 [CV Labs](https://cvlabs.com/), which opened on Dammstrasse 16 in 2018 — right at the start of the winter — continued operating. The co-working space and incubator was quieter than it would become, but it was open. [The CV Labs field note covers what the space looked like in later years](/posts/cv-labs-zug-coworking-scene/); in early 2019, the hallways were less crowded, the coffee mornings smaller, but the doors were open.
 
+<!-- IG-firsthand: Contemporaneous morale reading recorded from inside Zug in January 2019 — the "exhausted pragmatism" mood, the hours per week teams lost to banking administration, and the uncertainty before the August licences; deliberately not retrofitted with hindsight, which is what the retrospective coverage of the winter cannot reconstruct -->
+
 ## The Morale Reading: January 2019
 
 I want to be honest about what the ecosystem felt like in January 2019, rather than retrofitting the story with the confidence that hindsight provides.
