@@ -1,7 +1,7 @@
 ---
 title: "Two New FINMA License Categories Proposed: What the Crypto-Institution License Means in Practice"
 date: 2026-03-10
-lastmod: 2026-05-04
+lastmod: 2026-07-19
 description: "Switzerland proposed two new FINMA-supervised license categories in late 2025: the crypto-institution license and the payment instrument institution. Here is what they actually mean for exchanges, custodians, and the firms that have been operating under SRO oversight."
 categories: ["regulation"]
 tags: ["FINMA crypto institution license 2026", "swiss crypto regulation", "FinIA amendment", "payment instrument institution", "swiss fintech license", "crypto-institution switzerland"]
@@ -40,10 +40,19 @@ sources:
   - name: "Cryptolicense.io — Switzerland Proposes New Crypto Licence Categories"
     url: "https://cryptolicense.io/en/switzerland-proposes-new-crypto-licence-categories/"
     desc: "cryptolicense.io — regulatory safeguards and supervision shift summary"
+  - name: "FINMA — FinTech Licence (Article 1b Banking Act)"
+    url: "https://www.finma.ch/en/authorisation/fintech/fintech-bewilligung/"
+    desc: "finma.ch — official page on the fintech license, in force since January 1, 2019"
+  - name: "Crypto Valley Journal — Swiss Bankers Association Demands Direct Stablecoin Issuance Rights for Banks"
+    url: "https://cryptovalleyjournal.com/focus/legal-and-compliance/swiss-bankers-association-demands-direct-stablecoin-issuance-rights-for-banks/"
+    desc: "cryptovalleyjournal.com — February 11, 2026 industry response opposing the bank-subsidiary requirement"
+  - name: "Fintech News Switzerland — Sequence Secures FINMA Fintech License in Switzerland"
+    url: "https://fintechnews.ch/fintech/sequence-finma-fintech-license-switzerland/83749/"
+    desc: "fintechnews.ch — May 2026: Sequence becomes the fifth Swiss company to hold the Article 1b fintech license"
 ---
 
-> 📅 Field note from: March 2026 | Last updated: May 2026
-> Written shortly after [FINMA](https://www.finma.ch/en/) published the consultation paper; updated with consultation progress observations in May 2026.
+> 📅 Field note from: March 2026 | Last updated: July 2026
+> Written shortly after [FINMA](https://www.finma.ch/en/) published the consultation paper; updated in July 2026 now that the consultation has closed and the first substantive industry responses have landed — including the Swiss Bankers Association's push to let banks issue stablecoins directly, covered below.
 
 On October 22, 2025, the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) released a draft amendment to the Financial Institutions Act — FinIA — and opened a public consultation. The document proposes two new license categories: the *crypto-institution* (Krypto-Institut) and the *payment instrument institution* (Zahlungsmittelinstitut). The consultation period closed on February 6, 2026.
 
@@ -85,7 +94,7 @@ On prohibited activities: crypto institutions cannot engage in uncovered proprie
 
 The payment instrument institution is the second new category, and in some ways the more technically interesting one because it replaces the existing fintech license.
 
-The current fintech license — introduced in 2019 alongside the broader DLT-focused regulatory package that eventually became the [DLT Act](/posts/dlt-act-switzerland-explained/) — had a hard cap of CHF 100 million on deposits. That ceiling has been the binding constraint for fintech-scale payment businesses that wanted to grow without converting to a full banking license. The new payment instrument institution category removes that cap.
+The current fintech license was introduced under Article 1b of the Banking Act and [entered into force on January 1, 2019](https://www.finma.ch/en/authorisation/fintech/fintech-bewilligung/). It is a distinct track from the [DLT Act](/posts/dlt-act-switzerland-explained/), which came later — the two are often lumped together as "Switzerland's crypto rules," but the fintech license is a banking-law instrument, not part of the distributed-ledger package. It let firms accept public deposits up to CHF 100 million without lending against them. That ceiling has been the binding constraint for fintech-scale payment businesses that wanted to grow without converting to a full banking license. The new payment instrument institution category removes that cap.
 
 The specific rights granted under this license include:
 
@@ -95,7 +104,7 @@ The specific rights granted under this license include:
 
 One notable structural requirement: traditional banks cannot simply add stablecoin issuance to their existing license. To issue CHF-pegged stablecoins under this framework, a bank would need to establish a separate subsidiary that holds the payment instrument institution license. The activities cannot be combined with traditional banking functions.
 
-{{< num-highlight number="4" label="fintech-licensed firms currently operating in Switzerland" note="The proposal acknowledges this number, suggesting that the fintech license never achieved broad adoption. The payment instrument institution category is designed to be more commercially viable." >}}
+{{< num-highlight number="5" label="firms held a Swiss fintech license as of mid-2026" note="The consultation paper cited four when it was drafted in late 2025; Sequence became the fifth in May 2026. Either count makes the same point — single-digit adoption after more than six years. The fintech license never caught on, and the payment instrument institution category is designed to be more commercially viable." >}}
 
 ## How This Compares to the Existing License Landscape
 
@@ -165,13 +174,13 @@ This will matter significantly once the legislation moves toward parliamentary d
 
 ## What I Am Watching
 
-The consultation process closed in February 2026. The Federal Council is now reviewing responses. From here in Zug, the conversations I have been having with people in the sector — not attribution, just impressions — suggest that the industry broadly supports the direction while worrying about the pace and cost of transition.
+The consultation closed on February 6, 2026, and the responses are now in. The Federal Council is working through them before it drafts the dispatch to parliament — the formal message that turns a consultation draft into an actual bill. As of mid-2026 that dispatch has not been published, and the realistic window still runs from 2026 into 2027.
 
-The SRO-supervised firms are the ones with the most at stake. They know direct FINMA oversight is coming. The question is how much runway the transition rules give them and what the capital requirements ultimately look like.
+One response is worth singling out, because it aims straight at a design choice I flagged earlier. On February 11, 2026, the [Swiss Bankers Association](https://en.wikipedia.org/wiki/Swiss_Bankers_Association) came out against the requirement that banks spin off a separate subsidiary to issue CHF stablecoins. Its argument: banks already sit at the center of the payment system and are held to stricter supervision than either new license category, so routing them through a second entity — what the association [framed as an unnecessary "licensing cascade"](https://cryptovalleyjournal.com/focus/legal-and-compliance/swiss-bankers-association-demands-direct-stablecoin-issuance-rights-for-banks/) — makes little sense to them. Whether the Federal Council holds the subsidiary line or bends to the banks is now one of the more concrete things to watch. That the banks pushed back this early tells you the stablecoin provisions are the part of this reform with real commercial stakes attached.
 
-The stablecoin provisions are also drawing quiet interest from several fintech players who have been waiting for legal clarity before building CHF-pegged products. The moment the law is finalized, that segment could move fast.
+The SRO-supervised firms still carry the most structural risk. They know direct FINMA oversight is coming; the open questions are how much runway the transition rules give them and where the capital requirements land. The stablecoin segment, meanwhile, could move quickly once the law is finalized — several fintech players have been waiting for exactly this kind of legal clarity before building CHF-pegged products.
 
-I will update this note as the legislative process advances.
+I will update this note as the dispatch and the parliamentary debate take shape.
 
 ---
 
