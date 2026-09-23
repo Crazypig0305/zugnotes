@@ -1,7 +1,7 @@
 ---
 title: "Why Ethereum Was Born in Zug: The 2014-2017 Origin Story Most People Get Wrong"
 date: 2017-08-15
-lastmod: 2026-05-03
+lastmod: 2026-09-23
 description: "Ethereum chose Zug not because of tax rates but because Swiss foundation law gave the 2014 presale legal structure no other jurisdiction offered. A field note on the real origin story — the spaceship house, Stiftung Ethereum, and how Crypto Valley got its name."
 categories: ["ecosystem"]
 tags: ["ethereum history", "crypto valley origin", "stiftung ethereum", "zug 2014", "ethereum founding", "swiss foundation law"]
@@ -46,7 +46,7 @@ sources:
     desc: "[CV Labs](https://cvlabs.com/) — 2024 retrospective with co-founder perspectives on Zug's early ecosystem"
 ---
 
-> 📅 Original post: August 2017 | Last updated: May 2026
+> 📅 Original post: August 2017 | Last updated: September 2026
 > This field note was first written shortly after [Ethereum](https://en.wikipedia.org/wiki/Ethereum)'s first major upgrade cycle. The origin history section has been verified against primary sources and updated with retrospective detail from co-founder accounts published 2020–2024.
 
 The version of this story that gets told most often goes something like: [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin) chose Switzerland because of low taxes and crypto-friendly banking. That version is not wrong exactly, but it is missing the part that actually mattered in 2014.
@@ -82,7 +82,7 @@ Why both? Because Swiss foundation law separates the fundraising mechanics from 
 This is the part of the origin story that gets glossed over in the "Switzerland has low taxes" summary. The tax environment was a secondary benefit. The foundation structure was the primary enabler.
 
 {{< skip-box title="What this field note does not cover" >}}
-This is a history of Ethereum's legal and structural origin in Zug, not a guide to Swiss foundation law for crypto projects. The regulatory landscape has changed substantially since 2014 — including the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act) (2021), FINMA's updated crypto guidance, and [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets)'s indirect influence. For how Swiss crypto regulation works today, the [field note on FINMA Guidance 01/2026](/posts/finma-crypto-guidance-01-2026/) and the [MiCA vs FINMA comparison](/posts/mica-vs-finma-field-note/) cover the current framework. For how Swiss crypto tax works for individual holders today, see the [Swiss crypto tax advantage guide](/posts/swiss-crypto-tax-advantage-guide/).
+This is a history of Ethereum's legal and structural origin in Zug, not a guide to Swiss foundation law for crypto projects. The regulatory landscape has changed substantially since 2014 — including the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en) (2021), FINMA's updated crypto guidance, and [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets)'s indirect influence. For how Swiss crypto regulation works today, the [field note on FINMA Guidance 01/2026](/posts/finma-crypto-guidance-01-2026/) and the [MiCA vs FINMA comparison](/posts/mica-vs-finma-field-note/) cover the current framework. For how Swiss crypto tax works for individual holders today, see the [Swiss crypto tax advantage guide](/posts/swiss-crypto-tax-advantage-guide/).
 {{< /skip-box >}}
 
 ## The June 7 Meeting and the Decision to Go Non-Profit
@@ -131,7 +131,7 @@ The Berlin location was practical rather than ideological — the city had a sig
 
 ## What 2014–2017 Built in Zug
 
-Between the foundation's registration in July 2014 and Ethereum's mainnet launch on July 30, 2015, the team worked from the Zug canton. The "Spaceship" house became the informal hub — developers working unusual hours, Buterin handling logistics alongside protocol design. The image that came out of that period (modest accommodations, intense focus, no meaningful revenue yet) contrasts sharply with the Crypto Valley of 2026, which hosts 1,749 blockchain companies and $728 million in disclosed 2025 investment.
+Between the foundation's registration in July 2014 and Ethereum's mainnet launch on July 30, 2015, the team worked from the Zug canton. The "Spaceship" house became the informal hub — developers working unusual hours, Buterin handling logistics alongside protocol design. The image that came out of that period (modest accommodations, intense focus, no meaningful revenue yet) contrasts sharply with the Crypto Valley of 2026, which hosts 1,766 blockchain companies and $728 million in disclosed 2025 investment.
 
 But the Ethereum Foundation's presence in Zug had an immediate network effect on the local ecosystem. Within three years of the 2014 registration, approximately 40 crypto foundations had been established in the Canton of Zug, most modeling their legal structure on the Stiftung Ethereum template. The pattern Alisie, Müller, and the founding team established — Swiss foundation, non-profit purpose, Zug address — became the default playbook for blockchain projects looking for legal clarity in a period of global regulatory ambiguity.
 

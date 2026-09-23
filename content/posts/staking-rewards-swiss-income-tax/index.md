@@ -1,7 +1,7 @@
 ---
 title: "Staking Rewards in Switzerland: Why They're Taxed as Income (And What That Means for You)"
 date: 2022-04-08
-lastmod: 2026-06-02
+lastmod: 2026-09-23
 description: "Swiss law taxes staking rewards as ordinary income, not capital gains. Why, the wealth tax double-layer, and what it means staking in Zug versus Geneva."
 categories: ["holding"]
 tags: ["crypto staking tax switzerland", "swiss staking income tax", "staking rewards switzerland", "SFTA crypto income", "wealth tax staking", "DeFi tax switzerland", "canton tax staking"]
@@ -21,7 +21,7 @@ glossary:
     def: "The consensus mechanism used by Ethereum (post-Merge, September 2022), Cardano, Solana, and other networks. Validators lock tokens to participate in block validation and receive staking rewards. The Merge in September 2022 made Ethereum staking much more accessible, which is part of why Swiss tax authorities formalized their staking guidance around 2021-2022."
 sources:
   - name: "SFTA Working Paper — Cryptocurrencies (December 2021)"
-    url: "https://www.estv.admin.ch/estv/en/home/direct-federal-tax/directives-circulars.html"
+    url: "https://www.estv.admin.ch/en/cryptocurrencies-taxation"
     desc: "Swiss Federal Tax Administration — primary guidance establishing staking rewards as taxable capital income (Kapitalertrag), not capital gains. The definitive source for staking tax classification in Switzerland."
   - name: "Taxea.ch — Mining and Staking: How Crypto Income is Taxed in Switzerland"
     url: "https://www.taxea.ch/en/tips/mining-and-staking-tax-treatment-in-switzerland"
@@ -29,22 +29,28 @@ sources:
   - name: "Blockpit — Switzerland Crypto Tax Guide 2026"
     url: "https://www.blockpit.io/tax-guides/crypto-tax-guide-switzerland"
     desc: "Blockpit — comprehensive 2026 guide covering staking income classification and cantonal wealth tax rates."
+  - name: "Taxolution Advisory — Swiss Wealth Tax 2026: Rates by Canton"
+    url: "https://www.taxolution.ch/swiss-tax-guide/wealth-tax/"
+    desc: "Taxolution — canton-by-canton wealth tax amounts on CHF 500K / 1M / 5M taxable net wealth, 2026 data. Source of the wealth tax column below."
+  - name: "AHV/IV — Contributions of self-employed persons (Merkblatt 2.02)"
+    url: "https://www.ahv-iv.ch/p/2.02.d"
+    desc: "Swiss social security information centre — official AHV/IV/EO contribution rates for self-employed persons, including the degressive scale."
   - name: "Crypto Valley Journal — DACH Crypto Tax Comparison 2025"
     url: "https://cryptovalleyjournal.com/education/basics/crypto-taxes-in-the-dach-comparison-germany-austria-and-switzerland-2025/"
     desc: "Crypto Valley Journal — comparison of Swiss staking tax treatment versus Germany and Austria, with cantonal rate data."
   - name: "Zug Notes — The Swiss Crypto Tax Advantage: A Plain-Language Guide"
     url: "/posts/swiss-crypto-tax-advantage-guide/"
-    desc: "Zug Notes H01 pillar — full field guide to capital gains exemption, wealth tax structure, and private investor status. The structural context that makes staking income treatment surprising to most people."
+    desc: "The pillar guide — full field guide to capital gains exemption, wealth tax structure, and private investor status. The structural context that makes staking income treatment surprising to most people."
   - name: "Zug Notes — Declaring Crypto on Your Swiss Tax Return"
     url: "/posts/declaring-crypto-swiss-tax-return/"
-    desc: "Zug Notes H03 — practical step-by-step on where staking rewards go in the cantonal tax form, separate from the securities schedule."
+    desc: "The tax return walkthrough — practical step-by-step on where staking rewards go in the cantonal tax form, separate from the securities schedule."
   - name: "Zug Notes — Using Crypto Day-to-Day in Zug"
     url: "/posts/crypto-day-to-day-zug/"
-    desc: "Zug Notes H06 — staking as part of everyday crypto use in Crypto Valley: what workflows look like in practice."
+    desc: "The everyday-use field note — staking as part of everyday crypto use in Crypto Valley: what workflows look like in practice."
 ---
 
-> 📅 Field note from: April 2022 | Last updated: May 2026
-> Originally written when Swiss tax authorities first issued clear [staking](https://en.wikipedia.org/wiki/Proof_of_stake) guidance; updated with current cantonal practice and post-Merge staking context in May 2026.
+> 📅 Field note from: April 2022 | Last updated: September 2026
+> Originally written when Swiss tax authorities first issued clear [staking](https://en.wikipedia.org/wiki/Proof_of_stake) guidance; updated September 2026 with current cantonal wealth tax figures and the 2026 AHV rates.
 
 Most explanations of Swiss crypto tax policy start with the good news: capital gains are tax-free for private investors. That part is accurate and important.
 
@@ -54,13 +60,13 @@ This field note covers the logic behind the income classification, the interacti
 
 ## Why Staking Rewards Are Not Capital Gains
 
-The Swiss [Federal Tax Administration](https://www.estv.admin.ch/estv/en/home.html)'s (SFTA) position on staking rewards has been consistent since its December 2021 working paper on cryptocurrency taxation: staking rewards are taxable income, not capital gains.
+The Swiss [Federal Tax Administration](https://www.estv.admin.ch/en)'s (SFTA) position on staking rewards has been consistent since its December 2021 working paper on cryptocurrency taxation: staking rewards are taxable income, not capital gains.
 
 The legal reasoning follows from how Swiss tax law categorizes asset returns. Capital gains — the increase in value of an asset you bought and later sold — are tax-free for private investors. But income earned *through* holding an asset (dividends, interest, and by analogy, staking rewards) falls into a different category: **Kapitalertrag**, or capital income from movable assets.
 
 When you stake ETH or ADA and receive staking rewards, the SFTA treats this as analogous to receiving interest on a savings account or dividends on a share. The tokens you receive are income in the year you receive them.
 
-{{< num-highlight number="Market Value in CHF on Date of Receipt" label="The amount you declare as income for each batch of staking rewards — not the value when you eventually sell them" >}}
+{{< num-highlight value="Market Value in CHF on Date of Receipt" label="The amount you declare as income for each batch of staking rewards — not the value when you eventually sell them" >}}
 
 The practical implication is that you have two separate tax events when staking:
 
@@ -75,9 +81,9 @@ The subsequent price movement of those reward tokens is a capital gain or loss, 
 
 Here is the situation that surprises most people who come from other jurisdictions.
 
-Say you receive ETH staking rewards worth CHF 5,000 during the year. You declare that CHF 5,000 as income. Depending on your canton and marginal rate, you might pay CHF 1,100–2,160 in income tax on it (using Zug's ~22% versus Geneva's ~43%).
+Say you receive ETH staking rewards worth CHF 5,000 during the year. You declare that CHF 5,000 as income. Depending on your canton and marginal rate, you might pay CHF 1,100–2,150 in income tax on it (using Zug's ~22% versus Geneva's ~43%).
 
-Then December 31st arrives. Those same ETH tokens — assuming you still hold them — are counted in your wealth tax base. At a typical cantonal wealth tax rate of 0.1–0.3%, the additional cost on CHF 5,000 is CHF 5–15.
+Then December 31st arrives. Those same ETH tokens — assuming you still hold them — are counted in your wealth tax base. At effective cantonal wealth tax rates of roughly 0.14% in Zug and 0.51% in Geneva, the additional cost on CHF 5,000 is about CHF 7 or about CHF 26 respectively.
 
 The wealth tax portion on a CHF 5,000 staking reward position is modest. But if you are staking at scale — say CHF 50,000 in annual rewards — the interaction is more material. And the wealth tax applies to your entire portfolio value, not just the rewards themselves. A validator running significant ETH at year-end is paying wealth tax on the full staked position.
 
@@ -89,14 +95,14 @@ There is no specific Swiss tax mechanism to offset income already paid on stakin
 
 The federal position on staking rewards as income is uniform. But Switzerland's cantonal tax system means that the *cost* of that income classification varies significantly based on where you live.
 
-{{< budget-table title="Approximate marginal income tax rates for staking rewards: key cantons" >}}
-| Canton | Approx. marginal income tax rate (CHF 100,000 taxable income) | Wealth tax rate (typical) | Notes |
+{{< budget-table title="Approximate marginal income tax rates for staking rewards: key cantons" sub="Wealth tax column: effective combined cantonal and municipal rate on CHF 1,000,000 of taxable net wealth, married couple, cantonal capital, 2026 (Taxolution Advisory)." >}}
+| Canton | Approx. marginal income tax rate (CHF 100,000 taxable income) | Effective wealth tax rate on CHF 1m | Notes |
 |---|---|---|---|
-| Zug | ~22% | ~0.10% | Lowest in Switzerland; Zug Stadt specifically is among the lowest communes |
-| Schwyz | ~23–27% | ~0.05–0.15% | Cantons like Wollerau and Freienbach have very low communal rates |
-| Zurich | ~38–40% | ~0.25–0.30% | City of Zurich significantly higher than Zug |
-| Geneva | ~41–43% | ~0.25–0.45% | Highest among major Swiss cantons; Geneva city rates are at the top |
-| Bern | ~38–42% | ~0.30–0.40% | Similar bracket to Zurich |
+| Zug | ~22% | ~0.14% | Lowest in Switzerland; Zug Stadt specifically is among the lowest communes |
+| Schwyz | ~23–27% | ~0.17% | Flat wealth tax rate, so it does not climb with portfolio size |
+| Zurich | ~38–40% | ~0.17% | Cheap on wealth at CHF 1m, steeply progressive above it (~0.46% at CHF 5m) |
+| Geneva | ~41–43% | ~0.51% | Highest among major Swiss cantons; Geneva city rates are at the top |
+| Bern | ~38–42% | ~0.40% | Similar income bracket to Zurich, materially higher on wealth |
 {{< /budget-table >}}
 
 The same CHF 5,000 in staking rewards costs roughly CHF 1,100 in income tax for a Zug resident and roughly CHF 2,150 for a Geneva resident. The difference compounds at scale.
@@ -109,17 +115,17 @@ The basic income-at-receipt rule applies cleanly to direct staking: you validate
 
 **Pool staking** (delegating to a validator pool like Lido's stETH, RocketPool, or a centralized exchange staking product) is treated the same as direct staking for income purposes. Each distribution of rewards is a taxable income event at receipt-date CHF value. If rewards accumulate automatically (auto-compounding pools), the point of "receipt" is typically when the rewards become separately claimable or transferred — though this is an area where cantonal offices can differ in interpretation.
 
-**Liquid staking tokens** (stETH, rETH, cbETH, and similar) add a layer of complexity. When you deposit ETH into Lido, you receive stETH — a token that accrues staking rewards by increasing in value rather than distributing periodic rewards directly. The SFTA has not issued specific guidance on liquid staking tokens as of 2025. Practitioner consensus is that the accrued value of liquid staking tokens is treated as income when it becomes realizable (i.e., when you unstake and receive ETH), but this remains an area of genuine uncertainty. If you hold significant liquid staking positions, this is worth discussing with a Swiss tax advisor before year-end.
+**Liquid staking tokens** (stETH, rETH, cbETH, and similar) add a layer of complexity. When you deposit ETH into Lido, you receive stETH — a token that accrues staking rewards by increasing in value rather than distributing periodic rewards directly. The SFTA still has not issued specific guidance on liquid staking tokens — the December 2021 working paper predates them. Practitioner consensus is that the accrued value of liquid staking tokens is treated as income when it becomes realizable (i.e., when you unstake and receive ETH), but this remains an area of genuine uncertainty. If you hold significant liquid staking positions, this is worth discussing with a Swiss tax advisor before year-end.
 
 **DeFi yield farming and lending protocols** fall into the same income category as staking, but with more case-by-case judgment. Yield from lending ETH or [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s on Aave or Compound is treated as capital income at receipt. Complex DeFi positions — impermanent loss compensation, governance token rewards, protocol incentives — are often assessed individually by cantonal offices. The principle remains: if you receive tokens as compensation for providing capital or services, that is income. The specifics of how liquidity providing, yield farming, and governance tokens each get handled deserve more room than this section gives them — there is a dedicated set of [field notes on DeFi tax treatment in Switzerland](/posts/defi-tax-treatment-switzerland/) that works through each case.
 
-{{< num-highlight number="Date of Receipt" label="The valuation date for all staking and DeFi reward income — not the date you sell, swap, or unstake" >}}
+{{< num-highlight value="Date of Receipt" label="The valuation date for all staking and DeFi reward income — not the date you sell, swap, or unstake" >}}
 
 ## AHV Contributions: When Staking Becomes Self-Employment
 
 For most stakers, AHV (Swiss social security) is not relevant. The SFTA's position is that staking by private individuals as a passive income activity does not trigger AHV contributions — it is analogous to receiving interest on a bond, not to running a business.
 
-The exception: solo validation at scale. If you are running [Ethereum](https://en.wikipedia.org/wiki/Ethereum) validators full-time as a business activity, managing significant infrastructure, or treating staking as your primary professional occupation, cantonal tax authorities may reclassify this as self-employment income. That triggers AHV contributions on top of the income tax — currently around 10.6% for self-employed individuals (combined AHV/IV/EO rate, 2024-2025 rate).
+The exception: solo validation at scale. If you are running [Ethereum](https://en.wikipedia.org/wiki/Ethereum) validators full-time as a business activity, managing significant infrastructure, or treating staking as your primary professional occupation, cantonal tax authorities may reclassify this as self-employment income. That triggers AHV contributions on top of the income tax. The 2026 combined AHV/IV/EO rate for self-employed individuals is 10.0% (8.1% AHV, 1.4% IV, 0.5% EO) on annual earned income of CHF 60,500 or more, with a degressive scale down to 5.371% below that. The 10.6% figure you often see quoted is the employee rate — employer and employee halves added together — and does not apply to you as a self-employed validator.
 
 For the vast majority of people who stake through platforms or delegate to pools, this threshold is not reached. But if you are a professional validator or have structured your staking activity as a business, the AHV question is worth addressing explicitly.
 
@@ -151,7 +157,7 @@ The Swiss staking tax picture is not punitive by international standards — it 
 For a private investor in Zug staking ETH:
 - Capital gains on ETH itself: **zero**
 - Staking rewards: **taxed as income at ~22% marginal rate** (at CHF 100,000 income level)
-- Wealth tax on total portfolio (including staked ETH): **~0.1% annually**
+- Wealth tax on total portfolio (including staked ETH): **~0.14% annually** (Zug, CHF 1m taxable net wealth)
 
 Compared to most European jurisdictions, where capital gains on crypto are also taxed, this is still favorable. Germany taxes both capital gains and staking income (with a one-year holding exemption for capital gains but no blanket exemption for staking). The UK taxes staking rewards as income and capital gains on disposal. France taxes both.
 
@@ -163,4 +169,4 @@ For anyone actively managing staking at significant scale in Switzerland, the co
 
 ---
 
-*Not tax advice. Swiss tax treatment of crypto and staking income depends on individual circumstances, cantonal variation, and annual SFTA guidance. This field note describes the general framework as understood in Zug in 2022 and updated through May 2026. Consult a qualified Swiss tax professional for your specific situation.*
+*Not tax advice. Swiss tax treatment of crypto and staking income depends on individual circumstances, cantonal variation, and annual SFTA guidance. This field note describes the general framework as understood in Zug in 2022 and updated through September 2026. Consult a qualified Swiss tax professional for your specific situation.*

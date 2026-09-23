@@ -1,7 +1,7 @@
 ---
 title: "Swiss Six-Month Crypto Rule: Why It Alone Won't Keep You Tax-Free"
 date: 2020-09-14
-lastmod: 2026-05-04
+lastmod: 2026-09-23
 description: "Holding crypto six months does not make your Swiss gains tax-free — it is only 1 of 5 safe-harbour tests. The five SFTA criteria, the one that quietly catches active traders, and what reclassification really costs."
 categories: ["holding"]
 tags: ["switzerland crypto private investor status", "six month holding rule crypto", "SFTA KS 36", "professional trader classification switzerland", "swiss crypto tax safe harbour", "capital gains tax free switzerland"]
@@ -16,39 +16,42 @@ glossary:
   - term: "Professional securities dealer (gewerbsmässiger Wertschriftenhändler)"
     def: "The classification you want to avoid. If the SFTA or cantonal tax authorities determine that your crypto activity constitutes professional trading, your capital gains are reclassified as taxable income — and AHV (Swiss social security) contributions may apply on top."
   - term: "AHV (Alters- und Hinterlassenenversicherung)"
-    def: "Swiss old-age and survivors' insurance, the core component of Swiss social security. For self-employed individuals and professional traders, AHV contributions apply to income at a rate of approximately 10.6% (combined AHV/IV/EO rate, 2024-2025). Private investors are not subject to AHV on their investment returns."
+    def: "Swiss old-age and survivors' insurance, the core component of Swiss social security. Professional traders are treated as self-employed for AHV purposes. The 2026 combined AHV/IV/EO rate for the self-employed is 10.0% on annual earned income of CHF 60,500 or more, with a degressive scale below that. (The 10.6% rate often quoted is the employee figure — employer and employee halves combined.) Private investors are not subject to AHV on their investment returns."
   - term: "Transaction volume threshold"
     def: "One of the five KS 36 safe-harbour criteria: the sum of all your crypto purchases and sales in a calendar year must not exceed five times the value of your crypto holdings at the start of that year. This criterion is easy to violate in volatile markets if you are actively rotating between positions."
 sources:
   - name: "Swiss Federal Tax Administration — Kreisschreiben Nr. 36 (KS 36)"
-    url: "https://www.estv.admin.ch/estv/en/home/direct-federal-tax/directives-circulars/circulars/2022/2-36-2022.html"
-    desc: "ESTV — the primary legal basis for the five safe-harbour criteria distinguishing private investors from professional securities dealers. Formally applied to crypto by SFTA confirmation in December 2021."
+    url: "https://www.estv.admin.ch/en/cryptocurrencies-taxation"
+    desc: "ESTV — the federal working paper on crypto taxation, which applies the five safe-harbour criteria of Circular No. 36 (27 July 2012) to crypto-assets. Updated December 2021."
   - name: "Taxea.ch — Cryptocurrencies in the Swiss Tax Return"
     url: "https://www.taxea.ch/en/faq-taxes/cryptocurrencies-in-the-swiss-tax-return-how-to-declare-them"
     desc: "Taxea.ch — practical breakdown of how KS 36 criteria apply to crypto, including the holding period and transaction volume tests."
   - name: "Bucher Tax — From Crypto Trader to Securities Dealer?"
     url: "https://en.bucher-tax.ch/blog/vom-crypto-trader-zum-wertschriftenhandler"
     desc: "Bucher Tax — detailed analysis of when KS 36 criteria are difficult to meet for crypto traders, including the five cumulative requirements and their real-world challenges."
+  - name: "AHV/IV — Contributions of self-employed persons (Merkblatt 2.02)"
+    url: "https://www.ahv-iv.ch/p/2.02.d"
+    desc: "Swiss social security information centre — official AHV/IV/EO contribution rates for self-employed persons, including the degressive scale below CHF 60,500."
   - name: "Taxolution — Capital Gains Tax Switzerland 2026: Tax-Free Rules"
     url: "https://www.taxolution.ch/swiss-tax-guide/tax-exemption-of-capital-gains/"
     desc: "Taxolution Advisory — current overview of the safe-harbour rules and how cantonal practice varies in applying them."
-  - name: "Zug Notes — The Swiss Crypto Tax Advantage: A Plain-Language Guide"
+  - name: "Zug Notes — The Swiss Crypto Tax Advantage: Capital Gains Free, But Wealth Tax Is Real"
     url: "/posts/swiss-crypto-tax-advantage-guide/"
-    desc: "Zug Notes H01 pillar — the full framework: capital gains exemption, wealth tax structure, and private investor status in one place."
-  - name: "Zug Notes — Staking Rewards in Switzerland: Why They're Taxed as Income"
+    desc: "Zug Notes — the Swiss crypto tax advantage pillar guide: the full framework: capital gains exemption, wealth tax structure, and private investor status in one place."
+  - name: "Zug Notes — Staking Rewards in Switzerland: Why They're Taxed as Income (And What That Means for You)"
     url: "/posts/staking-rewards-swiss-income-tax/"
-    desc: "Zug Notes H04 — how staking income interacts with private investor status, and why the income/capital gains distinction matters."
-  - name: "Zug Notes — The Wealth Tax Calculation"
+    desc: "Zug Notes — the staking rewards field note: how staking income interacts with private investor status, and why the income/capital gains distinction matters."
+  - name: "Zug Notes — The Wealth Tax Calculation: How Switzerland Values Your Crypto Portfolio on New Year's Eve"
     url: "/posts/swiss-wealth-tax-crypto-calculation/"
-    desc: "Zug Notes H07 — wealth tax applies to all crypto holders regardless of investor status; how the December 31 portfolio valuation works."
+    desc: "Zug Notes — the wealth tax calculation field note: wealth tax applies to all crypto holders regardless of investor status; how the December 31 portfolio valuation works."
 ---
 
-> 📅 Field note from: September 2020 | Last updated: May 2026
-> Originally written when SFTA's professional trader criteria were being widely discussed; updated with five years of cantonal practice in May 2026.
+> 📅 Field note from: September 2020 | Last updated: September 2026
+> Originally written when SFTA's professional trader criteria were being widely discussed; updated September 2026 with six years of cantonal practice and the 2026 AHV rates.
 
 The Swiss crypto tax headline is simple: capital gains are tax-free for private investors. Most people stop reading there.
 
-What the headline omits is that "private investor" is not a default state. It is a classification you need to actively maintain — and the Swiss [Federal Tax Administration](https://www.estv.admin.ch/estv/en/home.html) has published five specific criteria that determine whether you qualify.
+What the headline omits is that "private investor" is not a default state. It is a classification you need to actively maintain — and the Swiss [Federal Tax Administration](https://www.estv.admin.ch/en) has published five specific criteria that determine whether you qualify.
 
 The six-month holding rule is the most frequently cited of the five. It is also the most misunderstood. Holding for six months does not automatically make you a private investor. It is one condition among five, and failing any one of them can put your entire capital gains exemption at risk.
 
@@ -60,7 +63,7 @@ Before getting into the criteria, it helps to understand what is actually at sta
 
 A private investor who sells CHF 500,000 worth of [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) at a gain: pays zero capital gains tax. None. The same outcome in Germany, France, or the UK would trigger a substantial tax bill.
 
-The same person, reclassified as a professional securities dealer: pays income tax on those same gains. At Zug's marginal rates, that could be 18–25%. At Geneva's rates, closer to 40–43%. And on top of income tax, AHV contributions apply — roughly 10.6% on the taxable income from trading.
+The same person, reclassified as a professional securities dealer: pays income tax on those same gains. At Zug's marginal rates, that could be 18–25%. At Geneva's rates, closer to 40–43%. And on top of income tax, AHV contributions apply — 10.0% on the taxable income from trading, because a professional trader is self-employed in the eyes of Swiss social security.
 
 The financial gap between the two classifications is significant. This is why the KS 36 criteria matter, and why cantons take reclassification seriously.
 
@@ -86,11 +89,11 @@ The holding period criterion is the most visible, but in my observation — watc
 
 **The transaction volume criterion catches active traders.** If you started 2020 with CHF 100,000 in crypto and executed CHF 550,000 in combined purchases and sales during the year, you have exceeded the five-times threshold. This can happen faster than people expect during volatile markets when they are rotating between Bitcoin, ETH, and altcoins. Each swap is a sale plus a purchase — both sides count.
 
-{{< num-highlight number="5×" label="The maximum transaction volume relative to your opening portfolio balance — above this, the volume criterion fails" >}}
+{{< num-highlight value="5×" label="The maximum transaction volume relative to your opening portfolio balance — above this, the volume criterion fails" >}}
 
 **The income criterion catches people who had a very good year.** If your salary is CHF 80,000 and you realized CHF 50,000 in crypto gains, the gains represent roughly 62% of your total taxable income. That exceeds the 50% threshold. The criterion is designed to identify people for whom trading has essentially become their primary income source.
 
-**The debt financing criterion catches leveraged traders.** If you took out a loan or used margin to fund crypto purchases, you are likely failing this criterion unless the yield from your crypto assets clearly exceeds the interest cost — which at 2024–2025 interest rates is harder to demonstrate than it was at near-zero rates.
+**The debt financing criterion catches leveraged traders.** If you took out a loan or used margin to fund crypto purchases, you are likely failing this criterion unless the yield from your crypto assets clearly exceeds the interest cost — which at the interest rates of the last few years is harder to demonstrate than it was in the near-zero era.
 
 **The derivatives criterion catches anyone speculating on futures or options beyond simple hedges.** If you are actively trading perpetual futures or buying options for directional exposure, this is probably a failing criterion regardless of your holding period on spot positions.
 
@@ -146,4 +149,4 @@ The stakes are real. Capital gains tax-free is a meaningful structural advantage
 
 ---
 
-*Not tax advice. Swiss tax treatment of crypto depends on individual circumstances, cantonal variation, and annual SFTA guidance. This field note describes the general framework as understood in Zug in September 2020 and updated through May 2026. Consult a qualified Swiss tax professional for your specific situation.*
+*Not tax advice. Swiss tax treatment of crypto depends on individual circumstances, cantonal variation, and annual SFTA guidance. This field note describes the general framework as understood in Zug in September 2020 and updated through September 2026. Consult a qualified Swiss tax professional for your specific situation.*

@@ -1,7 +1,7 @@
 ---
 title: "Switzerland After FTX: How FINMA Responded and What It Changed"
 date: 2023-01-12
-lastmod: 2026-06-02
+lastmod: 2026-09-23
 description: "FTX collapsed in November 2022. FINMA's response — tighter AML thresholds, mandatory crypto reporting, and stricter enforcement of segregation rules — was incremental, not dramatic. A field note from Zug on what actually changed and why the Swiss banks came out ahead."
 categories: ["regulation"]
 tags: ["switzerland crypto regulation FTX response", "FINMA 2022 2023", "FTX collapse switzerland", "crypto asset segregation", "FINMA risk monitor", "swiss crypto banks"]
@@ -12,7 +12,7 @@ glossary:
   - term: "Client asset segregation"
     def: "The legal requirement that a custodian keep client crypto-assets separate from its own proprietary holdings, and that those assets be protected from the custodian's creditors in bankruptcy. Switzerland's Debt Enforcement and Bankruptcy Act (DEBA) — amended in 2021 as part of the DLT Act — establishes explicit legal ground for this protection, provided the custodian meets specific operational conditions."
   - term: "FINMA Risk Monitor"
-    def: "An annual publication by the Swiss Financial Market Supervisory Authority identifying the most significant risks to the Swiss financial sector. The 2022 edition, published November 10, 2022 — three days after FTX filed for bankruptcy — gave elevated prominence to crypto-related risks including asset segregation failures and contagion from unregulated platforms."
+    def: "An annual publication by the Swiss Financial Market Supervisory Authority identifying the most significant risks to the Swiss financial sector. The 2022 edition, published November 10, 2022 — the day before FTX filed for bankruptcy — gave elevated prominence to crypto-related risks including asset segregation failures and contagion from unregulated platforms."
   - term: "AMLO-FINMA (Anti-Money Laundering Ordinance)"
     def: "FINMA's implementing ordinance for Switzerland's Anti-Money Laundering Act. A partially revised version entered into force on 1 January 2023, tightening virtual currency transaction thresholds: the CHF 1,000 AML reporting limit now applies to linked transactions across a 30-day window, not per transaction."
   - term: "Incremental enforcement"
@@ -22,7 +22,7 @@ glossary:
 sources:
   - name: "FINMA Risk Monitor 2022"
     url: "https://www.finma.ch/en/~/media/finma/dokumente/dokumentencenter/myfinma/finma-publikationen/risikomonitor/20221110-finma-risikomonitor-2022.pdf"
-    desc: "finma.ch — published November 10, 2022, three days after FTX bankruptcy filing"
+    desc: "finma.ch — published November 10, 2022, the day before the FTX bankruptcy filing"
   - name: "FINMA Risk Monitor 2023"
     url: "https://www.finma.ch/en/~/media/finma/dokumente/dokumentencenter/myfinma/finma-publikationen/risikomonitor/20231109-finma-risikomonitor-2023.pdf"
     desc: "finma.ch — published November 9, 2023"
@@ -44,12 +44,18 @@ sources:
   - name: "PWC Switzerland — Swiss DLT law: New regulations"
     url: "https://www.pwc.ch/en/insights/regulation/swiss-dlt-new-regulations.html"
     desc: "pwc.ch — overview of DEBA crypto segregation amendments under the DLT Act"
+  - name: "MME — New Swiss DLT Regulations to enter into force starting February 2021"
+    url: "https://www.mme.ch/en/magazine/articles/new-swiss-dlt-regulations-to-enter-into-force-starting-february-2021"
+    desc: "mme.ch — Swiss law firm note setting out the DLT Act's two-stage entry into force: company law on 1 February 2021, financial market law including the DEBA segregation provisions on 1 August 2021"
+  - name: "CBS News — Crypto exchange FTX files for bankruptcy amid $8 billion shortfall"
+    url: "https://www.cbsnews.com/news/ftx-bankruptcy-sam-bankman-fried-resigns-cryptocurrency/"
+    desc: "cbsnews.com — contemporaneous reporting on the 11 November 2022 Chapter 11 filing and the reported customer-fund shortfall"
 ---
 
-> 📅 Field note from: January 2023 | Last updated: May 2026
-> Originally written two months after the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) collapse from inside Zug; updated with three years of regulatory follow-on observations in May 2026.
+> 📅 Field note from: January 2023 | Last updated: September 2026
+> Originally written two months after the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) collapse from inside Zug; updated with three years of regulatory follow-on observations in September 2026.
 
-November 11, 2022 was a Friday. FTX had filed for Chapter 11 bankruptcy the day before. [Sam Bankman-Fried](https://en.wikipedia.org/wiki/Sam_Bankman-Fried) had resigned. Eleven billion dollars in customer funds had vanished.
+November 11, 2022 was a Friday. FTX filed for Chapter 11 bankruptcy that day. [Sam Bankman-Fried](https://en.wikipedia.org/wiki/Sam_Bankman-Fried) had resigned. [Roughly eight billion dollars of customer funds were missing](https://www.cbsnews.com/news/ftx-bankruptcy-sam-bankman-fried-resigns-cryptocurrency/).
 
 I remember checking Telegram channels that morning. There was the usual noise — speculation about contagion, lists of which platforms had exposure to FTX or [Alameda Research](https://en.wikipedia.org/wiki/Alameda_Research), arguments about whether this was the end of crypto or just another cycle bottom. What struck me, working out of Zug, was a different question: what was [FINMA](https://www.finma.ch/en/) going to do?
 
@@ -61,7 +67,7 @@ Over the following three months, the response came — not as a dramatic regulat
 
 To understand FINMA's response, you have to understand what was already in place before November 2022.
 
-Switzerland had been building its crypto regulatory architecture since at least 2018, when FINMA issued its [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) guidelines. The 2019 banking licences for [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) established the principle that crypto-native firms could operate under full banking supervision. The [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act), in force from February 2021, amended the [Debt Enforcement and Bankruptcy Act](https://www.fedlex.admin.ch/eli/cc/11/529_488_529/en) (DEBA) to create explicit legal ground for crypto asset segregation in bankruptcy — meaning that if a licensed Swiss custodian failed, client crypto assets were protected from the custodian's creditors, provided the technical segregation requirements were met.
+Switzerland had been building its crypto regulatory architecture since at least 2018, when FINMA issued its [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) guidelines. The 2019 banking licences for [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) established the principle that crypto-native firms could operate under full banking supervision. The [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en) amended the [Debt Enforcement and Bankruptcy Act](https://www.fedlex.admin.ch/eli/cc/11/529_488_529/en) (DEBA) to create explicit legal ground for crypto asset segregation in bankruptcy — meaning that if a licensed Swiss custodian failed, client crypto assets were protected from the custodian's creditors, provided the technical segregation requirements were met. One detail is worth getting right, because the two dates circulate interchangeably: the Act [entered into force in two stages](https://www.mme.ch/en/magazine/articles/new-swiss-dlt-regulations-to-enter-into-force-starting-february-2021). The company-law half — ledger-based securities in the Code of Obligations — came into force on 1 February 2021. The financial-market half, which is where the DEBA segregation provisions sit, followed on 1 August 2021. February is when the DLT Act started; August is when the bankruptcy protection itself became law.
 
 That last piece — the DEBA amendment — is what made Switzerland's position structurally different from FTX's jurisdiction. FTX operated as a Bahamas-registered exchange. Client funds and proprietary trading funds were commingled. There was no legal segregation requirement that applied, and no regulator enforcing one.
 
@@ -69,9 +75,9 @@ In Switzerland, for firms operating under FINMA supervision, the principle was a
 
 {{< num-highlight value="1 Aug 2021" label="Date Switzerland's DEBA crypto segregation provisions entered into force" note="Part of the broader DLT Act package. Established explicit legal basis for crypto asset protection in bankruptcy — the exact protection FTX's customers lacked when the exchange failed." >}}
 
-## The Risk Monitor That Landed Three Days After the Bankruptcy
+## The Risk Monitor That Landed the Day Before the Bankruptcy
 
-FINMA published its 2022 Risk Monitor on November 10, 2022. FTX had filed for bankruptcy on November 9.
+FINMA published its 2022 Risk Monitor on November 10, 2022 — the day before FTX filed for bankruptcy.
 
 The timing was coincidental — the Risk Monitor was already in production — but the document reads, in retrospect, as an almost precise diagnosis of what had just happened on a different continent.
 

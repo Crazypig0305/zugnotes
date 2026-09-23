@@ -1,7 +1,7 @@
 ---
 title: "DeFi Tax Treatment in Switzerland: Liquidity Providing, Yield Farming, and Governance Tokens Field Notes"
 date: 2023-09-22T11:00:00+01:00
-lastmod: 2026-05-25T10:40:00+08:00
+lastmod: 2026-09-23T14:00:00+08:00
 description: "Switzerland's DeFi tax framework remains piecemeal in 2026. This field note walks through liquidity providing, yield farming rewards, governance token airdrops, and impermanent loss — applying staking precedent and SFTA general crypto guidance where no DeFi-specific rules exist."
 categories: ["holding"]
 tags: ["defi tax switzerland", "swiss defi tax", "liquidity providing tax switzerland", "yield farming tax switzerland", "governance token tax switzerland", "impermanent loss tax", "SFTA defi guidance", "uniswap tax switzerland"]
@@ -11,7 +11,7 @@ readtime: 11
 
 <!-- IG-firsthand: Personal Swiss-resident view on DeFi tax declaration — three tax cycles (2022-2024) of LP / yield / governance positions actually declared to Zug canton tax office, gaps SFTA has not addressed -->
 
-In November 2020, Switzerland's federal Distributed Ledger Technology (DLT) Act came into force, giving crypto assets clearer legal standing under Swiss private law. Six years on, the Swiss Federal Tax Administration (SFTA) has issued substantive guidance on direct holding, staking, and ICO tokens — but **decentralized finance (DeFi) primitives remain largely uncovered by specific tax rules**.
+Switzerland's federal Distributed Ledger Technology (DLT) Act cleared parliament in September 2020 and came into force in two stages: 1 February 2021 for the ledger-based securities provisions in the Code of Obligations, and 1 August 2021 for the financial market pieces, including the DLT trading facility licence. Together they gave crypto assets clearer legal standing under Swiss private law. Five years on, the Swiss Federal Tax Administration (SFTA) has issued substantive guidance on direct holding, staking, and ICO tokens — but **decentralized finance (DeFi) primitives remain largely uncovered by specific tax rules**.
 
 This is not the same as "DeFi is untaxed." It means a Swiss resident participating in DeFi must reason from first principles: which existing Swiss tax categories — capital gains, income, wealth tax, VAT, self-employment — apply to liquidity providing, yield farming rewards, governance token airdrops, and the various synthetic positions DeFi protocols generate.
 
@@ -24,10 +24,10 @@ Three Swiss federal tax categories cover virtually all DeFi positions a private 
 | Category | DeFi Activity | Rate |
 |---|---|---|
 | **Income tax** (federal + cantonal) | Yield farming rewards, lending interest, governance token airdrops claimed as income, liquidity mining incentives | Ordinary marginal rate (federal 0–11.5% + cantonal 0–25%) |
-| **Wealth tax** (cantonal only) | All DeFi positions held on December 31 (LP tokens, deposited liquidity, governance tokens, vesting positions) | Cantonal rate (Zug 0.2–0.5%; Geneva up to 1%) |
-| **Capital gains** (private investor) | Net realized gain on token sales | Tax-free under [SFTA private investor exemption](https://www.estv.admin.ch/estv/en/home.html) — if investor remains classified as private |
+| **Wealth tax** (cantonal and municipal only — there is no federal wealth tax) | All DeFi positions held on December 31 (LP tokens, deposited liquidity, governance tokens, vesting positions) | Effective rate on CHF 1m of taxable net wealth, 2026: Zug ~0.14%, Zurich ~0.17%, Geneva ~0.51% |
+| **Capital gains** (private investor) | Net realized gain on token sales | Tax-free under [SFTA private investor exemption](https://www.estv.admin.ch/en/cryptocurrencies-taxation) — if investor remains classified as private |
 
-The capital gains exemption is the key Swiss advantage. But — and this matters significantly for DeFi participants — the exemption applies only to **private investors**, not professional traders. High-frequency yield farming or LP rotation can push an individual across the SFTA's [five-criteria professional trader test](https://www.estv.admin.ch/dam/estv/de/dokumente/bundessteuer/kreisschreiben/2004/1-036-D-2004.pdf), reclassifying their entire crypto activity as self-employment income.
+The capital gains exemption is the key Swiss advantage. But — and this matters significantly for DeFi participants — the exemption applies only to **private investors**, not professional traders. High-frequency yield farming or LP rotation can knock an individual out of the SFTA's [five-criteria safe harbour for private investors](https://www.estv.admin.ch/de/kryptowaehrungen-besteuerung), which is what opens the door to their entire crypto activity being reclassified as self-employment income.
 
 ## Liquidity Providing (LP) — Three Tax Events Per Position
 
@@ -60,9 +60,9 @@ This asymmetry is one of the most-asked questions from Swiss-resident DeFi users
 
 Yield farming rewards (claimed in protocol governance tokens — UNI, CRV, CVX, AAVE, etc.) are most defensibly treated as **ordinary income at receipt**, valued at the token's CHF market price on the claim date.
 
-This follows the [SFTA 2021 working paper on staking](https://www.estv.admin.ch/dam/estv/de/dokumente/bundessteuer/kreisschreiben/2021/2-052-D-2021.pdf), which establishes that protocol-derived rewards (block rewards, validator rewards) constitute income when the recipient gains control. The same logic extends naturally to yield farming: the user contributes capital (liquidity, lending deposits), the protocol distributes rewards based on participation.
+This follows the [SFTA working paper on cryptocurrencies](https://www.estv.admin.ch/de/kryptowaehrungen-besteuerung), which establishes that protocol-derived rewards (block rewards, validator rewards) constitute income when the recipient gains control. The same logic extends naturally to yield farming: the user contributes capital (liquidity, lending deposits), the protocol distributes rewards based on participation.
 
-**Practical implication:** every claim transaction is an income tax event. If you claim CRV weekly, that's 52 income events per year, each valued at the CRV/CHF rate at claim time. Tracking this manually is infeasible — Swiss-resident DeFi participants generally use [Koinly](https://koinly.io/), [CoinTracking](https://cointracking.info/), or [Accointing](https://www.accointing.com/) to generate CHF-denominated income reports for cantonal filing.
+**Practical implication:** every claim transaction is an income tax event. If you claim CRV weekly, that's 52 income events per year, each valued at the CRV/CHF rate at claim time. Tracking this manually is infeasible — Swiss-resident DeFi participants generally use [Koinly](https://koinly.io/), [CoinTracking](https://cointracking.info/), or [Blockpit](https://www.blockpit.io/tax-guides/crypto-tax-guide-switzerland) to generate CHF-denominated income reports for cantonal filing. If you are working from an older Swiss guide that recommends Accointing, note that Blockpit acquired it and shut the standalone platform down at the end of January 2024; accointing.com now redirects to Blockpit.
 
 ## Governance Token Airdrops — Receipt-Based Income
 
@@ -84,17 +84,17 @@ All DeFi positions are wealth-taxable on December 31 of each tax year. The valua
 
 ## The Professional Trader Reclassification Risk
 
-The biggest unspoken DeFi tax risk for Swiss residents is **involuntary reclassification from private investor to professional trader**. SFTA Circular 36 lists five criteria; meeting all five reclassifies your crypto activity as self-employment, eliminating the capital gains exemption.
+The biggest unspoken DeFi tax risk for Swiss residents is **involuntary reclassification from private investor to professional trader**. The direction of the test is worth getting right, because it is often stated backwards: SFTA Circular 36 lists five criteria that work as a safe harbour. Meeting all five keeps you a private investor with the capital gains exemption intact. Failing them is what opens the door to reclassification as self-employment.
 
-DeFi participants are particularly exposed because:
+DeFi participants are particularly exposed because each of the five is easy to fail here:
 
 1. **Holding period < 6 months** is common (rotating between yield farms, LP positions, governance staking)
 2. **Trade frequency** can be high (weekly/monthly rebalancing across protocols)
 3. **Debt financing** (any borrowing against crypto, including DeFi leverage like Aave/MakerDAO loans) materially weakens the private investor classification
 4. **Use of derivatives** (perp DEXes, options protocols like Lyra/Dopex/Premia) is a strong professional trader signal
-5. **Profits as substantial income source** — if DeFi yield exceeds 50% of taxable income, this criterion typically triggers
+5. **Gains as a substantial income source** — the criterion is that realised capital gains stay below 50% of net income; a good year on token appreciation can break it on its own
 
-The [SFTA private investor safe harbor](https://www.estv.admin.ch/estv/de/home/direkte-bundessteuer/dbst-fachinformationen/kreisschreiben.html) (holding > 6 months, no leverage, no derivatives, profits < 50% of income, no professional structure) is workable for most passive DeFi positions but not for actively-managed yield farming.
+The [SFTA private investor safe harbor](https://www.estv.admin.ch/de/kryptowaehrungen-besteuerung) (holding > 6 months, no leverage, no derivatives, profits < 50% of income, no professional structure) is workable for most passive DeFi positions but not for actively-managed yield farming.
 
 ## Related Field Notes
 
@@ -105,7 +105,7 @@ This DeFi tax treatment extends the [staking rewards income tax framework]({{< r
 Three DeFi-specific tax questions remain unresolved by SFTA guidance and merit watching:
 
 1. **Auto-compounding LP and re-staking layers** — whether rebasing fees inside the LP token are income at each rebase or only at withdrawal
-2. **CARF reporting scope for DeFi** — [Switzerland's CARF implementation](https://www.estv.admin.ch/estv/en/home/international-tax-law/automatic-exchange-of-information-on-financial-accounts/crypto-asset-reporting-framework-carf.html) (delayed to 2028) covers exchanges and custodians, but unclear treatment of self-custodied DeFi positions; expect cantonal practice to evolve through 2027-2028
+2. **CARF reporting scope for DeFi** — [Switzerland's CARF implementation](https://www.sif.admin.ch/de/automatischer-informationsaustausch-ueber-kryptowerte) covers exchanges and custodians, but the treatment of self-custodied DeFi positions is unclear. The timing is also still open: the crypto provisions are not applied in 2026 at all, 1 January 2027 is the earliest date the rules can start, the first actual exchange of data would come later, and parliament has not yet decided which partner jurisdictions are in. Expect cantonal practice to evolve through 2027-2028
 3. **Cross-chain bridge transfers** — whether moving assets via bridge constitutes a taxable swap or a non-event; current cantonal practice generally treats native-asset bridges (e.g., USDC Circle bridge) as non-events but wrapped-asset bridges as ambiguous
 
 The field-note approach: file conservatively on the known categories (income at accrual, wealth tax at year-end snapshot), keep complete on-chain records of all transactions for SFTA audit defensibility, and consult a Swiss tax advisor specializing in crypto for positions exceeding CHF 100,000 in annual flow.

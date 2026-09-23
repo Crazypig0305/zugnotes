@@ -1,7 +1,7 @@
 ---
 title: "NFT Tax Treatment in Switzerland: The Three-Tier Framework Collectors and Creators Need to Know"
 date: 2024-03-15
-lastmod: 2026-05-18
+lastmod: 2026-09-23
 description: "Switzerland's NFT tax framework applies three different treatment tiers: private collectors, professional traders, and creators. Capital gains may be tax-free — but wealth tax, income tax, and VAT each apply depending on how you hold, trade, or mint."
 categories: ["holding"]
 tags: ["nft tax switzerland", "switzerland nft tax treatment", "swiss nft creator tax", "nft wealth tax switzerland", "nft capital gains switzerland", "SFTA nft guidance", "nft vat switzerland", "crypto nft swiss tax"]
@@ -19,7 +19,7 @@ glossary:
   - term: "VAT Threshold (Mehrwertsteuer-Pflicht)"
     def: "Swiss VAT registration is mandatory when worldwide taxable turnover reaches CHF 100,000 in a calendar year. NFT creators generating revenue above this threshold must register for VAT and charge 8.1% on taxable sales. An exemption exists for electronic works of art sold directly by the creator — but the boundary between collectible art and investment asset is not yet formally defined by Swiss authorities."
   - term: "CARF (Crypto-Asset Reporting Framework)"
-    def: "The OECD's international crypto reporting standard, which Switzerland is implementing with a delay. The first automatic exchange of information under CARF is expected in 2028 (reporting period starting January 2027). Under CARF, tradable NFTs that fulfill a payment or investment purpose are reportable; personal collectibles without market value are not. This distinction has significant implications for how Swiss exchanges and custody providers will classify and report NFT holdings."
+    def: "The OECD's international crypto reporting standard, which Switzerland has postponed. The provisions do not apply in Switzerland during 2026, and implementation can begin on 1 January 2027 at the earliest, on a date Parliament has not yet set. Under CARF, tradable NFTs that fulfill a payment or investment purpose are reportable; personal collectibles without market value are not. This distinction has significant implications for how Swiss exchanges and custody providers will classify and report NFT holdings."
 sources:
   - name: "IFLR — Swiss Taxation of NFTs"
     url: "https://www.iflr.com/article/2a7cuhvpor15vq47faarm/swiss-taxation-of-nfts"
@@ -39,23 +39,23 @@ sources:
   - name: "Blockpit — Switzerland Crypto Tax Guide 2026"
     url: "https://www.blockpit.io/tax-guides/crypto-tax-guide-switzerland"
     desc: "Blockpit — 2026 guide with practitioner-level coverage of NFT taxation, including valuation methodology for unlisted digital assets."
-  - name: "Zug Notes — The Swiss Crypto Tax Advantage: A Plain-Language Guide"
+  - name: "Zug Notes — The Swiss Crypto Tax Advantage: Capital Gains Free, But Wealth Tax Is Real"
     url: "/posts/swiss-crypto-tax-advantage-guide/"
-    desc: "Zug Notes H01 pillar — the structural framework that applies to NFT holders as private investors: capital gains exemption, wealth tax, and private investor classification criteria."
-  - name: "Zug Notes — Staking Rewards in Switzerland: Why They're Taxed as Income"
+    desc: "Zug Notes — the Swiss crypto tax advantage pillar guide: the structural framework that applies to NFT holders as private investors: capital gains exemption, wealth tax, and private investor classification criteria."
+  - name: "Zug Notes — Staking Rewards in Switzerland: Why They're Taxed as Income (And What That Means for You)"
     url: "/posts/staking-rewards-swiss-income-tax/"
-    desc: "Zug Notes H04 — the income tax logic for crypto yield that applies analogously to NFT creator income: why Swiss tax law treats certain crypto activity as Kapitalertrag rather than capital gains."
+    desc: "Zug Notes — the staking rewards field note: the income tax logic for crypto yield that applies analogously to NFT creator income: why Swiss tax law treats certain crypto activity as Kapitalertrag rather than capital gains."
   - name: "Zug Notes — The Wealth Tax Calculation: How Switzerland Values Your Crypto Portfolio on New Year's Eve"
     url: "/posts/swiss-wealth-tax-crypto-calculation/"
-    desc: "Zug Notes H07 — the SFTA Kursliste mechanism and fallback valuation methodology that applies directly to NFT holdings when no listed price exists."
+    desc: "Zug Notes — the wealth tax calculation field note: the SFTA Kursliste mechanism and fallback valuation methodology that applies directly to NFT holdings when no listed price exists."
   - name: "Non-fungible token — Wikipedia"
     url: "https://en.wikipedia.org/wiki/Non-fungible_token"
     desc: "Wikipedia — background on NFT technology, standards, and market structure relevant to understanding how Swiss tax authorities classify these assets."
 image: /og-default.jpg
 ---
 
-> 📅 Field note from: March 2024 | Last updated: May 2026
-> Swiss NFT tax principles cross-verified against SFTA Circular No. 36, the IFLR practitioner analysis, and Blockpit/Koinly 2026 guides. The SFTA has not published NFT-specific guidance as of May 2026 — rules are applied by analogy from general crypto principles, and case-by-case analysis is recommended for complex situations.
+> 📅 Field note from: March 2024 | Last updated: September 2026
+> Swiss NFT tax principles cross-verified against SFTA Circular No. 36, the IFLR practitioner analysis, and Blockpit/Koinly 2026 guides; the CARF section re-checked in September 2026 against the State Secretariat for International Finance FAQ. The SFTA has still published no NFT-specific guidance — its crypto working paper covers payment, asset and utility tokens — so rules are applied by analogy from general crypto principles, and case-by-case analysis is recommended for complex situations.
 
 Switzerland does not publish a rulebook for [NFT](https://en.wikipedia.org/wiki/Non-fungible_token) taxation. What it does instead is apply its existing crypto tax framework — built primarily around fungible assets like Bitcoin and Ether — to a class of asset that is structurally different in ways that create real ambiguity.
 
@@ -154,7 +154,7 @@ For collections with floor prices denominated in ETH, you then convert at the SF
 
 **Tradable NFTs are in scope. Digital collectibles without market value may not be.**
 
-Switzerland's implementation of the OECD's [Crypto-Asset Reporting Framework](https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/tax-transparency-and-international-co-operation/faqs-crypto-asset-reporting-framework.pdf) (CARF) — already delayed from the originally planned 2026 timeline — introduces a new layer of NFT-relevant complexity. The first automatic exchange of information is expected in 2028, covering the 2027 reporting period.
+Switzerland's implementation of the OECD's [Crypto-Asset Reporting Framework](https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/tax-transparency-and-international-co-operation/faqs-crypto-asset-reporting-framework.pdf) (CARF) — postponed from the originally planned 2026 start — introduces a new layer of NFT-relevant complexity, on a timetable nobody can currently date.
 
 The CARF framework distinguishes between reportable and non-reportable crypto assets. The key distinction for NFTs: assets that are "tradable and fulfill a payment or investment purpose" are reportable. Personal or non-tradable NFTs — digital collectibles without market value, internal utility tokens, gaming items without secondary market — are not subject to the reporting obligation.
 
@@ -164,9 +164,9 @@ What this means for Swiss NFT holders in practical terms:
 - One-of-one digital art pieces with no established secondary market are less clearly in scope, but the analysis requires case-by-case review
 - Swiss crypto exchanges and custody providers are building CARF compliance infrastructure now, meaning their internal classification of NFT holdings (reportable vs. non-reportable) will have downstream effects on what information appears in CARF exchanges
 
-The Swiss State Secretariat for International Finance (SIF) published an [FAQ on CARF implementation](https://www.sif.admin.ch/dam/en/sd-web/3DLzoBB6uMYz/MM%20E-AIAV%20FAQ%20EN.pdf) that confirms the reporting period begins January 1, 2027, with the first exchanges in 2028. The legislative basis is being enacted in 2026.
+The Swiss State Secretariat for International Finance (SIF) publishes an [FAQ on CARF implementation](https://www.sif.admin.ch/dam/en/sd-web/3DLzoBB6uMYz/MM%20E-AIAV%20FAQ%20EN.pdf), and it is narrower than most summaries of it. Switzerland "will implement the Crypto-Asset Reporting Framework (CARF) at the earliest from 1 January 2027," and it is for Parliament to decide the effective activation date. The FAQ names no exchange year at all. The legislative basis is not being enacted in 2026 — it was: Parliament approved the multilateral agreement in its final vote of 26 September 2025, and what is missing is parliamentary approval of the partner states, which the responsible committee suspended in November 2025. The consequence is that the CARF provisions of Swiss law do not apply during 2026.
 
-For NFT holders specifically: the CARF timeline means that Swiss custodians and exchanges will need to implement NFT classification logic in their reporting systems during 2026 — creating pressure for the SFTA to issue more specific guidance before that reporting infrastructure is built.
+For NFT holders specifically: Swiss custodians and exchanges will eventually need NFT classification logic in their reporting systems, and the postponement has taken the deadline pressure off that work without removing it. The same pressure applies to the SFTA, which SIF says will publish its CARF guidance only after the implementation decision is taken. Whether NFT-specific classification rules arrive with that guidance or continue to be handled by analogy is one of the more consequential open questions for anyone holding blue-chip collections at a Swiss custodian.
 
 ## Practitioner Takeaways
 
@@ -180,9 +180,9 @@ For NFT holders specifically: the CARF timeline means that Swiss custodians and 
 
 4. **Track the CHF 100,000 VAT threshold if you are a creator.** This is worldwide taxable turnover, not Swiss turnover. A successful NFT drop that generates the equivalent of CHF 150,000 triggers Swiss VAT registration even if your buyers are globally distributed.
 
-5. **Check how your Swiss custodian is classifying your NFT holdings for CARF.** As 2027 approaches, the administrative classifications being built now will shape what Swiss tax authorities receive about your holdings in 2028.
+5. **Check how your Swiss custodian is classifying your NFT holdings for CARF.** Nothing is being reported yet, but the administrative classifications being built now will shape what Swiss tax authorities eventually receive about your holdings — and those classifications are being set while nobody is watching the deadline.
 
-**Canton-specific note:** Zug's wealth tax rate remains one of the lowest in Switzerland — the combined cantonal and municipal effective rate in the city of Zug is approximately 0.13% on portfolio values in the CHF 500K-1M range. For a CHF 200,000 NFT collection held in Zug, the annual wealth tax exposure is roughly CHF 260. In Geneva, the same portfolio faces roughly 10× that amount. The structural advantage that applies to fungible crypto in Zug applies equally to NFT wealth tax.
+**Canton-specific note:** Zug's wealth tax rate remains one of the lowest in Switzerland. On CHF 1,000,000 of taxable net wealth, the combined cantonal and municipal effective rate in the city of Zug works out at roughly 0.14%, against roughly 0.51% in Geneva — a gap of about three and a half times at that level, widening as the portfolio grows. These are effective rates on taxable net wealth, so what you actually owe on an NFT collection depends on your canton's allowance and on the rest of your assets; look up your own canton's threshold rather than applying a flat percentage. The structural advantage that applies to fungible crypto in Zug applies equally to NFT wealth tax.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Two New FINMA License Categories Proposed: What the Crypto-Institution License Means in Practice"
 date: 2026-03-10
-lastmod: 2026-07-19
+lastmod: 2026-09-23
 description: "Switzerland proposed two new FINMA-supervised license categories in late 2025: the crypto-institution license and the payment instrument institution. Here is what they actually mean for exchanges, custodians, and the firms that have been operating under SRO oversight."
 categories: ["regulation"]
 tags: ["FINMA crypto institution license 2026", "swiss crypto regulation", "FinIA amendment", "payment instrument institution", "swiss fintech license", "crypto-institution switzerland"]
@@ -51,8 +51,8 @@ sources:
     desc: "fintechnews.ch — May 2026: Sequence becomes the fifth Swiss company to hold the Article 1b fintech license"
 ---
 
-> 📅 Field note from: March 2026 | Last updated: July 2026
-> Written shortly after [FINMA](https://www.finma.ch/en/) published the consultation paper; updated in July 2026 now that the consultation has closed and the first substantive industry responses have landed — including the Swiss Bankers Association's push to let banks issue stablecoins directly, covered below.
+> 📅 Field note from: March 2026 | Last updated: September 2026
+> Written shortly after the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) published the consultation paper — the proposal is the government's, not [FINMA](https://www.finma.ch/en/)'s, though FINMA would supervise the resulting licence holders. Updated in September 2026, with the consultation closed, the substantive industry responses in, and no dispatch to Parliament yet.
 
 On October 22, 2025, the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) released a draft amendment to the Financial Institutions Act — FinIA — and opened a public consultation. The document proposes two new license categories: the *crypto-institution* (Krypto-Institut) and the *payment instrument institution* (Zahlungsmittelinstitut). The consultation period closed on February 6, 2026.
 
@@ -62,7 +62,7 @@ Here is what I have pieced together from reading the consultation document and t
 
 ## The Problem the Proposal Is Trying to Solve
 
-The current situation is messy in a way that is hard to see from the outside. If you look at Switzerland's crypto landscape from a distance, it looks orderly: FINMA, the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act), clear rules, respectable institutions. From closer in, the picture is more fragmented.
+The current situation is messy in a way that is hard to see from the outside. If you look at Switzerland's crypto landscape from a distance, it looks orderly: FINMA, the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en), clear rules, respectable institutions. From closer in, the picture is more fragmented.
 
 Crypto firms operating in Switzerland today can be in one of several regulatory buckets. Some hold banking licenses — like SEBA (now AMINA) and Sygnum. A much larger group operates under self-regulatory organization (SRO) supervision purely for AML/CFT compliance, with limited formal FINMA oversight over their core activities. A smaller number hold the fintech license introduced in 2019, which capped deposits at CHF 100 million and never quite fit what most crypto businesses actually do.
 
@@ -104,7 +104,7 @@ The specific rights granted under this license include:
 
 One notable structural requirement: traditional banks cannot simply add stablecoin issuance to their existing license. To issue CHF-pegged stablecoins under this framework, a bank would need to establish a separate subsidiary that holds the payment instrument institution license. The activities cannot be combined with traditional banking functions.
 
-{{< num-highlight number="5" label="firms held a Swiss fintech license as of mid-2026" note="The consultation paper cited four when it was drafted in late 2025; Sequence became the fifth in May 2026. Either count makes the same point — single-digit adoption after more than six years. The fintech license never caught on, and the payment instrument institution category is designed to be more commercially viable." >}}
+{{< num-highlight value="5" label="firms held a Swiss fintech license as of mid-2026" note="The consultation paper cited four when it was drafted in late 2025; Sequence became the fifth in May 2026. Either count makes the same point — single-digit adoption after more than six years. The fintech license never caught on, and the payment instrument institution category is designed to be more commercially viable." >}}
 
 ## How This Compares to the Existing License Landscape
 
@@ -174,7 +174,7 @@ This will matter significantly once the legislation moves toward parliamentary d
 
 ## What I Am Watching
 
-The consultation closed on February 6, 2026, and the responses are now in. The Federal Council is working through them before it drafts the dispatch to parliament — the formal message that turns a consultation draft into an actual bill. As of mid-2026 that dispatch has not been published, and the realistic window still runs from 2026 into 2027.
+The consultation closed on February 6, 2026, and the responses are now in. The Federal Council is working through them before it drafts the dispatch to parliament — the formal message that turns a consultation draft into an actual bill. As of September 2026 that dispatch still has not been published, which pushes the realistic window further into 2027 and makes an entry into force before then implausible.
 
 One response is worth singling out, because it aims straight at a design choice I flagged earlier. On February 11, 2026, the [Swiss Bankers Association](https://en.wikipedia.org/wiki/Swiss_Bankers_Association) came out against the requirement that banks spin off a separate subsidiary to issue CHF stablecoins. Its argument: banks already sit at the center of the payment system and are held to stricter supervision than either new license category, so routing them through a second entity — what the association [framed as an unnecessary "licensing cascade"](https://cryptovalleyjournal.com/focus/legal-and-compliance/swiss-bankers-association-demands-direct-stablecoin-issuance-rights-for-banks/) — makes little sense to them. Whether the Federal Council holds the subsidiary line or bends to the banks is now one of the more concrete things to watch. That the banks pushed back this early tells you the stablecoin provisions are the part of this reform with real commercial stakes attached.
 

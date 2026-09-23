@@ -95,7 +95,7 @@ The reaction in Zug's actual blockchain offices was more measured. The banking l
 
 What the licences did change, quickly, was the tone of conversations with institutional counterparts outside Switzerland. The question "but is it actually legal and regulated?" — which had hung over Swiss crypto banking discussions for years — now had a cleaner answer. FINMA had licensed two institutions to do exactly what they were doing. That answer mattered in discussions with potential institutional clients, with correspondent banks, and with regulators in other jurisdictions watching the Swiss experiment.
 
-The licences also influenced what kinds of businesses began planning Swiss operations in the following two years. The [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act), which came into force in February 2021, built directly on the regulatory architecture the 2019 licensing had established. The two moves together — banking licences in 2019, DLT Act in 2021 — created the coherent framework that made Switzerland's position in the post-2021 institutional adoption wave more than just historical branding.
+The licences also influenced what kinds of businesses began planning Swiss operations in the following two years. The [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en), which came into force in February 2021, built directly on the regulatory architecture the 2019 licensing had established. The two moves together — banking licences in 2019, DLT Act in 2021 — created the coherent framework that made Switzerland's position in the post-2021 institutional adoption wave more than just historical branding.
 
 ## From 2019 to Now
 

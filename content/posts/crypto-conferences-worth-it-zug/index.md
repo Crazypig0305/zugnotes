@@ -1,7 +1,7 @@
 ---
 title: "Which Crypto Conferences Actually Matter If You Live Near Zug (2026)"
 date: 2024-09-12
-lastmod: 2026-06-16
+lastmod: 2026-09-23
 description: "A field note on the crypto conferences worth the train ticket from Zug in 2026 — Crypto Valley Conference, Web3 Banking Symposium, Point Zero Forum, and the ones you can skip. Dates, locations, and which crowd actually shows up."
 categories: ["ecosystem"]
 tags: ["crypto valley conference", "swiss crypto", "web3 switzerland", "crypto conferences 2026", "point zero forum", "web3 banking symposium", "zug crypto", "ethereum zurich"]
@@ -9,7 +9,7 @@ draft: false
 readtime: 13
 glossary:
   - term: "Crypto Valley Conference (CVC)"
-    def: "The flagship annual blockchain conference of the Crypto Valley region, held in Rotkreuz (Canton Zug). Run since 2018 with academic roots at the Lucerne University of Applied Sciences (HSLU) Rotkreuz campus. 2026 is its 8th edition, May 28–29."
+    def: "The flagship annual blockchain conference of the Crypto Valley region, held in Rotkreuz (Canton Zug). Run since 2018 with academic roots at the Lucerne University of Applied Sciences (HSLU) Rotkreuz campus. Its 8th edition ran on 28 May 2026, preceded by an invite-only dinner the evening before."
   - term: "Point Zero Forum"
     def: "A policy-and-finance forum held in Zurich, organized in partnership with the Swiss State Secretariat for International Finance (SIF) and Singapore's Global Finance & Technology Network. Draws central bankers and regulators rather than retail crypto. June 23–25, 2026 at Kongresshaus Zurich."
   - term: "Web3 Banking Symposium"
@@ -19,7 +19,7 @@ glossary:
 sources:
   - name: "Crypto Valley Conference 2026 — official site"
     url: "https://cryptovalleyconference.com/"
-    desc: "cryptovalleyconference.com — dates, agenda, May 28–29, 2026, Rotkreuz"
+    desc: "cryptovalleyconference.com — dates, agenda, 28 May 2026, Rotkreuz"
   - name: "Point Zero Forum 2026 — official site"
     url: "https://www.pointzeroforum.com/"
     desc: "pointzeroforum.com — June 23–25, 2026, Kongresshaus Zurich"
@@ -34,7 +34,7 @@ sources:
     desc: "ethereumzuri.ch — community conference, April 10, 2026, University of Zurich"
 ---
 
-If you live anywhere near Zug, the question is never *whether* there is a crypto conference worth attending — there are dozens within a two-hour train ride every year. The question is which three or four are worth clearing your calendar for, and which are just well-marketed ticket sales. In 2026 the short list for the Swiss orbit is the **Crypto Valley Conference** (May 28–29, Rotkreuz), the **Web3 Banking Symposium** (March 2, Zurich), and **Point Zero Forum** (June 23–25, Zurich) — three events that draw genuinely different crowds. Everything else is optional, and a few of the big international names are worth skipping unless you have a specific reason to travel.
+If you live anywhere near Zug, the question is never *whether* there is a crypto conference worth attending — there are dozens within a two-hour train ride every year. The question is which three or four are worth clearing your calendar for, and which are just well-marketed ticket sales. In 2026 the short list for the Swiss orbit was the **Crypto Valley Conference** (May 27–28, Rotkreuz), the **Web3 Banking Symposium** (March 2, Zurich), and **Point Zero Forum** (June 23–25, Zurich) — three events that draw genuinely different crowds. All three have now been and gone; of the 2026 calendar only Lugano's Plan ₿ Forum in late October is still ahead. Everything else is optional, and a few of the big international names are worth skipping unless you have a specific reason to travel.
 
 I have been to enough of these to have developed opinions, mostly by going to the wrong ones first. What follows is the read I have from here: not a global listicle, but which gatherings actually matter if Zug is your home station.
 
@@ -42,15 +42,15 @@ I have been to enough of these to have developed opinions, mostly by going to th
 
 ## The One That Defines the Calendar: Crypto Valley Conference
 
-If you only go to one thing, this is it. The [Crypto Valley Conference](https://cryptovalleyconference.com/) runs **May 28–29, 2026** in Rotkreuz — a fifteen-minute train ride from Zug — and 2026 is its eighth edition. It grew out of the [Lucerne University of Applied Sciences](https://en.wikipedia.org/wiki/Lucerne_University_of_Applied_Sciences_and_Arts) (HSLU) campus, and that academic origin still shows in the programming: the panels lean toward regulation, tokenization, and infrastructure rather than price prediction.
+If you only go to one thing, this is it. The [Crypto Valley Conference](https://cryptovalleyconference.com/) ran **28 May 2026** in Rotkreuz, with an invite-only dinner the evening before, — a fifteen-minute train ride from Zug — and 2026 was its eighth edition. It grew out of the [Lucerne University of Applied Sciences](https://en.wikipedia.org/wiki/Lucerne_University_of_Applied_Sciences_and_Arts) (HSLU) campus, and that academic origin still shows in the programming: the panels lean toward regulation, tokenization, and infrastructure rather than price prediction.
 
-What makes CVC matter for someone living here is not the headline speakers. It is the density — the same density that makes [the Zug ecosystem itself](/posts/crypto-valley-2026-snapshot/) work, concentrated into two days. The format this year runs dozens of presentations and several masterclasses across two days, drawing well over a hundred speakers, and closing with a boat cruise on Lake Zug. The presentation hall is where ideas get aired; the boat is where deals get advanced. That is not me being cute — the founders and investors who skip the formal programme and show up only for the cruise know exactly what they are doing.
+What makes CVC matter for someone living here is not the headline speakers. It is the density — the same density that makes [the Zug ecosystem itself](/posts/crypto-valley-2026-snapshot/) work, concentrated into a single day. The format this year packed dozens of presentations and several masterclasses into that day, drew well over a hundred speakers, and closed with a boat cruise on Lake Zug. The presentation hall is where ideas get aired; the boat is where deals get advanced. That is not me being cute — the founders and investors who skip the formal programme and show up only for the cruise know exactly what they are doing.
 
-The signal worth watching in 2026 is who attends from the institutional side. A Swiss National Bank researcher on a CVC panel is not incidental — it tracks the same arc as [FINMA's January 2026 custody guidance](/posts/finma-crypto-guidance-01-2026/). The regulator is drawing the perimeter more precisely because the industry is now large enough to require it, and CVC is where you can read that maturation off the room.
+The signal worth watching in 2026 was who attended from the institutional side. A Swiss National Bank researcher on a CVC panel is not incidental — it tracks the same arc as [FINMA's January 2026 custody guidance](/posts/finma-crypto-guidance-01-2026/). The regulator is drawing the perimeter more precisely because the industry is now large enough to require it, and CVC is where you can read that maturation off the room.
 
 ## The Institutional One: Point Zero Forum
 
-[Point Zero Forum](https://www.pointzeroforum.com/) is the event most retail crypto people have never heard of and most central bankers have. It runs **June 23–25, 2026** at Kongresshaus Zurich and is organized in partnership with the Swiss State Secretariat for International Finance — which tells you the room. Over 2,000 policymakers, regulators, and senior finance people, with the 2026 edition built around trust, compliance, and the next layer of financial infrastructure: stablecoins as settlement rails, tokenization at institutional scale, AI in financial services.
+[Point Zero Forum](https://www.pointzeroforum.com/) is the event most retail crypto people have never heard of and most central bankers have. It ran **June 23–25, 2026** at Kongresshaus Zurich and is organized in partnership with the Swiss State Secretariat for International Finance — which tells you the room. Over 2,000 policymakers, regulators, and senior finance people, with the 2026 edition built around trust, compliance, and the next layer of financial infrastructure: stablecoins as settlement rails, tokenization at institutional scale, AI in financial services.
 
 This is not a builder conference and it is not a trading conference. If you are crypto-curious rather than crypto-professional, the value of Point Zero is calibration — you walk out understanding what the people who actually write the rules are worried about, which is usually six months ahead of what the news covers. The downside is the ticket price and the suit-to-hoodie ratio. Go if you want the regulatory read; skip it if you came for the technology.
 
@@ -66,7 +66,7 @@ The reason I keep separating these by crowd rather than by size is that going to
 
 | Conference | 2026 dates | Where | Who shows up | Worth it if you want |
 |---|---|---|---|---|
-| Crypto Valley Conference | May 28–29 | Rotkreuz (Zug) | Founders, investors, academics, some regulators | The full ecosystem read in one place |
+| Crypto Valley Conference | May 28 (dinner May 27) | Rotkreuz (Zug) | Founders, investors, academics, some regulators | The full ecosystem read in one place |
 | Point Zero Forum | June 23–25 | Zurich (Kongresshaus) | Central bankers, regulators, senior finance | The policy direction, six months early |
 | Web3 Banking Symposium | March 2 | Zurich (Kunsthaus) | Bankers, fintech, blockchain engineers | The traditional-banking-meets-crypto question |
 | EthereumZuri.ch | April 10 | Zurich (University) | Ethereum builders, community | Protocol-level technical depth, free-ish |
@@ -78,20 +78,22 @@ The four-event spread from March to October means you can pace yourself. The two
 
 ## The Ones the Listicles Push That You Can Probably Skip
 
-Every "biggest crypto conferences 2026" list ranks events by attendance, which is exactly the wrong metric if you live here. [EthCC in Cannes](https://en.wikipedia.org/wiki/Ethereum) (March 30–April 2) and Paris Blockchain Week (April 15–16) are both larger than anything in Switzerland, and both are a fine trip — but they are not Swiss-ecosystem events, and you will not learn much about FINMA's direction in Cannes. The honest read: go to the international giants for the protocol community and the after-parties, not because they will sharpen your understanding of the Swiss market.
+Every "biggest crypto conferences 2026" list ranks events by attendance, which is exactly the wrong metric if you live here. [EthCC in Cannes](https://en.wikipedia.org/wiki/Ethereum) (March 30–April 2 this year) and Paris Blockchain Week (April 15–16) are both larger than anything in Switzerland, and both are a fine trip — but they are not Swiss-ecosystem events, and you will not learn much about FINMA's direction in Cannes. The honest read: go to the international giants for the protocol community and the after-parties, not because they will sharpen your understanding of the Swiss market.
 
 > "Switzerland's & Europe's most influential blockchain and digital asset leaders" — Crypto Valley Conference 2026 (official positioning)
 
-That positioning is marketing, but it is closer to true than most. The Swiss-orbit events punch above their attendance numbers precisely because the regulatory and institutional density here is unusual. A 1,500-person conference in Rotkreuz can matter more to your understanding of the market than a 15,000-person one elsewhere, because the people who set the rules for one of Europe's most important crypto jurisdictions are in the room.
+That positioning is marketing, but it is closer to true than most. The Swiss-orbit events punch above their attendance numbers precisely because the regulatory and institutional density here is unusual. A conference in Rotkreuz that fits inside a university campus can matter more to your understanding of the market than one filling an arena elsewhere, because the people who set the rules for one of Europe's most important crypto jurisdictions are in the room.
 
 ## What the Geography Buys You
 
 The quiet advantage of living near Zug is logistics. Rotkreuz, Zurich, and Lugano are all reachable by direct or near-direct train, which means you can attend the Swiss circuit without a single flight or hotel booking for the two Zurich events and CVC. That changes the calculus. For someone flying in, a conference has to clear a high bar to justify the cost. For someone in Zug, the bar is just an afternoon — which is exactly why the boat cruise and the corridor conversations matter more than the keynotes. You can show up for the part that counts and be home for dinner.
 
-If you are building a 2026 plan from here, the minimal viable version is: Web3 Banking Symposium in March if banking is your angle, Crypto Valley Conference in late May without exception, and Point Zero in June if you want the regulatory altitude. Add EthereumZuri.ch in April if you are technical, and Lugano in October if the bitcoin-money conversation interests you. That is the whole Swiss circuit, and most of it is a train ticket away.
+If you are building a plan from here, the minimal viable version is: Web3 Banking Symposium in March if banking is your angle, Crypto Valley Conference in late May without exception, and Point Zero in June if you want the regulatory altitude. Add EthereumZuri.ch in April if you are technical, and Lugano in October if the bitcoin-money conversation interests you. That is the whole Swiss circuit, and most of it is a train ticket away. For what is left of 2026, that means Lugano; for everything else, next spring.
 
 ## What to Track Next
 
 The thing worth watching across all of these in 2026 is how much the agendas converge on the same three topics — stablecoins, tokenization of real-world assets, and custody. When the bitcoin event in Lugano, the banking symposium in Zurich, and the ecosystem conference in Zug all program the same panels, that is the signal that the Swiss market has settled on its priorities for the year. Right now they are converging, which tells you where the regulatory and commercial energy is heading. Worth tracking through the autumn: whether the October Lugano programming picks up the institutional-custody thread that ran through the spring events, or whether the bitcoin crowd keeps its own conversation.
+
+The other thing to track is the 2027 calendar itself, because with Lugano the only 2026 date left, the next real decision you make about any of these is which spring dates to hold. As of September 2026 none of the Swiss-orbit organisers had published 2027 dates — the Crypto Valley Conference site still shows only the May 2026 edition. The organisers' own pages are the authoritative place those dates appear, so the practical method is to check [cryptovalleyconference.com](https://cryptovalleyconference.com/), [pointzeroforum.com](https://www.pointzeroforum.com/) and the CVA's [Web3 Banking Symposium page](https://cryptovalley.swiss/web3-banking-symposium/) directly over the winter rather than waiting for a "biggest conferences of 2027" listicle to pick them up. Based on where the 2026 editions landed, the window to watch is roughly December through February: the Web3 Banking Symposium sits earliest in the year and is therefore the first one that has to commit.
 
 *This is observation from Zug, not investment advice or legal advice.*

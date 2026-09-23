@@ -1,7 +1,7 @@
 ---
 title: "The FTX Collapse Through a Zug Lens: What November 2022 Felt Like in Crypto Valley"
 date: 2022-11-18
-lastmod: 2026-05-04
+lastmod: 2026-09-23
 description: "FTX filed for bankruptcy on November 11, 2022. From inside Zug — the coffeeshops, the CV Labs corridors, the group chats — here is what the week actually felt like, and what it revealed about Crypto Valley's resilience."
 categories: ["ecosystem"]
 tags: ["FTX collapse crypto valley", "switzerland crypto 2022", "FTX zug perspective", "crypto valley 2022", "swiss crypto ecosystem", "FTX aftermath zug"]
@@ -44,10 +44,10 @@ sources:
     desc: "CV VC — annual report documenting employment contraction and unicorn count reduction in 2022"
 ---
 
-> 📅 Field note from: November 2022 | Last updated: May 2026
-> Originally written days after the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) bankruptcy filing from inside Zug; updated with three years of follow-on observations in May 2026.
+> 📅 Field note from: November 2022 | Last updated: September 2026
+> Originally written days after the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) bankruptcy filing from inside Zug; updated with three years of follow-on observations in September 2026.
 
-The week FTX collapsed, it was cold in Zug. That detail has stayed with me — the way the fog sat over the lake in the mornings, the kind of November that makes you want to be inside. A lot of us were inside. In coffeeshops, in coworking spaces, in the [CV Labs](https://cvlabs.com/) corridors on Grafenauweg. On laptops, phones, scrolling the same damage reports.
+The week FTX collapsed, it was cold in Zug. That detail has stayed with me — the way the fog sat over the lake in the mornings, the kind of November that makes you want to be inside. A lot of us were inside. In coffeeshops, in coworking spaces, in the [CV Labs](https://cvlabs.com/) corridors on Dammstrasse. On laptops, phones, scrolling the same damage reports.
 
 November 11, 2022. FTX filed for Chapter 11. [Sam Bankman-Fried](https://en.wikipedia.org/wiki/Sam_Bankman-Fried) resigned. Eleven billion dollars in customer funds had vanished into the gap between a centralized exchange and its affiliated trading firm.
 
@@ -71,13 +71,13 @@ The FTX connection in these cases went deeper than custody: Alameda Research, FT
 
 I want to be honest about what I observed that week, because the narrative that emerged later — Zug as safe haven, Swiss regulation as vindication — was true, but it was not the whole texture of those few days.
 
-Inside CV Labs, which had been the informal social hub of the Crypto Valley community since 2017, the mood was more quiet than panicked. People were doing damage assessment, not running. There was a lot of checking on whether portfolio companies had exchange exposure. A lot of Telegram messages that started with "are you okay?" — meaning, financially, not personally, though sometimes both.
+Inside CV Labs, which had been the informal social hub of the Crypto Valley community since it opened in February 2018, the mood was more quiet than panicked. People were doing damage assessment, not running. There was a lot of checking on whether portfolio companies had exchange exposure. A lot of Telegram messages that started with "are you okay?" — meaning, financially, not personally, though sometimes both.
 
 The differentiation conversation started almost immediately. The people who had been building infrastructure — custody solutions, compliance tools, regulatory tech — were quieter in a different way: watchful. They had watched exchanges get built fast and die fast before. They had weathered the 2018 crypto winter. This felt familiar, if larger.
 
 The people who were building on centralized exchange ecosystems, or who had taken Alameda money without scrutinizing the counterparty risk — those conversations were harder.
 
-[Mathias Ruch](https://www.linkedin.com/in/mathias-ruch/), founder of [CV VC](https://cvvc.com/) (the venture capital fund attached to CV Labs), gave the assessment that most people around the Grafenauweg already felt: "This will set us back by at least one or two years." Precise. Unsentimental. Not wrong.
+[Mathias Ruch](https://www.linkedin.com/in/mathias-ruch/), founder of [CV VC](https://cvvc.com/) (the venture capital fund attached to CV Labs), gave the assessment that most people around Dammstrasse already felt: "This will set us back by at least one or two years." Precise. Unsentimental. Not wrong.
 
 ## The Swiss Banks' Unusual Week
 

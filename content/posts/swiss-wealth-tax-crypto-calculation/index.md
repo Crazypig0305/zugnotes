@@ -1,8 +1,8 @@
 ---
 title: "The Wealth Tax Calculation: How Switzerland Values Your Crypto Portfolio on New Year's Eve"
 date: 2021-11-15
-lastmod: 2026-05-04
-description: "Switzerland's wealth tax hits your crypto portfolio every December 31st, even if you never sold. Here's the exact SFTA Kursliste mechanism, how Zug's 0.13% compares to Geneva's 1%+, and what happens when your altcoin isn't on the list."
+lastmod: 2026-09-23
+description: "Switzerland's wealth tax hits your crypto portfolio every December 31st, even if you never sold. Here's the exact SFTA Kursliste mechanism, how Zug's effective 0.14% compares to Geneva's 0.51%, and what happens when your altcoin isn't on the list."
 categories: ["holding"]
 tags: ["swiss wealth tax crypto calculation", "crypto portfolio value switzerland", "SFTA Kursliste crypto", "wealth tax switzerland crypto", "canton wealth tax rates zug", "December 31 crypto valuation", "ICTax crypto switzerland", "altcoin wealth tax", "DeFi holdings switzerland"]
 draft: false
@@ -40,19 +40,19 @@ sources:
   - name: "Taxea.ch — Cryptocurrencies in the Swiss Tax Return"
     url: "https://www.taxea.ch/en/faq-taxes/cryptocurrencies-in-the-swiss-tax-return-how-to-declare-them"
     desc: "Taxea.ch — practical guide to declaration, including unlisted coins, DeFi, and multi-wallet aggregation."
-  - name: "Zug Notes — The Swiss Crypto Tax Advantage: A Plain-Language Guide"
+  - name: "Zug Notes — The Swiss Crypto Tax Advantage: Capital Gains Free, But Wealth Tax Is Real"
     url: "/posts/swiss-crypto-tax-advantage-guide/"
-    desc: "Zug Notes H01 pillar — full field guide to capital gains exemption, wealth tax structure, and private investor status."
-  - name: "Zug Notes — Declaring Crypto on Your Swiss Tax Return"
+    desc: "Zug Notes — the Swiss crypto tax advantage pillar guide: full field guide to capital gains exemption, wealth tax structure, and private investor status."
+  - name: "Zug Notes — Declaring Crypto on Your Swiss Tax Return: What Market Value on December 31st Actually Means"
     url: "/posts/declaring-crypto-swiss-tax-return/"
-    desc: "Zug Notes H03 — step-by-step on where to enter crypto in the cantonal tax form, including the Wertschriftenverzeichnis (securities schedule)."
-  - name: "Zug Notes — Staking Rewards in Switzerland: Why They're Taxed as Income"
+    desc: "Zug Notes — the tax return declaration walkthrough: step-by-step on where to enter crypto in the cantonal tax form, including the Wertschriftenverzeichnis (securities schedule)."
+  - name: "Zug Notes — Staking Rewards in Switzerland: Why They're Taxed as Income (And What That Means for You)"
     url: "/posts/staking-rewards-swiss-income-tax/"
-    desc: "Zug Notes H04 — explains the wealth tax double-layer that hits staking holders: income tax on rewards received, then wealth tax on the accumulated tokens at year-end."
+    desc: "Zug Notes — the staking rewards field note: explains the wealth tax double-layer that hits staking holders: income tax on rewards received, then wealth tax on the accumulated tokens at year-end."
 ---
 
-> 📅 Field note from: November 2021 | Last updated: May 2026
-> Originally written shortly before the 2021 year-end valuation deadline; updated with five years of practical observations in May 2026.
+> 📅 Field note from: November 2021 | Last updated: September 2026
+> Originally written shortly before the 2021 year-end valuation deadline; updated September 2026 with the 2025 rate list and 2026 cantonal wealth tax figures.
 
 Every November here in Zug, I notice the same pattern in the community. Someone who has been happily holding since January starts asking a very specific question: "What does my portfolio actually look like on December 31st — and what does that mean for my tax bill?"
 
@@ -72,11 +72,11 @@ The practical implication: if you are considering a significant withdrawal or re
 
 ## The SFTA Kursliste: Where the Official Number Comes From
 
-The Swiss [Federal Tax Administration](https://www.estv.admin.ch/estv/en/home.html) (SFTA, or ESTV in German) publishes an official price list — the Kursliste, accessible through the ICTax portal at ictax.admin.ch — every year. This list is updated annually and contains the official December 31st valuation for the most commonly held cryptocurrencies.
+The Swiss [Federal Tax Administration](https://www.estv.admin.ch/en) (SFTA, or ESTV in German) publishes an official price list — the Kursliste, accessible through the ICTax portal at ictax.admin.ch — every year. This list is updated annually and contains the official December 31st valuation for the most commonly held cryptocurrencies.
 
-{{< num-highlight number="69,571.99 CHF" label="[Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) official SFTA tax value — December 31, 2025" >}}
+{{< num-highlight value="69,571.99 CHF" label="[Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) official SFTA tax value — December 31, 2025" >}}
 
-{{< num-highlight number="2,364.08 CHF" label="[Ethereum](https://en.wikipedia.org/wiki/Ethereum) official SFTA tax value — December 31, 2025" >}}
+{{< num-highlight value="2,364.08 CHF" label="[Ethereum](https://en.wikipedia.org/wiki/Ethereum) official SFTA tax value — December 31, 2025" >}}
 
 These are not necessarily the exact spot prices you see on Coinbase or Kraken at midnight on December 31st. The SFTA calculates an average of prices across multiple exchanges for the reference date. The result is the Steuerwert — the legally recognised tax value that you use when filling in the securities and credits schedule (Wertschriftenverzeichnis) in your cantonal tax form.
 
@@ -108,16 +108,16 @@ Here is where the Switzerland-is-not-one-country reality hits. Once you know the
 
 Wealth tax in Switzerland is levied exclusively at cantonal and municipal level. The federal government does not levy wealth tax on private individuals. And the cantonal variation is substantial.
 
-{{< budget-table title="Wealth tax on a CHF 1,000,000 crypto portfolio — selected cantons, 2026" >}}
-| Canton | Estimated annual wealth tax |
-|---|---|
-| Zug | ~CHF 1,368 |
-| Zurich | ~CHF 1,744 |
-| Bern | ~CHF 4,027 |
-| Geneva | ~CHF 5,115 |
+{{< budget-table title="Wealth tax on CHF 1,000,000 of taxable net wealth — selected cantons, 2026" >}}
+| Canton | Estimated annual wealth tax | Effective rate |
+|---|---|---|
+| Zug | ~CHF 1,368 | ~0.14% |
+| Zurich | ~CHF 1,744 | ~0.17% |
+| Bern | ~CHF 4,027 | ~0.40% |
+| Geneva | ~CHF 5,115 | ~0.51% |
 {{< /budget-table >}}
 
-Source: Taxolution Advisory, 2026 cantonal data (married couple filing, cantonal capital residence, no church tax)
+Source: Taxolution Advisory, 2026 cantonal data (married couple filing, cantonal capital residence, no church tax). Note that these are effective rates — cantonal base rate multiplied by the cantonal and municipal multipliers — not the headline percentages printed in the cantonal tax codes.
 
 The Zug number deserves a closer look. At CHF 1,368 per year on a CHF 1,000,000 portfolio, the effective rate is about 0.14%. On a CHF 500,000 portfolio, the bill drops to roughly CHF 412. That is the combination of Zug's low cantonal rate and its relatively low municipal multiplier in the city of Zug itself.
 
@@ -125,7 +125,7 @@ Geneva, on the other end, runs approximately 3.7 times higher on the same portfo
 
 For a CHF 5,000,000 crypto position, the gap widens considerably: roughly CHF 10,200 per year in Zug versus CHF 38,100 per year in Geneva. Over a decade, that difference compounds into real money — which is a non-trivial factor in why a certain class of crypto holders deliberately chose Zug when establishing their Swiss tax residence.
 
-One important nuance: these figures are progressive in most cantons. The effective rate on the first CHF 500,000 of taxable wealth is lower than the rate on the next CHF 500,000. Most cantons also have exemption thresholds — in Zug, the threshold is around CHF 100,000-200,000 depending on filing status, meaning portfolios below that level owe nothing.
+One important nuance: these figures are progressive in most cantons. The effective rate on the first CHF 500,000 of taxable wealth is lower than the rate on the next CHF 500,000 — in Zug the effective rate runs about 0.08% at CHF 500,000 and about 0.20% at CHF 5,000,000. Most cantons also grant an allowance below which no wealth tax is owed at all; the amount is set canton by canton and is higher for married couples than for single filers, so look up your own canton's figure rather than assuming a round number.
 
 ## Multi-Wallet, Cold Storage, and DeFi: The Aggregation Reality
 
@@ -167,7 +167,7 @@ The structural answer: Switzerland is one of a small number of countries that st
 
 The United States does not have a federal wealth tax. Capital gains are taxed on realisation, and there is no annual levy on the portfolio itself. Americans holding crypto in the US pay nothing on unrealised gains from year to year.
 
-Singapore eliminated its wealth tax in 1984. Crypto capital gains are generally not taxed for individual investors. No annual portfolio levy.
+Singapore has no annual net wealth tax on individuals and never has had one; what it abolished was estate duty, for deaths on or after 15 February 2008. Crypto capital gains are generally not taxed for individual investors either. No annual portfolio levy.
 
 Dubai (UAE) has no personal income tax and no wealth tax. The tax-free status is more comprehensive than Switzerland's in some respects — but Switzerland still offers the capital gains exemption, which achieves the same zero-tax result on crypto appreciation for private investors.
 
@@ -191,4 +191,4 @@ The December 31st number matters. You should know what it is and how it is calcu
 
 For how the year-end portfolio value feeds into the actual tax return form, see the [field note on declaring crypto on your Swiss tax return](/posts/declaring-crypto-swiss-tax-return/). For the broader picture of why Switzerland's tax structure is what it is for crypto holders, the [Swiss crypto tax advantage guide](/posts/swiss-crypto-tax-advantage-guide/) covers the full framework.
 
-*This field note reflects the tax framework as of May 2026. Tax rules change; nothing here is legal or tax advice. Consult a qualified Swiss tax advisor for your specific situation.*
+*This field note reflects the tax framework as of September 2026. Tax rules change; nothing here is legal or tax advice. Consult a qualified Swiss tax advisor for your specific situation.*

@@ -39,7 +39,7 @@ sources:
 ---
 
 > 📅 Field note from: February 2021 | Last updated: May 2026
-> Originally written shortly after the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act) came into force; updated with five years of practical observations in May 2026.
+> Originally written shortly after the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en) came into force; updated with five years of practical observations in May 2026.
 
 February 1, 2021 is a date that most crypto holders outside Switzerland have never heard of. Inside Zug, the people who cared about it were a specific type: lawyers at firms specialising in digital assets, compliance officers at custody providers, and the handful of startups that had been waiting for this exact legislation before they could build certain products.
 

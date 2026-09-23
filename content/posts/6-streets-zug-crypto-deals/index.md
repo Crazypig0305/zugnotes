@@ -1,7 +1,7 @@
 ---
 title: "The 6 Streets in Zug Where Most Crypto Deals Happen"
 date: 2025-03-15
-lastmod: 2026-05-03
+lastmod: 2026-09-23
 description: "A geographic field note on Zug's crypto infrastructure: the six streets where blockchain companies cluster, deals get made, and the whole Crypto Valley ecosystem actually runs. With specific addresses, office occupants, and cafes where you'll spot the who's-who."
 categories: ["ecosystem"]
 tags: ["crypto valley zug", "zug geography", "crypto valley map", "Dammstrasse", "Gubelstrasse", "blockchain zug offices"]
@@ -93,7 +93,7 @@ Baarerstrasse more broadly is a transitional zone — not quite the old town, no
 
 ## 6. Kolinplatz and the Old Town Core: Where the Deals Used to Happen (and Still Do)
 
-Kolinplatz is the main square in Zug's medieval old town, and it functions as the geographic and social center of the ecosystem's informal layer. **Number 15 on Kolinplatz** is [SEBA Bank](https://en.wikipedia.org/wiki/SEBA_Bank) (now rebranded as Amina Bank after the 2023 merger) — one of the two Swiss banks to receive a full banking license for crypto services in August 2019. That moment was significant: FINMA granting SEBA and [Sygnum](https://www.sygnum.com/) banking licenses within weeks of each other signaled that Switzerland intended to integrate crypto into regulated finance rather than tolerate it at the margins.
+Kolinplatz is the main square in Zug's medieval old town, and it functions as the geographic and social center of the ecosystem's informal layer. **Number 15 on Kolinplatz** is [SEBA Bank](https://en.wikipedia.org/wiki/SEBA_Bank) (renamed AMINA Bank in December 2023 — a rebrand, not a merger) — one of the two Swiss banks to receive a full banking license for crypto services in August 2019. That moment was significant: FINMA granting SEBA and [Sygnum](https://www.sygnum.com/) banking licenses within weeks of each other signaled that Switzerland intended to integrate crypto into regulated finance rather than tolerate it at the margins.
 
 **Hotel Ochsen** at Kolinplatz 11 hosted some of the earliest [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) meetups in Zug, starting in 2014. These gatherings were small — a few dozen people at most — but they formed the initial network from which much of Crypto Valley's social infrastructure grew.
 

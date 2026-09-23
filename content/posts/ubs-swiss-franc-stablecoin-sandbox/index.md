@@ -1,8 +1,8 @@
 ---
-title: "The UBS Swiss Franc Stablecoin Sandbox: What FINMA's Latest Move Means for CHF Crypto Rails"
+title: "The UBS Swiss Franc Stablecoin Sandbox: What It Actually Enables for CHF Crypto Rails"
 date: 2026-04-10
-lastmod: 2026-06-11
-description: "Six Swiss banks including UBS and Sygnum launched a CHF stablecoin sandbox in April 2026. Here is what the FINMA regulatory framework actually enables, why deposit tokens and stablecoins are different things, and what this means for Switzerland's crypto payment rails."
+lastmod: 2026-09-23
+description: "Six Swiss banks including UBS and Sygnum launched a CHF stablecoin sandbox in April 2026; SIX and TWINT joined in September, taking it to nine. Here is what the pilot actually tests, why deposit tokens and stablecoins are different things, and what this means for Switzerland's crypto payment rails."
 categories: ["ecosystem"]
 tags: ["swiss franc stablecoin", "UBS stablecoin", "CHF crypto rails", "FINMA sandbox", "Swiss Stablecoin AG", "DLT payments switzerland", "deposit token"]
 draft: false
@@ -12,7 +12,7 @@ glossary:
   - term: "CHFD"
     def: "The ticker symbol for the Swiss franc stablecoin being tested in the 2026 sandbox. Issued by Swiss Stablecoin AG and pegged 1:1 to the Swiss franc, with reserves held in cash at a regulated Swiss bank."
   - term: "FINMA Fintech Sandbox"
-    def: "A regulatory safe harbour under Switzerland's Banking Act that allows innovative financial services to operate with relaxed licensing requirements, provided public deposits stay below CHF 1 million and no interest is paid on deposits. Applies to Swiss Stablecoin AG's current issuance."
+    def: "A regulatory safe harbour under Switzerland's Banking Act that allows innovative financial services to operate with relaxed licensing requirements, provided public deposits stay below CHF 1 million and no interest is paid on deposits. Whether the CHFD pilot relies on this exemption is not stated in any of the participants' published material."
   - term: "Deposit Token"
     def: "A blockchain-based representation of a bank deposit — the issuer is a licensed bank, and the token is a direct claim on that institution. Distinct from a stablecoin, where the issuer may be a non-bank entity holding reserves externally. UBS, PostFinance, and Sygnum completed a first interbank deposit token trial in September 2025."
   - term: "ERC-20"
@@ -40,6 +40,9 @@ sources:
   - name: "The Block — Swiss franc stablecoin sandbox"
     url: "https://www.theblock.co/post/396650/swiss-franc-stablecoin-sandbox"
     desc: "The Block — April 2026"
+  - name: "UBS — CHF stablecoin sandbox enters test phase, adds SIX and TWINT"
+    url: "https://www.ubs.com/global/en/media/display-page-ndp/en-20260908-stablecoin-sandbox.html"
+    desc: "UBS Media — September 8, 2026 update: nine participants, CHFD technically live since end of June"
 ---
 
 On April 8, 2026, [UBS](https://www.ubs.com/global/en.html) put out a press release. Six institutions — UBS, [PostFinance](https://www.postfinance.ch/), [Sygnum](https://www.sygnum.com/), Raiffeisen, Zürcher Kantonalbank, and Banque Cantonale Vaudoise — alongside Swiss Stablecoin AG announced a joint sandbox to test a Swiss franc [stablecoin](https://en.wikipedia.org/wiki/Stablecoin) throughout 2026.
@@ -54,15 +57,15 @@ The sandbox is testing CHFD — a CHF-denominated stablecoin issued by Swiss Sta
 
 The six banking partners are not issuing the stablecoin themselves. They are participating in a controlled live environment to generate operational experience with using CHFD in real payment flows — settlement, interbank transfers, [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance)-adjacent applications that require programmable CHF liquidity.
 
-The sandbox runs throughout 2026 and is open to additional participants. Volume is capped below CHF 1 million — that threshold is the key regulatory gate I will come back to.
+The sandbox runs throughout 2026 and is open to additional participants — and additional participants have since joined. The safeguards the partners describe are a limited participant pool and transaction limits; they have not published the size of those limits, and no public figure for a volume cap exists.
 
-{{< num-highlight value="CHF <1M" label="Transaction volume cap" note="[FINMA](https://www.finma.ch/en/) fintech sandbox threshold, 2026" >}}
+{{< num-highlight value="9" label="Sandbox participants as of September 2026" note="The six founding banks plus Swiss Stablecoin AG, joined by SIX and TWINT on September 8, 2026." >}}
 
-## The Regulatory Scaffolding: What FINMA's Fintech Sandbox Actually Enables
+## The Regulatory Scaffolding: What Is Settled and What Is Not
 
 This is where the mainstream coverage tends to go thin.
 
-Swiss Stablecoin AG is operating under FINMA's fintech sandbox framework, which allows innovative financial services to accept public deposits without a full banking licence — provided the total stays below CHF 1 million and no interest is paid. It is a controlled exemption, not a regulatory green light for scale.
+Switzerland does have a fintech sandbox in its Banking Act — it lets a firm take public deposits without a full banking licence provided the total stays under CHF 1 million and no interest is paid. That CHF 1 million ceiling and the CHF 100 million fintech-licence cap mentioned below are two different rungs of the same deposit-taking ladder — a licence-free exemption for small experiments, and a light licence for limited-scale deposit-taking — and neither of them is a regime for issuing a stablecoin, which is precisely the gap the FinIA amendment is meant to fill. Whether CHFD's issuance sits inside that sandbox exemption is not something any of the participants have said publicly, and I would not assume it. What they have said is that this is a closed environment with a limited participant pool and transaction limits: a controlled experiment, not a regulatory green light for scale.
 
 The more consequential regulatory context is happening in parallel. In October 2025, the Federal Council opened a consultation on amending the Financial Institutions Act (FinIA). The consultation closed in February 2026 and proposes two new licence categories:
 
@@ -73,7 +76,7 @@ Legislative implementation is not expected before 2027. The sandbox running in 2
 
 <div class="data-callout">
 <p class="callout-label">Field observation — May 2026</p>
-<p>The fintech sandbox volume cap of CHF 1 million is deliberately small. The point is not scale — it is structured learning under live conditions before the FinIA amendment creates the regulatory category that would allow a full commercial launch. The sandbox is building the evidence base, not the product.</p>
+<p>The pilot is deliberately small. The point is not scale — it is structured learning under live conditions before the FinIA amendment creates the regulatory category that would allow a full commercial launch. The sandbox is building the evidence base, not the product.</p>
 </div>
 
 ## Stablecoins vs. Deposit Tokens: A Distinction That Matters Here
@@ -90,7 +93,7 @@ This is not a minor distinction for a practitioner audience.
 Deposit tokens (bank-issued, direct claim) and stablecoins (non-bank issuer, reserve-backed) carry different counterparty risk profiles, insolvency treatment under Swiss law, and AML identification requirements. The sandbox is specifically designed to stress-test the stablecoin structure — not to replace the September 2025 deposit token experiment, but to run alongside it.
 {{< /skip-box >}}
 
-## What the Six-Bank Composition Signals
+## What the Founding Six-Bank Composition Signals
 
 The participant roster is worth reading carefully.
 
@@ -127,13 +130,13 @@ The coverage pattern I am seeing conflates two separate things: the proof of con
 
 The deposit token experiment was about interbank settlement. The stablecoin sandbox is about broader programmable CHF access — including potentially non-bank participants who need CHF on-chain without needing a banking relationship with each of the six institutions.
 
-Getting these two confused leads to misreading the regulatory signal. The deposit token route is simpler from a counterparty-risk perspective but requires bilateral banking relationships to access. The stablecoin route is more accessible structurally, but requires FINMA to complete its FinIA amendment process before it can operate at meaningful scale without a volume cap.
+Getting these two confused leads to misreading the regulatory signal. The deposit token route is simpler from a counterparty-risk perspective but requires bilateral banking relationships to access. The stablecoin route is more accessible structurally, but requires the FinIA amendment process to complete before it can operate at meaningful scale outside a sandbox's transaction limits.
 
 They are not competing. They are addressing different layers of the same infrastructure problem.
 
 ## What This Means in Practice
 
-For DeFi builders and tokenized asset platforms needing CHF settlement: the sandbox is a signal, not a solution yet. CHF 1 million in volume does not make this a production rail. The legislative timeline (FinIA amendment expected 2027) is the gate for meaningful scale.
+For DeFi builders and tokenized asset platforms needing CHF settlement: the sandbox is a signal, not a solution yet. A closed pilot with a controlled participant list — one that has grown from six institutions to nine, but only by admitting named newcomers, not by opening the door — and capped transaction sizes does not make this a production rail. The legislative timeline (FinIA amendment expected 2027) is the gate for meaningful scale.
 
 For institutional crypto participants in Switzerland: watch whether the sandbox participants publish operational findings before the FinIA consultation process concludes. The regulatory categories being designed for stablecoin issuers will be shaped partly by what the 2026 sandbox data shows.
 
@@ -143,7 +146,7 @@ For anyone monitoring the broader SNB-CBDC-versus-private-stablecoin question: P
 
 The 2026 sandbox is designed to generate data before the regulatory window opens. Two signals worth monitoring:
 
-1. **Whether additional participants join** — the sandbox is open to other banks and institutions. A significant expansion of the participant roster would signal industry appetite beyond the founding six.
+1. **Whether additional participants join** — this one has already moved. On September 8, 2026 SIX and TWINT joined, taking the roster to nine, and CHFD has been technically live in the sandbox since the end of June, with the test phase running to the end of the year. TWINT is the one that matters: it is the payment app almost every Swiss adult already has, and its presence turns an interbank experiment into a question about consumer rails.
 2. **The FinIA consultation outcome** — if the Federal Council's payment institution and crypto institution categories are enacted roughly as proposed, Switzerland will have one of the most structured stablecoin licensing frameworks globally by 2027. If the consultation outcome weakens or delays those categories, the CHFD sandbox remains a proof-of-concept rather than a bridge to a production rail.
 
 The conversation I have been tracking in Zug is less "will there be a CHF stablecoin" and more "which layer of the Swiss financial stack will it sit on, and who gets to issue it." The April 2026 announcement did not answer that question. It created a structured way to ask it.
@@ -152,4 +155,4 @@ The conversation I have been tracking in Zug is less "will there be a CHF stable
 
 *This is a field note, not financial advice. Participants in the stablecoin sandbox should consult qualified legal counsel on applicable FINMA requirements for their specific use case.*
 
-*For context on the broader Swiss regulatory framework, see [FINMA's Guidance 01/2026 on crypto custody](/posts/finma-crypto-guidance-01-2026/) and [the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act)'s foundational infrastructure changes](/posts/dlt-act-switzerland-explained/).*
+*For context on the broader Swiss regulatory framework, see [FINMA's Guidance 01/2026 on crypto custody](/posts/finma-crypto-guidance-01-2026/) and [the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en)'s foundational infrastructure changes](/posts/dlt-act-switzerland-explained/).*

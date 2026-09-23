@@ -1,7 +1,7 @@
 ---
 title: "FINMA's Crypto Guidance 01/2026: What It Actually Means for Custody (Not the Legal Version)"
 date: 2026-02-14
-lastmod: 2026-06-02
+lastmod: 2026-09-23
 description: "FINMA published Guidance 01/2026 on crypto custody in January 2026. Here is what the circular actually requires — asset segregation, foreign custodian rules, and what changes for individuals holding crypto via Swiss institutions. Plain language, not a law firm memo."
 categories: ["regulation"]
 tags: ["FINMA", "custody", "swiss crypto regulation", "DLT Act", "asset segregation"]
@@ -22,7 +22,7 @@ glossary:
   - term: "CASP"
     def: "Crypto-Asset Service Provider. The MiCA term for regulated crypto businesses — exchanges, custodians, brokers — operating within EU jurisdiction."
   - term: "CARF"
-    def: "Crypto-Asset Reporting Framework. OECD standard for cross-border tax information exchange on crypto holdings, active in Switzerland from January 2026."
+    def: "Crypto-Asset Reporting Framework. OECD standard for cross-border tax information exchange on crypto holdings. Switzerland has the legal basis on its statute book, but the provisions do not apply in 2026; implementation can start on 1 January 2027 at the earliest."
 sources:
   - name: "FINMA Guidance 01/2026 — official press release"
     url: "https://www.finma.ch/en/news/2026/01/20260112-mm-am-01-26/"
@@ -33,6 +33,18 @@ sources:
   - name: "Bär & Karrer — FINMA Publishes Guidance 01/2026"
     url: "https://www.baerkarrer.ch/en/publications/finma-publishes-guidance-01/2026-on-the-custody-of-crypto-based-assets"
     desc: "Bär & Karrer — five-scenario breakdown, January 2026"
+  - name: "Federal Council — FinIA consultation on two new crypto licence categories"
+    url: "https://www.sif.admin.ch/en/newnsb/x4TMWQ1SWofNoFx7XyHhY"
+    desc: "sif.admin.ch — consultation opened 22 October 2025, closed 6 February 2026"
+  - name: "WAK-N press release — CARF partner-state bill suspended"
+    url: "https://www.parlament.ch/press-releases/Pages/mm-wak-n-2025-11-04.aspx"
+    desc: "parlament.ch — National Council economic affairs committee, 4 November 2025, 18 votes to 0 with 4 abstentions"
+  - name: "Federal Council — crypto-asset AEOI provisions do not apply in 2026"
+    url: "https://www.efd.admin.ch/en/newnsb/oAaJyRFS1lqJ7PN3sLJTP"
+    desc: "efd.admin.ch — decision of 26 November 2025; CARF implementation in 2027 at the earliest"
+  - name: "FINMA Guidance 06/2024 — stablecoins"
+    url: "https://www.finma.ch/en/news/2024/07/20240726-m-am-06-24-stablecoins/"
+    desc: "finma.ch — 26 July 2024, bank default guarantees and AML identity duties for stablecoin issuers"
   - name: "Post-Trade 360 — FINMA custody guidance analysis"
     url: "https://posttrade360.com/news/regulation/finma-releases-guidance-for-the-custody-of-cryptoassets/"
     desc: "Post-Trade 360 — industry implications, January 2026"
@@ -44,17 +56,17 @@ This is an attempt to translate what it actually says, what it changes in practi
 
 ## Why FINMA Published This Now
 
-The timing is not accidental. Three things converged at the start of 2026.
+The timing is not accidental, but nothing that set it up happened in January. Three pressures had accumulated by the time the guidance landed, and the most recent of them was already three months old.
 
-First, [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) — the [OECD](https://www.oecd.org/) Crypto-Asset Reporting Framework — became active in Switzerland on January 1, 2026. The institutional custody infrastructure that CARF reporting depends on had to be formalized.
+First, and closest to the date: the Federal Council [opened its consultation](https://www.sif.admin.ch/en/newnsb/x4TMWQ1SWofNoFx7XyHhY) on the Financial Institutions Act on 22 October 2025, proposing two new licence categories for crypto firms. A structural reform of who gets supervised assumes a settled answer to what supervised custody has to look like, and that answer was scattered across practice rather than written down.
 
-Second, MiCA (the EU's Markets in Crypto-Assets Regulation) came fully into force in December 2024. With a large, adjacent jurisdiction now operating a coherent crypto regulatory framework, FINMA faced pressure to clarify how Swiss-supervised institutions should evaluate EU-based custodians.
+Second, and a year before that: MiCA (the EU's Markets in Crypto-Assets Regulation) became fully applicable on 30 December 2024. With a large, adjacent jurisdiction now operating a coherent crypto regulatory framework, FINMA faced pressure to clarify how Swiss-supervised institutions should evaluate EU-based custodians.
 
-Third, FINMA had observed in its supervisory work that some Swiss-licensed institutions were not adequately accounting for custody risks when using third-party providers — particularly foreign providers without equivalent oversight. The guidance formalizes what had previously been supervisor expectation rather than written rule.
+Third, and with no single date on it at all: FINMA had observed in its supervisory work that some Swiss-licensed institutions were not adequately accounting for custody risks when using third-party providers — particularly foreign providers without equivalent oversight. The guidance formalizes what had previously been supervisor expectation rather than written rule.
 
 <div class="data-callout">
 <p class="callout-label">Field observation — February 2026</p>
-<p>The timing matters: FINMA published this guidance within days of CARF going live. Institutions that handle CARF reporting on behalf of clients need to know whose assets they are holding and under what legal framework — the guidance answers those questions at the infrastructure level.</p>
+<p>One thing worth correcting from the January commentary: the guidance did not arrive alongside a live CARF regime. At its session of 3–4 November 2025 the National Council's Economic Affairs and Taxation Committee <a href="https://www.parlament.ch/press-releases/Pages/mm-wak-n-2025-11-04.aspx">suspended the partner-state bill</a> by 18 votes to zero with four abstentions, and on 26 November 2025 the Federal Council <a href="https://www.efd.admin.ch/en/newnsb/oAaJyRFS1lqJ7PN3sLJTP">confirmed</a> that the crypto-asset provisions of Swiss automatic-exchange law would not apply in 2026 at all — <a href="/posts/switzerland-carf-delay-2027/">implementation can start on 1 January 2027 at the earliest</a>. The custody guidance stands on its own supervisory logic — who holds whose assets, and what happens in an insolvency — not on a tax-reporting deadline that never started.</p>
 </div>
 
 ## What the Guidance Actually Requires
@@ -65,7 +77,7 @@ The guidance addresses five distinct custody scenarios. Each has its own logic a
 
 When a FINMA-licensed bank holds crypto directly for clients, the assets must be held in a way that is "bankruptcy-remote" — meaning they cannot be claimed by the bank's own creditors if the institution fails.
 
-Swiss law (via the [DLT Act](https://en.wikipedia.org/wiki/Distributed_Ledger_Technology_Act) and existing banking law) already requires this in principle. The guidance makes it explicit: client assets must be segregated at the individual ledger address level, not just as an aggregate balance. The bank's own holdings must remain separate from client holdings at all times.
+Swiss law (via the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en) and existing banking law) already requires this in principle. The guidance makes it explicit: client assets must be segregated at the individual ledger address level, not just as an aggregate balance. The bank's own holdings must remain separate from client holdings at all times.
 
 {{< num-highlight value="2" label="Custody types FINMA accepts" note="individual segregation or collective custody with documented client shares" >}}
 
@@ -113,7 +125,7 @@ The language is targeted at the infrastructure layer of crypto ETPs and structur
 
 ## What This Actually Changes in Practice
 
-The guidance mostly formalizes expectations that FINMA had already been communicating in supervisory conversations. For the major Swiss crypto banks — [SEBA Bank](https://en.wikipedia.org/wiki/SEBA_Bank) (now rebranded), [Sygnum](https://www.sygnum.com/), and others — the operational reality changes less than the compliance documentation requirement.
+The guidance mostly formalizes expectations that FINMA had already been communicating in supervisory conversations. For the major Swiss crypto banks — [AMINA Bank](https://en.wikipedia.org/wiki/SEBA_Bank) (SEBA Bank until its rebrand in December 2023), [Sygnum](https://www.sygnum.com/), and others — the operational reality changes less than the compliance documentation requirement.
 
 What does change more materially:
 
@@ -141,9 +153,9 @@ Worth being clear about what this document is not.
 
 **It does not address self-custody.** The guidance applies to FINMA-supervised institutions. If you hold crypto in your own wallet, no custodian is involved and the guidance is irrelevant to you.
 
-**It does not change the tax treatment of crypto assets.** Wealth tax obligations, the capital gains exemption for private investors, and CARF reporting thresholds are unaffected by custody structure — they depend on your status as a taxpayer, not on where your assets are held.
+**It does not change the tax treatment of crypto assets.** Wealth tax obligations and the capital gains exemption for private investors are unaffected by custody structure — they depend on your status as a taxpayer, not on where your assets are held. The same goes for CARF, whenever it eventually runs.
 
-**It does not resolve the [stablecoin](https://en.wikipedia.org/wiki/Stablecoin) custody question.** FINMA has signaled that guidance on stablecoin custody — particularly relevant given MiCA's stablecoin rules — is forthcoming. The current guidance focuses on crypto assets more broadly and does not distinguish between stablecoins and other tokens in custody terms.
+**It does not resolve the [stablecoin](https://en.wikipedia.org/wiki/Stablecoin) custody question.** FINMA's published position on stablecoins is still [Guidance 06/2024](https://www.finma.ch/en/news/2024/07/20240726-m-am-06-24-stablecoins/), published on 26 July 2024, and that document is about issuance rather than custody — minimum requirements for the bank default guarantees some issuers rely on, and the obligation to verify the identity of everyone holding the token. Guidance 01/2026 covers crypto assets broadly and does not distinguish stablecoins from other tokens in custody terms, so the gap between the two documents is still open.
 
 **It does not create an equivalence whitelist.** The guidance tells institutions what the test is but does not publish a list of foreign custodians that automatically qualify. Institutions must conduct their own equivalence assessments, with documentation.
 
@@ -159,7 +171,7 @@ Post-Trade 360's industry analysis noted that the requirements "may accelerate c
 
 Three developments are worth tracking in the months following this guidance:
 
-**FINMA's stablecoin follow-up.** The regulator indicated further guidance on stablecoin custody is forthcoming. Given MiCA's detailed stablecoin framework, the pressure to clarify Swiss treatment is real. One concrete signal of where this is heading is the [UBS Swiss franc stablecoin sandbox](/posts/ubs-swiss-franc-stablecoin-sandbox/) — a field note on what FINMA's move there means for CHF-denominated crypto rails.
+**Where stablecoin custody lands.** Nothing has been published since Guidance 06/2024, and the more consequential movement is legislative rather than supervisory: the Federal Council's FinIA proposal would give CHF-pegged stablecoin issuance its own licence category. Two concrete signals of where this is heading are the [UBS Swiss franc stablecoin sandbox](/posts/ubs-swiss-franc-stablecoin-sandbox/) and the [proposed payment instrument institution licence](/posts/finma-crypto-institution-license-2026/) — both field notes on what CHF-denominated crypto rails are actually being built on.
 
 **How institutions document equivalence.** There is no standard template for equivalence assessments. How the industry develops a common approach — and whether FINMA publishes any additional guidance on the methodology — will determine how workable the framework is in practice.
 

@@ -1,7 +1,7 @@
 ---
 title: "CV Labs and the Zug Co-working Scene: Is the Crypto Valley Hype Real?"
 date: 2024-03-12
-lastmod: 2026-05-03
+lastmod: 2026-09-23
 description: "CV Labs claims 200+ tenants and the title 'heartbeat of Crypto Valley.' Is the hype real? A field note on what the Zug co-working scene actually looks like — the density, the community events, and why some crypto companies in Zug are not in CV Labs at all."
 categories: ["ecosystem"]
 tags: ["CV labs zug", "crypto valley coworking", "web3 zug community", "Spaces Zug", "Trust Square", "blockchain switzerland workspace"]
@@ -32,9 +32,12 @@ sources:
   - name: "CV Labs — Blockchain Coworking Space"
     url: "https://www.cvlabs.com/services/cowork"
     desc: "CV Labs coworking services page — office types, domicile service, and event access"
-  - name: "CV VC — Crypto Valley Grows 132% Since 2020: Now Hosts 1,749 Companies"
-    url: "https://www.cvvc.com/press-releases/crypto-valley-grows-132-since-2020-now-hosts-1-749-companies"
-    desc: "CV VC press release — primary data source for ecosystem company count and CV Labs tenant figures"
+  - name: "CVJ.CH — Crypto Valley Top 50 & Ecosystem Report 2026"
+    url: "https://cryptovalleyjournal.com/hot-topics/news/crypto-valley-top-50-report-2026-47-percent-european-investments/"
+    desc: "Crypto Valley Journal — primary data source for ecosystem company count, covering year-end 2025"
+  - name: "CV VC — 18 Months CV Labs in Review"
+    url: "https://medium.com/cv-vc/18-months-cv-labs-in-review-19c25cb55230"
+    desc: "CV VC Medium — CV Labs opened its first Dammstrasse floor in mid-February 2018; CV VC itself was formed in September 2018"
   - name: "Trust Square — Coworking Space, Zurich"
     url: "https://www.trustsquare.com"
     desc: "Trust Square official site — Zurich-based blockchain and Web3 innovation hub, comparative reference"
@@ -52,10 +55,10 @@ sources:
     desc: "Related: how CV Labs fits into the longer history of Zug as a crypto hub"
 ---
 
-> 📅 Original post: March 2024 | Last updated: May 2026
-> [CV Labs](https://cvlabs.com/) tenant and incorporation figures drawn from [CV VC](https://cvvc.com/) official data (published May 2025, covering 2024 results). Trust Square figures from official site as of early 2026.
+> 📅 Original post: March 2024 | Last updated: September 2026
+> [CV Labs](https://cvlabs.com/) tenant figures from the CV Labs Zug location page; incorporation figures from [CV VC](https://cvvc.com/) data covering 2024. Ecosystem company counts from the CV VC Top 50 & Ecosystem Report published April 2026, covering year-end 2025. Trust Square figures from official site as of early 2026.
 
-The building that calls itself the heartbeat of [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) sits on Dammstrasse 16, a two-minute walk from Zug train station. It is not hard to find. The question worth asking before you commit to a desk there is whether the claim holds up when you look past the tagline.
+The building that calls itself the heartbeat of [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) sits on Dammstrasse 16, a two-minute walk from Zug train station. It has been there since February 2018, when CV Labs opened its first floor — "The Block" — on that street. It is not hard to find. The question worth asking before you commit to a desk there is whether the claim holds up when you look past the tagline.
 
 This is a field note on what the Zug co-working scene actually looks like in practice — the density that CV Labs represents, what its community events are actually like, why some crypto companies in Zug choose not to be there, and where Trust Square fits into the picture as the Zurich alternative that comes up in almost every comparison conversation.
 
@@ -69,9 +72,9 @@ That adjacency is not incidental. It is the actual value proposition. A desk at 
 
 {{< num-highlight value="200+" label="Companies and tenants" note="Current count at CV Labs Zug, Dammstrasse 16. Up from roughly 130 at the original 18-month review point." >}}
 
-The 200+ tenant figure is the one CV Labs leads with. It is worth contextualizing against the broader ecosystem: CV VC's own data puts Crypto Valley at 1,749 active blockchain companies, with Zug hosting 41% of the total — roughly 719 companies in the canton. CV Labs' 200+ tenants represent a meaningful slice of that, approximately 11% of the entire ecosystem and close to 28% of Zug-based companies, depending on how you count domicile registrations versus working tenants.
+The 200+ tenant figure is the one CV Labs leads with. It is worth contextualizing against the broader ecosystem: CV VC's own data puts Crypto Valley at 1,766 active blockchain companies at the end of 2025, with Zug hosting 40% of the total — 715 companies in the canton. CV Labs' 200+ tenants represent a meaningful slice of that, approximately 11% of the entire ecosystem and close to 28% of Zug-based companies, depending on how you count domicile registrations versus working tenants.
 
-<!-- IG-angle: The unpublished split behind the "200+ tenants" headline — domicile registrations and working tenants are counted together, so the figure measures legal addresses rather than daily density; worked through against the 719 Zug-company base to show what the tagline can and cannot support -->
+<!-- IG-angle: The unpublished split behind the "200+ tenants" headline — domicile registrations and working tenants are counted together, so the figure measures legal addresses rather than daily density; worked through against the 715 Zug-company base to show what the tagline can and cannot support -->
 
 ## The Domicile Question: How Many Are Actually There?
 
@@ -99,7 +102,7 @@ The CV Summit, which CV Labs co-organizes, is a different scale entirely — 3,0
 
 The answer is usually one of three things.
 
-**They predate CV Labs.** Several of Zug's established blockchain companies were incorporated before CV Labs existed in its current form, or at a time when the building's reputation was still being established. They have their own office arrangements — often in the same radius around the train station — and the cost-benefit of moving to a co-working model never made sense.
+**They predate CV Labs.** Several of Zug's established blockchain companies were incorporated before CV Labs opened in February 2018, or at a time when the building's reputation was still being established. They have their own office arrangements — often in the same radius around the train station — and the cost-benefit of moving to a co-working model never made sense.
 
 **They have grown past the format.** A company that started with two founders sharing a hot desk and has since hired fifteen people will often move to a dedicated leased office in Zug or nearby. CV Labs works well for the early-to-mid stage. At a certain headcount, the density advantages get outweighed by the noise and layout constraints of shared space.
 
@@ -158,4 +161,4 @@ CV Labs runs community events at approximately monthly intervals, including the 
 
 ---
 
-For more on the broader ecosystem that gives CV Labs its context, the [2026 Crypto Valley snapshot](/posts/crypto-valley-2026-snapshot/) covers the 1,749-company figure in detail. The [Ethereum origin story](/posts/why-ethereum-born-in-zug/) covers how Zug became the address of choice before any of this infrastructure existed.
+For more on the broader ecosystem that gives CV Labs its context, the [2026 Crypto Valley snapshot](/posts/crypto-valley-2026-snapshot/) covers the 1,766-company figure in detail. The [Ethereum origin story](/posts/why-ethereum-born-in-zug/) covers how Zug became the address of choice before any of this infrastructure existed.

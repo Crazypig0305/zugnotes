@@ -1,8 +1,8 @@
 ---
 title: "What CARF Actually Reports About You: A Plain Reading of the Framework for Individuals"
 date: 2025-11-18
-lastmod: 2026-06-11
-description: "CARF requires your Swiss exchange or bank to collect your name, TIN, tax residency, and aggregate transaction data. Here is a plain-language breakdown of exactly what gets reported, how individual reporting differs from entities, how CARF compares to FATCA and CRS, and what the Swiss 2027 delay means in practice for your privacy."
+lastmod: 2026-09-23
+description: "When CARF runs, your Swiss exchange or bank collects your name, TIN, tax residency, and aggregate transaction data. Here is a plain-language breakdown of exactly what gets reported, how individual reporting differs from entities, how CARF compares to FATCA and CRS, and why the Swiss postponement means none of it is happening in 2026."
 categories: ["holding"]
 tags: ["CARF", "individual reporting", "crypto asset reporting framework", "FATCA", "CRS", "swiss crypto regulation", "AEOI", "privacy", "tax transparency"]
 draft: false
@@ -10,7 +10,7 @@ image: hero.jpg
 readtime: 12
 glossary:
   - term: "CARF"
-    def: "Crypto-Asset Reporting Framework. The OECD standard published in 2022 that requires Reporting Crypto-Asset Service Providers to collect individual and entity user data and report it to domestic tax authorities for automatic cross-border exchange. Switzerland enacted CARF into law on January 1, 2026; actual data exchange with foreign governments is delayed until at least 2027."
+    def: "Crypto-Asset Reporting Framework. The OECD standard published in 2022 that requires Reporting Crypto-Asset Service Providers to collect individual and entity user data and report it to domestic tax authorities for automatic cross-border exchange. Switzerland has the legal basis on its statute book, but the crypto-asset provisions do not apply in 2026; implementation can begin on 1 January 2027 at the earliest."
   - term: "RCASP"
     def: "Reporting Crypto-Asset Service Provider. Any individual or entity that, as a business, provides services to effectuate crypto-asset transactions — including exchanges, custodians, brokers, and certain wallet providers. Under CARF, RCASPs are the direct reporting obligation holders, not individual asset holders."
   - term: "TIN"
@@ -20,7 +20,7 @@ glossary:
   - term: "FATCA"
     def: "Foreign Account Tax Compliance Act. A US law requiring foreign financial institutions worldwide to identify and report on US-person account holders. FATCA is bilateral (US-driven) and focuses on account balances; CRS and CARF are multilateral and cover a wider jurisdictional scope."
   - term: "Reportable jurisdiction"
-    def: "A country that participates in the automatic exchange agreement under CARF. If you are tax-resident in a reportable jurisdiction and hold crypto through a Swiss RCASP, your transaction data is reportable. Switzerland approved 74 partner jurisdictions before the National Council committee paused deliberations in January 2026."
+    def: "A country that participates in the automatic exchange agreement under CARF. If you are tax-resident in a reportable jurisdiction and hold crypto through a Swiss RCASP, your transaction data is reportable once the framework runs. The Swiss Federal Council proposed 74 partner jurisdictions, but Parliament has not approved them: the National Council committee suspended the bill in November 2025."
   - term: "Aggregate reporting"
     def: "The CARF principle that individual transactions are not reported one by one. Instead, gross proceeds from dispositions, fair market value of transfers, and total amounts received are aggregated by crypto-asset type and transaction category, then reported annually."
 sources:
@@ -35,7 +35,7 @@ sources:
     desc: "OECD — status of 76 jurisdictions' commitment as of December 2025, first exchange timelines"
   - name: "Alpadis — Switzerland Delays Exchange of Crypto-Asset Information to 2027"
     url: "https://www.alpadis.com/insights/switzerland-delays-exchange-of-crypto-asset-information-to-2027"
-    desc: "alpadis.com — January 2026 delay announcement analysis, practical implications for holders"
+    desc: "alpadis.com — analysis of the Federal Council's 26 November 2025 decision to postpone CARF crypto-asset exchange to 2027, and what it means for holders"
   - name: "Blockpit — Tax Authorities Will Get Your Crypto Data: CARF, DAC8"
     url: "https://www.blockpit.io/tax-guides/tax-authorities-will-get-your-crypto-data"
     desc: "blockpit.io — RCASP obligations, transaction scope, first exchange timeline"
@@ -47,8 +47,8 @@ sources:
     desc: "coincub.com — plain-language breakdown of what exchanges report and what the data trail looks like"
 ---
 
-> 📅 Field note from: November 2025 | Last updated: May 2026
-> Originally written when [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) implementation timelines were finalised across [OECD](https://www.oecd.org/) jurisdictions; updated with Switzerland's 2027 delay confirmation in May 2026.
+> 📅 Field note from: November 2025 | Last updated: September 2026
+> Originally written when [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) implementation timelines were being finalised across [OECD](https://www.oecd.org/) jurisdictions; corrected in September 2026 against the State Secretariat for International Finance FAQ, which is clearer than the contemporaneous coverage about how much of the framework Switzerland actually switched off.
 
 Most coverage of CARF focuses on the timeline: when will data cross borders, which countries are included, what does the Swiss delay actually mean. Those are reasonable questions, and I have written about them separately.
 
@@ -135,7 +135,7 @@ Readers who have followed the older international tax transparency frameworks wi
 
 **CRS (Common Reporting Standard, 2014):** The multilateral framework that Switzerland and 100+ countries use to exchange traditional financial account information. CRS reports account balances, interest and dividend income, gross proceeds from sales of financial instruments. It covers bank accounts, securities accounts, and similar. CARF is the crypto extension of CRS — same multilateral architecture, same exchange mechanism, different asset class and reporting logic (transactions, not balances).
 
-**FATCA (2010):** The US law that requires non-US financial institutions to identify and report on US-person account holders. Unlike CRS and CARF, FATCA is bilateral — it runs between the US and individual countries through intergovernmental agreements, rather than through a multilateral exchange network. Switzerland has a FATCA IGA in place. Starting with the 2025 tax year, FATCA's definition of "specified foreign financial asset" explicitly includes digital assets held on foreign exchanges — meaning US persons with Swiss crypto accounts face both FATCA and (eventually) CARF reporting.
+**FATCA (2010):** The US law that requires non-US financial institutions to identify and report on US-person account holders. Unlike CRS and CARF, FATCA is bilateral — it runs between the US and individual countries through intergovernmental agreements, rather than through a multilateral exchange network. Switzerland has a FATCA IGA in place. How crypto held at a foreign platform sits inside FATCA's "specified foreign financial asset" definition is a question the IRS has not answered with a dedicated rule, so US persons with Swiss crypto positions are working from general principles and their advisers' reading of them rather than from a bright line.
 
 The interaction between the three frameworks is formally managed to avoid duplication: where a transaction is already reportable under CRS, CARF is designed to turn off overlapping reporting. The deduplication logic is built into the framework.
 
@@ -146,25 +146,25 @@ The interaction between the three frameworks is formally managed to avoid duplic
 | Architecture | Multilateral (OECD) | Multilateral (OECD) | Bilateral (US-driven) |
 | What is reported | Transaction aggregates | Account balances + income | Account balances + income |
 | Who reports | RCASPs | Financial institutions | Foreign financial institutions |
-| Effective for Switzerland | Law in force 2026; exchange from 2027 | Active, ongoing | Active (FATCA IGA since 2014) |
+| Effective for Switzerland | Legal basis in place, provisions not applicable in 2026; 2027 at the earliest | Active, ongoing | Active (FATCA IGA since 2014) |
 | DeFi coverage | No (no RCASP involved) | No | No |
 {{< /budget-table >}}
 
 The key insight from this comparison: CARF is not a rupture with the existing transparency system. It is a logical extension. Countries that have already adapted to CRS — which includes Switzerland, which has been a CRS participant since 2017 — already have the institutional infrastructure for CARF. The new piece is crypto-specific reporting at the RCASP level.
 
-## The Switzerland 2027 Delay: What It Changes and What It Does Not
+## The Swiss Postponement: What It Switches Off and What It Does Not
 
-Switzerland enacted CARF into law on January 1, 2026. In the same week, the National Council's Economic Affairs and Taxation Committee suspended deliberations on which 74 partner jurisdictions Switzerland would exchange data with, citing concerns about data security and confidentiality standards in recipient countries. The result: actual data exchange was delayed to at least 2027.
+Switzerland has the legal basis for CARF on its statute book — Parliament approved the multilateral agreement in its final vote of 26 September 2025. But the Federal Council can only ratify that agreement once Parliament has approved the partner states, and in November 2025 the National Council's Economic Affairs and Taxation Committee suspended exactly that bill, by 18 votes to zero with four abstentions, pending clarity on how other states are proceeding and how the standard is read internationally. On 26 November 2025 the Federal Council confirmed the consequence.
 
-This delay is narrower than it sounds.
+The postponement is wider than "delayed exchange," which is how most of the coverage framed it.
 
-Data collection obligations at the RCASP level are active. Your Swiss exchange or crypto bank has been collecting your identity information, TIN, and transaction data since January 1, 2026. The SFTA registration requirements for RCASPs are active. The reporting framework is operational. What is paused is the final step: transmission of collected data across borders to foreign tax authorities.
+Nothing at the RCASP level is running. The State Secretariat for International Finance states plainly that the due-diligence provisions relating to CARF "will not apply in 2026" and that "reporting providers of crypto services will not be required to exercise due diligence under Swiss law in 2026." There is no CARF registration duty this year either, and Switzerland will not receive crypto-asset data from abroad for the 2026 calendar year in return. Implementation can start on 1 January 2027 at the earliest, on a date Parliament sets.
 
-The practical implication for privacy-conscious holders: the information exists in Swiss institutional hands. It is not yet leaving Switzerland. But it will, when the partner state list is approved and exchange resumes. The data accumulated during the delay period — all of 2026, and potentially part of 2027 — will be included in the first exchange when it occurs.
+The practical implication for privacy-conscious holders is not the one the January coverage suggested. There is no pool of CARF data sitting in Swiss institutional hands waiting for a border to open, because 2026 generated none. What your exchange holds is the KYC and transaction history it kept anyway, for its own AML and commercial purposes — the same material it held before CARF was drafted. Some providers have voluntarily aligned their self-certifications with the OECD format from January 2026, which SIF explicitly permits; that is a commercial decision, not a legal duty, and it varies by platform.
 
 <div class="data-callout">
 <p class="callout-label">Insider observation — Zug, 2026</p>
-<p>The delay has been received with some relief in parts of the local crypto community, but the reaction from compliance professionals I know is more measured. The information is being collected now. The clock running in your favor is time to review your holding structure and ensure your domestic tax filings are accurate — not time to avoid the system altogether. Those are different things, and conflating them is a planning error.</p>
+<p>The postponement was received with some relief in parts of the local crypto community, and the compliance people I know read it more narrowly than the relief suggests. Nothing is being collected under CARF now, which makes the window genuinely quiet — but it closes on a date Parliament has not announced, and the twelve-month self-certification clock for existing users only starts the day before activation. The time is for reviewing your holding structure and checking that your domestic filings are accurate, not for assuming the system went away. Those are different things, and conflating them is the planning error I keep seeing.</p>
 </div>
 
 ## The Privacy and Compliance Trade-Off: A Plain Read
@@ -175,9 +175,9 @@ Whether that is a good thing depends on your starting position.
 
 For holders with clean filing histories — Swiss residents who declare their crypto portfolios in the annual wealth tax return, who report [staking](https://en.wikipedia.org/wiki/Proof_of_stake) income as capital income, who have not used foreign exchanges specifically to avoid domestic reporting — CARF adds a reporting layer at the institutional level but does not change their legal position. They are already in compliance. CARF confirms what their filings already reflect.
 
-For holders with material unreported crypto positions — in any jurisdiction, not just Switzerland — CARF represents a genuine shift in risk. The relevant window is the period between when collection is active (January 2026) and when exchange begins (anticipated 2027, with first actual data crossing borders in 2028 for 2027 transactions). Self-disclosure mechanisms exist in Switzerland (Nachdeklaration) and in most other jurisdictions. The mechanics and timelines vary by country; professional advice specific to your situation is the relevant first step, not general reading.
+For holders with material unreported crypto positions — in any jurisdiction, not just Switzerland — CARF represents a genuine shift in risk. The window is the period before Switzerland activates the framework with a first partner state, which cannot happen before 1 January 2027 and needs a parliamentary decision that has not been taken. Self-disclosure mechanisms exist in Switzerland (Nachdeklaration) and in most other jurisdictions. The mechanics and timelines vary by country; professional advice specific to your situation is the relevant first step, not general reading.
 
-For holders in jurisdictions not on the reportable list — countries that are not CARF partner states — Swiss RCASP data collection still happens, but exchange with your home country does not. This is a meaningful distinction for holders in the US (which has FATCA but is not a CARF exchange partner in the conventional multilateral sense), in China, and in Saudi Arabia.
+For holders in jurisdictions not on the reportable list — countries that are not CARF partner states — the distinction only starts to matter on the day Switzerland switches the framework on. From that point, a Swiss RCASP will collect and hold your data under its due-diligence duties like anyone else's, but there is no partner state for it to be exchanged with, so it stays in Switzerland. Before that day — which includes all of 2026 — nothing is being collected under CARF at all, for residents of partner and non-partner countries alike. This is a meaningful distinction for holders in the US (which has FATCA but is not a CARF exchange partner in the conventional multilateral sense), in China, and in Saudi Arabia.
 
 {{< skip-box title="This is not advice on your specific situation" >}}
 Nothing in this field note is legal or tax advice. The application of CARF to any specific holder depends on their tax residency, the type of assets held, which Swiss institutions they use, the laws of their home country, and the status of exchange agreements at the time data is transmitted. The landscape is evolving. A professional who knows your situation is the appropriate first call.
@@ -189,7 +189,7 @@ The purpose of understanding CARF's reporting scope is not to find gaps to explo
 
 Three practical questions worth working through:
 
-**Is your tax residency information current at every Swiss institution you use?** RCASPs are required to collect self-certifications from account holders confirming tax residency. If you have moved countries, changed your primary residence, or have dual obligations, your exchange's records may not reflect your current situation. CARF creates a formal self-certification obligation. Outdated residency information at the institutional level creates compliance risk.
+**Is your tax residency information current at every Swiss institution you use?** RCASPs are required to collect self-certifications from account holders confirming tax residency. If you have moved countries, changed your primary residence, or have dual obligations, your exchange's records may not reflect your current situation. CARF will create a formal self-certification obligation once Switzerland activates the framework, and for accounts that already exist on the day before activation the provider gets a twelve-month window to collect it — so the request will land in your inbox some time after the switch, not before it. Outdated residency information at the institutional level creates compliance risk regardless: your domestic filing duty does not wait for CARF.
 
 **Are your foreign tax filings consistent with what your Swiss exchange holds?** The transaction data your exchange reports — aggregate exchanges, gross proceeds, transfer amounts — should be consistent with what you have declared to your domestic tax authority. Where there are gaps, the exchange between Switzerland and your home country (when it begins) will create an audit trail that did not exist before.
 
