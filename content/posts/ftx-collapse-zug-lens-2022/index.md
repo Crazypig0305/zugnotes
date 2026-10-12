@@ -6,7 +6,6 @@ description: "FTX filed for bankruptcy on November 11, 2022. From inside Zug —
 categories: ["ecosystem"]
 tags: ["FTX collapse crypto valley", "switzerland crypto 2022", "FTX zug perspective", "crypto valley 2022", "swiss crypto ecosystem", "FTX aftermath zug"]
 draft: false
-image: hero.jpg
 readtime: 8
 glossary:
   - term: "FTX (FTX Trading Ltd)"

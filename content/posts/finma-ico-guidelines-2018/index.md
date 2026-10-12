@@ -6,7 +6,6 @@ description: "On February 16, 2018, FINMA published six pages that changed the g
 categories: ["regulation"]
 tags: ["FINMA ICO guidelines 2018", "swiss crypto 2018", "token classification", "crypto regulation switzerland", "payment utility asset tokens"]
 draft: false
-image: hero.jpg
 readtime: 7
 glossary:
   - term: "ICO Guidelines (2018)"

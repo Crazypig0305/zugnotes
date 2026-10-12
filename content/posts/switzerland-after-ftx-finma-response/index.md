@@ -6,7 +6,6 @@ description: "FTX collapsed in November 2022. FINMA's response — tighter AML t
 categories: ["regulation"]
 tags: ["switzerland crypto regulation FTX response", "FINMA 2022 2023", "FTX collapse switzerland", "crypto asset segregation", "FINMA risk monitor", "swiss crypto banks"]
 draft: false
-image: hero.jpg
 readtime: 11
 glossary:
   - term: "Client asset segregation"

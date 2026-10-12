@@ -6,7 +6,6 @@ description: "On August 26, 2019, FINMA granted Switzerland's first banking lice
 categories: ["regulation"]
 tags: ["FINMA crypto license", "SEBA bank", "Sygnum bank", "swiss crypto regulation 2019", "crypto banking license history"]
 draft: false
-image: hero.jpg
 readtime: 7
 glossary:
   - term: "Banking and securities dealer licence"

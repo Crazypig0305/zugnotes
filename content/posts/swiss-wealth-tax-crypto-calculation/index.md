@@ -6,7 +6,6 @@ description: "Switzerland's wealth tax hits your crypto portfolio every December
 categories: ["holding"]
 tags: ["swiss wealth tax crypto calculation", "crypto portfolio value switzerland", "SFTA Kursliste crypto", "wealth tax switzerland crypto", "canton wealth tax rates zug", "December 31 crypto valuation", "ICTax crypto switzerland", "altcoin wealth tax", "DeFi holdings switzerland"]
 draft: false
-image: hero.jpg
 readtime: 12
 glossary:
   - term: "Vermögenssteuer (Wealth Tax)"

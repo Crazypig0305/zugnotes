@@ -6,7 +6,6 @@ description: "When CARF runs, your Swiss exchange or bank collects your name, TI
 categories: ["holding"]
 tags: ["CARF", "individual reporting", "crypto asset reporting framework", "FATCA", "CRS", "swiss crypto regulation", "AEOI", "privacy", "tax transparency"]
 draft: false
-image: hero.jpg
 readtime: 12
 glossary:
   - term: "CARF"

@@ -6,7 +6,6 @@ description: "Swiss law taxes staking rewards as ordinary income, not capital ga
 categories: ["holding"]
 tags: ["crypto staking tax switzerland", "swiss staking income tax", "staking rewards switzerland", "SFTA crypto income", "wealth tax staking", "DeFi tax switzerland", "canton tax staking"]
 draft: false
-image: hero.jpg
 readtime: 8
 glossary:
   - term: "Kapitalertrag (Capital Income)"

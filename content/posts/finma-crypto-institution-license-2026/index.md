@@ -6,7 +6,6 @@ description: "Switzerland proposed two new FINMA-supervised license categories i
 categories: ["regulation"]
 tags: ["FINMA crypto institution license 2026", "swiss crypto regulation", "FinIA amendment", "payment instrument institution", "swiss fintech license", "crypto-institution switzerland"]
 draft: false
-image: hero.jpg
 readtime: 10
 glossary:
   - term: "Crypto-Institution (Krypto-Institut)"

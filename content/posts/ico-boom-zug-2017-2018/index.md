@@ -6,7 +6,6 @@ description: "From Tezos raising $232M to FINMA's February 2018 guidelines and t
 categories: ["ecosystem"]
 tags: ["ICO 2017 crypto valley", "tezos zug", "ICO boom switzerland", "FINMA ICO guidelines", "crypto winter 2018", "zug blockchain history"]
 draft: false
-image: hero.jpg
 readtime: 13
 canonicalURL: "https://zugnotes.com/posts/ico-boom-zug-2017-2018/"
 glossary:

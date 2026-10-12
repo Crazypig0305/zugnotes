@@ -6,7 +6,6 @@ description: "Every Swiss canton tax form asks for the market value of your cryp
 categories: ["holding"]
 tags: ["crypto tax return switzerland", "swiss crypto declaration", "wealth tax crypto", "SFTA rate list", "canton tax software", "staking tax switzerland", "DeFi tax", "self-disclosure"]
 draft: false
-image: hero.jpg
 readtime: 11
 glossary:
   - term: "SFTA / FTA / ESTV"
