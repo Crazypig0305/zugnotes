@@ -1,7 +1,7 @@
 ---
 title: "What Getting a Crypto-Friendly Bank Account in Switzerland Actually Takes"
 date: 2023-06-12
-lastmod: 2026-09-23
+lastmod: 2026-10-13T05:59:00+08:00
 description: "Switzerland now has two very different kinds of crypto-friendly bank: high-threshold crypto-native institutions (AMINA, Sygnum, Bank Frick) and a fast-growing mainstream tier (Swissquote, Yuh, PostFinance, UBS) any resident can open. A plain-language field note on which one you actually need, the real thresholds, and the KYC depth behind each."
 categories: ["holding"]
 tags: ["swiss crypto bank", "SEBA bank", "Sygnum bank", "AMINA bank", "FINMA banking license", "KYC", "source of funds", "crypto custody switzerland"]
@@ -74,6 +74,15 @@ sources:
   - name: "CoinDesk — Swiss Crypto Bank AMINA Secures MiCA License in Austria"
     url: "https://www.coindesk.com/policy/2025/11/03/swiss-crypto-bank-amina-secures-mica-license-in-austria"
     desc: "coindesk.com — Nov 2025 report on AMINA's Austrian MiCA (CASP) authorisation and its professional-investor scope"
+  - name: "AMINA — First crypto banking group to receive a MiCA licence through its Austrian subsidiary"
+    url: "https://aminagroup.com/press/amina-becomes-the-first-crypto-banking-group-to-receive-a-mica-license-through-its-austrian-subsidiary/"
+    desc: "aminagroup.com — 3 November 2025 press release: AMINA (Austria) AG received its CASP licence from Austria's FMA in October 2025; services for professional investors"
+  - name: "FMA Liechtenstein — Authorization according to Art. 60 MiCAR (Bank Frick AG)"
+    url: "https://www.fma-li.li/en/news/authorization-according-to-art-60-micar-1567"
+    desc: "fma-li.li — notice of 31 December 2025: Bank Frick AG authorised for custody, order execution and transfer services since 23 December 2025"
+  - name: "AMF — Register entry: Sygnum Europe AG (MiCA CASP)"
+    url: "https://www.amf-france.org/en/warnings/white-lists/daspcasp/sygnum-europe-ag"
+    desc: "amf-france.org — Sygnum Europe AG, MiCA licence granted by Liechtenstein's FMA, providing services in France from 30 June 2026"
   - name: "CoinDesk — UBS to offer bitcoin and ether to wealthy clients"
     url: "https://www.coindesk.com/business/2026/01/23/swiss-banking-giant-usb-planning-to-offer-crypto-services-to-specific-clients"
     desc: "coindesk.com — Jan 23, 2026, reporting Bloomberg's account that UBS plans to offer BTC/ETH to selected Swiss private-banking clients"
@@ -97,8 +106,8 @@ sources:
     desc: "easyglobalbanking.com — tiering of Swiss crypto banks (crypto-native / mainstream-with-access / B2B infrastructure), 2026"
 ---
 
-> 📅 Originally written: June 2023 | Last updated: September 2026
-> Figures and bank status verified against publicly available sources as of September 2026. Bank policies and thresholds change — confirm directly with each institution before making decisions.
+> 📅 Originally written: June 2023 | Last updated: October 2026
+> Figures and bank status verified against publicly available sources as of September 2026; the EU-licence status of AMINA, Bank Frick and Sygnum re-checked against regulator and company sources in October 2026. Bank policies and thresholds change — confirm directly with each institution before making decisions.
 
 The pitch sounds clean: Switzerland has [FINMA](https://www.finma.ch/en/)-licensed banks that actually understand crypto. You can hold BTC and CHF in the same place, have your assets genuinely segregated under Swiss law — a protection [FINMA reinforced in its January 2026 custody guidance](https://www.finma.ch/en/news/2026/01/20260112-mm-am-01-26/) — and not worry that your bank will freeze your account the moment it sees an on-chain transfer.
 
@@ -136,11 +145,11 @@ The trade-off with this tier is depth: you generally get trading and custody, no
 
 Now the other end of the market. Switzerland has four institutions that sit in the "crypto-native or crypto-serious bank" category — built from the ground up around digital assets rather than bolting crypto onto a traditional bank:
 
-**[AMINA Bank](https://www.aminagroup.com/) (formerly [SEBA Bank](https://en.wikipedia.org/wiki/SEBA_Bank))** — received its FINMA banking licence in August 2019 alongside [Sygnum](https://www.sygnum.com/). Rebranded from SEBA to AMINA in December 2023. Headquartered in Zug. Offers trading, custody, lending, and [staking](https://en.wikipedia.org/wiki/Proof_of_stake) for a range of crypto-assets. In November 2025 it became the first crypto banking group to secure a [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) licence, through its Austrian subsidiary, letting it passport services across the EU. One caveat for individuals: that EU offering is aimed at professional investors — family offices, corporates, and institutions — not retail accounts.
+**[AMINA Bank](https://www.aminagroup.com/) (formerly [SEBA Bank](https://en.wikipedia.org/wiki/SEBA_Bank))** — received its FINMA banking licence in August 2019 alongside [Sygnum](https://www.sygnum.com/). Rebranded from SEBA to AMINA in December 2023. Headquartered in Zug. Offers trading, custody, lending, and [staking](https://en.wikipedia.org/wiki/Proof_of_stake) for a range of crypto-assets. In November 2025 it announced that it had become the first crypto banking group to secure a [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) licence — granted to its Austrian subsidiary by Austria's FMA in October 2025 — letting it passport services across the EU. One caveat for individuals: that EU offering is aimed at professional investors — family offices, corporates, and institutions — not retail accounts.
 
 **[Sygnum Bank](https://www.sygnum.com/)** — also FINMA-licensed since 2019. Based in Zurich. By its own account it managed roughly USD 6 billion in client assets across about 2,300 clients in 80-plus countries at the end of 2025 — Swiss finance press reading the same annual report puts it at [CHF 4.6 billion](https://www.finews.com/news/english-news/72812-krypto-banken-amina-sygnum-comparison-annual-reports-2025), which is the same money in a different currency. It [became a unicorn in January 2025](https://www.sygnum.com/news/sygnum-completes-usd-58m-strategic-growth-round-achieves-unicorn-status-with-1bn-valuation/) after a USD 58 million strategic growth round. Its Protect off-exchange custody platform [passed USD 1 billion in assets by March 2026](https://www.assetservicingtimes.com/assetservicesnews/custodyarticle.php?article_id=17789), and on [26 February 2026 it launched Sygnum Select](https://www.crowdfundinsider.com/2026/03/264982-digital-assets-sygnum-select-launches-targeting-unmanaged-crypto-treasury-assets/), a discretionary mandate service for corporate and crypto-native treasuries. The direction is clear: Sygnum builds for institutions and professional clients, with custody and trading at the core.
 
-**[Bank Frick](https://www.bankfrick.li/en)** — based in Liechtenstein (not Switzerland proper, but regulated by Liechtenstein's Financial Market Authority, which operates within the Swiss franc zone and EEA). The oldest of the four. Has offered crypto trading and custody since 2017, primarily for financial intermediaries and professional clients. In January 2026 it secured MiCAR authorisation from Liechtenstein's FMA, letting it passport crypto custody and trading across all 30 EEA states, and it opened a branch in the Dubai International Financial Centre the same year — so its reach now extends well beyond the Swiss-franc zone. It remains an intermediary- and professional-focused bank, not a retail one.
+**[Bank Frick](https://www.bankfrick.li/en)** — based in Liechtenstein (not Switzerland proper, but regulated by Liechtenstein's Financial Market Authority, which operates within the Swiss franc zone and EEA). The oldest of the four. Has offered crypto trading and custody since 2017, primarily for financial intermediaries and professional clients. In December 2025 it secured MiCAR authorisation from Liechtenstein's FMA (in effect since 23 December 2025), letting it passport crypto custody and trading across all 30 EEA states, and it also runs a branch in the Dubai International Financial Centre — so its reach now extends well beyond the Swiss-franc zone. It remains an intermediary- and professional-focused bank, not a retail one.
 
 **InCore Bank** — a Swiss B2B bank that provides crypto infrastructure to other financial institutions. Not a direct-to-client bank. If you are an individual looking to open an account personally, InCore is not your path — it functions as wholesale infrastructure.
 
@@ -252,7 +261,7 @@ A few things worth thinking through before starting the process:
 
 ## Where the Ecosystem Is Going
 
-AMINA's MiCA licence obtained in Austria in November 2025 is significant. It means the bank can passport crypto custody and trading services across EU member states without needing separate national licences. For clients based in the EU, this changes the accessibility calculus — if your jurisdiction's crypto banking situation is difficult, a bank with a MiCA passport operating out of Switzerland may offer a path that did not exist two years ago. Bank Frick followed with its own MiCAR authorisation in January 2026, so the EEA-passport route is now a two-horse race.
+AMINA's Austrian MiCA licence, granted in October 2025 and announced that November, is significant. It means the bank can passport crypto custody and trading services across EU member states without needing separate national licences. (Why a Zug bank needs an Austrian licence for that at all is the subject of a separate note: [Does MiCA apply in Switzerland?](/posts/does-mica-apply-in-switzerland/)) For clients based in the EU, this changes the accessibility calculus — if your jurisdiction's crypto banking situation is difficult, a bank with a MiCA passport operating out of Switzerland may offer a path that did not exist two years ago. Bank Frick's MiCAR authorisation from Liechtenstein's FMA took effect on 23 December 2025, and Sygnum's Liechtenstein subsidiary, Sygnum Europe AG, now holds a MiCA licence from the same regulator — listed in France's public register as providing services there from 30 June 2026 — so AMINA, Bank Frick and Sygnum all now have an EEA-passport route.
 
 The split I flagged in earlier versions of this note has now clearly arrived. At the institutional end, Sygnum's unicorn status, USD 6 billion in client assets, and new discretionary-mandate business show the crypto-native banks deepening upmarket. At the mass-market end, the opposite is happening: crypto has become a normal banking product. Roughly 20 Swiss banks — the most of any country — now serve crypto to about 2.5 million accounts, and UBS was reported in January 2026 to be preparing to join them for selected private-banking clients. Retail-accessible crypto banking did come from neobanks, licensed brokers, and incumbent banks rather than the full crypto-native institutions, exactly as expected. What is thinning is the middle: as an individual, you are increasingly choosing between a mainstream bank's crypto tab and a crypto-native bank's six-figure onboarding, with less and less in between.
 

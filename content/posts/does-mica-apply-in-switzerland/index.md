@@ -1,7 +1,7 @@
 ---
 title: "Does MiCA Apply in Switzerland? A Field Note on the Border"
 date: 2025-09-22
-lastmod: 2026-09-23
+lastmod: 2026-10-13T05:59:00+08:00
 description: "Short answer: no, MiCA does not directly apply in Switzerland, because Switzerland is not in the EU or the EEA. But watching from Zug in 2026, MiCA still reaches Swiss firms and holders in three concrete ways — and the 1 July transitional deadline, now past, turned that reach into something firms had to act on."
 categories: ["regulation"]
 tags: ["MiCA", "swiss crypto regulation", "FINMA", "CASP", "reverse solicitation", "EU crypto", "crypto holding switzerland", "Crypto Valley"]
@@ -91,7 +91,7 @@ ESMA set out what it expected to happen on the other side of that date in a [sta
 
 For Swiss firms with EU exposure, that was never abstract. The firms I watch that established their EU posture early carried on without a visible break. The ones that were still deciding in the spring had one of two endings: an EU authorisation, or a quiet retreat to Swiss-only clients.
 
-**3. Reverse solicitation — and why it is thinner than it looks.** The one legal route for a Swiss firm to serve an EU client *without* EU authorization is reverse solicitation: the EU client must approach the Swiss firm entirely on their own initiative, with zero marketing or promotion from the provider. [ESMA](https://en.wikipedia.org/wiki/European_Securities_and_Markets_Authority) has interpreted this narrowly in its formal guidelines. Run ads aimed at EU users, send promotional emails to German clients, or offer your site in an EU language targeting EU residents, and the exception evaporates. It is a genuine carve-out, but it is not a business model.
+**3. Reverse solicitation — and why it is thinner than it looks.** The one route for a Swiss firm to serve an EU client *without* EU authorization is for that client to come entirely on their own initiative, with no marketing from the firm — and [ESMA](https://en.wikipedia.org/wiki/European_Securities_and_Markets_Authority) reads the exception narrowly enough that EU-targeted promotion ends it. It is a genuine carve-out, but it is not a business model. How ESMA draws that line, and the routes Swiss firms have actually taken around it, are mapped in the [Swiss-EU border section of my MiCA vs FINMA field note](/posts/mica-vs-finma-field-note/#the-swiss-eu-border-where-the-two-frameworks-actually-interact).
 
 {{< skip-box title="When none of this touches you" >}}
 If you are an individual living in Switzerland, holding crypto through a Swiss-regulated provider, and serving no one in the EU, MiCA's direct and indirect reach does not land on you at all. Your framework is FINMA and Swiss financial law. The three reaches above are about *firms with EU client relationships* — not about a private Swiss holder going about their own portfolio.

@@ -1,7 +1,7 @@
 ---
 title: "The 6 Streets in Zug Where Most Crypto Deals Happen"
 date: 2025-03-15
-lastmod: 2026-09-23
+lastmod: 2026-10-13T06:08:00+08:00
 description: "A geographic field note on Zug's crypto infrastructure: the six streets where blockchain companies cluster, deals get made, and the whole Crypto Valley ecosystem actually runs. With specific addresses, office occupants, and cafes where you'll spot the who's-who."
 categories: ["ecosystem"]
 tags: ["crypto valley zug", "zug geography", "crypto valley map", "Dammstrasse", "Gubelstrasse", "blockchain zug offices"]
@@ -25,7 +25,7 @@ CV VC is one of the most active blockchain-focused venture funds in Europe — t
 
 The building also houses the **SHED Club**, an exclusive members-only space that opened in 2021 with a restaurant and private meeting rooms. It's the kind of place that doesn't advertise itself, which is characteristic of how Zug's more significant transactions tend to work.
 
-Dammstrasse sits roughly parallel to the main train station and about three minutes on foot from Bahnhofplatz. The proximity to the Zug Bahnhof matters — the station connects to Zürich in under 30 minutes, which means investors and founders can do a morning meeting in Zug and be back in Zürich for lunch.
+Dammstrasse sits roughly parallel to the main train station, a few hundred metres on foot from Bahnhofplatz. The proximity to the Zug Bahnhof matters — the station connects to Zürich in under 30 minutes, which means investors and founders can do a morning meeting in Zug and be back in Zürich for lunch.
 
 **Walk this street if you want to:** understand the VC and co-working layer of the ecosystem. Founders looking for desk space or warm introductions to the CV network will find Dammstrasse the most practical entry point.
 

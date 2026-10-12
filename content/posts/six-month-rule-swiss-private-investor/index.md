@@ -1,12 +1,11 @@
 ---
 title: "Swiss Six-Month Crypto Rule: Why It Alone Won't Keep You Tax-Free"
 date: 2020-09-14
-lastmod: 2026-09-23
+lastmod: 2026-10-13T05:59:00+08:00
 description: "Holding crypto six months does not make your Swiss gains tax-free — it is only 1 of 5 safe-harbour tests. The five SFTA criteria, the one that quietly catches active traders, and what reclassification really costs."
 categories: ["holding"]
 tags: ["switzerland crypto private investor status", "six month holding rule crypto", "SFTA KS 36", "professional trader classification switzerland", "swiss crypto tax safe harbour", "capital gains tax free switzerland"]
 draft: false
-image: hero.jpg
 readtime: 7
 glossary:
   - term: "KS 36 / Kreisschreiben Nr. 36"
@@ -46,7 +45,7 @@ sources:
     desc: "Zug Notes — the wealth tax calculation field note: wealth tax applies to all crypto holders regardless of investor status; how the December 31 portfolio valuation works."
 ---
 
-> 📅 Field note from: September 2020 | Last updated: September 2026
+> 📅 Field note from: September 2020 | Last updated: October 2026
 > Originally written when SFTA's professional trader criteria were being widely discussed; updated September 2026 with six years of cantonal practice and the 2026 AHV rates.
 
 The Swiss crypto tax headline is simple: capital gains are tax-free for private investors. Most people stop reading there.
@@ -132,6 +131,8 @@ The [Swiss Crypto Tax Advantage guide](/posts/swiss-crypto-tax-advantage-guide/)
 
 Staking income adds another layer. If you stake ETH while holding it as part of a long-term private investor strategy, the [staking](https://en.wikipedia.org/wiki/Proof_of_stake) rewards themselves are taxed as income — that part is unaffected by your private investor classification. The classification only matters for capital gains. The [staking income field note](/posts/staking-rewards-swiss-income-tax/) covers this distinction in detail.
 
+Spending is the other everyday case. For a private investor, a gain on disposing of crypto is a tax-free private capital gain, so paying with a crypto card in Switzerland does not create the per-swipe taxable event it does in the US or UK. Each swipe is still a sale of crypto, though, so it counts toward the transaction-volume and holding-period tests above — the [crypto card field note](/posts/crypto-card-switzerland-tax-angle/) covers where that advantage stops.
+
 And separately, the [wealth tax calculation field note](/posts/swiss-wealth-tax-crypto-calculation/) explains how the December 31st portfolio snapshot works, including the SFTA Kursliste reference rates — which applies to all crypto holders, private investors and professional traders alike.
 
 ## A Practical Summary
@@ -149,4 +150,4 @@ The stakes are real. Capital gains tax-free is a meaningful structural advantage
 
 ---
 
-*Not tax advice. Swiss tax treatment of crypto depends on individual circumstances, cantonal variation, and annual SFTA guidance. This field note describes the general framework as understood in Zug in September 2020 and updated through September 2026. Consult a qualified Swiss tax professional for your specific situation.*
+*Not tax advice. Swiss tax treatment of crypto depends on individual circumstances, cantonal variation, and annual SFTA guidance. This field note describes the general framework as understood in Zug in September 2020 and updated through October 2026. Consult a qualified Swiss tax professional for your specific situation.*

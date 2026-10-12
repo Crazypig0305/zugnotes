@@ -1,7 +1,7 @@
 ---
 title: "What Crypto Valley Actually Looks Like in 2026: 1,766 Companies and One Very Expensive Lake"
 date: 2026-04-15
-lastmod: 2026-09-23
+lastmod: 2026-10-13T06:08:00+08:00
 description: "The CV VC report counts 1,766 blockchain companies. Switzerland captured 47% of European crypto VC in 2025. But what does Crypto Valley actually look like in 2026? A field note from Zug on the numbers, the geography, and the gap between the brochure and the street."
 categories: ["ecosystem"]
 tags: ["crypto valley", "zug", "web3 switzerland", "CV VC", "CVA", "2026 snapshot"]
@@ -41,7 +41,7 @@ sources:
     desc: "Related: what the January 2026 FINMA circular means for custody in practice"
 ---
 
-> 📅 Original post: April 2026 | Last updated: September 2026
+> 📅 Original post: April 2026 | Last updated: October 2026
 > Statistics drawn from the [CV VC](https://cvvc.com/) [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) Top 50 & Ecosystem Report published in April 2026, covering year-end 2025 data.
 
 The number that travels the farthest is 1,766.
@@ -152,15 +152,15 @@ The co-working scene in Zug more broadly is tighter than the company count sugge
 
 ## What the 2026 Crypto Valley Conference Signals
 
-The Crypto Valley Conference 2026 ran on 28 May in Rotkreuz — close enough to Zug to be in the same gravity field, large enough this year to have grown past a single venue. The format packed dozens of presentations and several masterclasses into a single day, drew well over a hundred speakers, and closed with a boat cruise on Lake Zug.
+The Crypto Valley Conference 2026 ran on 28 May in Rotkreuz — close enough to Zug to be in the same gravity field. The published programme packed 47 sessions, among them 14 keynotes, 14 panels, eight workshops and four roundtables, across three stages into a single day, listed more than a hundred speakers, and closed with a sunset boat cruise on Lake Zug.
 
-The thematic shift from last year was instructive. The 2026 programme centred on "blockchain and Web3 for traditional banking" — the headline framing was institutional adoption, not protocol launches or NFT cycles. Thomas Moser from the [Swiss National Bank](https://www.snb.ch/en) was on the speaker list. So were Pascal Gauthier from Ledger and Lily Liu from the [Solana](https://en.wikipedia.org/wiki/Solana_(blockchain_platform)) Foundation.
+The programme's own framing was instructive. Its five published focus areas were on-chain markets, cybersecurity and privacy, blockchain's foundational technology layer, crypto regulation and compliance, and the race with AI and quantum technologies — infrastructure and compliance, not protocol launches or NFT cycles. The public-sector names on the speaker list point the same way: the deputy head of [MROS](https://www.fedpol.admin.ch/en/money-laundering), Switzerland's money-laundering reporting office, sat on a cross-border crypto compliance roundtable, and Heinz Tännler, Zug's cantonal finance director, gave a keynote.
 
-The presence of a Swiss National Bank researcher at a Crypto Valley conference is not incidental. It reflects a maturation in the relationship between Switzerland's traditional financial infrastructure and its blockchain layer. FINMA's [January 2026 custody guidance](/posts/finma-crypto-guidance-01-2026/) is part of the same arc — the regulatory perimeter is being drawn more precisely, not because the regulator is becoming more hostile, but because the industry is large enough to require it.
+That line-up is not incidental. It reflects a maturation in the relationship between Swiss public authorities and the blockchain layer. FINMA's [January 2026 custody guidance](/posts/finma-crypto-guidance-01-2026/) is part of the same arc — the regulatory perimeter is being drawn more precisely, not because the regulator is becoming more hostile, but because the industry is large enough to require it.
 
 {{< num-highlight value="47%" label="Europe's blockchain VC captured by Switzerland in 2025" note="Of all European blockchain venture capital. Switzerland's share has grown consistently since 2020." >}}
 
-The conference's boat cruise closing on Lake Zug is a detail that gets included in every description of the event and is usually treated as color. It is also, practically, the moment when deals get advanced. The formal programme is where the ideas get presented. The boat is where the founders and the investors spend ninety minutes without an agenda. Zug's geography — the lake, the compact old town, the easy train connections — is not incidental to how the ecosystem functions. It is infrastructure of a different kind.
+The conference's boat cruise closing on Lake Zug is a detail that gets included in every description of the event and is usually treated as color. The official schedule treats it as more than that: the organisers list the sunset cruise as a signature CVC tradition, running from 18:30 to 21:00, and it is the evening slot with no talks attached. The formal programme is where the ideas get presented; the cruise is the time the schedule leaves for conversation. Zug's geography — the lake, the compact old town, the easy train connections — is not incidental to how the ecosystem functions. It is infrastructure of a different kind.
 
 The Crypto Valley Conference is not the only event worth the train ticket if you live near Zug, but it is the one most worth clearing the calendar for. For the full Swiss-orbit shortlist — the Web3 Banking Symposium, Point Zero Forum, and the international names you can safely skip — see the separate field note on [which crypto conferences actually matter from Zug in 2026](/posts/crypto-conferences-worth-it-zug/).
 

@@ -1,12 +1,11 @@
 ---
 title: "CV Labs and the Zug Co-working Scene: Is the Crypto Valley Hype Real?"
 date: 2024-03-12
-lastmod: 2026-09-23
+lastmod: 2026-10-13T05:59:00+08:00
 description: "CV Labs claims 200+ tenants and the title 'heartbeat of Crypto Valley.' Is the hype real? A field note on what the Zug co-working scene actually looks like — the density, the community events, and why some crypto companies in Zug are not in CV Labs at all."
 categories: ["ecosystem"]
 tags: ["CV labs zug", "crypto valley coworking", "web3 zug community", "Spaces Zug", "Trust Square", "blockchain switzerland workspace"]
 draft: false
-image: hero.jpg
 readtime: 10
 canonicalURL: "https://zugnotes.com/posts/cv-labs-zug-coworking-scene/"
 glossary:
@@ -55,10 +54,10 @@ sources:
     desc: "Related: how CV Labs fits into the longer history of Zug as a crypto hub"
 ---
 
-> 📅 Original post: March 2024 | Last updated: September 2026
+> 📅 Original post: March 2024 | Last updated: October 2026
 > [CV Labs](https://cvlabs.com/) tenant figures from the CV Labs Zug location page; incorporation figures from [CV VC](https://cvvc.com/) data covering 2024. Ecosystem company counts from the CV VC Top 50 & Ecosystem Report published April 2026, covering year-end 2025. Trust Square figures from official site as of early 2026.
 
-The building that calls itself the heartbeat of [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) sits on Dammstrasse 16, a two-minute walk from Zug train station. It has been there since February 2018, when CV Labs opened its first floor — "The Block" — on that street. It is not hard to find. The question worth asking before you commit to a desk there is whether the claim holds up when you look past the tagline.
+The building that calls itself the heartbeat of [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) sits on Dammstrasse 16, a few hundred metres from Zug train station. It has been there since February 2018, when CV Labs opened its first floor — "The Block" — on that street. It is not hard to find. The question worth asking before you commit to a desk there is whether the claim holds up when you look past the tagline. Dammstrasse is the first of [the six streets where most of Zug's crypto deals happen](/posts/6-streets-zug-crypto-deals/).
 
 This is a field note on what the Zug co-working scene actually looks like in practice — the density that CV Labs represents, what its community events are actually like, why some crypto companies in Zug choose not to be there, and where Trust Square fits into the picture as the Zurich alternative that comes up in almost every comparison conversation.
 
