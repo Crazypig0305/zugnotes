@@ -584,6 +584,22 @@ time, .mono {
   font-style: italic;
   line-height: 1.6;
 }
+/* Dated freshness note: date line = mono field-log label, note = italic below.
+   (Split by layouts/_markup/render-blockquote.html.) */
+.article-body blockquote p.dated-note-meta {
+  font-family: var(--font-mono);
+  font-style: normal;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  margin-bottom: 0.4rem;
+}
+/* Quote attribution kept on its own line */
+.article-body blockquote p.bq-attrib {
+  font-size: 0.95rem;
+  font-style: normal;
+  margin-top: 0.35rem;
+}
 
 /* Freshness / source note at top of body (was a green box) */
 .body-note {

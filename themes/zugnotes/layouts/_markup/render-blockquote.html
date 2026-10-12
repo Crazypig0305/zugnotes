@@ -1,0 +1,26 @@
+{{- /*
+  Blockquote render hook.
+  - Dated freshness note (first line starts with the calendar emoji): Goldmark
+    joins consecutive "> " lines into one <p> with a soft "\n", so the date line
+    and the explanation ran together. Split the first line into its own
+    mono field-log line; the rest stays the existing italic note.
+  - Quote + attribution on separate "> " lines ("> -- Source"): keep the
+    attribution on its own line instead of running into the quote.
+  - Everything else renders exactly as Goldmark's default blockquote.
+*/ -}}
+{{- $text := string .Text -}}
+{{- $class := "" -}}
+{{- if strings.HasPrefix $text "<p>📅" -}}
+  {{- $class = "dated-note" -}}
+  {{- if findRE `^<p>📅[^\n<]*\n` $text 1 -}}
+    {{- $text = replaceRE `^<p>(📅[^\n<]*?)[ \t]*\n` "<p class=\"dated-note-meta\">$1</p>\n<p>" $text 1 -}}
+  {{- else -}}
+    {{- $text = replaceRE `^<p>📅` "<p class=\"dated-note-meta\">📅" $text 1 -}}
+  {{- end -}}
+{{- end -}}
+{{- $text = replaceRE `\n(—\s)` "</p>\n<p class=\"bq-attrib\">$1" $text -}}
+<blockquote
+  {{- with $class }} class="{{ . }}"{{ end }}
+  {{- range $k, $v := .Attributes }} {{ $k }}="{{ $v }}"{{ end }}>
+{{ $text | safeHTML }}</blockquote>
+{{- "\n" -}}
