@@ -18,7 +18,6 @@ buildFuture = true
   author = 'Zug Notes'
   ogImage = '/og-default.jpg'
   siteTagline = "Field notes from the world's crypto capital"
-  linkedinURL = 'https://www.linkedin.com/in/zugnotes'
 
 [markup.goldmark.renderer]
   unsafe = true
