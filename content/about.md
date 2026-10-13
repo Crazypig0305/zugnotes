@@ -2,7 +2,7 @@
 title: "About Zug Notes"
 description: "Field notes on Swiss crypto regulation and Crypto Valley — from someone who actually lives here."
 date: 2026-04-30
-lastmod: 2026-04-30
+lastmod: 2026-10-13
 draft: false
 ---
 
@@ -30,9 +30,3 @@ Swiss crypto regulation changes frequently. Always verify with a qualified Swiss
 ## Get in Touch
 
 Questions, corrections, tips? Use the [contact page](/contact/).
-
-<div id="subscribe"></div>
-
-## Stay Updated
-
-New field notes go out when there's something worth writing — typically when regulation changes, ecosystem shifts, or something commonly misunderstood deserves a closer look. No fixed schedule.

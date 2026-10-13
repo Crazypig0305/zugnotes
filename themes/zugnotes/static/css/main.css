@@ -159,22 +159,6 @@ time, .mono {
   border-radius: 0;
 }
 
-/* Subscribe = quiet outlined ink button (not a green fill) */
-.nav-cta {
-  margin-left: 0.4rem;
-  border: 1px solid var(--ink);
-  color: var(--ink) !important;
-  padding: 0.32rem 0.9rem !important;
-  border-radius: 2px !important;
-  transition: background 0.18s ease, color 0.18s ease !important;
-}
-.nav-cta:hover {
-  background: var(--ink);
-  color: var(--paper) !important;
-  text-decoration: none !important;
-}
-.nav-cta.active { border-bottom: 1px solid var(--ink); }
-
 /* Hamburger (hidden on desktop) */
 .hamburger-btn {
   display: none;
@@ -981,26 +965,6 @@ time, .mono {
 }
 .mobile-nav-links a:hover { color: var(--pine); text-decoration: none; }
 .mobile-nav-links a.active { color: var(--pine); }
-
-.mobile-drawer-cta {
-  display: block;
-  border: 1px solid var(--ink);
-  color: var(--ink) !important;
-  text-align: center;
-  padding: 0.8rem 1rem;
-  border-radius: 2px;
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-top: 0.8rem;
-}
-.mobile-drawer-cta:hover {
-  background: var(--ink);
-  color: var(--paper) !important;
-  text-decoration: none;
-}
 
 .mobile-drawer-tagline {
   font-family: var(--font-mono);
