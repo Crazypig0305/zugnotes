@@ -1,8 +1,8 @@
 ---
-title: "The ICO Boom Seen From Zug: What 2017-2018 Was Actually Like Here"
+title: "The ICO Boom in Zug: What 2017-2018 Actually Looked Like"
 date: 2017-12-15
-lastmod: 2026-09-23
-description: "From Tezos raising $232M to FINMA's February 2018 guidelines and the Crypto Winter that followed — a field note on what the ICO boom actually looked like from inside Zug, including what worked, what failed, and why Switzerland's approach still mattered."
+lastmod: 2026-10-13
+description: "From Tezos raising $232M to FINMA's February 2018 guidelines and the Crypto Winter that followed — a field note on what the ICO boom actually looked like in Zug, read from the record, including what worked, what failed, and why Switzerland's approach still mattered."
 categories: ["ecosystem"]
 tags: ["ICO 2017 crypto valley", "tezos zug", "ICO boom switzerland", "FINMA ICO guidelines", "crypto winter 2018", "zug blockchain history"]
 draft: false
@@ -61,14 +61,12 @@ sources:
     desc: "inc.com — contemporaneous reporting on the June 2017 Status token sale and the roughly 300,000 ETH raised"
 ---
 
-> 📅 Field note from: December 2017 | Last updated: September 2026
-> Originally written near the peak of the [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) boom from inside Zug; updated with eight years of retrospective in September 2026.
+> 📅 Last updated: October 2026
+> The [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) boom in Zug, reconstructed from the fundraising data, FINMA's documents and contemporary reporting, with the eight-year retrospective.
 
-By December 2017, Zug was doing something it had never done before: it was loud.
+By December 2017, a small lakeside town in central Switzerland was at the centre of one of the largest fundraising waves the crypto industry had seen. More than a quarter of global ICO money that year went through Swiss-registered entities, and much of the legal structuring behind it ran through Zug.
 
-Not loud in the way a city is loud — Zug is still Zug, population under 30,000, the lake still grey-green in winter, the cobblestone still quiet after 9 p.m. But the lobbies and coffee shops and the law-firm meeting rooms were loud with a particular kind of noise. Somewhere between a startup pitch and a casino floor. Everyone had a whitepaper. Everyone needed to talk to someone who knew someone who knew a lawyer.
-
-The ICO boom came to [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) in 2017. And from the inside, it looked nothing like the post-mortem stories that came later.
+The ICO boom came to [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) in 2017. Read through the numbers and documents of the time, it looks different from the post-mortem stories that came later.
 
 ## What the Numbers Said at the Time
 
@@ -78,31 +76,27 @@ The headline number was Tezos.
 
 {{< num-highlight value="$232M" label="Raised by Tezos Foundation, July 2017" note="65,627 BTC + 361,122 ETH raised over 13 days. Largest ICO at the time, surpassing Bancor's $150M. The Tezos Foundation was registered in Zug on April 17, 2017." >}}
 
-The scale was incomprehensible to most people outside the space, and frankly to some inside it. A project had raised roughly the equivalent of a medium-sized Series B — except from a global pool of retail participants, in 13 days, with no equity and no formal securities disclosure. The legal structure that made this possible was the Swiss Stiftung: a non-profit foundation that could hold the funds for a defined purpose without being obligated to return them as investor profit.
+The scale was hard to grasp for most people outside the space. A project had raised roughly the equivalent of a medium-sized Series B — except from a global pool of retail participants, in 13 days, with no equity and no formal securities disclosure. The legal structure that made this possible was the Swiss Stiftung: a non-profit foundation that could hold the funds for a defined purpose without being obligated to return them as investor profit.
 
 That structure, as I wrote about in the [Ethereum origin story](/posts/why-ethereum-born-in-zug/), was exactly what [Ethereum](https://en.wikipedia.org/wiki/Ethereum) had used in 2014. By 2017, every project that could afford a Zug lawyer had copied it. The difference was that Ethereum had built the template carefully, with Mihai Alisie navigating Swiss regulatory groundwork for months before the presale. The 2017 cohort was moving faster.
 
-<!-- IG-firsthand: Contemporaneous record of what the boom actually sounded like on the ground — the shift in coffee-queue conversation between the 2015-16 cohort and the 2017 wave, the coworking desks around the station filling with a qualitatively different energy (CV Labs only opened its Dammstrasse floor in February 2018, arriving to absorb the boom rather than start it), and the disappearance of any public mechanism to tell serious teams from whitepapers at fundraise time; the retrospectives settled into hagiography or indictment and lost this texture -->
+<!-- IG-angle: Reading the boom's sequence from dates the retrospectives skip — CV Labs only opened its Dammstrasse floor in February 2018, arriving to absorb the boom rather than start it; FINMA's taxonomy landed after the 2017 money was raised; and there was no public mechanism to tell serious teams from whitepapers at fundraise time; no on-site observation is claimed -->
 
-## The Atmosphere in Zug, Which Nobody Wrote Down Accurately
+## The Shape of the Boom in Zug
 
-The accounts of the ICO boom that circulate now tend to read as either hagiography or indictment. The reality in Zug in 2017 was more textured than either version.
+The accounts of the ICO boom that circulate now tend to read as either hagiography or indictment. The record from 2017 supports something more textured than either version.
 
-By mid-2017 the coworking desks around the station were filling in a way that felt qualitatively different from the foundation-and-law-firm energy that had characterized Zug from 2014 to 2016. ([CV Labs](https://cvlabs.com/) itself did not open its Dammstrasse floor until February 2018 — it arrived to absorb the boom, not to start it.) The Ethereum-era Crypto Valley had been dominated by legal professionals, accountants, and serious technical teams. The 2017 wave included all of those — but also people who were clearly still working out what they were building.
+The timing matters. [CV Labs](https://cvlabs.com/) did not open its Dammstrasse floor until February 2018 — it arrived to absorb the boom, not to start it. The Ethereum-era Crypto Valley of 2014 to 2016 had been built around foundations, law firms and technical teams. The 2017 wave included all of those, and also a large number of projects raising money for products that did not yet exist.
 
-Conversations in the coffee queue were different. In 2015 or 2016, someone would tell you they were building a privacy-preserving protocol for financial data. In 2017, someone would tell you they were tokenizing attention economics for the creator economy, and they needed to get to 5,000 ETH by end of month.
+This is not to say the 2017 cohort was fraudulent — most of it was not. But the bar for what constituted "launch-ready" had effectively disappeared. Switzerland's ICO market attracted serious technical projects and aspirational whitepapers side by side, with no mechanism to distinguish them publicly at the time of fundraise.
 
-This is not to say the 2017 cohort was fraudulent — most of it was not. But the bar for what constituted "launch-ready" had effectively disappeared. Switzerland's ICO market attracted serious technical projects and aspirational whitepapers in roughly equal measure, with no mechanism to distinguish them publicly at the time of fundraise.
-
-The lawyers were everywhere. MME — the Zug law firm that had set up the Tezos Foundation structure and which had been a quiet backbone of Crypto Valley for years — was overwhelmed. Other firms filled the gap. A baseline Zug foundation setup for an ICO was running anywhere from CHF 15,000 to CHF 50,000 depending on complexity. This was considered a bargain against the capital being raised.
-
-{{< num-highlight value="~40%" label="Estimated legal and compliance cost share for smaller ICOs" note="Anecdotal from practitioners at the time. Smaller ICOs raising under CHF 5M found that foundation setup, legal opinion letters, and banking compliance consumed a large share of gross proceeds." >}}
+The legal work concentrated in a small number of firms. MME, the Zug law firm that set up the Tezos Foundation structure, is one documented example. If you are reading an old 2017 whitepaper today, the date the foundation was registered, its board members and its auditor are among the few details you can still check against the commercial register, searchable through [Zefix](https://www.zefix.ch/en/search/entity/welcome).
 
 ## Why Switzerland Was Different From Singapore and Cayman
 
 By 2017, Crypto Valley had competition. Singapore's Monetary Authority had positioned itself as ICO-friendly. The Cayman Islands were offering simpler foundation structures. Malta was making aggressive overtures. Why were projects still choosing Zug?
 
-Three reasons, from what I observed:
+Three reasons stand out in the record:
 
 **[FINMA](https://www.finma.ch/en/) engagement, not silence.** Other jurisdictions offered regulatory ambiguity as a feature — essentially, "we haven't said no, so go ahead." FINMA had been in active dialogue with blockchain projects since 2014. That engagement was not permissive in every case, but it meant projects in Switzerland knew where they stood, or could find out. A FINMA no-action letter — even an informal one — carried more weight than operating in a jurisdiction that simply hadn't gotten around to the question yet.
 
@@ -120,7 +114,7 @@ Tezos was supposed to be the proof case that Crypto Valley's approach could prod
 
 The project had a genuine technical thesis: self-amending blockchain governance, designed to avoid the contentious hard forks that had split the Ethereum community in 2016. Arthur and Kathleen Breitman had been developing the protocol since 2014. The Zug foundation structure, set up in April 2017 with MME's assistance, was designed to give the project a legally defensible fundraise vehicle.
 
-The ICO ran July 1-13, 2017. It raised $232 million in [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and Ethereum — 65,627 BTC and 361,122 ETH at then-current prices. It was, at that moment, the largest fundraise in crypto history. In Zug, people noticed.
+The ICO ran July 1-13, 2017. It raised $232 million in [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and Ethereum — 65,627 BTC and 361,122 ETH at then-current prices. It was, at that moment, the largest fundraise in crypto history.
 
 What happened in October 2017 was less celebrated.
 
@@ -132,17 +126,15 @@ Under Swiss foundation law, the foundation's board controls the assets. This is 
 
 The dispute played out publicly from October 2017 through early 2018. Gevers eventually resigned in February 2018, receiving $400,000. The foundation board was reconstituted. Tezos went live in September 2018 — delayed by months. Class-action lawsuits were filed in the United States. Some Swiss media, in moments of frustrated commentary, took to calling the episode "Klepto Valley."
 
-{{< num-highlight value="Feb 2018" label="Gevers resigned from Tezos Foundation" note="After months of public dispute, governance crisis resolved with board reconstitution. Tezos mainnet launched September 2018. The episode prompted Swiss banks to restrict crypto business accounts." >}}
+{{< num-highlight value="Feb 2018" label="Gevers resigned from Tezos Foundation" note="After months of public dispute, governance crisis resolved with board reconstitution. Tezos mainnet launched September 2018." >}}
 
 The Tezos story did not kill Crypto Valley. But it demonstrated something important about the ICO model that the boom period had obscured: the Swiss foundation structure was excellent at holding funds and poor at resolving governance conflicts between founders and foundation officers. Projects that were adopting the structure because it was the done thing in Zug, without thinking through what happened if internal relationships broke down, were exposed.
 
 ## What the Banks Did Next
 
-One consequence of the Tezos dispute that did not make international headlines was its effect on Swiss banking relationships for crypto businesses.
+One consequence of the period that drew less international attention was its effect on Swiss banking relationships for crypto businesses.
 
-By late 2017, certain Swiss cantonal banks had developed what might charitably be called a pragmatic relationship with crypto foundations. They understood the basic structure, they had done the KYC/AML work on a handful of serious projects, and they were willing to hold accounts for properly documented Zug foundations. The Tezos scandal changed the internal risk calculus.
-
-Swiss banks pulled back. The window for relatively smooth crypto business banking — which had never been comfortable, but had existed — narrowed significantly in late 2017 and early 2018. Projects that arrived in Zug in the first half of 2017 with their foundation set up and their banking established were fine. Projects that arrived after October 2017 found the environment materially harder.
+Swiss banks pulled back. By 2018 the shortage of business accounts for blockchain start-ups was serious enough that the Swiss Bankers Association took up the issue after the finance minister intervened personally; banks pointed to fraud in the ICO market and to money-laundering risk around anonymous tokens ([swissinfo.ch](https://swissinfo.ch/eng/business/banking-bottleneck-_pressure-builds-on-banks-to-offer-swiss-crypto-start-ups-accounts/44230922)). Public governance disputes like the one at Tezos did nothing to ease that risk calculus.
 
 This banking pullback, combined with the beginning of the crypto bear market in January 2018, compressed the Zug ICO scene faster than the global numbers might suggest. Switzerland went from second globally in ICO fundraising in 2017 to sixth in 2018. The infrastructure remained, but the easy access was gone.
 
@@ -154,11 +146,11 @@ On February 16, 2018, FINMA published its ICO guidelines. They were the first ma
 
 Payment tokens (cryptocurrencies) were subject to anti-money laundering requirements but not securities law. Utility tokens — tokens providing access to a specific service at launch — would not be treated as securities if their sole purpose was access rights. Asset tokens — tokens representing an asset, a company stake, or an earnings stream — would be treated as securities and require corresponding disclosure and licensing.
 
-The response in Zug was mixed, and the mix is interesting.
+Read against the text, the guidelines cut two ways.
 
-Lawyers generally welcomed the clarity. Projects that had been operating in the ambiguity of no-guidelines could now structure their tokens explicitly as utility tokens and have a clear framework for compliance. Compliance costs would go up, but the framework was coherent.
+For lawyers, they brought clarity. Projects that had been operating in the ambiguity of no-guidelines could now structure their tokens explicitly as utility tokens and have a clear framework for compliance. Compliance costs would go up, but the framework was coherent.
 
-Some founders were frustrated. The utility token carve-out sounded good until you read the condition: "utility tokens will not be treated as securities if their sole purpose is to confer digital access rights and they can actually be used at issuance." That last phrase — "can actually be used at issuance" — disqualified most ICOs that had raised funds for projects still under development. A utility token for a platform that did not yet exist was, under FINMA's reading, closer to an asset token than a utility token.
+For founders, the catch was in the condition attached to the utility token carve-out: "utility tokens will not be treated as securities if their sole purpose is to confer digital access rights and they can actually be used at issuance." That last phrase — "can actually be used at issuance" — disqualified most ICOs that had raised funds for projects still under development. A utility token for a platform that did not yet exist was, under FINMA's reading, closer to an asset token than a utility token.
 
 The informal legal vacuum that had made the 2017 boom possible was gone. [FINMA had received 155 detailed regulatory queries on the ICO framework by the end of 2018](https://www.finma.ch/en/documentation/dossier/dossier-fintech/entwicklungen-im-bereich-fintech/). The enforcement numbers landed a year later, in the regulator's 2019 annual report: [around 60 ICOs analysed, anti-money-laundering breaches identified at ten of them with criminal complaints filed against those responsible, eight further names added to FINMA's public warning list, and formal enforcement proceedings opened against three companies](https://www.finews.com/news/english-news/40673-finma-switzerland-crpytocurrencies-crypto-ico-token-enforcement-proceedings-criminal).
 
@@ -166,9 +158,9 @@ The informal legal vacuum that had made the 2017 boom possible was gone. [FINMA 
 
 ## The Projects That Made It Through
 
-Not every 2017-era project collapsed. It is worth being specific about what survival looked like from Zug.
+Not every 2017-era project collapsed. It is worth being specific about what survival looked like.
 
-Tezos itself eventually launched. The technical project — self-amending governance, proof-of-stake consensus — delivered on its core thesis, even if the foundation drama delayed it and the lawsuits followed it. The XTZ token trades today. The Tezos Foundation, reconstituted after the Gevers departure, became one of the better-run crypto foundations in Switzerland by most accounts.
+Tezos itself eventually launched. The technical project — self-amending governance, proof-of-stake consensus — delivered on its core thesis, even if the foundation drama delayed it and the lawsuits followed it. The XTZ token trades today.
 
 Bancor, which had raised $150 million in June 2017 — the record before Tezos broke it weeks later — built its decentralized exchange protocol and operates as a functioning [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) product. It went through the bear market, cut operations, and emerged smaller and more focused.
 
@@ -178,15 +170,15 @@ The survival pattern was not random. Projects that had raised into Swiss foundat
 
 Switzerland's regulatory engagement, specifically FINMA's ongoing dialogue even through the enforcement period, helped. Projects that engaged proactively with the framework FINMA published had a clearer path than those operating in regulatory ambiguity elsewhere.
 
-## Crypto Winter in Zug: What 2018 Actually Felt Like
+## Crypto Winter in Zug: What 2018 Did to the Scene
 
 The bear market that began in January 2018 compressed the ICO scene faster than the global narrative suggests. Bitcoin peaked at roughly $19,783 in December 2017. By February 2018 it had dropped more than 50%. By December 2018 it would reach $3,122.
 
-In Zug, the transition was visible in texture rather than in sudden crisis. CV Labs did not empty out — it expanded its floor space to three floors by September 2018, which tells you something about the institutions that remained. The consultants and lawyers and auditors who had built their practices around the ICO boom had diversified enough to survive the volume decline. The Crypto Valley Association's roster continued to grow.
+In Zug, the record shows a transition rather than a sudden crisis. CV Labs did not empty out — it expanded its floor space to three floors by September 2018, which tells you something about the institutions that remained. The consultants and lawyers and auditors who had built their practices around the ICO boom had diversified enough to survive the volume decline. The Crypto Valley Association's roster continued to grow.
 
-But the energy was different. The coffees that had been pitches became conversations. The whitepapers stopped. People who had arrived in 2017 looking to raise quickly were making decisions: stay and build, or fold and go home.
+But the fundraising slowed sharply. ICO launches in Switzerland fell from 184 in 2018 to 94 in 2019, by FINMA's count ([swissinfo.ch](https://www.swissinfo.ch/eng/business/finma-annual-report_swiss-regulator-cracks-down-on-fraudulent-crypto-activities/45663186)). Teams that had arrived in 2017 looking to raise quickly faced a plain decision: stay and build, or fold.
 
-The ones who stayed built the next layer of Crypto Valley. The [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) banking licenses in 2019 — covered in the [field note on FINMA's first crypto banking licenses](/posts/finma-crypto-license-2019/) — required the kind of institutional trust that came specifically from surviving 2018 with your regulatory record intact. The crypto winter was, from inside Zug, a sorting mechanism. How the ecosystem actually held together through those two lean years — which companies stayed, what changed in the texture of daily life here — is its own [field note on how Zug's Web3 ecosystem survived 2018-2019](/posts/crypto-winter-zug-2018-2019/).
+The ones who stayed built the next layer of Crypto Valley. The [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) banking licenses in 2019 — covered in the [field note on FINMA's first crypto banking licenses](/posts/finma-crypto-license-2019/) — required the kind of institutional trust that came specifically from surviving 2018 with your regulatory record intact. The crypto winter was a sorting mechanism. How the ecosystem actually held together through those two lean years — which companies stayed, and what the record shows about the ones that did not — is its own [field note on how Zug's Web3 ecosystem survived 2018-2019](/posts/crypto-winter-zug-2018-2019/).
 
 ## What the ICO Era Changed That Did Not Change Back
 
@@ -198,7 +190,7 @@ Second: FINMA's engagement approach became a model. The token classification fra
 
 Third: Crypto Valley's peer density — the thing that actually differentiated Zug from Singapore and Cayman in 2017 — survived the winter. By the time the 2020 bull market arrived, the infrastructure that had built up through 2017 and held through 2018-2019 was more robust than it had been at the boom's peak. The companies that survived were more operationally serious. The legal and compliance ecosystem was more sophisticated.
 
-The ICO boom was not, from this vantage point, a bubble that destroyed value and left nothing behind. It was a very rapid accumulation of capital and talent into a small geography, followed by a compression that removed the least committed participants and left behind a stronger core. The projects that made it through funded the institutional infrastructure that defined Crypto Valley's next chapter.
+The ICO boom was not, on the record, a bubble that destroyed value and left nothing behind. It was a very rapid accumulation of capital and talent into a small geography, followed by a compression that removed the least committed participants and left behind a stronger core. The projects that made it through funded the institutional infrastructure that defined Crypto Valley's next chapter.
 
 That chapter — the Crypto Valley of 1,766 companies, $728 million in disclosed 2025 investment, the banking licenses and the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en) and the FINMA guidance framework — is what the [2026 snapshot](/posts/crypto-valley-2026-snapshot/) covers. It did not emerge from nothing. It emerged from a very loud few years in which a lot of money moved through a small city in Switzerland, and the city's regulatory and legal infrastructure absorbed it, sorted through it, and came out changed.
 

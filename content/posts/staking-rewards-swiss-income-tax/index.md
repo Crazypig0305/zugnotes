@@ -1,7 +1,7 @@
 ---
 title: "Staking Rewards in Switzerland: Why They're Taxed as Income (And What That Means for You)"
 date: 2022-04-08
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "Swiss law taxes staking rewards as ordinary income, not capital gains. Why, the wealth tax double-layer, and what it means staking in Zug versus Geneva."
 categories: ["holding"]
 tags: ["crypto staking tax switzerland", "swiss staking income tax", "staking rewards switzerland", "SFTA crypto income", "wealth tax staking", "DeFi tax switzerland", "canton tax staking"]
@@ -48,8 +48,8 @@ sources:
     desc: "The everyday-use field note — staking as part of everyday crypto use in Crypto Valley: what workflows look like in practice."
 ---
 
-> 📅 Field note from: April 2022 | Last updated: September 2026
-> Originally written when Swiss tax authorities first issued clear [staking](https://en.wikipedia.org/wiki/Proof_of_stake) guidance; updated September 2026 with current cantonal wealth tax figures and the 2026 AHV rates.
+> 📅 Last updated: October 2026
+> How Swiss tax authorities treat [staking](https://en.wikipedia.org/wiki/Proof_of_stake) rewards, read from the SFTA guidance, with current cantonal wealth tax figures and the 2026 AHV rates.
 
 Most explanations of Swiss crypto tax policy start with the good news: capital gains are tax-free for private investors. That part is accurate and important.
 
@@ -168,4 +168,4 @@ For anyone actively managing staking at significant scale in Switzerland, the co
 
 ---
 
-*Not tax advice. Swiss tax treatment of crypto and staking income depends on individual circumstances, cantonal variation, and annual SFTA guidance. This field note describes the general framework as understood in Zug in 2022 and updated through September 2026. Consult a qualified Swiss tax professional for your specific situation.*
+*Not tax advice. Swiss tax treatment of crypto and staking income depends on individual circumstances, cantonal variation, and annual SFTA guidance. This field note describes the general framework as set out in published SFTA and cantonal guidance, reviewed through October 2026. Consult a qualified Swiss tax professional for your specific situation.*

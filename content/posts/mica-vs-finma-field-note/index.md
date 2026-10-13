@@ -1,8 +1,8 @@
 ---
 title: "MiCA vs FINMA: A Field Note from Someone Who Watches Both"
 date: 2025-07-18
-lastmod: 2026-09-23
-description: "MiCA and FINMA are not competing for the same thing. Standing inside Crypto Valley and watching both regulatory frameworks operate across a single border, the differences are real — and not what most comparisons get right."
+lastmod: 2026-10-13
+description: "MiCA and FINMA are not competing for the same thing. Read side by side across a single border, the two regulatory frameworks differ in ways that are real — and not what most comparisons get right."
 categories: ["regulation"]
 tags: ["MiCA", "FINMA", "swiss crypto regulation", "EU crypto", "CASP", "passporting", "DLT Act", "equivalence regime"]
 draft: false
@@ -55,7 +55,7 @@ sources:
 
 Most regulatory comparisons frame [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets) and [FINMA](https://www.finma.ch/en/) as competitors — two jurisdictions fighting over the same pool of crypto businesses. That framing is wrong, and it gets more wrong the closer you sit to the Swiss-EU border.
 
-I am writing this from Zug. Two of the companies I follow closely have EU clients. One has a Swiss banking license. The practical question they are asking right now is not "MiCA or FINMA?" It is "How do these two frameworks interact when your customers are in Frankfurt but your custody infrastructure is in Zurich?"
+Consider a typical Zug firm with EU clients and a Swiss-licensed custody arm. The practical question for a firm like that is not "MiCA or FINMA?" It is "How do these two frameworks interact when your customers are in Frankfurt but your custody infrastructure is in Zurich?"
 
 That interaction is what I want to map out here.
 
@@ -149,7 +149,7 @@ This is also why FINMA Guidance 01/2026 explicitly created an equivalence pathwa
 
 ## The Swiss-EU Border: Where the Two Frameworks Actually Interact
 
-Here is what I watch most closely, and what rarely gets covered in institutional comparisons.
+Here is the part that rarely gets covered in institutional comparisons.
 
 Switzerland is surrounded by the EU. A Swiss-licensed crypto firm operating in Zug has customers in Germany, France, and Italy. Its custody infrastructure might be in Switzerland. Its legal entity might be Swiss. Its product team communicates with EU investors daily.
 
@@ -163,7 +163,7 @@ This creates a real operational question for Zug-based firms. Options include:
 2. **Rely strictly on reverse solicitation** — serve only genuinely inbound EU clients, with zero marketing activity directed at EU residents
 3. **Restructure** to serve EU clients through an EU-authorized subsidiary
 
-The third path is increasingly common. Several Swiss crypto firms have established EU subsidiaries specifically to hold CASP authorizations, while keeping core operations and custody infrastructure in Switzerland under FINMA supervision. This is not regulatory arbitrage — it is practical compliance with two distinct frameworks that cover adjacent geographic markets.
+The third path is increasingly common. Several Swiss crypto firms have established EU entities specifically to hold CASP authorizations — AMINA through an Austrian MiCA licence and Sygnum through a Liechtenstein subsidiary, as the [2019 licensing field note](/posts/finma-crypto-license-2019/) records — while keeping core operations and custody infrastructure in Switzerland under FINMA supervision. This is not regulatory arbitrage — it is practical compliance with two distinct frameworks that cover adjacent geographic markets.
 
 {{< skip-box title="What Changed in January 2026" >}}
 FINMA Guidance 01/2026 introduced an explicit equivalence pathway for MiCA-regulated custodians. Swiss-licensed entities can now delegate crypto custody to EU-based CASPs — provided those CASPs meet MiCA's full custody requirements — and satisfy FINMA's delegation standards. This is the clearest formal recognition that the two frameworks are being designed to interact, not to exclude each other.
@@ -199,7 +199,7 @@ I want to be direct about what each framework actually delivers, because the mar
 - Smaller domestic market — Switzerland's roughly 9.1 million residents are a fraction of the EU's 450 million
 - Capital requirements are case-by-case, which creates uncertainty in early planning stages
 
-{{< budget-table title="MiCA vs FINMA: Key Dimensions" sub="Field note observations — not legal advice" >}}
+{{< budget-table title="MiCA vs FINMA: Key Dimensions" sub="Field notes from public sources — not legal advice" >}}
 | Dimension | MiCA (EU) | FINMA (Switzerland) |
 |---|---|---|
 | Regulatory philosophy | Rules-based, explicit codes | Principles-based, substance review |
@@ -218,7 +218,7 @@ I want to be direct about what each framework actually delivers, because the mar
 
 ## What Zug Firms Are Actually Doing
 
-The firms I observe in this ecosystem are not choosing between MiCA and FINMA. They are operating under both — or designing their structures to comply with both.
+The Swiss firms with EU exposure, judging by the structures they have published, are not choosing between MiCA and FINMA. They are operating under both — or designing their structures to comply with both.
 
 The realistic posture for a crypto business with significant EU client exposure is **dual-track compliance**: Swiss operations under FINMA for the core business, treasury, and custody infrastructure; an EU entity under CASP authorization for EU-facing client relationships and marketing.
 
@@ -236,7 +236,7 @@ By explicitly acknowledging that MiCA-supervised custodians can meet Swiss equiv
 
 Whether this becomes a formal equivalence agreement, similar to the mutual recognition arrangements that existed in financial services before Brexit disrupted them, is an open question. Switzerland's relationship with the EU in financial services has been complicated since 2021, when the Swiss-EU framework agreement negotiations collapsed. Crypto regulation is a sector where both sides have incentives to avoid parallel incompatible frameworks — the industry is mobile, and regulatory fragmentation imposes costs that neither jurisdiction fully absorbs.
 
-My read, watching this from Zug: the frameworks are converging on interoperability at the custody and market infrastructure level, while remaining genuinely distinct in their market access architecture. Switzerland will not become an EU member and will not get passporting rights. The EU will not adopt Switzerland's principles-based framework or abandon MiCA's rule-specificity. But the recognition that a MiCA-licensed custodian can meet Swiss equivalent standards suggests that regulators on both sides understand the practical reality of how businesses actually operate across this border.
+My read: the frameworks are converging on interoperability at the custody and market infrastructure level, while remaining genuinely distinct in their market access architecture. Switzerland will not become an EU member and will not get passporting rights. The EU will not adopt Switzerland's principles-based framework or abandon MiCA's rule-specificity. But the recognition that a MiCA-licensed custodian can meet Swiss equivalent standards suggests that regulators on both sides understand the practical reality of how businesses actually operate across this border.
 
 ---
 
@@ -266,7 +266,7 @@ Neither is objectively better — they serve different geographic markets. A sta
 
 ## What I Take Away from Watching Both
 
-The MiCA vs FINMA debate is often framed as a competition for regulatory leadership in crypto. Watching it from inside [Crypto Valley](/posts/crypto-valley-2026-snapshot/), it looks more like the early stages of a complex coexistence — two different regulatory systems covering adjacent markets, gradually working out how to recognize each other in specific high-stakes areas like custody and market access.
+The MiCA vs FINMA debate is often framed as a competition for regulatory leadership in crypto. Read side by side, with [Crypto Valley](/posts/crypto-valley-2026-snapshot/) as the reference point, it looks more like the early stages of a complex coexistence — two different regulatory systems covering adjacent markets, gradually working out how to recognize each other in specific high-stakes areas like custody and market access.
 
 Switzerland built its framework first and built it on principles. The EU built its framework to scale across a single market of 450 million people. Both reflect genuine regulatory priorities, not arbitrary choices.
 

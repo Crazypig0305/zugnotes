@@ -1,8 +1,8 @@
 ---
 title: "What Crypto Valley Actually Looks Like in 2026: 1,766 Companies and One Very Expensive Lake"
 date: 2026-04-15
-lastmod: 2026-10-13T06:08:00+08:00
-description: "The CV VC report counts 1,766 blockchain companies. Switzerland captured 47% of European crypto VC in 2025. But what does Crypto Valley actually look like in 2026? A field note from Zug on the numbers, the geography, and the gap between the brochure and the street."
+lastmod: 2026-10-13
+description: "The CV VC report counts 1,766 blockchain companies. Switzerland captured 47% of European crypto VC in 2025. But what does Crypto Valley actually look like in 2026? A field note on the numbers, the geography, and the gap between the brochure and the place."
 categories: ["ecosystem"]
 tags: ["crypto valley", "zug", "web3 switzerland", "CV VC", "CVA", "2026 snapshot"]
 draft: false
@@ -41,14 +41,14 @@ sources:
     desc: "Related: what the January 2026 FINMA circular means for custody in practice"
 ---
 
-> 📅 Original post: April 2026 | Last updated: October 2026
+> 📅 Last updated: October 2026
 > Statistics drawn from the [CV VC](https://cvvc.com/) [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) Top 50 & Ecosystem Report published in April 2026, covering year-end 2025 data.
 
 The number that travels the farthest is 1,766.
 
 That is how many active blockchain companies the Crypto Valley ecosystem — Switzerland and Liechtenstein combined — contained as of the most recent CV VC count. The figure circulates in press releases, conference keynotes, and business development pitches from Zurich to Singapore. It is accurate. It is also, like most large round-ish numbers attached to a place's identity, only a partial picture.
 
-This is a field note on what that picture actually looks like from here — the geography behind the statistic, what the funding numbers reveal when you look past the headline, and where the gap is between the brochure and the street.
+This is a field note on what that picture actually looks like — the geography behind the statistic, what the funding numbers reveal when you look past the headline, and where the gap is between the brochure and the place.
 
 ## The Number Behind the Headline: 1,766 and What It Actually Means
 
@@ -76,7 +76,7 @@ But the incorporation share only tells part of the story. What is more striking 
 
 {{< num-highlight value="88%" label="Swiss blockchain capital concentrated in Zug" note="Of $728M raised across Switzerland in 2025. Source: CV VC Top 50 & Ecosystem Report." >}}
 
-Two reasons explain this. First, the largest companies — [Sygnum Bank](https://www.sygnum.com/) ($58M round in 2025), the TON ecosystem presence, the infrastructure layer firms — are based in Zug. Second, the "Crypto Valley" brand itself creates a network effect in capital: international investors arriving in Switzerland tend to fly into Zurich, take the 25-minute train to Zug, meet three companies, and go home. The brand concentrates attention, which concentrates capital, which concentrates company formation.
+Two reasons explain this. First, the largest companies — [Sygnum Bank](https://www.sygnum.com/) ($58M round in 2025), the TON ecosystem presence, the infrastructure layer firms — are based in Zug. Second, the "Crypto Valley" brand itself creates a network effect in capital: Zug is a short train ride from Zurich, so an investor visiting Switzerland can meet several companies in a single day. The brand concentrates attention, which concentrates capital, which concentrates company formation.
 
 What makes Zug's new incorporation rate particularly telling: its share of new registrations jumped from 35% in 2020 to 49% in 2024. Founders who might once have registered in Zurich for the talent pool, or Geneva for the international finance connections, are increasingly choosing Zug from the start. The regulatory predictability matters. So does the cluster effect — if your lawyers, your auditors, your potential co-founders, and your first investors all have Zug addresses, friction is lower there than anywhere else in Switzerland.
 
@@ -102,19 +102,19 @@ The $400M TON deal is an outlier that inflates the average. Strip it out, and 30
 
 Switzerland's 47% share of European blockchain venture funding is the statistic that has attracted the most external commentary in 2026. The framing — "Switzerland dominates European crypto VC" — is accurate but slightly misleading. What it reflects is not that Switzerland has become more attractive relative to its historical position. It is that London post-Brexit, Berlin in economic contraction, and Paris facing regulatory ambiguity have all become less reliable as crypto capital destinations. Switzerland's share is partly absolute growth, partly relative to competitors weakening.
 
-<!-- IG-angle: The registration-vs-presence distinction the ecosystem reports structurally cannot make — CV VC counts registered entities, but a resident view shows how many of the 1,766 are a Zug address attached to a team in Berlin or Singapore; the headline company count and the street-level population are different variables -->
+<!-- IG-angle: The registration-vs-presence distinction the ecosystem reports structurally cannot make — CV VC counts registered entities, and registration says nothing about how many of the 1,766 are a Zug address attached to a team in Berlin or Singapore; the headline company count and the number of people actually working in Zug are different variables, and no public source measures the second -->
 
-## What "Crypto Valley" Actually Looks Like From Street Level
+## What "Crypto Valley" Looks Like Beyond the Report
 
 Here is where institutional reports and field notes diverge.
 
 Zug is a small Swiss city of about 30,000 residents. Its old town is well-preserved, its lake is beautiful by any standard, and its tax rates remain among the lowest in Switzerland. These things are all true and all widely reported.
 
-What the reports do not convey is texture: the restaurant in Altstadt where three founders and their legal team are having a working lunch that will determine whether they incorporate a foundation or a company; the coffee shop near the train station where two developers are troubleshooting a smart contract before their 2pm VC meeting; the fact that the conference rooms at [CV Labs](https://cvlabs.com/) are booked three weeks out in April because May conference season is approaching and everyone is trying to close term sheets before the distraction. That texture is concentrated into a remarkably small footprint — most of the deal-making happens on [the same six streets in Zug](/posts/6-streets-zug-crypto-deals/), which is its own field note on the physical geography of the ecosystem.
+What the reports do not convey is how compact it is. A large share of the ecosystem's addresses — [CV Labs](https://cvlabs.com/), the foundations, the banks, the law firms — sits on [the same six streets in Zug](/posts/6-streets-zug-crypto-deals/), which is its own field note on the physical geography of the ecosystem, mapped from published company addresses.
 
-The lake is genuinely expensive, incidentally. Apartment rents in Zug routinely exceed Zurich levels — the city's tax advantages attract wealth that then bids up real estate. For the founders who arrive here from Berlin or Singapore expecting the tax savings to offset living costs, the arithmetic can be surprising in the first year. The ecosystem absorbs this because the people who need to be in Zug can afford to be in Zug. That is itself a form of selection pressure.
+The lake is genuinely expensive, incidentally. The canton's tax advantages attract wealth that then bids up real estate: Zuger Kantonalbank puts a typical 3- to 3.5-room flat in Zug at around CHF 2,600 a month, more than CHF 4,000 at the high end, with rents up 4.5% year on year in mid-2025 against 3% nationally ([Zuger KB via zug4you.ch](https://www.zug4you.ch/en/news/news-articles/a/real-estate-prices-on-the-housing-market-are-rising-and-rising), October 2025). If you are weighing a move from Berlin or Singapore on the assumption that the tax savings offset living costs, run that rent number first. It works as a form of selection pressure: the people who need to be in Zug are the ones who can afford to be in Zug.
 
-What the 1,766 number does not tell you is how many of those companies have a physical office in Switzerland versus a registered address and a team in Berlin, Lisbon, or Singapore. The CV VC report tracks registrations. Presence is a different variable. Both are real — the legal entity here matters, the regulatory address matters — but the street-level energy of Zug reflects a smaller set of people than the company count suggests.
+What the 1,766 number does not tell you is how many of those companies have a physical office in Switzerland versus a registered address and a team in Berlin, Lisbon, or Singapore. The CV VC report tracks registrations. Presence is a different variable. Both are real — the legal entity matters, the regulatory address matters — but the company count is not a headcount of people working in Zug, and the report does not claim to be one.
 
 {{< num-highlight value="715" label="Blockchain companies in Zug" note="40% of the total ecosystem, down four companies on 2024. New incorporation share jumped from 35% (2020) to 49% (2024). Source: CV VC." >}}
 
@@ -148,7 +148,7 @@ CV Labs — the incubator associated with CV VC — hosts 197 blockchain compani
 
 That 124% jump in a single year is worth pausing on. It is not just organic growth. It reflects the point at which the physical infrastructure of an ecosystem starts attracting founders who would otherwise not have come. When the incubator has a track record, a network of mentors, access to the VC fund's deal flow, and physical adjacency to the other companies you want to know — the decision to incorporate at that address rather than elsewhere becomes easier. CV Labs is now large enough to create its own gravity.
 
-The co-working scene in Zug more broadly is tighter than the company count suggests. There are not many large office buildings in Zug. The same faces appear in the elevator at multiple addresses. This is characteristic of small-city ecosystems — the density of human contact per square kilometer is higher than in a dispersed metropolis. You learn about regulatory changes faster, you hear about term sheets before the press release, you run into your competitors at the same coffee shop. Whether this is an advantage depends on what you are trying to do.
+The co-working scene in Zug is concentrated: CV Labs alone hosts roughly one in nine of the ecosystem's companies at a single address. That is characteristic of small-city ecosystems — more contact per square kilometre than in a dispersed metropolis, which can mean faster information flow and less privacy at the same time. Whether this is an advantage depends on what you are trying to do.
 
 ## What the 2026 Crypto Valley Conference Signals
 
@@ -176,7 +176,7 @@ The gap between those two versions is not a contradiction. It is just the differ
 
 What the brochure cannot tell you is whether Zug is the right place for a specific company or person right now. That depends on what you need from a jurisdiction: the legal framework, the talent, the investor proximity, the tax structure, the physical presence, or simply the address on the business card that signals to counterparties that you are part of this ecosystem.
 
-The lake is still beautiful. It is still expensive. The 1,766 companies are still here.
+The address is still expensive. The 1,766 companies are still there.
 
 ---
 

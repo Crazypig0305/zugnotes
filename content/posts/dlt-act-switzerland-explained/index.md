@@ -1,7 +1,7 @@
 ---
 title: "The DLT Act Explained Without a Law Degree: What Changed for Crypto in Switzerland"
 date: 2021-02-01
-lastmod: 2026-05-04
+lastmod: 2026-10-13
 description: "Switzerland's DLT Act entered into force February 1, 2021 — amending nine federal laws at once. Here's what three innovations actually changed for crypto firms, custody providers, and anyone holding digital assets in Switzerland."
 categories: ["regulation"]
 tags: ["DLT act switzerland", "swiss fintech law", "distributed ledger technology switzerland", "ledger-based securities", "swiss crypto regulation 2021"]
@@ -33,17 +33,23 @@ sources:
   - name: "CMS Law — The New Swiss Blockchain/DLT Laws Finalised"
     url: "https://cms-lawnow.com/en/ealerts/2020/10/the-new-swiss-blockchain-dlt-laws-have-been-finalised-and-presumably-enter-into-force-early-2021"
     desc: "cms-lawnow.com — legal analysis of the finalised DLT Act text, October 2020"
+  - name: "FINMA — FINMA licenses first DLT trading facility"
+    url: "https://www.finma.ch/en/news/2025/03/20250318-mm-dlt-handelssystem/"
+    desc: "finma.ch — press release, 18 March 2025, BX Digital AG"
+  - name: "FINMA — Development of digitalisation in the financial sector (2024)"
+    url: "https://www.finma.ch/en/documentation/dossier/dossier-fintech/entwicklung-der-digitalisierung-im-finanzbereich---2024/"
+    desc: "finma.ch — fintech dossier, including DLT trading facility applications processed in 2024"
   - name: "Global Legal Insights — Blockchain and Cryptocurrency Laws 2026: Switzerland"
     url: "https://www.globallegalinsights.com/practice-areas/blockchain-cryptocurrency-laws-and-regulations/switzerland/"
     desc: "globallegalinsights.com — Switzerland country chapter, 2026 edition"
 ---
 
-> 📅 Field note from: February 2021 | Last updated: May 2026
-> Originally written shortly after the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en) came into force; updated with five years of practical observations in May 2026.
+> 📅 Last updated: October 2026
+> A plain reading of the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en) and the nine federal laws it amended, with how its three innovations have been used since.
 
-February 1, 2021 is a date that most crypto holders outside Switzerland have never heard of. Inside Zug, the people who cared about it were a specific type: lawyers at firms specialising in digital assets, compliance officers at custody providers, and the handful of startups that had been waiting for this exact legislation before they could build certain products.
+February 1, 2021 is a date that most crypto holders outside Switzerland have never heard of. In Zug, the people it mattered to directly were a specific type: lawyers at firms specialising in digital assets, compliance officers at custody providers, and startups whose products depended on this exact legislation.
 
-The rest of the [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) was more or less unmoved. The DLT Act is not the kind of law that generates press releases with dramatic headlines. It does not ban anything. It does not require anyone to register immediately. What it does is something more fundamental and, in the long run, more consequential: it amends nine existing Swiss federal laws at once, filling in gaps that had made certain blockchain-based transactions legally ambiguous or unnecessarily expensive.
+For the rest of the [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley), it changed little day to day. The DLT Act is not the kind of law that generates press releases with dramatic headlines. It does not ban anything. It does not require anyone to register immediately. What it does is something more fundamental and, in the long run, more consequential: it amends nine existing Swiss federal laws at once, filling in gaps that had made certain blockchain-based transactions legally ambiguous or unnecessarily expensive.
 
 I want to try to explain what actually changed — without the law degree, and with some context about why Switzerland chose to do this the way it did.
 
@@ -102,12 +108,12 @@ The DLT Trading Facility licence breaks this model. Holders can admit private in
 The licence comes in two versions: a lean version for smaller operations with lower volumes, and a more comprehensive version for higher-volume platforms. This tiered approach was deliberate — Switzerland wanted to make the licence accessible to startups and innovative platforms, not just established financial institutions with the capital to obtain full stock exchange authorisation.
 
 {{< skip-box title="Who this actually affects in Crypto Valley" >}}
-In 2021, several Zug-based startups were waiting for the DLT Trading Facility licence framework to finalise before launching products that combined token issuance, trading, and custody in a single platform. The licence created a legal structure for these bundled services that did not exist before. By 2024, several DLT Trading Facility applications had been filed with FINMA — the regulatory pipeline was active, even if the public perception of DLT Act impact remained relatively low outside legal circles.
+The licence is aimed at platforms that want to bundle token issuance, trading and settlement in one licensed entity — a combination Swiss law did not previously cover. Uptake has been slow: FINMA's [2024 digitalisation report](https://www.finma.ch/en/documentation/dossier/dossier-fintech/entwicklung-der-digitalisierung-im-finanzbereich---2024/) records two DLT trading facility applications processed that year, and the [first licence went to BX Digital AG in March 2025](https://www.finma.ch/en/news/2025/03/20250318-mm-dlt-handelssystem/), more than three and a half years after the framework took effect. If a platform tells you it operates under this licence, FINMA's [licensing page for DLT trading facilities](https://www.finma.ch/en/authorisation/fintech/dlt-handelssystem/) and its public list of authorised institutions are where to check.
 {{< /skip-box >}}
 
 ## What the DLT Act Is Not
 
-A few things worth correcting that come up in conversations around this legislation:
+A few common misreadings of this legislation worth correcting:
 
 **It is not a standalone law.** The DLT Act is an amending act — it modifies existing laws rather than creating a new code. This is intentional. Switzerland's approach was to make existing legal frameworks work for distributed ledger technology, rather than building a separate regulatory silo. The philosophy is technology-neutral: the law does not require DLT-based structures, it simply accommodates them alongside existing alternatives.
 
@@ -125,9 +131,9 @@ Ledger-based securities exist and are being issued, but the tokenisation market 
 
 The custody clarifications have had more immediate practical impact. Swiss crypto custodians have operated under the FinTech Licence framework with greater confidence since 2021, and the bankruptcy segregation provisions have provided a genuine client protection that differentiates Swiss-regulated custody from less regulated alternatives.
 
-The DLT Trading Facility licence remains underutilised relative to its potential. The framework is available, but FINMA's thorough application process and the capital requirements mean that obtaining the licence takes time and resources. A handful of licences have been granted; the market has not flooded FINMA with applications.
+The DLT Trading Facility licence remains underutilised relative to its potential. The framework is available, but FINMA's thorough application process and the capital requirements mean that obtaining the licence takes time and resources. The [first licence was granted only in March 2025](https://www.finma.ch/en/news/2025/03/20250318-mm-dlt-handelssystem/), to BX Digital AG; the market has not flooded FINMA with applications.
 
-None of this diminishes what the DLT Act was: a careful, technically sophisticated piece of legislation that positioned Switzerland's legal system for blockchain-based activity before most other jurisdictions had started drafting. The Federal Council's December 2018 report identified the gaps; the September 2020 parliamentary vote closed them. From inside Zug, that sequence — identify, draft, pass, implement — looked deliberate and competent. It still does.
+None of this diminishes what the DLT Act was: a careful, technically sophisticated piece of legislation that positioned Switzerland's legal system for blockchain-based activity before most other jurisdictions had started drafting. The Federal Council's December 2018 report identified the gaps; the September 2020 parliamentary vote closed them. Read in order, that sequence — identify, draft, pass, implement — looks deliberate and competent.
 
 ## FAQ
 
@@ -144,4 +150,4 @@ No. MiCA is a comprehensive supervisory framework for crypto-asset issuers and s
 It is a security whose existence and transfer are governed exclusively by an electronic register that meets FINMA's technical requirements. Unlike a certificated security (physical paper) or an uncertificated security (central depository entry), a Registerwertrecht requires no physical or intermediated transfer — the on-chain technical transfer is the legally recognised method.
 
 **Are DLT Trading Facilities operating in Switzerland?**
-Yes, though the number remains limited. The DLT Trading Facility licence framework has been available since August 2021, and FINMA has received and processed applications. The process is thorough and the capital requirements are real, which has moderated the pace of new licences. The framework exists; implementation continues gradually.
+Yes, though only recently. The DLT Trading Facility licence framework has been available since August 2021, and FINMA granted the first licence to BX Digital AG in March 2025. The process is thorough and the capital requirements are real, which has moderated the pace of new licences. The framework exists; implementation continues gradually.

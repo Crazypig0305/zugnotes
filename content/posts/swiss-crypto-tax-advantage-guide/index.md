@@ -1,7 +1,7 @@
 ---
 title: "The Swiss Crypto Tax Advantage: Capital Gains Free, But Wealth Tax Is Real — A Plain-Language Guide"
 date: 2024-08-12
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "Switzerland exempts private investors from crypto capital gains tax — that part is real. But wealth tax applies to your entire crypto portfolio every December 31st, staking income is taxed as ordinary income, and staying classified as a private investor takes active attention. A plain-language field guide to all three."
 categories: ["holding"]
 tags: ["swiss crypto tax", "capital gains", "wealth tax", "private investor status", "staking income", "SFTA", "canton zug"]
@@ -50,7 +50,7 @@ sources:
     desc: "Zug Notes — field note on FINMA's January 2026 custody rules, relevant to how crypto is held at Swiss institutions"
 ---
 
-> 📅 Original post: August 2024 | Last updated: September 2026
+> 📅 Last updated: October 2026
 > Swiss tax rules verified against SFTA Circular No. 36 and the FTA rate list for the 2025 tax year. Canton-level [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) figures are 2026 data. Rules can change — treat this as a starting map, not a filing instruction.
 
 The headline travels well: Switzerland does not tax capital gains on crypto.
@@ -61,7 +61,7 @@ The part that gets less airtime in the promotional summaries: you will pay wealt
 
 This field note is the long version. It covers how the full tax picture actually works for someone holding crypto in Switzerland, where the canton-level differences matter most, and what the year-end December 31st valuation moment means in practice.
 
-## Why Capital Gains on Crypto Are Actually Tax-Free Here
+## Why Capital Gains on Crypto Are Actually Tax-Free in Switzerland
 
 The exemption is not crypto-specific. It is a feature of how Switzerland has always treated private investment.
 
@@ -90,7 +90,7 @@ The SFTA's Circular No. 36 established five safe-haven criteria. Meeting all fiv
 **5. Derivatives only for hedging.** Using futures, options, or other derivatives is permissible if used to hedge existing positions. Using them as a primary trading strategy takes you outside the safe-haven rules.
 
 {{< skip-box title="If you miss one criterion" >}}
-Missing a single criterion does not automatically reclassify you as a professional trader — Swiss authorities look at the overall picture. But missing multiple criteria, or missing one consistently across multiple tax years, significantly increases the risk of reclassification. Canton Zug's tax office has historically been more tolerant than Zurich's for active crypto holders, but neither offers a written guarantee. If your activity is borderline, the right move is a ruling request (*Steuerruling*) to your cantonal tax authority before filing.
+Missing a single criterion does not automatically reclassify you as a professional trader — Swiss authorities look at the overall picture. But missing multiple criteria, or missing one consistently across multiple tax years, significantly increases the risk of reclassification. No canton publishes a written tolerance standard for active holders, so treat any claim that one tax office is more lenient as unverified. If your activity is borderline, the right move is a ruling request (*Steuerruling*) to your cantonal tax authority before filing.
 {{< /skip-box >}}
 
 If you are reclassified as a professional trader, your net capital gains become fully taxable as business income — subject to both income tax and AHV (social security contributions, currently 10% for self-employed individuals). This is the scenario the capital gains exemption was designed to avoid.
@@ -169,7 +169,7 @@ Switzerland's tax federalism means that effective tax rates vary significantly b
 
 **Income tax rate.** Since staking rewards are taxed as income, the canton's income tax rate directly affects staking profitability. Zug and Schwyz have materially lower effective income tax rates than Zurich, Geneva, or Basel.
 
-**Cantonal tolerance for active holders.** There is no published guidance on this, but practitioners with experience in multiple cantons consistently note that Zug's tax office has historically been more familiar with — and tolerant of — active crypto holders than inland Swiss cantons. Zurich's Steueramt is known to scrutinize high-transaction-volume filers more aggressively. This is anecdotal and cantonal personnel change, but it is part of why crypto infrastructure concentrates in Zug rather than Zurich.
+**Cantonal tolerance for active holders.** There is no published guidance comparing how strictly each canton applies the professional-trader criteria, so any claim that one tax office is more tolerant than another is anecdotal at best. If your activity sits near the thresholds, a written cantonal ruling (*Steuerruling*) is the way to get certainty before you file rather than after.
 
 **No canton makes you immune.** This is worth stating directly, because the opposite myth circulates: there is no federal wealth tax in Switzerland to be exempted from. Wealth tax is levied by the cantons and municipalities only — which is exactly why no canton rate is zero, and why no location protects you if you clearly cross the professional trader threshold. The cantonal advantages are real but bounded.
 
@@ -217,7 +217,7 @@ The SFTA has not issued specific guidance on airdrops separate from general inco
 
 If your employer pays you partly in crypto, the CHF market value of that crypto on the date of receipt is treated as ordinary employment income and taxed the same as salary. The employer must handle AHV and withholding tax on that value. Subsequent appreciation on the crypto you received as salary is then treated under the standard capital gains exemption (for private investors), with your income-tax cost basis being the CHF value at receipt.
 
-## What This Means If You Are Holding Crypto Here
+## What This Means If You Hold Crypto in Switzerland
 
 The Swiss crypto tax framework is, in practice, favorable — but not in the simple way the "zero capital gains tax" headline implies.
 
@@ -233,8 +233,8 @@ That is, as frameworks go, not a bad deal.
 
 ---
 
-*Field notes are observations, not legal or tax advice. Swiss cantonal tax law changes and is interpreted with discretion at the cantonal level. For significant positions or complex situations, a qualified Swiss tax advisor or a written cantonal ruling (*Steuerruling*) is the appropriate next step.*
+*Field notes are readings of public sources, not legal or tax advice. Swiss cantonal tax law changes and is interpreted with discretion at the cantonal level. For significant positions or complex situations, a qualified Swiss tax advisor or a written cantonal ruling (*Steuerruling*) is the appropriate next step.*
 
-*Disclosure: the Koinly and Blockpit links in this note are ordinary links, not affiliate links, and I have no commercial relationship with either company. They are named because they are the two tools Swiss holders actually mention when this comes up — not because anyone paid for the mention.*
+*Disclosure: the Koinly and Blockpit links in this note are ordinary links, not affiliate links, and I have no commercial relationship with either company. They are named because both publish Switzerland-specific crypto tax guides — not because anyone paid for the mention.*
 
 *Related: [FINMA's Crypto Guidance 01/2026 — What It Actually Means for Custody](/posts/finma-crypto-guidance-01-2026/) | [What [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) Actually Looks Like in 2026](/posts/crypto-valley-2026-snapshot/)*

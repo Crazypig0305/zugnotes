@@ -1,7 +1,7 @@
 ---
 title: "What Is a Crypto Card — and Why the Swiss One Has a Hidden Tax Advantage"
 date: 2024-11-18
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "A crypto card lets you spend digital assets like a normal debit card. But in the US and UK, every swipe is a taxable disposal — a quiet accounting nightmare. In Switzerland, a private investor spending through a crypto card triggers no capital gains event at all. A field note on what crypto cards actually are, which ones a Swiss resident can get, and the tax line that makes the Swiss version genuinely different."
 categories: ["holding"]
 tags: ["crypto card switzerland", "crypto debit card", "SwissBorg card", "crypto card tax", "best crypto card", "private investor switzerland", "what is a crypto card"]
@@ -43,7 +43,7 @@ sources:
     desc: "irs.gov — official form page; brokers report gross proceeds on digital asset dispositions (transactions on/after Jan 1 2025, first forms in 2026; basis reporting from Jan 1 2026), accessed June 2026"
 ---
 
-> 📅 Originally written: November 2024 | Last updated: June 2026
+> 📅 Last updated: October 2026
 > Card availability, fees, and tax treatment verified against publicly available sources as of June 2026. Card terms and personal tax positions change — confirm directly with each provider and a Swiss tax advisor before deciding.
 
 A crypto card is a Visa or Mastercard linked to your crypto balance: at the till it converts crypto to local currency in real time, so the shop gets CHF while the card draws from your Bitcoin or stablecoins. That part is the same everywhere. What is not the same everywhere is the tax bill that follows.
@@ -143,10 +143,10 @@ It makes less sense as a way to "use crypto instead of CHF" wholesale. Switzerla
 
 A crypto card is simple: a Visa or Mastercard that converts your crypto to fiat at the point of sale. Swiss residents have real choice in 2026, including a CHF-settling Mastercard from a Swiss company.
 
-The genuine, verifiable advantage of using one in Switzerland is not the cashback. It is that a private investor spending crypto here generates no taxable disposal — the same act that creates a capital-gains headache and a reporting obligation in the US and UK creates nothing on a Swiss tax return.
+The genuine, verifiable advantage of using one in Switzerland is not the cashback. It is that a private investor spending crypto in Switzerland generates no taxable disposal — the same act that creates a capital-gains headache and a reporting obligation in the US and UK creates nothing on a Swiss tax return.
 
 The qualifiers are real and matter: wealth tax still applies every December 31st, private investor status has to be maintained, and conversion spread is the cost you do pay. But for the right holder, the Swiss crypto card sits on top of one of the cleaner crypto tax regimes in the world — and that, far more than any rewards programme, is what makes it worth understanding.
 
 ---
 
-*Field note from Zug. Not tax or financial advice — personal tax positions and card terms change. Verify with each provider and a Swiss tax advisor before deciding.*
+*Field note. Not tax or financial advice — personal tax positions and card terms change. Verify with each provider and a Swiss tax advisor before deciding.*

@@ -1,7 +1,7 @@
 ---
 title: "NFT Tax Treatment in Switzerland: The Three-Tier Framework Collectors and Creators Need to Know"
 date: 2024-03-15
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "Switzerland's NFT tax framework applies three different treatment tiers: private collectors, professional traders, and creators. Capital gains may be tax-free — but wealth tax, income tax, and VAT each apply depending on how you hold, trade, or mint."
 categories: ["holding"]
 tags: ["nft tax switzerland", "switzerland nft tax treatment", "swiss nft creator tax", "nft wealth tax switzerland", "nft capital gains switzerland", "SFTA nft guidance", "nft vat switzerland", "crypto nft swiss tax"]
@@ -54,7 +54,7 @@ sources:
 image: /og-default.jpg
 ---
 
-> 📅 Field note from: March 2024 | Last updated: September 2026
+> 📅 Last updated: October 2026
 > Swiss NFT tax principles cross-verified against SFTA Circular No. 36, the IFLR practitioner analysis, and Blockpit/Koinly 2026 guides; the CARF section re-checked in September 2026 against the State Secretariat for International Finance FAQ. The SFTA has still published no NFT-specific guidance — its crypto working paper covers payment, asset and utility tokens — so rules are applied by analogy from general crypto principles, and case-by-case analysis is recommended for complex situations.
 
 Switzerland does not publish a rulebook for [NFT](https://en.wikipedia.org/wiki/Non-fungible_token) taxation. What it does instead is apply its existing crypto tax framework — built primarily around fungible assets like Bitcoin and Ether — to a class of asset that is structurally different in ways that create real ambiguity.
@@ -63,13 +63,13 @@ The result is a three-tier framework that most explanations skip over: private c
 
 Understanding which tier you are in, and why Swiss tax logic draws the lines where it does, is what this field note covers.
 
-<!-- IG-firsthand: direct observation of NFT tax inquiry patterns in Swiss tax practice, including the SFTA silence on NFT-specific guidance and practitioner responses -->
+<!-- IG-synthesis: Applying Circular No. 36's safe-harbour criteria and the SFTA crypto working paper by analogy to NFTs — three tiers (private collector, professional trader, creator) and a valuation fallback for assets the Kursliste does not cover — because the SFTA has published no NFT-specific guidance; built from SFTA documents and the IFLR analysis, no tax-practice observation is claimed -->
 
 ## The Starting Point: Why the SFTA's Silence Matters
 
 The Swiss Federal Tax Administration ([SFTA / ESTV](https://www.estv.admin.ch/estv/en/home.html)) has published detailed guidance on crypto taxation — Circular No. 36, the annual Kursliste reference values, and various working papers on staking and mining income. What it has not done, as of May 2026, is publish anything that directly addresses NFTs.
 
-This is not a minor administrative gap. It means the three-tier framework described in this field note is applied by analogy from general crypto principles, with the SFTA's Circular No. 36 as the closest applicable authority. Practitioners in Zurich and Zug I have spoken with describe this as "principled interpretation in a vacuum" — the logic is solid, the application is defensible, but there is no guarantee that a specific cantonal tax office will agree with your analysis.
+This is not a minor administrative gap. It means the three-tier framework described in this field note is applied by analogy from general crypto principles, with the SFTA's Circular No. 36 as the closest applicable authority. In the absence of SFTA guidance, the framework is applied by analogy — the logic is solid, the application is defensible, but there is no guarantee that a specific cantonal tax office will agree with your analysis.
 
 The practical implication: NFT-specific situations benefit from professional advice in a way that standard crypto holdings do not. The framework below is a structural read, not a filing instruction.
 
@@ -107,7 +107,7 @@ The indicators that push toward professional trader status in an NFT context:
 - Leverage or debt financing: using borrowed funds to purchase NFTs
 - Structured approach: using analytics tools, price floor tracking, and market timing strategies as a deliberate business
 
-The practical read I have from Swiss tax practitioners: a collector who buys a few NFTs per year, holds them, and occasionally sells one at a profit is virtually never reclassified. A person who treats NFT trading as a day job — 50+ transactions per year, systematic strategy, material income contribution — is at meaningful risk.
+A practical reading of those criteria: a collector who buys a few NFTs per year, holds each for at least six months, and occasionally sells one at a profit sits comfortably inside the SFTA's private-investor safe harbour (the five Circular No. 36 tests, set out in the [six-month rule field note](/posts/six-month-rule-swiss-private-investor/)). A person who treats NFT trading as a day job — frequent, systematic trading with a material income contribution — is at meaningful risk. Outside the safe harbour, the canton decides case by case.
 
 The reclassification matters because it is binary and retroactive within a tax year: if a cantonal authority determines you were a professional trader in 2024, your capital gains from that year become ordinary income, taxed at marginal rates that can exceed 30% in high-tax cantons.
 
@@ -135,9 +135,9 @@ There is a specific VAT exemption in Swiss law for "electronic works of art dire
 
 For fungible crypto assets — Bitcoin, Ether, and most listed tokens — the SFTA's [ICTax Kursliste](https://www.ictax.admin.ch/extern/en.html) publishes official December 31st reference values. You look up your holding, multiply by quantity, and you have your taxable wealth figure.
 
-NFTs do not appear on the Kursliste. They are unique, meaning no representative secondary market price exists in the way it does for fungible assets. This creates a genuine valuation challenge that Swiss tax practitioners describe as one of the more intellectually interesting problems in contemporary Swiss tax practice.
+NFTs do not appear on the Kursliste. They are unique, meaning no representative secondary market price exists in the way it does for fungible assets. This creates a genuine valuation challenge, and no official method exists for it.
 
-The current practitioner consensus for wealth tax declaration:
+A defensible approach for wealth tax declaration, applying the general rule (market value where a market exists, acquisition cost where it does not):
 
 | Scenario | Recommended Approach | Notes |
 |---|---|---|

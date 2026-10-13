@@ -1,7 +1,7 @@
 ---
-title: "Switzerland's CARF Delay Explained: What 2027 Really Means for Crypto Holders Here"
+title: "Switzerland's CARF Delay Explained: What 2027 Really Means for Swiss Crypto Holders"
 date: 2026-01-08
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "Switzerland put CARF on the statute book and then switched it off for a year. The rules do not apply in 2026 at all, and implementation can start on 1 January 2027 at the earliest. Here is what that means in practice: what your bank is and is not collecting, and what a Swiss crypto holder should actually do with the window."
 categories: ["regulation"]
 tags: ["CARF", "automatic exchange", "swiss crypto regulation", "AEOI", "SFTA", "OECD", "crypto tax reporting"]
@@ -53,7 +53,7 @@ sources:
 
 The decision came in November 2025, weeks before [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) was supposed to go live. At its session of 3–4 November 2025 the National Council's Economic Affairs and Taxation Committee [suspended its deliberation on the partner-state bill](https://www.parlament.ch/press-releases/Pages/mm-wak-n-2025-11-04.aspx), and on 26 November 2025 [the Federal Council confirmed](https://www.sif.admin.ch/en/newnsb/oAaJyRFS1lqJ7PN3sLJTP) what followed from that: the crypto-asset provisions of Swiss automatic-exchange law would not apply in 2026 at all. Switzerland will implement CARF on 1 January 2027 at the earliest.
 
-The headline spread fast. "Switzerland delays crypto tax sharing" was the framing most outlets used, and it was accurate enough to quote. But the implications for people who actually hold crypto here are more layered than that framing suggests.
+The headline spread fast. "Switzerland delays crypto tax sharing" was the framing most outlets used, and it was accurate enough to quote. But the implications for people who actually hold crypto in Switzerland are more layered than that framing suggests.
 
 This is what the delay actually means — and, more practically, what it does not mean.
 
@@ -68,13 +68,13 @@ The confusion in most coverage comes from conflating two things that Switzerland
 The result is blunter than "delayed exchange." The machinery is built and switched off. Nothing runs through it for 2026.
 
 <div class="data-callout">
-<p class="callout-label">Field observation — late 2025</p>
-<p>The suspension landed with under two months to go before the regime was supposed to start, which is why several Swiss legal and compliance firms I follow published commentary within the same week. What most of that commentary — and most of the January coverage that followed it — understated is how much the pause switched off. The law is real and it is coming. Nothing under it is running now. Those are two different statements, and "2027" does not mean there is nothing to do until then.</p>
+<p class="callout-label">What the first commentary understated</p>
+<p>The suspension landed with under two months to go before the regime was supposed to start, which is why several Swiss legal and compliance firms published commentary within the same week. What most of that commentary — and most of the January coverage that followed it — understated is how much the pause switched off. The law is real and it is coming. Nothing under it is running now. Those are two different statements, and "2027" does not mean there is nothing to do until then.</p>
 </div>
 
 ## What 2026 Actually Looks Like
 
-If the exchange is delayed, what did 1 January 2026 activate? Less than almost every explainer written at the time assumed, this one included.
+If the exchange is delayed, what did 1 January 2026 activate? Less than many explainers published in late 2025 assumed.
 
 **There is no due-diligence duty in 2026.** The [State Secretariat for International Finance](https://www.sif.admin.ch/en/framework-for-the-automatic-exchange-of-information-aeoi-on-crypto-assets) (SIF) is explicit about it in its [published questions and answers](https://www.sif.admin.ch/dam/en/sd-web/3DLzoBB6uMYz/MM%20E-AIAV%20FAQ%20EN.pdf): the due-diligence provisions relating to CARF "will not apply in 2026," and accordingly "reporting providers of crypto services will not be required to exercise due diligence under Swiss law in 2026." Your Swiss bank or exchange is not under a CARF collection obligation this year.
 

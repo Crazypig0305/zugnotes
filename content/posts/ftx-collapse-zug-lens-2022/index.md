@@ -1,8 +1,8 @@
 ---
-title: "The FTX Collapse Through a Zug Lens: What November 2022 Felt Like in Crypto Valley"
+title: "The FTX Collapse Through a Zug Lens: What November 2022 Looked Like in Crypto Valley"
 date: 2022-11-18
-lastmod: 2026-09-23
-description: "FTX filed for bankruptcy on November 11, 2022. From inside Zug — the coffeeshops, the CV Labs corridors, the group chats — here is what the week actually felt like, and what it revealed about Crypto Valley's resilience."
+lastmod: 2026-10-13
+description: "FTX filed for bankruptcy on November 11, 2022. Rebuilt from contemporary reporting — the Zug-registered projects caught on FTX, the Swiss banks that gained inflows, and what the week revealed about Crypto Valley's resilience."
 categories: ["ecosystem"]
 tags: ["FTX collapse crypto valley", "switzerland crypto 2022", "FTX zug perspective", "crypto valley 2022", "swiss crypto ecosystem", "FTX aftermath zug"]
 draft: false
@@ -43,14 +43,14 @@ sources:
     desc: "CV VC — annual report documenting employment contraction and unicorn count reduction in 2022"
 ---
 
-> 📅 Field note from: November 2022 | Last updated: September 2026
-> Originally written days after the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) bankruptcy filing from inside Zug; updated with three years of follow-on observations in September 2026.
+> 📅 Last updated: October 2026
+> A look at the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) bankruptcy filing through Zug-registered projects and Swiss-regulated banks, built from contemporary reporting and later public data.
 
-The week FTX collapsed, it was cold in Zug. That detail has stayed with me — the way the fog sat over the lake in the mornings, the kind of November that makes you want to be inside. A lot of us were inside. In coffeeshops, in coworking spaces, in the [CV Labs](https://cvlabs.com/) corridors on Dammstrasse. On laptops, phones, scrolling the same damage reports.
+For most of the crypto world, the FTX collapse was a story about an exchange in the Bahamas. For Zug, it was a more local question. The town's ecosystem — the coworking spaces around [CV Labs](https://cvlabs.com/) on Dammstrasse, the foundations registered at Zug addresses, the regulated crypto banks a short train ride away — had to work out how much of the damage was its own.
 
 November 11, 2022. FTX filed for Chapter 11. [Sam Bankman-Fried](https://en.wikipedia.org/wiki/Sam_Bankman-Fried) resigned. Eleven billion dollars in customer funds had vanished into the gap between a centralized exchange and its affiliated trading firm.
 
-The question in Zug that morning was not "is crypto dead?" That question was too large and too abstract for the specific dread that was circulating. The question was: *who here was on FTX?*
+The useful question for Crypto Valley was not "is crypto dead?" That question was too large and too abstract. The useful question was narrower: *which Zug-registered projects were on FTX?*
 
 ## The Answer Nobody Wanted to Hear First
 
@@ -64,23 +64,21 @@ The FTX connection in these cases went deeper than custody: Alameda Research, FT
 
 {{< num-highlight value="95%" label="Percentage of OXY and MAPS tokens held on FTX at the time of its bankruptcy filing" note="Oxygen Protocol — a Zug-registered project backed by Alameda Research — disclosed this figure in mid-November 2022. Both tokens became effectively worthless within days. Source: [CoinDesk](https://www.coindesk.com/), November 2022." >}}
 
-<!-- IG-firsthand: Eyewitness account of the CV Labs corridors during the week of the bankruptcy filing — damage assessment rather than panic, the "are you okay?" Telegram messages, and the split between infrastructure builders who had already lived through 2018 and the teams holding Alameda money; the texture that the later "Swiss regulation vindicated" narrative compressed out -->
+<!-- IG-synthesis: Reconstruction of the week from contemporary reporting — CoinDesk and finews on the OXY/MAPS exposure, finews on Sygnum inflows and SEBA's Alameda statement, AFP's interview with CV VC founder Mathias Ruch — separating the projects exposed through Alameda from the regulated custody end that gained inflows; no on-site observation is claimed -->
 
-## What the CV Labs Corridors Felt Like
+## What the Reporting Showed Inside the Ecosystem
 
-I want to be honest about what I observed that week, because the narrative that emerged later — Zug as safe haven, Swiss regulation as vindication — was true, but it was not the whole texture of those few days.
+The narrative that emerged later — Zug as safe haven, Swiss regulation as vindication — was true, but it was not the whole picture of those first days.
 
-Inside CV Labs, which had been the informal social hub of the Crypto Valley community since it opened in February 2018, the mood was more quiet than panicked. People were doing damage assessment, not running. There was a lot of checking on whether portfolio companies had exchange exposure. A lot of Telegram messages that started with "are you okay?" — meaning, financially, not personally, though sometimes both.
+The first sorting question was exposure: which projects and portfolio companies had funds, tokens or investors tied to FTX and Alameda. finews reported that the Oxygen team was in a "state of shock", had hired legal advisors and was "considering all options", while its token had lost nearly all of its value ([finews](https://www.finews.com/news/english-news/54371-oxygen-zug-ftx-alameda-sam-bankman-fried)).
 
-The differentiation conversation started almost immediately. The people who had been building infrastructure — custody solutions, compliance tools, regulatory tech — were quieter in a different way: watchful. They had watched exchanges get built fast and die fast before. They had weathered the 2018 crypto winter. This felt familiar, if larger.
+Firms whose business sat closer to regulated custody than to exchange liquidity had a different profile. The bank statements below show that end of the market describing itself as the opposite of FTX within days.
 
-The people who were building on centralized exchange ecosystems, or who had taken Alameda money without scrutinizing the counterparty risk — those conversations were harder.
-
-[Mathias Ruch](https://www.linkedin.com/in/mathias-ruch/), founder of [CV VC](https://cvvc.com/) (the venture capital fund attached to CV Labs), gave the assessment that most people around Dammstrasse already felt: "This will set us back by at least one or two years." Precise. Unsentimental. Not wrong.
+[Mathias Ruch](https://www.linkedin.com/in/mathias-ruch/), founder of [CV VC](https://cvvc.com/) (the venture capital fund attached to CV Labs), gave his assessment to the AFP news agency: FTX would set the sector back by at least one to two years ([AWP/AFP via allnews.ch](https://allnews.ch/node/96319), in French). Precise. Unsentimental. Not wrong.
 
 ## The Swiss Banks' Unusual Week
 
-While Zug processed the wreckage, something counterintuitive was happening at the regulated end of the ecosystem.
+While the exposed projects processed the wreckage, something counterintuitive was happening at the regulated end of the ecosystem.
 
 [Sygnum](https://www.sygnum.com/), the Zurich-based crypto bank that had been fully licensed since 2019, reported significant inflows of CHF 270 million in the first weeks of November 2022, with the figure expected to reach at least CHF 400 million by month's end. CEO Mathias Imbach attributed this to existing clients consolidating assets from unregulated exchanges into Sygnum's regulated custody services. The message implicit in those flows: if you needed to be reminded that Swiss segregation rules matter, FTX had just provided the lesson.
 
@@ -92,11 +90,11 @@ The PR language was measured, as Swiss banking always is. But the subtext was le
 
 ## The Institutional Investor Silence
 
-One element of the November 2022 aftermath that received less attention in the Zug community at the time: the institutional investors.
+One element of the November 2022 aftermath that got less coverage than the Oxygen story: the institutional investors.
 
 Firms like Pantera Capital had exposure to FTX through their Blockfolio acquisition proceeds — denominated in FTT tokens and FTX equity. Pantera disclosed that its FTT position was under 3% of AUM and that it had liquidated as much as possible on November 8. The language in their letter was instructive: they had been trying to manage counterparty risk from centralized exchanges, and FTX had underscored why [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) infrastructure mattered.
 
-These firms were not physically present in Zug, but they were part of the same institutional ecosystem — attending the same conferences, backing some of the same projects. The conversations that happened in late November, at the margins of industry calls and over encrypted messaging, were calibrating questions: which Zug-based projects had exchange custody risk? Which had kept assets in regulated Swiss institutions?
+These firms were not based in Zug, but they were part of the same institutional ecosystem, backing the same kinds of projects. For any investor with Zug-based portfolio companies, the practical questions were the obvious ones: which projects had exchange custody risk? Which had kept assets in regulated Swiss institutions?
 
 The answers mattered for the follow-on funding decisions that would quietly sort Crypto Valley's survivors from its casualties over the following year.
 
@@ -106,17 +104,17 @@ The 2022 figures that emerged in CV VC's annual Top 50 report told the medium-te
 
 In 2022, 1,135 cryptocurrency and blockchain companies were based in Switzerland and Liechtenstein. Employment in the sector contracted by approximately 4% to under 6,000 jobs. The count of unicorns — companies valued at over $1 billion — fell from 14 in 2021 to 9 in 2022.
 
-None of that was catastrophic for an ecosystem that had been through 2018. But it was real, and the people building in Zug in late 2022 knew they were in a contraction year, not a recovery.
+None of that was catastrophic for an ecosystem that had been through 2018. But it was real: for anyone building in Zug in late 2022, the numbers describe a contraction year, not a recovery.
 
-## What This Looked Like From the Outside vs. the Inside
+## The Standard Narrative vs. the First-Week Record
 
 Here is the version of November 2022 that became the standard narrative over the following months: Swiss crypto survived FTX. Regulated Swiss banks gained inflows. [FINMA](https://www.finma.ch/en/)'s framework was vindicated. Crypto Valley proved resilient.
 
 That is all accurate. But it compresses something.
 
-From inside Zug that week, the feelings were not triumphant. They were watchful, careful, sad in some cases — because people in the Oxygen orbit had genuinely believed they were building something, and they had trusted a counterparty that betrayed that trust. The regulatory framework vindication came later. In the first week, there was mostly fog over the lake and a lot of group chats.
+Read alongside the first-week reporting, that week was not triumphant. The industry voices quoted at the time talked about a setback, not a victory ([swissinfo.ch](https://swissinfo.ch/eng/ftx-debacle--crypto-industry-rues-latest-setback/48047470)), and the teams in the Oxygen orbit had trusted a counterparty that failed them. The regulatory-vindication framing came later.
 
-The resilience was real, but it took the form that resilience usually takes: people kept showing up. The CV Labs spaces filled up again within a week. Projects that had not been contaminated by the FTX exposure continued their work. The ones that had been contaminated started making hard decisions.
+The resilience was real, but it took the form that resilience usually takes: projects without FTX exposure kept working, and the ones with it started making hard decisions. If you want to check how a Swiss provider holds client assets today, start with the segregation rules described in the glossary, and with whether the firm is supervised by [FINMA](https://www.finma.ch/en/) at all.
 
 That is what a functioning ecosystem looks like under stress. Not drama. Not exit. Just the slower, quieter process of figuring out what survives.
 

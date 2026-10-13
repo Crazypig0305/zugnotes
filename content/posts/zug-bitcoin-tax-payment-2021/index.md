@@ -1,7 +1,7 @@
 ---
-title: "The Year Zug Let You Pay Taxes in Bitcoin: A Field Note from 2021"
+title: "The Year Zug Let You Pay Taxes in Bitcoin: How the 2021 Scheme Worked"
 date: 2021-09-12
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "In February 2021, Canton Zug became the first Swiss canton to accept Bitcoin and Ether for tax payments — up to CHF 100,000 per bill. A field note on what it meant, how it actually worked, and why the real story is more interesting than the headline."
 categories: ["ecosystem"]
 tags: ["zug bitcoin tax payment 2021", "crypto valley history", "bitcoin suisse", "switzerland crypto adoption", "canton zug cryptocurrency"]
@@ -36,14 +36,14 @@ sources:
     desc: "ccn.com — coverage of the 2017–2018 period when Zug municipality expanded its crypto payment experiments"
 ---
 
-> 📅 Field note from: September 2021 | Last updated: May 2026
-> Originally written shortly after Canton Zug's first full tax year accepting [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and Ether; updated with five years of practical observations in May 2026.
+> 📅 Last updated: October 2026
+> Canton Zug's [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and Ether tax payment programme, read from the canton's and Bitcoin Suisse's published information, with the usage figures and limit changes through 2026.
 
 By September 2021, the headline had been running for seven months. "[Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) Lets You Pay Taxes in Bitcoin." It appeared in every major crypto publication, most of the Swiss financial press, and a surprising number of mainstream technology outlets that had never previously cared about Zug.
 
 What the headlines rarely explained was how the system actually worked, what the practical constraints were, or why a crypto-skeptical reader should find this more interesting than a novelty payment stunt.
 
-This is the field note I would have wanted to read in February 2021.
+This is the field note a Zug taxpayer could have used in February 2021.
 
 ## The Five-Year Arc Before the Headline
 
@@ -108,13 +108,13 @@ The Zug model succeeded as measured by its actual goal: demonstrating that a pro
 The [Canton of Zug](https://en.wikipedia.org/wiki/Canton_of_Zug)'s 2021 tax payment program was not a statement about Bitcoin as legal tender, a crypto reserve policy, or an endorsement of any particular blockchain. It was an optional payment channel for a single use case, immediately converting to CHF, with CHF 100,000 cap. The framework is specifically designed to be immune to crypto price volatility.
 {{< /skip-box >}}
 
-## Why September 2021 Felt Like the Right Moment
+## Why September 2021 Was the Right Moment
 
-Writing this in September 2021, the timing had a particular texture to it.
+The timing in 2021 is worth setting out.
 
 Bitcoin had run from roughly USD 29,000 in January to an all-time high above USD 64,000 in April, then corrected significantly through May and June. By September, it was recovering again, trading in the USD 40,000–50,000 range. The macro narrative — institutional adoption, Bitcoin as inflation hedge, El Salvador's announcement — was dominating financial media.
 
-Against that backdrop, Zug's February announcement looked like prescient positioning. The crypto-friendly canton had moved when other Swiss cantons were still watching. The fact that 150 transactions had been processed quietly, without incident, without any headline controversy, was itself a kind of statement. Boring infrastructure that works is not a story. It is a foundation.
+Against that backdrop, Zug's February announcement looked like prescient positioning. The crypto-friendly canton had moved when other Swiss cantons were still watching. Over its first two years the system went on to process around 150 transactions quietly, without any headline controversy, and that was itself a kind of statement. Boring infrastructure that works is not a story. It is a foundation.
 
 The ecosystem question in September 2021 was what would come next. Would other Swiss cantons follow? Would the CHF 100,000 ceiling be raised? Would the model expand to other government services?
 
@@ -124,7 +124,7 @@ Two years later, the answers came. In 2023, the ceiling was raised to CHF 1.5 mi
 
 Tax payments were the most prominent institutional development in 2021, but they were not the whole picture of where crypto use stood in Zug at that moment.
 
-The city's 2016 pilot had established a handful of merchants accepting Bitcoin in the old town — independent restaurants, a few service businesses. By 2021, Bitcoin Suisse Pay had expanded the available merchant network. The categories that reliably accepted crypto were consistent with the global pattern: specialty retail, some professional services, a subset of independent restaurants.
+By 2021, a handful of merchants in the old town accepted Bitcoin — independent restaurants, a few service businesses — and Bitcoin Suisse Pay had expanded the available merchant network. The categories that reliably accepted crypto were consistent with the global pattern: specialty retail, some professional services, a subset of independent restaurants.
 
 What was not there: mainstream grocery retail, pharmacies, public transport, any of the large Swiss chains. The [daily use reality in Zug](/posts/crypto-day-to-day-zug/) in 2021 was that crypto payments worked where someone had made a specific decision to accept them, and nowhere else. The tax system was the cleanest implementation precisely because it involved a single counterparty (the canton), a single institution managing the conversion (Bitcoin Suisse), and a well-defined use case.
 
@@ -138,7 +138,7 @@ Looking back from 2026, the 2021 announcement looks like a small but structurall
 
 The broader question — how Switzerland's crypto tax framework itself operates, and what the [Swiss tax advantage](/posts/swiss-crypto-tax-advantage-guide/) actually means for holders — is a separate, larger topic. The Zug payment program is one piece of that; it removed a particular friction point for holders who want to use crypto to settle tax liabilities directly.
 
-What the September 2021 field note captures is the early period: the program is new, the usage is modest, the comparisons to El Salvador are everywhere, and the infrastructure is demonstrating that the boring version of crypto adoption — optional, properly converted to CHF, bounded by regulation — is the version that lasts.
+Read as of September 2021, the early period looks like this: the program is new, the usage is modest, the comparisons to El Salvador are everywhere, and the infrastructure is demonstrating that the boring version of crypto adoption — optional, properly converted to CHF, bounded by regulation — is the version that lasts.
 
 {{< num-highlight value="2016 → 2021 → 2023" label="Zug's crypto payment milestones: city pilot → canton tax program → CHF 1.5M ceiling increase" >}}
 
@@ -146,4 +146,4 @@ Five years on, that still looks like the right read.
 
 ---
 
-*Field note from Zug. Not financial or tax advice — crypto tax payment availability is subject to cantonal policy and may change. Verify current limits and procedures at [zg.ch](https://zg.ch) before making payment decisions.*
+*Field note. Not financial or tax advice — crypto tax payment availability is subject to cantonal policy and may change. Verify current limits and procedures at [zg.ch](https://zg.ch) before making payment decisions.*

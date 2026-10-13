@@ -1,8 +1,8 @@
 ---
 title: "Switzerland After FTX: How FINMA Responded and What It Changed"
 date: 2023-01-12
-lastmod: 2026-09-23
-description: "FTX collapsed in November 2022. FINMA's response — tighter AML thresholds, mandatory crypto reporting, and stricter enforcement of segregation rules — was incremental, not dramatic. A field note from Zug on what actually changed and why the Swiss banks came out ahead."
+lastmod: 2026-10-13
+description: "FTX collapsed in November 2022. FINMA's response — tighter AML thresholds, mandatory crypto reporting, and stricter enforcement of segregation rules — was incremental, not dramatic. A field note on what actually changed, read from FINMA's own documents, and why the Swiss banks came out ahead."
 categories: ["regulation"]
 tags: ["switzerland crypto regulation FTX response", "FINMA 2022 2023", "FTX collapse switzerland", "crypto asset segregation", "FINMA risk monitor", "swiss crypto banks"]
 draft: false
@@ -51,12 +51,12 @@ sources:
     desc: "cbsnews.com — contemporaneous reporting on the 11 November 2022 Chapter 11 filing and the reported customer-fund shortfall"
 ---
 
-> 📅 Field note from: January 2023 | Last updated: September 2026
-> Originally written two months after the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) collapse from inside Zug; updated with three years of regulatory follow-on observations in September 2026.
+> 📅 Last updated: October 2026
+> How Switzerland's regulator responded to the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) collapse, read from FINMA's published documents and contemporary reporting, with the regulatory follow-on through 2026.
 
 November 11, 2022 was a Friday. FTX filed for Chapter 11 bankruptcy that day. [Sam Bankman-Fried](https://en.wikipedia.org/wiki/Sam_Bankman-Fried) had resigned. [Roughly eight billion dollars of customer funds were missing](https://www.cbsnews.com/news/ftx-bankruptcy-sam-bankman-fried-resigns-cryptocurrency/).
 
-I remember checking Telegram channels that morning. There was the usual noise — speculation about contagion, lists of which platforms had exposure to FTX or [Alameda Research](https://en.wikipedia.org/wiki/Alameda_Research), arguments about whether this was the end of crypto or just another cycle bottom. What struck me, working out of Zug, was a different question: what was [FINMA](https://www.finma.ch/en/) going to do?
+The noise that week was predictable — speculation about contagion, lists of which platforms had exposure to FTX or [Alameda Research](https://en.wikipedia.org/wiki/Alameda_Research), arguments about whether this was the end of crypto or just another cycle bottom. For anyone holding crypto through a Swiss provider, the more useful question was a different one: what was [FINMA](https://www.finma.ch/en/) going to do?
 
 The Swiss regulator had been quiet during the collapse. No press releases. No emergency statements. That silence, in FINMA's case, is usually deliberate. It does things when it has something definitive to say.
 
@@ -112,11 +112,11 @@ Both banks survived the FTX period without incident. Neither had their FINMA lic
 
 ## Zug in the Weeks After
 
-The atmosphere in Zug's crypto offices in November and December 2022 was not what I would call panic. The community here had been through the 2018 Crypto Winter — a longer, slower attrition of companies and talent that had genuinely hollowed out parts of the ecosystem. FTX was different: sudden, centralized in one firm, and affecting primarily retail and institutional clients of an offshore exchange. I wrote down what those weeks actually felt like at the time, before the regulatory follow-on was clear — that contemporaneous account is its own field note: [The FTX Collapse Through a Zug Lens](/posts/ftx-collapse-zug-lens-2022/).
+The ecosystem had been through the 2018 Crypto Winter — a longer, slower attrition of companies and talent that had genuinely hollowed out parts of Crypto Valley. FTX was different: sudden, centralized in one firm, and affecting primarily retail and institutional clients of an offshore exchange. The week itself, rebuilt from the contemporary reporting on the Zug-registered projects that were caught, is its own field note: [The FTX Collapse Through a Zug Lens](/posts/ftx-collapse-zug-lens-2022/).
 
-What I heard most in those weeks was a version of "this is why regulation matters." It was not triumphalism — nobody in Zug was glad that billions in customer funds had been lost. But there was a real sense that the Swiss framework had been designed, consciously, to prevent exactly this. The DEBA segregation rules. The mandatory FINMA oversight. The prohibition on commingling. These were not abstract compliance requirements. They were the specific protections that FTX lacked.
+The argument the Swiss regulated sector made in those weeks was a version of "this is why regulation matters" — visible in the bank statements and inflow figures above. It did not need triumphalism to land: the Swiss framework had been designed, consciously, to prevent exactly this. The DEBA segregation rules. The mandatory FINMA oversight. The prohibition on commingling. These were not abstract compliance requirements. They were the specific protections that FTX lacked.
 
-The firms at [CV Labs](https://cvlabs.com/) and in the broader Zug ecosystem that were most affected were those with indirect FTX connections — portfolio companies that had raised capital from FTX Ventures, service providers that had FTX as a significant client, or projects with FTX-adjacent token economics. Some of those firms wound down over the following six months. Others restructured. The adjustment was real, but it was not a systemic collapse of the Zug ecosystem.
+The Zug firms most exposed were the ones with direct or indirect FTX connections — most visibly the Alameda-backed Oxygen and Maps.me projects, whose tokens were locked up on FTX ([CoinDesk](https://www.coindesk.com/business/2022/11/15/tokens-of-alameda-backed-defi-projects-mapsme-and-oxygen-locked-up-at-ftx)). CV VC's later count shows the sector contracting in 2022 rather than collapsing: Swiss and Liechtenstein crypto employment fell by about 4%, and the unicorn count dropped from 14 to 9 ([CV VC Top 50 Report 2022](https://kr-geschaefte.zug.ch/dokumente/11609/3583-1-17340_Beilage-1_Top-50-Report.pdf)). The adjustment was real, but it was not a systemic collapse of the Zug ecosystem.
 
 The ecosystem that emerged from late 2022 and into 2023 was, if anything, better positioned for institutional adoption. The argument that Switzerland's regulatory framework produced safer infrastructure had just been validated by the most dramatic possible counter-example.
 
@@ -136,7 +136,7 @@ The Swiss approach is sometimes characterized as complacency — moving too slow
 
 MiCA, notably, converged toward the Swiss model on its core principles — mandatory segregation, direct regulatory supervision, bankruptcy protection for client assets. The architecture that FTX lacked was the architecture Switzerland already had. MiCA adopted it at EU scale. For a deeper look at how the two frameworks now compare, see [MiCA vs FINMA: A Field Note from Someone Who Watches Both](/posts/mica-vs-finma-field-note/).
 
-## What It Actually Changed for Crypto Holders Here
+## What It Actually Changed for Crypto Holders in Switzerland
 
 For people holding crypto in Switzerland through FINMA-regulated custodians — meaning primarily AMINA (formerly SEBA) and Sygnum — FTX changed the KYC and due diligence environment more than anything else.
 
@@ -156,4 +156,4 @@ The trajectory from 2019 banking licences to 2021 DLT Act to 2023 AML tightening
 
 ---
 
-*Related field notes: [When FINMA Gave Crypto Its First Banking Licenses: A 2019 Field Report](/posts/finma-crypto-license-2019/) — the foundational regulatory architecture that Switzerland built before FTX. [Two New FINMA License Categories Proposed](/posts/finma-crypto-institution-license-2026/) — how the post-FTX lessons are now being institutionalized in a new license framework.*
+*Related field notes: [When FINMA Gave Crypto Its First Banking Licenses in 2019](/posts/finma-crypto-license-2019/) — the foundational regulatory architecture that Switzerland built before FTX. [Two New FINMA License Categories Proposed](/posts/finma-crypto-institution-license-2026/) — how the post-FTX lessons are now being institutionalized in a new license framework.*

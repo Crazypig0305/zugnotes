@@ -1,7 +1,7 @@
 ---
 title: "Swiss Six-Month Crypto Rule: Why It Alone Won't Keep You Tax-Free"
 date: 2020-09-14
-lastmod: 2026-10-13T05:59:00+08:00
+lastmod: 2026-10-13
 description: "Holding crypto six months does not make your Swiss gains tax-free — it is only 1 of 5 safe-harbour tests. The five SFTA criteria, the one that quietly catches active traders, and what reclassification really costs."
 categories: ["holding"]
 tags: ["switzerland crypto private investor status", "six month holding rule crypto", "SFTA KS 36", "professional trader classification switzerland", "swiss crypto tax safe harbour", "capital gains tax free switzerland"]
@@ -45,8 +45,8 @@ sources:
     desc: "Zug Notes — the wealth tax calculation field note: wealth tax applies to all crypto holders regardless of investor status; how the December 31 portfolio valuation works."
 ---
 
-> 📅 Field note from: September 2020 | Last updated: October 2026
-> Originally written when SFTA's professional trader criteria were being widely discussed; updated September 2026 with six years of cantonal practice and the 2026 AHV rates.
+> 📅 Last updated: October 2026
+> The SFTA's professional-trader criteria read from Circular No. 36 and the federal crypto working paper, with the 2026 AHV rates.
 
 The Swiss crypto tax headline is simple: capital gains are tax-free for private investors. Most people stop reading there.
 
@@ -80,11 +80,11 @@ The Swiss Federal Tax Administration's Kreisschreiben Nr. 36, issued in July 201
 | 5 | **Derivatives for hedging only** | Options, futures, and other derivatives are used only to hedge existing positions — not as standalone speculative instruments. |
 {{< /budget-table >}}
 
-<!-- IG-angle: Identifying which of the five cumulative criteria actually produces reclassifications — the six-month rule carries the name and the attention, but the transaction-volume test (5x opening balance, where every swap counts as both a sale and a purchase) is the one that catches active holders without warning; drawn from years of watching people navigate this locally rather than from the criterion list the tax guides reproduce -->
+<!-- IG-angle: Identifying which of the five cumulative criteria actually produces reclassifications — the six-month rule carries the name and the attention, but the transaction-volume test (5x opening balance, where every swap counts as both a sale and a purchase) is the one that catches active holders without warning; worked out from the arithmetic of the criteria themselves (a swap-heavy year multiplies volume fast), not from observing individual cases, which is not claimed -->
 
 ## Where People Actually Run Into Problems
 
-The holding period criterion is the most visible, but in my observation — watching people navigate this in Zug over several years — it is not the one that creates the most unexpected reclassifications.
+The holding period criterion is the most visible, but on the arithmetic of the five tests it is not the one most likely to catch an active holder by surprise.
 
 **The transaction volume criterion catches active traders.** If you started 2020 with CHF 100,000 in crypto and executed CHF 550,000 in combined purchases and sales during the year, you have exceeded the five-times threshold. This can happen faster than people expect during volatile markets when they are rotating between Bitcoin, ETH, and altcoins. Each swap is a sale plus a purchase — both sides count.
 
@@ -115,9 +115,9 @@ Dollar-cost averaging into a position over months creates multiple acquisition d
 
 Here is what the formal KS 36 documentation does not fully capture: cantonal application of these criteria is not uniform, and in several cantons, the safe-harbour thresholds are applied conservatively in ways that go beyond the literal text.
 
-The cantons of Zug, Zurich, Lucerne, and Aargau have all been noted by Swiss tax practitioners as applying these criteria carefully — meaning that even if you technically satisfy all five thresholds, the overall picture of your trading activity is considered. Frequency of trading, sophistication of strategy, use of professional tools, and whether you spend significant time on crypto activity can all factor into a cantonal tax office's assessment, even if each individual criterion technically passes.
+Published practitioner commentary, such as [Bucher Tax's analysis of when crypto traders become securities dealers](https://en.bucher-tax.ch/blog/vom-crypto-trader-zum-wertschriftenhandler), makes the same point: a canton can look at the overall picture of your trading activity, not just the five thresholds one by one. Frequency of trading, sophistication of strategy, use of professional tools, and whether you spend significant time on crypto activity can all factor into a cantonal tax office's assessment, even if each individual criterion technically passes.
 
-Geneva and the French-speaking cantons tend to apply similar scrutiny, though with different baseline income tax rates — which makes reclassification more costly there in absolute terms.
+Where income tax rates are higher — Geneva is the usual example — the same reclassification costs more in absolute terms.
 
 The practical implication is that KS 36 is a safe harbour in the sense that clearly meeting all five criteria makes it very difficult for cantonal authorities to reclassify you. But borderline cases — where one criterion is close to the threshold, or where your overall activity pattern looks like systematic trading — create genuine uncertainty that the written thresholds alone do not resolve.
 
@@ -150,4 +150,4 @@ The stakes are real. Capital gains tax-free is a meaningful structural advantage
 
 ---
 
-*Not tax advice. Swiss tax treatment of crypto depends on individual circumstances, cantonal variation, and annual SFTA guidance. This field note describes the general framework as understood in Zug in September 2020 and updated through October 2026. Consult a qualified Swiss tax professional for your specific situation.*
+*Not tax advice. Swiss tax treatment of crypto depends on individual circumstances, cantonal variation, and annual SFTA guidance. This field note describes the general framework as set out in published SFTA and cantonal guidance, reviewed through October 2026. Consult a qualified Swiss tax professional for your specific situation.*

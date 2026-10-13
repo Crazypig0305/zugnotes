@@ -1,7 +1,7 @@
 ---
 title: "Two New FINMA License Categories Proposed: What the Crypto-Institution License Means in Practice"
 date: 2026-03-10
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "Switzerland proposed two new FINMA-supervised license categories in late 2025: the crypto-institution license and the payment instrument institution. Here is what they actually mean for exchanges, custodians, and the firms that have been operating under SRO oversight."
 categories: ["regulation"]
 tags: ["FINMA crypto institution license 2026", "swiss crypto regulation", "FinIA amendment", "payment instrument institution", "swiss fintech license", "crypto-institution switzerland"]
@@ -50,18 +50,18 @@ sources:
     desc: "fintechnews.ch — May 2026: Sequence becomes the fifth Swiss company to hold the Article 1b fintech license"
 ---
 
-> 📅 Field note from: March 2026 | Last updated: September 2026
-> Written shortly after the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) published the consultation paper — the proposal is the government's, not [FINMA](https://www.finma.ch/en/)'s, though FINMA would supervise the resulting licence holders. Updated in September 2026, with the consultation closed, the substantive industry responses in, and no dispatch to Parliament yet.
+> 📅 Last updated: October 2026
+> Based on the consultation paper the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) published in October 2025 — the proposal is the government's, not [FINMA](https://www.finma.ch/en/)'s, though FINMA would supervise the resulting licence holders. Regulatory status last checked in September 2026: the consultation closed, the substantive industry responses in, and no dispatch to Parliament yet.
 
 On October 22, 2025, the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) released a draft amendment to the Financial Institutions Act — FinIA — and opened a public consultation. The document proposes two new license categories: the *crypto-institution* (Krypto-Institut) and the *payment instrument institution* (Zahlungsmittelinstitut). The consultation period closed on February 6, 2026.
 
-I have been watching the Swiss crypto regulatory timeline since [FINMA issued its first banking licenses to [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) in 2019](/posts/finma-crypto-license-2019/). That was a moment where Switzerland signaled it was serious about institutional crypto infrastructure. This proposal feels like the next structural layer: not just licensing a handful of elite firms, but building a taxonomy for the entire sector.
+When [FINMA issued its first banking licenses to [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) in 2019](/posts/finma-crypto-license-2019/), Switzerland signaled it was serious about institutional crypto infrastructure. This proposal feels like the next structural layer: not just licensing a handful of elite firms, but building a taxonomy for the entire sector.
 
 Here is what I have pieced together from reading the consultation document and the legal commentary around it.
 
 ## The Problem the Proposal Is Trying to Solve
 
-The current situation is messy in a way that is hard to see from the outside. If you look at Switzerland's crypto landscape from a distance, it looks orderly: FINMA, the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en), clear rules, respectable institutions. From closer in, the picture is more fragmented.
+The current situation is messier than the headline picture suggests. At headline level, Switzerland's crypto landscape looks orderly: FINMA, the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en), clear rules, respectable institutions. Look at which licences firms actually hold, and the picture is more fragmented.
 
 Crypto firms operating in Switzerland today can be in one of several regulatory buckets. Some hold banking licenses — like SEBA (now AMINA) and Sygnum. A much larger group operates under self-regulatory organization (SRO) supervision purely for AML/CFT compliance, with limited formal FINMA oversight over their core activities. A smaller number hold the fintech license introduced in 2019, which capped deposits at CHF 100 million and never quite fit what most crypto businesses actually do.
 
@@ -185,7 +185,7 @@ I will update this note as the dispatch and the parliamentary debate take shape.
 
 **Related field notes:**
 
-- [When FINMA Gave Crypto Its First Banking Licenses: A 2019 Field Report](/posts/finma-crypto-license-2019/) — the origin point of Switzerland's crypto licensing story
+- [When FINMA Gave Crypto Its First Banking Licenses in 2019](/posts/finma-crypto-license-2019/) — the origin point of Switzerland's crypto licensing story
 - [The DLT Act Explained Without a Law Degree](/posts/dlt-act-switzerland-explained/) — the legislative infrastructure this builds on
 - [FINMA's Crypto Guidance 01/2026: What It Actually Means for Custody](/posts/finma-crypto-guidance-01-2026/) — the parallel custody rulemaking from the same regulatory moment
 

@@ -1,7 +1,7 @@
 ---
 title: "FINMA's Crypto Guidance 01/2026: What It Actually Means for Custody (Not the Legal Version)"
 date: 2026-02-14
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "FINMA published Guidance 01/2026 on crypto custody in January 2026. Here is what the circular actually requires — asset segregation, foreign custodian rules, and what changes for individuals holding crypto via Swiss institutions. Plain language, not a law firm memo."
 categories: ["regulation"]
 tags: ["FINMA", "custody", "swiss crypto regulation", "DLT Act", "asset segregation"]
@@ -65,7 +65,7 @@ Second, and a year before that: MiCA (the EU's Markets in Crypto-Assets Regulati
 Third, and with no single date on it at all: FINMA had observed in its supervisory work that some Swiss-licensed institutions were not adequately accounting for custody risks when using third-party providers — particularly foreign providers without equivalent oversight. The guidance formalizes what had previously been supervisor expectation rather than written rule.
 
 <div class="data-callout">
-<p class="callout-label">Field observation — February 2026</p>
+<p class="callout-label">Context: the CARF timing</p>
 <p>One thing worth correcting from the January commentary: the guidance did not arrive alongside a live CARF regime. At its session of 3–4 November 2025 the National Council's Economic Affairs and Taxation Committee <a href="https://www.parlament.ch/press-releases/Pages/mm-wak-n-2025-11-04.aspx">suspended the partner-state bill</a> by 18 votes to zero with four abstentions, and on 26 November 2025 the Federal Council <a href="https://www.efd.admin.ch/en/newnsb/oAaJyRFS1lqJ7PN3sLJTP">confirmed</a> that the crypto-asset provisions of Swiss automatic-exchange law would not apply in 2026 at all — <a href="/posts/switzerland-carf-delay-2027/">implementation can start on 1 January 2027 at the earliest</a>. The custody guidance stands on its own supervisory logic — who holds whose assets, and what happens in an insolvency — not on a tax-reporting deadline that never started.</p>
 </div>
 
@@ -165,7 +165,7 @@ One practical consequence of the guidance is a likely consolidation of the insti
 
 The dual-requirement test for foreign custodians effectively excludes smaller or offshore providers that may offer competitive pricing but lack the regulatory and legal infrastructure required by the guidance. For Swiss institutions choosing or retaining custodians, the compliance burden of demonstrating equivalence is lower for established, well-supervised providers than for newer entrants.
 
-Post-Trade 360's industry analysis noted that the requirements "may accelerate consolidation toward major regulated custodians while potentially excluding smaller, unregulated crypto custody providers from Swiss institutional business." That reads as accurate from a Zug perspective: the institutions I have spoken with in recent months are increasingly focused on custodian due diligence as a compliance task, not just a risk preference.
+Post-Trade 360's industry analysis noted that the requirements "may accelerate consolidation toward major regulated custodians while potentially excluding smaller, unregulated crypto custody providers from Swiss institutional business." For anyone holding crypto through a Swiss institution, the practical consequence is that custodian due diligence becomes a compliance task for that institution, not just a risk preference.
 
 ## What to Watch Going Forward
 
@@ -184,4 +184,4 @@ Three developments are worth tracking in the months following this guidance:
 
 ---
 
-*Zug Notes publishes field observations on Swiss crypto regulation and the [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) ecosystem. Nothing on this site is legal or financial advice. The views expressed are those of the author based on publicly available information.*
+*Zug Notes publishes field notes on Swiss crypto regulation and the [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) ecosystem. Nothing on this site is legal or financial advice. The views expressed are those of the author based on publicly available information.*

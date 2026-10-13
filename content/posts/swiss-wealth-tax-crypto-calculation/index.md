@@ -1,7 +1,7 @@
 ---
 title: "The Wealth Tax Calculation: How Switzerland Values Your Crypto Portfolio on New Year's Eve"
 date: 2021-11-15
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "Switzerland's wealth tax hits your crypto portfolio every December 31st, even if you never sold. Here's the exact SFTA Kursliste mechanism, how Zug's effective 0.14% compares to Geneva's 0.51%, and what happens when your altcoin isn't on the list."
 categories: ["holding"]
 tags: ["swiss wealth tax crypto calculation", "crypto portfolio value switzerland", "SFTA Kursliste crypto", "wealth tax switzerland crypto", "canton wealth tax rates zug", "December 31 crypto valuation", "ICTax crypto switzerland", "altcoin wealth tax", "DeFi holdings switzerland"]
@@ -50,14 +50,14 @@ sources:
     desc: "Zug Notes — the staking rewards field note: explains the wealth tax double-layer that hits staking holders: income tax on rewards received, then wealth tax on the accumulated tokens at year-end."
 ---
 
-> 📅 Field note from: November 2021 | Last updated: September 2026
-> Originally written shortly before the 2021 year-end valuation deadline; updated September 2026 with the 2025 rate list and 2026 cantonal wealth tax figures.
+> 📅 Last updated: October 2026
+> How the December 31 valuation works, using the SFTA's 2025 rate list and the 2026 cantonal wealth tax figures.
 
-Every November here in Zug, I notice the same pattern in the community. Someone who has been happily holding since January starts asking a very specific question: "What does my portfolio actually look like on December 31st — and what does that mean for my tax bill?"
+Every November, Swiss crypto holders run into the same question. Someone who has been happily holding since January starts asking something very specific: "What does my portfolio actually look like on December 31st — and what does that mean for my tax bill?"
 
 The confusion is understandable. Switzerland's most famous crypto advantage — the capital gains exemption — gets all the attention. You buy BTC, it goes up, you sell, you pay nothing. That story spreads fast and spreads far. What travels less is the other side of the ledger: the [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax). It runs quietly in the background every year, calculated on the value of every coin you still hold when midnight hits on December 31st.
 
-I have watched people arrive in Zug, absorb the capital gains story, and miss the wealth tax entirely — until their first tax return arrives. This note is for them. And for anyone who has been here longer but still wonders exactly how the number gets calculated.
+It is easy to arrive in Zug, absorb the capital gains story, and miss the wealth tax entirely — until the first tax return arrives. This note is for that reader. And for anyone who has held in Switzerland longer but still wonders exactly how the number gets calculated.
 
 ## Why December 31st Is the Only Date That Matters
 
@@ -128,7 +128,7 @@ One important nuance: these figures are progressive in most cantons. The effecti
 
 ## Multi-Wallet, Cold Storage, and DeFi: The Aggregation Reality
 
-A question I hear frequently from people running complex portfolios: does it matter how many wallets or exchanges your crypto is spread across?
+A common question for anyone running a complex portfolio: does it matter how many wallets or exchanges your crypto is spread across?
 
 For wealth tax purposes, the answer is no — and yes.
 
@@ -160,7 +160,7 @@ The divergence appears for:
 
 ## Comparing Switzerland to Other Jurisdictions
 
-One question I get from people considering Zug as a base: how does this compare to the US, Singapore, or Dubai?
+A natural question if you are considering Zug as a base: how does this compare to the US, Singapore, or Dubai?
 
 The structural answer: Switzerland is one of a small number of countries that still levies a recurring annual wealth tax on individuals. Most of the world does not.
 
@@ -176,7 +176,7 @@ For crypto specifically, what makes Switzerland interesting is the combination: 
 
 ## What You Are Actually Paying For
 
-I have found it useful to reframe how I think about the Zug wealth tax. At roughly 0.14% per year on my total crypto position, it is effectively a very small annual fee for the privilege of holding in a jurisdiction where:
+It helps to reframe the Zug wealth tax. For a holder in Zug with a CHF 1,000,000 position, roughly 0.14% a year (the effective rate in the comparison above; it is lower on smaller positions and higher on larger ones) is effectively a very small annual fee for the privilege of holding in a jurisdiction where:
 
 - Capital gains on the same position are completely tax-free
 - The regulatory environment has been relatively clear and stable for years

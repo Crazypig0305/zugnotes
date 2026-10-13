@@ -1,7 +1,7 @@
 ---
 title: "Why Ethereum Was Born in Zug: The 2014-2017 Origin Story Most People Get Wrong"
 date: 2017-08-15
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "Ethereum chose Zug not because of tax rates but because Swiss foundation law gave the 2014 presale legal structure no other jurisdiction offered. A field note on the real origin story — the spaceship house, Stiftung Ethereum, and how Crypto Valley got its name."
 categories: ["ecosystem"]
 tags: ["ethereum history", "crypto valley origin", "stiftung ethereum", "zug 2014", "ethereum founding", "swiss foundation law"]
@@ -46,8 +46,8 @@ sources:
     desc: "[CV Labs](https://cvlabs.com/) — 2024 retrospective with co-founder perspectives on Zug's early ecosystem"
 ---
 
-> 📅 Original post: August 2017 | Last updated: September 2026
-> This field note was first written shortly after [Ethereum](https://en.wikipedia.org/wiki/Ethereum)'s first major upgrade cycle. The origin history section has been verified against primary sources and updated with retrospective detail from co-founder accounts published 2020–2024.
+> 📅 Last updated: October 2026
+> The [Ethereum](https://en.wikipedia.org/wiki/Ethereum) origin history in this note has been verified against primary sources and updated with retrospective detail from co-founder accounts published 2020–2024.
 
 The version of this story that gets told most often goes something like: [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin) chose Switzerland because of low taxes and crypto-friendly banking. That version is not wrong exactly, but it is missing the part that actually mattered in 2014.
 
@@ -155,4 +155,4 @@ The rest is the history you can read in the official reports. This is the part t
 
 ---
 
-*Related field notes: [What Crypto Valley Actually Looks Like in 2026](/posts/crypto-valley-2026-snapshot/) — the ecosystem that grew from this 2014 foundation, in numbers. [The [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) Boom Seen From Zug: What 2017-2018 Was Actually Like](/posts/ico-boom-zug-2017-2018/) — the wave that followed Ethereum's legal template, when it started getting applied carelessly. [MiCA vs FINMA: A Field Note from Someone Who Watches Both](/posts/mica-vs-finma-field-note/) — how the regulatory framework that made Ethereum possible in 2014 compares to today's Swiss and EU frameworks.*
+*Related field notes: [What Crypto Valley Actually Looks Like in 2026](/posts/crypto-valley-2026-snapshot/) — the ecosystem that grew from this 2014 foundation, in numbers. [The [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) Boom in Zug: What 2017-2018 Actually Looked Like](/posts/ico-boom-zug-2017-2018/) — the wave that followed Ethereum's legal template, when it started getting applied carelessly. [MiCA vs FINMA: A Field Note from Someone Who Watches Both](/posts/mica-vs-finma-field-note/) — how the regulatory framework that made Ethereum possible in 2014 compares to today's Swiss and EU frameworks.*

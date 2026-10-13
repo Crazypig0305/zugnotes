@@ -1,7 +1,7 @@
 ---
 title: "What Getting a Crypto-Friendly Bank Account in Switzerland Actually Takes"
 date: 2023-06-12
-lastmod: 2026-10-13T13:51:00+08:00
+lastmod: 2026-10-13
 description: "Switzerland now has two very different kinds of crypto-friendly bank: high-threshold crypto-native institutions (AMINA, Sygnum, Bank Frick) and a fast-growing mainstream tier (Swissquote, Yuh, PostFinance, UBS) any resident can open. A plain-language field note on which one you actually need, the real thresholds, and the KYC depth behind each."
 categories: ["holding"]
 tags: ["swiss crypto bank", "SEBA bank", "Sygnum bank", "AMINA bank", "FINMA banking license", "KYC", "source of funds", "crypto custody switzerland"]
@@ -115,7 +115,7 @@ sources:
     desc: "easyglobalbanking.com — tiering of Swiss crypto banks (crypto-native / mainstream-with-access / B2B infrastructure), 2026"
 ---
 
-> 📅 Originally written: June 2023 | Last updated: October 2026
+> 📅 Last updated: October 2026
 > Figures and bank status verified against publicly available sources as of September 2026; the EU-licence status of AMINA, Bank Frick and Sygnum re-checked against regulator and company sources in October 2026. Bank policies and thresholds change — confirm directly with each institution before making decisions.
 
 The pitch sounds clean: Switzerland has [FINMA](https://www.finma.ch/en/)-licensed banks that actually understand crypto. You can hold BTC and CHF in the same place, have your assets genuinely segregated under Swiss law — a protection [FINMA reinforced in its January 2026 custody guidance](https://www.finma.ch/en/news/2026/01/20260112-mm-am-01-26/) — and not worry that your bank will freeze your account the moment it sees an on-chain transfer.
@@ -163,7 +163,7 @@ Now the other end of the market. Switzerland has four institutions that sit in t
 **InCore Bank** — a Swiss B2B bank that provides crypto infrastructure to other financial institutions. Not a direct-to-client bank. If you are an individual looking to open an account personally, InCore is not your path — it functions as wholesale infrastructure.
 
 <div class="data-callout">
-<p class="callout-label">Quick reality check — June 2023 observation</p>
+<p class="callout-label">Quick reality check</p>
 <p>Of the four names that circulate in "Swiss crypto bank" conversations, one (InCore) is not accessible to individuals at all. That leaves three realistic options — and each has a very different client profile in mind.</p>
 </div>
 
@@ -180,7 +180,7 @@ AMINA Bank does not publish a hard minimum deposit figure. What it does publish 
 
 Clients who do not meet this threshold are classified as retail clients. AMINA can still onboard retail clients, but the product set available to them is meaningfully narrower.
 
-Sygnum's published materials suggest a minimum portfolio value of **CHF 50,000 in crypto assets** for custody accounts, though some practitioners and reviews put the practical institutional threshold at CHF 100,000 or higher. Sygnum's fee structure is customized per client and quoted in basis points — which itself signals that the bank is designed for relationships measured in six figures and above, not single-coin retail holders.
+Sygnum's published materials suggest a minimum portfolio value of **CHF 50,000 in crypto assets** for custody accounts, though some published reviews put the practical institutional threshold at CHF 100,000 or higher. Sygnum's fee structure is customized per client and quoted in basis points — which itself signals that the bank is designed for relationships measured in six figures and above, not single-coin retail holders.
 
 Bank Frick's thresholds are not publicly listed and are negotiated as part of the onboarding process. The bank is explicit that its primary client base is financial intermediaries and professional investors, not retail.
 
@@ -214,8 +214,8 @@ The completeness of blockchain transaction history is not optional. Gaps in the 
 **Layer 3 — tax compliance.** Swiss banks will ask for confirmation that the client has declared their crypto holdings in their home jurisdiction. This has sharpened as the [Crypto-Asset Reporting Framework (CARF)](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) approaches — though the timeline slipped. On 26 November 2025 the Swiss Federal Council decided the crypto-reporting provisions would not apply in 2026; implementation is now targeted to start on 1 January 2027 at the earliest, with the first actual exchange of data coming later still. The 74 partner jurisdictions — including all EU states — are a Federal Council *proposal*, not a settled list: parliament has not approved it, and the National Council's economic affairs and taxation committee suspended its review of the activation list in November 2025, pending clarity on what other jurisdictions do. None of this means a client needs to have paid tax on unrealized gains — it means the bank needs comfort that the client is not using the account to move undeclared assets. For clients in high-tax jurisdictions, this can involve producing tax returns or a letter from an accountant.
 
 <div class="data-callout">
-<p class="callout-label">Field note — what gets people rejected</p>
-<p>The most common failure point practitioners report is not the identity documents — it is the source-of-funds gap. If your crypto came from multiple exchanges, some of which no longer exist, and you moved assets through several wallets over five years without keeping records, the bank will have difficulty satisfying its AML obligations. "Clean" transaction history — purchased on regulated exchanges, minimal mixer or anonymity-tool exposure, documented — significantly improves the outcome.</p>
+<p class="callout-label">What tends to stop an application</p>
+<p>The likeliest failure point is not the identity documents — it is the source-of-funds gap. If your crypto came from multiple exchanges, some of which no longer exist, and you moved assets through several wallets over five years without keeping records, the bank will have difficulty satisfying its AML obligations. "Clean" transaction history — purchased on regulated exchanges, minimal mixer or anonymity-tool exposure, documented — significantly improves the outcome.</p>
 </div>
 
 ## Individual vs. Institutional: A Real Difference
@@ -224,7 +224,7 @@ The word "individual" is doing a lot of work in Swiss crypto banking.
 
 When AMINA says it accepts individual accounts, it means it can onboard natural persons — not just companies. But the experience of an individual with CHF 800,000 in liquid assets and a clean on-chain history is very different from an individual with CHF 30,000 in ETH and a few years of Binance history.
 
-Sygnum's stated client base is about 2,300 clients across 80-plus countries. Most observers in Zug and Zurich familiar with its book describe it as overwhelmingly institutional — asset managers, family offices, smaller exchanges, corporate treasuries, and professional investors. The bank did not become a unicorn by servicing individual hodlers.
+Sygnum's stated client base is about 2,300 clients across 80-plus countries. Its own [onboarding FAQ](https://www.sygnum.com/help/onboarding/) lists professional and institutional investors, corporates, DLT companies, banks and other financial institutions — and says it does not onboard retail clients. The bank did not become a unicorn by servicing individual hodlers.
 
 This is not a criticism of either bank. They have a business model, regulatory obligations, and compliance costs that shape who they can profitably serve. It is, however, relevant information for anyone who reads "we accept individual clients" and assumes the door is equally open.
 
@@ -234,9 +234,9 @@ The client profile that moves through Swiss crypto-native bank onboarding with t
 
 ## Timeline: How Long Does It Actually Take?
 
-Coincub's 2026 review of Sygnum notes "lengthy KYC procedures" with extended setup times due to "high KYC/compliance checks." This is consistent with what practitioners and users describe informally.
+Coincub's 2026 review of Sygnum notes "lengthy KYC procedures" with extended setup times due to "high KYC/compliance checks."
 
-For straightforward cases — documented history, regulated exchange purchases, professional investor classification — onboarding at AMINA or Sygnum typically runs **four to eight weeks**. For more complex cases — assets acquired across multiple jurisdictions, privacy coin holdings, gaps in transaction history, or assets from now-defunct platforms — the process can stretch to three or four months, and may not conclude with approval.
+The sources cited here do not give a standard onboarding duration for AMINA or Sygnum, so there is no published number to plan around. My judgment, from how the three KYC layers above are built: even a straightforward case — documented history, regulated exchange purchases, professional investor classification — means **weeks rather than days**. More complex cases — assets acquired across multiple jurisdictions, privacy coin holdings, gaps in transaction history, or assets from now-defunct platforms — can take months, and may not conclude with approval. The practical step is to ask the bank for its current expected timeline at first contact, and to plan any asset transfer around that answer rather than around a fixed date.
 
 Bank Frick, operating as an intermediary-focused bank in Liechtenstein, often works through external asset managers or financial service providers rather than direct-to-client onboarding. The timeline there is typically negotiated alongside a broader client relationship structure.
 
@@ -272,7 +272,7 @@ A few things worth thinking through before starting the process:
 
 AMINA's Austrian MiCA licence, granted in October 2025 and announced that November, is significant. It means the bank can passport crypto custody and trading services across EU member states without needing separate national licences. (Why a Zug bank needs an Austrian licence for that at all is the subject of a separate note: [Does MiCA apply in Switzerland?](/posts/does-mica-apply-in-switzerland/)) For clients based in the EU, this changes the accessibility calculus — if your jurisdiction's crypto banking situation is difficult, a bank with a MiCA passport operating out of Switzerland may offer a path that did not exist two years ago. Bank Frick's MiCAR authorisation from Liechtenstein's FMA took effect on 23 December 2025, and Sygnum's Liechtenstein subsidiary, Sygnum Europe AG, now holds a MiCA licence from the same regulator — listed in France's public register as providing services there from 30 June 2026 — so AMINA, Bank Frick and Sygnum all now have an EEA-passport route.
 
-The split I flagged in earlier versions of this note has now clearly arrived. At the institutional end, Sygnum's unicorn status, USD 6 billion in client assets, and new discretionary-mandate business show the crypto-native banks deepening upmarket. At the mass-market end, the opposite is happening: crypto has become a normal banking product. Roughly 20 Swiss banks — the most of any country — now serve crypto to about 2.5 million accounts, and UBS was reported in January 2026 to be preparing to join them for selected private-banking clients. Retail-accessible crypto banking did come from neobanks, licensed brokers, and incumbent banks rather than the full crypto-native institutions, exactly as expected. What is thinning is the middle: as an individual, you are increasingly choosing between a mainstream bank's crypto tab and a crypto-native bank's six-figure onboarding, with less and less in between.
+The split between institutional and mass-market crypto banking has now clearly arrived. At the institutional end, Sygnum's unicorn status, USD 6 billion in client assets, and new discretionary-mandate business show the crypto-native banks deepening upmarket. At the mass-market end, the opposite is happening: crypto has become a normal banking product. Roughly 20 Swiss banks — the most of any country — now serve crypto to about 2.5 million accounts, and UBS was reported in January 2026 to be preparing to join them for selected private-banking clients. Retail-accessible crypto banking did come from neobanks, licensed brokers, and incumbent banks rather than the full crypto-native institutions. What is thinning is the middle: as an individual, you are increasingly choosing between a mainstream bank's crypto tab and a crypto-native bank's six-figure onboarding, with less and less in between.
 
 For a direct link to the FINMA banking licence history that put AMINA and Sygnum on the map, the [FINMA regulatory guidance on crypto custody](/posts/finma-crypto-guidance-01-2026/) provides additional context on the legal framework these institutions operate within. The [Swiss crypto tax overview](/posts/swiss-crypto-tax-advantage-guide/) is also relevant for anyone thinking through the full picture of holding crypto in Switzerland — the bank account is one piece of a larger structure.
 
@@ -286,4 +286,4 @@ None of this is a failure of the Swiss system. It is the system maturing — a m
 
 ---
 
-*Field note from Zug. Not legal or financial advice — conditions change, and bank policies vary. Verify directly with each institution before making decisions.*
+*Field note. Not legal or financial advice — conditions change, and bank policies vary. Verify directly with each institution before making decisions.*

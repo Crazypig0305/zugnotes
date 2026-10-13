@@ -1,7 +1,7 @@
 ---
 title: "Declaring Crypto on Your Swiss Tax Return: What \"Market Value on December 31st\" Actually Means"
 date: 2025-02-14
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "Every Swiss canton tax form asks for the market value of your crypto on December 31st. A plain-language field guide to where you find that number, multiple wallets and non-CHF assets, staking and DeFi — plus what CARF reporting means for you as an individual holder in 2026-2027."
 categories: ["holding"]
 tags: ["crypto tax return switzerland", "swiss crypto declaration", "wealth tax crypto", "SFTA rate list", "canton tax software", "staking tax switzerland", "DeFi tax", "self-disclosure"]
@@ -54,7 +54,7 @@ sources:
   - name: "Zug Notes — The Swiss Crypto Tax Advantage: Capital Gains Free, But Wealth Tax Is Real"
     url: "/posts/swiss-crypto-tax-advantage-guide/"
     desc: "Zug Notes — the Swiss crypto tax advantage pillar guide: capital gains exemption, wealth tax structure, private investor status, and canton-by-canton rates."
-  - name: "Zug Notes — Switzerland's CARF Delay Explained: What 2027 Really Means for Crypto Holders Here"
+  - name: "Zug Notes — Switzerland's CARF Delay Explained: What 2027 Really Means for Swiss Crypto Holders"
     url: "/posts/switzerland-carf-delay-2027/"
     desc: "Zug Notes — the CARF delay field note: what the 2027 automatic exchange means for Swiss crypto holders."
   - name: "Zug Notes — What Getting a Crypto-Friendly Bank Account in Switzerland Actually Takes"
@@ -62,8 +62,8 @@ sources:
     desc: "Zug Notes — the Swiss crypto bank account field note: statements from AMINA or Sygnum can serve as source documentation for your tax declaration."
 ---
 
-> 📅 Field note from: February 2025 | Last updated: September 2026
-> Originally written during the 2024 tax declaration season; updated September 2026 with the current [Federal Tax Administration](https://www.estv.admin.ch/en) rate list and an expanded section on what CARF reporting means for individual holders in the 2026-2027 window.
+> 📅 Last updated: October 2026
+> Built on the current [Federal Tax Administration](https://www.estv.admin.ch/en) rate list, with a section on what CARF reporting means for individual holders in the 2026-2027 window.
 
 Switzerland's crypto tax framework is structurally simple: private investors pay no capital gains tax, but they do pay [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) on the full market value of their portfolio — and that market value is assessed on one specific date every year.
 

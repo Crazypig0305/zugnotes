@@ -1,7 +1,7 @@
 ---
 title: "What CARF Actually Reports About You: A Plain Reading of the Framework for Individuals"
 date: 2025-11-18
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "When CARF runs, your Swiss exchange or bank collects your name, TIN, tax residency, and aggregate transaction data. Here is a plain-language breakdown of exactly what gets reported, how individual reporting differs from entities, how CARF compares to FATCA and CRS, and why the Swiss postponement means none of it is happening in 2026."
 categories: ["holding"]
 tags: ["CARF", "individual reporting", "crypto asset reporting framework", "FATCA", "CRS", "swiss crypto regulation", "AEOI", "privacy", "tax transparency"]
@@ -46,8 +46,8 @@ sources:
     desc: "coincub.com — plain-language breakdown of what exchanges report and what the data trail looks like"
 ---
 
-> 📅 Field note from: November 2025 | Last updated: September 2026
-> Originally written when [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) implementation timelines were being finalised across [OECD](https://www.oecd.org/) jurisdictions; corrected in September 2026 against the State Secretariat for International Finance FAQ, which is clearer than the contemporaneous coverage about how much of the framework Switzerland actually switched off.
+> 📅 Last updated: October 2026
+> A plain reading of the [OECD](https://www.oecd.org/) [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) text for individual holders, checked against the State Secretariat for International Finance FAQ, which is clearer than most coverage about how much of the framework Switzerland actually switched off.
 
 Most coverage of CARF focuses on the timeline: when will data cross borders, which countries are included, what does the Swiss delay actually mean. Those are reasonable questions, and I have written about them separately.
 
@@ -64,8 +64,8 @@ For traditional banking under CRS, the relevant institution is the bank and the 
 This is the first structural difference from what most people expect. CARF is not primarily about what you hold. It is about what you do.
 
 <div class="data-callout">
-<p class="callout-label">Field observation — November 2025</p>
-<p>Several people I know in Zug assumed that CARF would work like a crypto version of CRS: report the balance, share the balance. The actual framework is more transactional. It is your trading history, your transfers, your proceeds — not a static snapshot of holdings — that ends up in the report. That distinction has real implications for how you think about compliance planning.</p>
+<p class="callout-label">A common misreading</p>
+<p>A common assumption is that CARF works like a crypto version of CRS: report the balance, share the balance. The actual framework is more transactional. It is your trading history, your transfers, your proceeds — not a static snapshot of holdings — that ends up in the report. That distinction has real implications for how you think about compliance planning.</p>
 </div>
 
 ## The Four Categories of Data Collected About You
@@ -162,8 +162,8 @@ Nothing at the RCASP level is running. The State Secretariat for International F
 The practical implication for privacy-conscious holders is not the one the January coverage suggested. There is no pool of CARF data sitting in Swiss institutional hands waiting for a border to open, because 2026 generated none. What your exchange holds is the KYC and transaction history it kept anyway, for its own AML and commercial purposes — the same material it held before CARF was drafted. Some providers have voluntarily aligned their self-certifications with the OECD format from January 2026, which SIF explicitly permits; that is a commercial decision, not a legal duty, and it varies by platform.
 
 <div class="data-callout">
-<p class="callout-label">Insider observation — Zug, 2026</p>
-<p>The postponement was received with some relief in parts of the local crypto community, and the compliance people I know read it more narrowly than the relief suggests. Nothing is being collected under CARF now, which makes the window genuinely quiet — but it closes on a date Parliament has not announced, and the twelve-month self-certification clock for existing users only starts the day before activation. The time is for reviewing your holding structure and checking that your domestic filings are accurate, not for assuming the system went away. Those are different things, and conflating them is the planning error I keep seeing.</p>
+<p class="callout-label">What this means in practice</p>
+<p>It is tempting to read the postponement as relief. Read against the SIF FAQ, it is narrower than that. Nothing is being collected under CARF now, which makes the window genuinely quiet — but it closes on a date Parliament has not announced, and the twelve-month self-certification clock for existing users only starts the day before activation. The time is for reviewing your holding structure and checking that your domestic filings are accurate, not for assuming the system went away. Those are different things, and conflating them is the easiest planning error to make.</p>
 </div>
 
 ## The Privacy and Compliance Trade-Off: A Plain Read

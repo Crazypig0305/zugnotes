@@ -1,7 +1,7 @@
 ---
 title: "The UBS Swiss Franc Stablecoin Sandbox: What It Actually Enables for CHF Crypto Rails"
 date: 2026-04-10
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "Six Swiss banks including UBS and Sygnum launched a CHF stablecoin sandbox in April 2026; SIX and TWINT joined in September, taking it to nine. Here is what the pilot actually tests, why deposit tokens and stablecoins are different things, and what this means for Switzerland's crypto payment rails."
 categories: ["ecosystem"]
 tags: ["swiss franc stablecoin", "UBS stablecoin", "CHF crypto rails", "FINMA sandbox", "Swiss Stablecoin AG", "DLT payments switzerland", "deposit token"]
@@ -75,7 +75,7 @@ The more consequential regulatory context is happening in parallel. In October 2
 Legislative implementation is not expected before 2027. The sandbox running in 2026 is, in part, about generating evidence before that legislative window opens.
 
 <div class="data-callout">
-<p class="callout-label">Field observation — May 2026</p>
+<p class="callout-label">Reading the pilot design — May 2026</p>
 <p>The pilot is deliberately small. The point is not scale — it is structured learning under live conditions before the FinIA amendment creates the regulatory category that would allow a full commercial launch. The sandbox is building the evidence base, not the product.</p>
 </div>
 
@@ -149,7 +149,7 @@ The 2026 sandbox is designed to generate data before the regulatory window opens
 1. **Whether additional participants join** — this one has already moved. On September 8, 2026 SIX and TWINT joined, taking the roster to nine, and CHFD has been technically live in the sandbox since the end of June, with the test phase running to the end of the year. TWINT is the one that matters: it is the payment app almost every Swiss adult already has, and its presence turns an interbank experiment into a question about consumer rails.
 2. **The FinIA consultation outcome** — if the Federal Council's payment institution and crypto institution categories are enacted roughly as proposed, Switzerland will have one of the most structured stablecoin licensing frameworks globally by 2027. If the consultation outcome weakens or delays those categories, the CHFD sandbox remains a proof-of-concept rather than a bridge to a production rail.
 
-The conversation I have been tracking in Zug is less "will there be a CHF stablecoin" and more "which layer of the Swiss financial stack will it sit on, and who gets to issue it." The April 2026 announcement did not answer that question. It created a structured way to ask it.
+The open question is less "will there be a CHF stablecoin" and more "which layer of the Swiss financial stack will it sit on, and who gets to issue it." The April 2026 announcement did not answer that question. It created a structured way to ask it.
 
 ---
 

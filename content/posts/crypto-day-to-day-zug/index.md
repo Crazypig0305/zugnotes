@@ -1,7 +1,7 @@
 ---
 title: "Using Crypto Day-to-Day in Zug: What Actually Works and What's Still Friction"
 date: 2025-09-14
-lastmod: 2026-09-23
+lastmod: 2026-10-13
 description: "Zug is famous for letting you pay taxes in Bitcoin. But what about coffee, groceries, or parking? A field note on which crypto payment channels actually function in daily Zug life, where the friction still lives, and what the adoption reality looks like beyond the headlines."
 categories: ["holding"]
 tags: ["crypto daily use switzerland", "bitcoin payments zug", "swiss crypto adoption", "lightning network", "merchant crypto zug", "Bitcoin Suisse Pay"]
@@ -61,10 +61,10 @@ sources:
     desc: "Zug Notes — the CHF stablecoin sandbox field note: what the pilot actually tests, and why TWINT joining matters for Swiss consumer payment rails."
 ---
 
-> 📅 Originally written: September 2025 | Last updated: September 2026
-> Merchant availability and payment infrastructure verified against publicly available sources as of September 2026. The landscape changes quickly — confirm with individual merchants before making plans around crypto payments.
+> 📅 Last updated: October 2026
+> Merchant availability and payment infrastructure taken from publicly available sources, last checked in September 2026. The landscape changes quickly — confirm with individual merchants before making plans around crypto payments.
 
-The headline is real: you can pay your cantonal taxes with [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) in Zug. The headline has been real since 2021 — I wrote a [field note from the year Zug first let you pay taxes in Bitcoin](/posts/zug-bitcoin-tax-payment-2021/) on how that actually worked when it launched. But the more interesting question, the one that rarely gets answered, is what happens after you file your tax return.
+The headline is real: you can pay your cantonal taxes with [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) in Zug. The headline has been real since 2021 — see the [field note on the year Zug first let you pay taxes in Bitcoin](/posts/zug-bitcoin-tax-payment-2021/) for how that actually worked when it launched. But the more interesting question, the one that rarely gets answered, is what happens after you file your tax return.
 
 Can you buy lunch with Bitcoin? Fill a prescription? Park your car? Pay the grocery bill?
 
@@ -80,13 +80,13 @@ Since February 2021, the [Canton of Zug](https://en.wikipedia.org/wiki/Canton_of
 
 That 1% fee is levied on the conversion at the time of payment. For a CHF 10,000 tax bill, that is CHF 100 in friction. Not prohibitive, but not free.
 
-Since the second half of 2023, the process has been simplified further: you can pay by scanning the QR code directly from the payment slip issued by the tax administration. For anyone who has already been handling crypto for a few years, this is a smooth experience.
+Since the second half of 2023, the process has been simplified further: you can pay by scanning the QR code directly from the payment slip issued by the tax administration. For anyone already handling crypto, the flow is the same QR-code scan used for ordinary Swiss bill payments.
 
 For context on how significant this was when it launched: by May 2023 — two years in — around 150 crypto tax transactions had been processed, with a total volume of just under CHF 2 million. That is an average transaction size of about CHF 13,000 — which tells you something about who is actually using it. It is not the casual holder paying a few hundred francs in income tax. It is the person with a meaningful crypto position using the system as a genuine wealth-tax or business-tax payment mechanism.
 
 <div class="data-callout">
-<p class="callout-label">Field observation — September 2025</p>
-<p>The tax payment system is real, well-documented, and genuinely functional. But roughly 150 transactions in the system's first two years, in a canton of 130,000+ people, is a signal about the actual usage ceiling, not just the headline possibility. Most Zug residents with crypto still pay their taxes in CHF.</p>
+<p class="callout-label">What the usage numbers say</p>
+<p>The tax payment system is real, well-documented, and genuinely functional. But roughly 150 transactions in the system's first two years, in a canton of 130,000+ people, is a signal about the actual usage ceiling, not just the headline possibility. The numbers imply that most Zug residents with crypto still pay their taxes in CHF.</p>
 </div>
 
 ## Spar: The First Mainstream Retail Moment
@@ -97,7 +97,7 @@ The mechanism is straightforward: a QR code at the till, an LNURL-based payment 
 
 {{< num-highlight value="<$0.05" label="typical Lightning Network transaction fee for in-store payments" >}}
 
-This matters because it moves the conversation from "novelty corporate PR" into something with functional economics. Lightning payments at retail are genuinely faster than chip-and-PIN for transactions above a certain value, and the fee structure works.
+This matters because it moves the conversation from "novelty corporate PR" into something with functional economics: settlement in seconds, and a fee structure that works at grocery-basket sizes.
 
 It started as a single Spar location, and it did not stay that way. A second store in Kreuzlingen followed within weeks, and by August 2025 Spar Switzerland had crypto payments live in over 100 stores — this time through Binance Pay and DFX.swiss rather than a plain Lightning wallet — with a stated target of 300. That makes it the first nationwide retail crypto rollout in Switzerland.
 
@@ -107,7 +107,7 @@ Beyond Spar, Switzerland has a real but patchy merchant network for crypto. BTCm
 
 In Zug specifically, the categories that show up most reliably:
 
-**Restaurants and cafés** — a subset of independent restaurants and specialty cafés in the Zug old town have been accepting Bitcoin for several years, mostly through Bitcoin Suisse Pay or Swiss Bitcoin Pay terminals. Coverage is not comprehensive; it is specific businesses that made an active choice to add the option.
+**Restaurants and cafés** — a subset of independent restaurants and specialty cafés appear on [BTC Map](https://btcmap.org/), typically through Bitcoin Suisse Pay or Swiss Bitcoin Pay terminals. Coverage is not comprehensive; it is specific businesses that made an active choice to add the option, so check the map (and ask at the till) before you count on it.
 
 **Professional services** — some law firms, financial advisors, and consulting businesses in the Zug crypto ecosystem accept crypto as payment, especially for work related to crypto structuring. This is the category where you are most likely to encounter it as a genuinely normal payment option.
 
@@ -122,7 +122,7 @@ In Zug specifically, the categories that show up most reliably:
 |---|---|---|---|
 | Tax payments (cantonal) | ✅ BTC + ETH, up to CHF 1.5M | ✅ QR code on bill | Low (1% fee) |
 | Grocery retail (Spar; 100+ stores Switzerland-wide, Zug among them) | ✅ BTC and 100+ other assets | ✅ LNURL / Binance Pay QR | Low |
-| Independent restaurants / cafés | ⚠️ Some (~20-40 in canton) | ⚠️ Varies by terminal | Medium |
+| Independent restaurants / cafés | ⚠️ Some (check BTC Map) | ⚠️ Varies by terminal | Medium |
 | Professional services | ⚠️ Crypto-native firms | Often on-chain | Low–medium |
 | Major supermarkets (Migros, Coop) | ❌ | ❌ | N/A |
 | Pharmacies / medical | ❌ | ❌ | N/A |
@@ -143,7 +143,7 @@ Knowing where crypto payments work is useful. Knowing where they do not — and 
 **You need a Lightning wallet, not just a hardware wallet.** For the payments that do work — Spar, many restaurants — the expectation is a mobile Lightning wallet, not a Ledger. This means keeping a small balance on a hot wallet, which introduces custody considerations that some longer-term holders prefer to avoid. It is not a dealbreaker, but it is an extra step.
 
 <div class="data-callout">
-<p class="callout-label">Practical gap — September 2025</p>
+<p class="callout-label">Practical gap</p>
 <p>The daily crypto payment scenario in Zug that actually functions looks like this: use Lightning at Spar for groceries, pay your tax bill via QR code once a year, and use crypto at specific restaurants when you know they accept it. Everything else — pharmacy, Migros run, SBB train ticket, parking meter — still requires CHF or a card.</p>
 </div>
 
@@ -151,7 +151,7 @@ Knowing where crypto payments work is useful. Knowing where they do not — and 
 
 The [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) label refers primarily to the concentration of blockchain companies, [FINMA](https://www.finma.ch/en/)-regulated entities, and crypto-native professional services in the region — not to the retail payment landscape. Those are two different ecosystems.
 
-The institutional density is real: at the end of 2025, 715 blockchain companies were registered in canton Zug, out of 1,766 across Switzerland and Liechtenstein. The consequence for daily life is that you will encounter crypto as a topic in professional conversations at a dramatically higher rate than anywhere else. Baristas who understand what a [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) protocol does. Restaurant owners who have opinions about [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm). That cultural density is part of what makes Zug distinct.
+The institutional density is real: at the end of 2025, 715 blockchain companies were registered in canton Zug, out of 1,766 across Switzerland and Liechtenstein. The consequence for daily life is that, if you work in Zug, topics like [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) or [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) are far more likely to come up in professional conversations than in most cities. That density is part of what makes Zug distinct.
 
 But "the density of crypto knowledge" and "the density of merchant crypto acceptance" are not the same curve. The former is high. The latter is growing from a low base.
 
@@ -159,7 +159,7 @@ The direction of travel is consistent with where Spar's Lightning integration po
 
 ## The Internal Link This Article Owes You
 
-If you are thinking about crypto in Zug as a holding and management question rather than a payment question, the [Swiss crypto tax overview](/posts/swiss-crypto-tax-advantage-guide/) covers the capital gains and [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) framework that shapes how most residents here actually think about their positions. And if you are curious about what the institutional banking layer looks like — the FINMA-licensed banks that actually custody significant crypto — the [crypto-friendly bank account field note](/posts/crypto-friendly-bank-account-switzerland/) goes through that in detail.
+If you are thinking about crypto in Zug as a holding and management question rather than a payment question, the [Swiss crypto tax overview](/posts/swiss-crypto-tax-advantage-guide/) covers the capital gains and [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) framework that shapes how Swiss residents holding crypto actually think about their positions. And if you are curious about what the institutional banking layer looks like — the FINMA-licensed banks that actually custody significant crypto — the [crypto-friendly bank account field note](/posts/crypto-friendly-bank-account-switzerland/) goes through that in detail.
 
 The payment question and the custody question are related but separate. Knowing where you can spend crypto at a restaurant is useful context. Knowing where you can hold CHF 500,000 in BTC under Swiss banking law is a different conversation.
 
@@ -175,4 +175,4 @@ The gap between "Crypto Capital" and "city where you can run your daily errands 
 
 ---
 
-*Field note from Zug. Not financial advice — payment availability changes, and individual merchant policies vary. Check before you assume.*
+*Field note. Not financial advice — payment availability changes, and individual merchant policies vary. Check before you assume.*

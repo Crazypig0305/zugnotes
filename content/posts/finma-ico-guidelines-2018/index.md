@@ -1,7 +1,7 @@
 ---
 title: "FINMA's ICO Guidelines in 2018: What They Revealed About Switzerland's Regulatory Philosophy"
 date: 2018-02-18
-lastmod: 2026-05-04
+lastmod: 2026-10-13
 description: "On February 16, 2018, FINMA published six pages that changed the global conversation on crypto regulation. A field note on the three-token classification framework, why FINMA chose taxonomy over prohibition, and why this document still matters in 2026."
 categories: ["regulation"]
 tags: ["FINMA ICO guidelines 2018", "swiss crypto 2018", "token classification", "crypto regulation switzerland", "payment utility asset tokens"]
@@ -39,12 +39,12 @@ sources:
     desc: "startupticker.ch — Swiss startup ecosystem coverage of the February 2018 announcement"
 ---
 
-> 📅 Field note from: February 2018 | Last updated: May 2026
-> Originally written days after [FINMA](https://www.finma.ch/en/) published the [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) Guidelines from inside Zug; updated with eight years of regulatory follow-on observations in May 2026.
+> 📅 Last updated: October 2026
+> A plain reading of the [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) Guidelines [FINMA](https://www.finma.ch/en/) published in February 2018, with the regulatory follow-on through 2026.
 
 February 16, 2018 was not a day that produced a press conference or a major announcement event. FINMA published its ICO guidelines on a Friday, in German and English, six pages long. They went up on the FINMA website with the usual restrained formatting of Swiss regulatory communications.
 
-In the Zug ecosystem at the time, the reaction was not triumph or panic. It was something closer to relief mixed with the immediate realization that a lot of lawyers would be needed in the coming weeks.
+For Zug's ICO projects, the practical consequence was immediate: a lot of token structures would need a lawyer's second look in the weeks that followed.
 
 ## The Document That Arrived When Everyone Was Already Watching
 
@@ -90,17 +90,15 @@ The case-by-case commitment embedded in the guidelines — FINMA was explicit th
 The case-by-case language was sometimes interpreted by commentators outside Switzerland as evidence that the guidelines lacked teeth — that FINMA had provided categories without enforcement clarity. The interpretation misread how Swiss financial supervision operates. FINMA's model is supervisory engagement rather than preemptive rule-setting: publish a framework, remain accessible for inquiries, and apply enforcement to clear violations. The February 2018 guidelines received 155 detailed regulatory queries by year's end. FINMA investigated 60 ICOs in 2018. More than ten were found to violate AML rules; enforcement proceedings were started against eight. The case-by-case commitment was functional, not evasive.
 {{< /skip-box >}}
 
-<!-- IG-firsthand: How the guidelines actually landed inside Zug's professional community — the firms handling ICO work had informal advance signals through their regulatory relationships, so the document confirmed their existing advice rather than redirecting it, while mid-ICO projects funding unbuilt platforms had to re-examine their token's functional classification; a differentiated reaction the international coverage flattened into "Switzerland publishes rules" -->
+<!-- IG-angle: Reading the guidelines by who they helped rather than by what they said — projects with a working product at issuance got a clean utility-token answer, while mid-ICO projects funding unbuilt platforms fell into the asset-token zone; derived from the document's own utility-token condition, not from reactions inside Zug's professional community, which is not claimed -->
 
-## What the Reaction in Zug Actually Looked Like
+## Who the Guidelines Actually Helped
 
-The reaction in Zug's professional community in the days after February 16 was more differentiated than the international coverage suggested.
+The international coverage flattened the document into "Switzerland publishes rules." Read clause by clause, its effect on Zug's projects was more differentiated than that.
 
-The law firms had been expecting something. MME, Lenz & Staehelin, Pestalozzi — the firms that had been handling ICO-related work through the previous year — had sufficient informal advance signals from their regulatory relationships that the guidelines were coming and would include a classification framework. The document clarified their existing advice more than it redirected it.
+For projects already in mid-ICO or recently completed, the picture depended on one question. Projects that had structured their tokens carefully as utility access rights with a working product faced relatively clean outcomes: the guidelines confirmed their existing structure. Projects that had raised funds for platforms under development found themselves in the zone the guidelines had specifically flagged — and needed to re-examine whether their tokens, on a functional analysis, looked more like asset tokens than utility tokens.
 
-For projects already in mid-ICO or recently completed, the picture was more complicated. Projects that had structured their tokens carefully as utility access rights with a working product faced relatively clean outcomes: the guidelines confirmed their existing structure. Projects that had raised funds for platforms under development found themselves in the zone the guidelines had specifically flagged — and needed to re-examine whether their tokens, on a functional analysis, looked more like asset tokens than utility tokens.
-
-The phrase that circulated in the professional community at the time was not about what the guidelines said — it was about who they helped. The answer, broadly, was: projects that were building something real. Which was, in retrospect, exactly what FINMA had intended.
+So the real test the guidelines set was not about what the document said — it was about who it helped. The answer, broadly, was: projects that were building something real. Which, on the text, is exactly what FINMA had set out to do. If you hold a token from that era, the same question still works: did the thing it gives access to exist on the day it was issued?
 
 ## The Six Pages That Became a Template
 
@@ -120,7 +118,7 @@ FINMA's 2026 crypto custody guidance — the [FINMA Crypto Guidance 01/2026 fiel
 
 {{< num-highlight value="2018 → 2026" label="Years FINMA's functional analysis framework has operated" note="Payment / utility / asset classification from February 2018 became the basis for the 2019 banking licences, the 2021 DLT Act, and FINMA's 2026 crypto custody guidance. Eight years without a fundamental revision to the underlying analytical logic." >}}
 
-## What Regulatory Philosophy Looks Like From the Inside
+## What the Guidelines Say About Swiss Regulatory Philosophy
 
 The question the February 2018 guidelines answered — implicitly, through their choices — was about the character of Swiss financial market regulation.
 
@@ -128,10 +126,10 @@ FINMA had options in early 2018 that it did not take. It could have declared ICO
 
 What FINMA actually did was publish a functional framework, commit to ongoing supervisory engagement, and decline to presume violation. The guidelines explicitly stated that FINMA aimed to "remove all unnecessary obstacles to innovative business models while ensuring transparency and legal clarity."
 
-From inside Zug in February 2018, after a year of ICO boom followed by a market collapse in January and the ongoing [Tezos](https://en.wikipedia.org/wiki/Tezos) governance crisis, that statement did not read as marketing language. It read as a description of an institution that had watched a significant financial innovation arrive in its jurisdiction, had spent a year engaging with it seriously, and had concluded that a functional framework applied with supervisory judgment was more durable than either prohibition or blanket permissiveness.
+Read against February 2018 — after a year of ICO boom, a market collapse in January and the ongoing [Tezos](https://en.wikipedia.org/wiki/Tezos) governance crisis — that statement does not read as marketing language. It reads as a description of an institution that had watched a significant financial innovation arrive in its jurisdiction, had spent a year engaging with it seriously, and had concluded that a functional framework applied with supervisory judgment was more durable than either prohibition or blanket permissiveness.
 
 Whether that judgment was correct — whether the functional approach held up through the 2019 banking licenses, the 2021 DLT Act, the 2022 [FTX](https://en.wikipedia.org/wiki/FTX_(company)) crisis, and the 2026 custody guidance — is the story the subsequent field notes cover. The starting point was six pages on a February Friday in 2018.
 
 ---
 
-*Related field notes: [The ICO Boom Seen From Zug: What 2017-2018 Was Actually Like Here](/posts/ico-boom-zug-2017-2018/) — the ecosystem context the guidelines were responding to. [When FINMA Gave Crypto Its First Banking Licenses: A 2019 Field Report](/posts/finma-crypto-license-2019/) — the next step in the regulatory architecture the 2018 guidelines established. [The DLT Act Explained Without a Law Degree](/posts/dlt-act-switzerland-explained/) — how the 2021 legislation built on the token classification framework.*
+*Related field notes: [The ICO Boom in Zug: What 2017-2018 Actually Looked Like](/posts/ico-boom-zug-2017-2018/) — the ecosystem context the guidelines were responding to. [When FINMA Gave Crypto Its First Banking Licenses in 2019](/posts/finma-crypto-license-2019/) — the next step in the regulatory architecture the 2018 guidelines established. [The DLT Act Explained Without a Law Degree](/posts/dlt-act-switzerland-explained/) — how the 2021 legislation built on the token classification framework.*
