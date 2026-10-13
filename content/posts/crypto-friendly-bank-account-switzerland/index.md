@@ -1,7 +1,7 @@
 ---
 title: "What Getting a Crypto-Friendly Bank Account in Switzerland Actually Takes"
 date: 2023-06-12
-lastmod: 2026-10-13T05:59:00+08:00
+lastmod: 2026-10-13T13:51:00+08:00
 description: "Switzerland now has two very different kinds of crypto-friendly bank: high-threshold crypto-native institutions (AMINA, Sygnum, Bank Frick) and a fast-growing mainstream tier (Swissquote, Yuh, PostFinance, UBS) any resident can open. A plain-language field note on which one you actually need, the real thresholds, and the KYC depth behind each."
 categories: ["holding"]
 tags: ["swiss crypto bank", "SEBA bank", "Sygnum bank", "AMINA bank", "FINMA banking license", "KYC", "source of funds", "crypto custody switzerland"]
@@ -64,7 +64,7 @@ sources:
     desc: "crowdfundinsider.com — Sygnum Select went live 26 February 2026 as a discretionary mandate for digital asset treasuries"
   - name: "The Poor Swiss — Yuh Review 2026"
     url: "https://thepoorswiss.com/yuh-review/"
-    desc: "thepoorswiss.com — independent review of the Yuh app (PostFinance x Swissquote), crypto coverage and user base, 2026"
+    desc: "thepoorswiss.com — independent review of the Yuh app (Swissquote), crypto coverage and user base, 2026"
   - name: "KuCoin — UBS Enters the Crypto Market; 20 Swiss Banks, 2.5M Accounts"
     url: "https://www.kucoin.com/news/flash/ubs-enters-crypto-market-20-swiss-banks-offer-services-to-2-5m-accounts"
     desc: "kucoin.com — Jan 2026 summary of UBS's reported crypto plans and the wider Swiss bank crypto landscape"
@@ -74,6 +74,15 @@ sources:
   - name: "CoinDesk — Swiss Crypto Bank AMINA Secures MiCA License in Austria"
     url: "https://www.coindesk.com/policy/2025/11/03/swiss-crypto-bank-amina-secures-mica-license-in-austria"
     desc: "coindesk.com — Nov 2025 report on AMINA's Austrian MiCA (CASP) authorisation and its professional-investor scope"
+  - name: "PostFinance — PostFinance sells its Yuh stake to Swissquote"
+    url: "https://www.postfinance.ch/en/about-us/media/newsroom/postfinance-yuh-swissquote.html"
+    desc: "postfinance.ch — 7 July 2025 press release: PostFinance sold its 50% stake in the Yuh joint venture to Swissquote"
+  - name: "Swissquote — Crypto staking"
+    url: "https://www.swissquote.com/en-ch/private/trade/products/cryptocurrencies/staking"
+    desc: "swissquote.com — staking for ETH, DOT, SOL and ADA from the Swiss platform, 20% of rewards as fee"
+  - name: "PostFinance — Staking rewards for cryptocurrencies"
+    url: "https://www.postfinance.ch/en/private/investing/investments/crypto-trading/stake-and-receive-rewards.html"
+    desc: "postfinance.ch — Ethereum staking for PostFinance crypto clients"
   - name: "AMINA — First crypto banking group to receive a MiCA licence through its Austrian subsidiary"
     url: "https://aminagroup.com/press/amina-becomes-the-first-crypto-banking-group-to-receive-a-mica-license-through-its-austrian-subsidiary/"
     desc: "aminagroup.com — 3 November 2025 press release: AMINA (Austria) AG received its CASP licence from Austria's FMA in October 2025; services for professional investors"
@@ -121,7 +130,7 @@ If you hold a mid-five-figure amount of crypto and just want a regulated Swiss b
 
 **[Swissquote](https://www.swissquote.com/)** — the practical default for most individuals. FINMA-regulated, listed on the Swiss stock exchange, and the first Swiss bank to offer Bitcoin trading, back in 2017. It now supports more than 50 cryptocurrencies as real holdings — actual coins in segregated custody under Swiss banking law, not derivatives — and the minimum deposit for Swiss residents is CHF 1,000. Crypto is a real but cyclical part of its business: [net crypto asset income was CHF 85.7 million in 2025](https://www.swissquote.com/en/group/annual-report/2025/main-chapters/shareholders), roughly 12% of the group's CHF 724.2 million operating income — and then [fell 66% year-on-year in the first half of 2026, to CHF 14.6 million](https://financefeeds.com/swissquote-cuts-2026-guidance-as-crypto-revenue-falls-66-despite-record-chf-96-3-billion-in-client-assets/), enough for the group to cut its 2026 guidance.
 
-**Yuh** — the mobile-first option. A joint venture between [PostFinance](https://www.postfinance.ch/) and Swissquote, the Yuh app bundles payments, saving, investing, and access to around 34 cryptocurrencies in one place. It reached roughly 340,000 customers in about four years, which tells you how much appetite there is for crypto access that does not involve a private-banking onboarding.
+**Yuh** — the mobile-first option. Launched in 2021 as a joint venture between [PostFinance](https://www.postfinance.ch/) and Swissquote — and wholly owned by Swissquote since PostFinance [sold its 50% stake in July 2025](https://www.postfinance.ch/en/about-us/media/newsroom/postfinance-yuh-swissquote.html) — the Yuh app bundles payments, saving, investing, and access to around 34 cryptocurrencies in one place. It reached roughly 340,000 customers in about four years, which tells you how much appetite there is for crypto access that does not involve a private-banking onboarding.
 
 **PostFinance and the cantonal banks** — the incumbents. PostFinance, a systemically important state-owned bank, launched crypto trading in 2024 (routed through Swissquote infrastructure) and opened tens of thousands of crypto custody accounts in its first year. Several cantonal banks — Zürcher Kantonalbank, plus Luzerner, St.Galler, and Zuger Kantonalbank — now offer Bitcoin and Ethereum trading, typically powered behind the scenes by Sygnum's or AMINA's custody rails. For an existing customer, crypto is often just a new tab in the same banking app.
 
@@ -133,13 +142,13 @@ If you hold a mid-five-figure amount of crypto and just want a regulated Swiss b
 | Bank | Type | Entry point | Crypto range | Best for |
 |---|---|---|---|---|
 | Swissquote | Listed FINMA bank | CHF 1,000 min. deposit | 50+ coins | Individuals wanting a full trading account |
-| Yuh | App (PostFinance x Swissquote JV) | Standard app signup | ~34 coins | Mobile-first, small balances |
+| Yuh | App (Swissquote-owned, ex-PostFinance JV) | Standard app signup | ~34 coins | Mobile-first, small balances |
 | PostFinance | State-owned bank | Existing account | BTC/ETH+ via Swissquote | Existing customers wanting one tab |
 | Cantonal banks (ZKB, Luzerner, St.Galler, Zuger) | Cantonal banks | Existing account | BTC/ETH (Sygnum/AMINA rails) | Residents already banking cantonally |
 | UBS | Global wealth bank | Private-banking client | BTC/ETH (reported, selected clients) | Existing UBS wealth clients |
 {{< /budget-table >}}
 
-The trade-off with this tier is depth: you generally get trading and custody, not staking, lending, tokenization, or bespoke institutional structuring. For most individuals, that is exactly enough. The crypto-native banks below exist for the cases where it is not.
+The trade-off with this tier is depth: you generally get trading and custody — plus staking on a handful of major coins at Swissquote and PostFinance — but not lending, tokenization, or bespoke institutional structuring. For most individuals, that is exactly enough. The crypto-native banks below exist for the cases where it is not.
 
 ## The Crypto-Native Tier: Banks Built Around Digital Assets
 
@@ -220,7 +229,7 @@ Sygnum's stated client base is about 2,300 clients across 80-plus countries. Mos
 This is not a criticism of either bank. They have a business model, regulatory obligations, and compliance costs that shape who they can profitably serve. It is, however, relevant information for anyone who reads "we accept individual clients" and assumes the door is equally open.
 
 {{< skip-box title="Who Swiss crypto-native banks are realistically designed for" >}}
-The client profile that moves through Swiss crypto-native bank onboarding with the least friction looks something like this: CHF 100,000+ in assets (crypto plus fiat), multi-year documented transaction history across regulated exchanges, no exposure to mixers or anonymity tools, tax-compliant in home jurisdiction, and either professionally active in financial markets or otherwise familiar with the documentation burden. Individuals who do not fit that profile are not necessarily excluded — but they will find the process longer, the questions harder, and the outcome less certain.
+The client profile that moves through Swiss crypto-native bank onboarding with the least friction looks something like this: CHF 100,000+ in assets (crypto plus fiat), multi-year documented transaction history across regulated exchanges, no exposure to mixers or anonymity tools, tax-compliant in home jurisdiction, and either professionally active in financial markets or otherwise familiar with the documentation burden. Individuals who do not fit that profile are not necessarily excluded, but onboarding takes longer, asks for more, and does not always end in approval. If that is you, a practical order is to open crypto access in the mainstream tier first — Swissquote or Yuh, or check whether your cantonal bank offers a crypto tab — and build a documented history there, then approach a crypto-native bank once your holdings reach the six-figure range these banks are built around, or sooner if you need services the mainstream tier does not offer, such as crypto-backed lending or institutional structuring. Either way, prepare the three KYC layers above as one pack: ID and proof of address, 12+ months of exchange exports with the bank transfers that funded them, and confirmation that your holdings are declared.
 {{< /skip-box >}}
 
 ## Timeline: How Long Does It Actually Take?
@@ -257,7 +266,7 @@ A few things worth thinking through before starting the process:
 
 **Understand your tax position.** Not because these banks will refuse clients who owe tax, but because a client who cannot clearly explain their tax situation raises more questions during KYC than one who can. A letter from a tax advisor in your jurisdiction confirming you have reported your holdings is useful collateral in the application process.
 
-**Be realistic about your asset level.** If you are holding CHF 20,000 in [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), Swiss crypto-native banks are probably not the right fit for the current moment. The economics of maintaining a relationship with these institutions make more sense at higher thresholds.
+**Match the bank to your asset level.** If you are holding CHF 20,000 in [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), the mainstream tier at the top of this note is the place to start. The box above on who crypto-native banks are designed for sets out when moving up makes sense, and the document preparation here pays off at either tier.
 
 ## Where the Ecosystem Is Going
 
@@ -271,7 +280,7 @@ For a direct link to the FINMA banking licence history that put AMINA and Sygnum
 
 Swiss crypto-native banks — AMINA, Sygnum, Bank Frick — are real, well-regulated, and genuinely useful for the right client. The right client is generally not a retail investor with a few years of exchange history and mid-five-figure holdings. For them the floor is higher than the marketing copy suggests, the KYC process is more intensive than most people expect, and the timeline is longer than anyone wants it to be.
 
-But that is only half the picture in 2026, and it is the half most articles stop at. If you are a normal holder who just wants a regulated Swiss home for your crypto, you are not shut out — you are looking at the wrong tier. Open a Swissquote account, use Yuh, or check whether your existing bank now has a crypto tab. The crypto-native banks are for the cases those cannot serve: large balances, staking and lending, tokenization, institutional structuring.
+But that is only half the picture in 2026, and it is the half most articles stop at. If you are a normal holder who just wants a regulated Swiss home for your crypto, you are not shut out — you are looking at the wrong tier. Open a Swissquote account, use Yuh, or check whether your existing bank now has a crypto tab. The crypto-native banks are for the cases those cannot serve: large balances, lending, tokenization, institutional structuring.
 
 None of this is a failure of the Swiss system. It is the system maturing — a mass-market tier for everyday holders and a crypto-native tier for institutions, both operating within a banking framework that takes its AML obligations seriously. Work out which tier your situation actually calls for, and the path forward is far clearer than "can I even get a Swiss crypto bank account?" makes it sound.
 
