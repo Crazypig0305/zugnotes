@@ -1,7 +1,7 @@
 ---
 title: "What Crypto Valley Actually Looks Like in 2026: 1,766 Companies and One Very Expensive Lake"
 date: 2026-04-15
-lastmod: 2026-10-13
+lastmod: 2026-10-23
 description: "The CV VC report counts 1,766 blockchain companies. Switzerland captured 47% of European crypto VC in 2025. But what does Crypto Valley actually look like in 2026? A field note on the numbers, the geography, and the gap between the brochure and the place."
 categories: ["ecosystem"]
 tags: ["crypto valley", "zug", "web3 switzerland", "CV VC", "CVA", "2026 snapshot"]
@@ -102,6 +102,8 @@ The $400M TON deal is an outlier that inflates the average. Strip it out, and 30
 
 Switzerland's 47% share of European blockchain venture funding is the statistic that has attracted the most external commentary in 2026. The framing — "Switzerland dominates European crypto VC" — is accurate but slightly misleading. What it reflects is not that Switzerland has become more attractive relative to its historical position. It is that London post-Brexit, Berlin in economic contraction, and Paris facing regulatory ambiguity have all become less reliable as crypto capital destinations. Switzerland's share is partly absolute growth, partly relative to competitors weakening.
 
+{{< num-highlight value="47%" label="Europe's blockchain VC captured by Switzerland in 2025" note="Of all European blockchain venture capital. Switzerland's share has grown consistently since 2020." >}}
+
 <!-- IG-angle: The registration-vs-presence distinction the ecosystem reports structurally cannot make — CV VC counts registered entities, and registration says nothing about how many of the 1,766 are a Zug address attached to a team in Berlin or Singapore; the headline company count and the number of people actually working in Zug are different variables, and no public source measures the second -->
 
 ## What "Crypto Valley" Looks Like Beyond the Report
@@ -157,8 +159,6 @@ The Crypto Valley Conference 2026 ran on 28 May in Rotkreuz — close enough to 
 The programme's own framing was instructive. Its five published focus areas were on-chain markets, cybersecurity and privacy, blockchain's foundational technology layer, crypto regulation and compliance, and the race with AI and quantum technologies — infrastructure and compliance, not protocol launches or NFT cycles. The public-sector names on the speaker list point the same way: the deputy head of [MROS](https://www.fedpol.admin.ch/en/money-laundering), Switzerland's money-laundering reporting office, sat on a cross-border crypto compliance roundtable, and Heinz Tännler, Zug's cantonal finance director, gave a keynote.
 
 That line-up is not incidental. It reflects a maturation in the relationship between Swiss public authorities and the blockchain layer. FINMA's [January 2026 custody guidance](/posts/finma-crypto-guidance-01-2026/) is part of the same arc — the regulatory perimeter is being drawn more precisely, not because the regulator is becoming more hostile, but because the industry is large enough to require it.
-
-{{< num-highlight value="47%" label="Europe's blockchain VC captured by Switzerland in 2025" note="Of all European blockchain venture capital. Switzerland's share has grown consistently since 2020." >}}
 
 The conference's boat cruise closing on Lake Zug is a detail that gets included in every description of the event and is usually treated as color. The official schedule treats it as more than that: the organisers list the sunset cruise as a signature CVC tradition, running from 18:30 to 21:00, and it is the evening slot with no talks attached. The formal programme is where the ideas get presented; the cruise is the time the schedule leaves for conversation. Zug's geography — the lake, the compact old town, the easy train connections — is not incidental to how the ecosystem functions. It is infrastructure of a different kind.
 
