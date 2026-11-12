@@ -25,6 +25,11 @@
           {{ if not .Date.IsZero }}
           <span class="byline-sep">&mdash;</span>
           <span>{{ .Date.Format "January 2, 2006" }}</span>
+          {{/* Updated date = front matter lastmod (same value as JSON-LD dateModified), shown only when later than date */}}
+          {{ if and (not .Lastmod.IsZero) (gt (.Lastmod.Format "20060102") (.Date.Format "20060102")) }}
+          <span class="byline-sep">&mdash;</span>
+          <span class="byline-updated">Updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "January 2, 2006" }}</time></span>
+          {{ end }}
           {{ end }}
           {{ with .Params.readtime }}
           <span class="byline-sep">&mdash;</span>

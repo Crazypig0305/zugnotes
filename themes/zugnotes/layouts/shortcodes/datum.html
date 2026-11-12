@@ -1,0 +1,11 @@
+{{- /* datum — one figure lifted from a primary source, set like a margin figure in a field notebook.
+     Figure on the left in Newsreader old-style numerals; what it measures (label) and where it
+     comes from / the caveat (note) on the right; label and note accept inline markdown (links). Consecutive datums read as one run of figures.
+     Usage: {{< datum value="88%" label="what the number counts" note="source or caveat" unit="optional" >}} */ -}}
+{{- $value := .Get "value" -}}
+{{- $unit := .Get "unit" -}}
+{{- $label := .Get "label" -}}
+{{- $note := .Get "note" -}}
+{{- /* a value written in words (e.g. "Market Value in CHF on Date of Receipt") is set smaller so it does not tower over the gloss */ -}}
+{{- $words := gt (len $value) 14 -}}
+<aside class="zn-datum{{ if $words }} zn-datum-words{{ end }}" aria-label="Key figure"><p class="zn-datum-fig">{{ $value }}{{ with $unit }} <span class="zn-datum-unit">{{ . }}</span>{{ end }}</p><div class="zn-datum-gloss">{{ with $label }}<p class="zn-datum-what">{{ . | $.Page.RenderString }}</p>{{ end }}{{ with $note }}<p class="zn-datum-from">{{ . | $.Page.RenderString }}</p>{{ end }}</div></aside>

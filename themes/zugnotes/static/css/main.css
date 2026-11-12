@@ -510,6 +510,10 @@ time, .mono {
 .byline-sep {
   color: var(--rule);
 }
+/* Updated date sits in the byline log line; ink so a returning reader can spot it */
+.byline-updated {
+  color: var(--ink);
+}
 
 /* Article hero / cover image */
 .article-cover {
@@ -810,6 +814,163 @@ time, .mono {
 }
 .budget-table-inner tr:last-child td { border-bottom: none; }
 
+/* datum — a source figure set as a margin figure: old-style numeral left,
+   gloss (what it counts / where it is from) right. No box, no tint, no green. */
+.zn-datum {
+  display: grid;
+  grid-template-columns: fit-content(16rem) minmax(0, 1fr);
+  column-gap: 1.6rem;
+  align-items: baseline;
+  margin: 2.2rem 0;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--ink);
+}
+.zn-datum + .zn-datum {
+  margin-top: -1.2rem;
+  border-top: 1px dotted var(--faint);
+}
+.article-body .zn-datum-fig {
+  font-family: var(--font-serif);
+  font-size: 2.75rem;
+  font-weight: 500;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-optical-sizing: auto;
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+  color: var(--ink);
+  margin: 0;
+  min-width: 7.5rem;
+  overflow-wrap: anywhere;
+}
+.article-body .zn-datum-words .zn-datum-fig {
+  font-size: 1.55rem;
+  font-weight: 600;
+  line-height: 1.2;
+  max-width: 16rem;
+}
+.zn-datum-unit {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.article-body .zn-datum-what {
+  font-size: 1.12rem;
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--ink);
+  margin: 0;
+}
+.article-body .zn-datum-from {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0.45rem 0 0;
+  overflow-wrap: anywhere;
+}
+
+/* sidenote — marginalia: hanging mono heading in a left column, serif body,
+   opened by a short ink rule instead of a tinted panel. */
+.zn-sidenote {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  column-gap: 1.6rem;
+  margin: 2.4rem 0;
+  position: relative;
+  padding-top: 1rem;
+}
+.zn-sidenote::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.4rem;
+  border-top: 2px solid var(--ink);
+}
+.article-body .zn-sidenote-head {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 1.55;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0.2rem 0 0;
+}
+.zn-sidenote-text {
+  font-size: 1.02rem;
+  line-height: 1.62;
+  color: var(--muted);
+}
+.article-body .zn-sidenote-text p,
+.article-body .zn-sidenote-text li { font-size: 1.02rem; color: var(--muted); }
+.zn-sidenote-text > :last-child { margin-bottom: 0; }
+.zn-sidenote-text ul { padding-left: 1.1em; }
+.zn-sidenote-text li { margin-bottom: 0.3em; }
+
+/* source-table — booktabs: ink rules above/below, small-caps serif heads,
+   caption above (mono "Table" kicker + serif title + mono scope line). */
+.zn-srctable {
+  margin: 2.4rem 0;
+}
+.zn-srctable-cap {
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+.zn-srctable-kicker {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-right: 0.35rem;
+}
+.zn-srctable-title {
+  font-family: var(--font-serif);
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+.zn-srctable-scope {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+  margin-top: 0.3rem;
+  line-height: 1.55;
+}
+.zn-srctable-scroll { overflow-x: auto; }
+.zn-srctable-scroll table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1.5px solid var(--ink);
+  border-bottom: 1.5px solid var(--ink);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.zn-srctable-scroll th {
+  text-align: left;
+  vertical-align: bottom;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+  padding: 0.55rem 0.8rem 0.4rem 0;
+  border-bottom: 1px solid var(--ink);
+}
+.zn-srctable-scroll td {
+  vertical-align: top;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--ink);
+  padding: 0.5rem 0.8rem 0.5rem 0;
+}
+.zn-srctable-scroll tbody tr + tr td { border-top: 1px solid var(--rule); }
+
 /* ============================================================
    FOOTER
    ============================================================ */
@@ -916,6 +1077,10 @@ time, .mono {
   }
 
   .num-highlight { flex-direction: column; gap: 1.4rem; }
+  .zn-datum { grid-template-columns: minmax(0, 1fr); row-gap: 0.35rem; }
+  .article-body .zn-datum-fig { font-size: 2.35rem; }
+  .article-body .zn-datum-words .zn-datum-fig { font-size: 1.4rem; }
+  .zn-sidenote { grid-template-columns: minmax(0, 1fr); row-gap: 0.5rem; }
 
   .footer-inner { flex-direction: column; align-items: flex-start; }
   .footer-links a { padding: 6px 0; display: inline-block; }

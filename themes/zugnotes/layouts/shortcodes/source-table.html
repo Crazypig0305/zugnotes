@@ -1,0 +1,7 @@
+{{- /* source-table — a comparison table read off a source, set booktabs-style: ink rule above
+     and below, small-caps serif column heads, caption ("Table" + title, then source line) above.
+     Usage: {{< source-table title="What the table compares" sub="Source / scope line" >}}
+            | col | col | ... {{< /source-table >}} */ -}}
+{{- $title := .Get "title" -}}
+{{- $sub := .Get "sub" -}}
+<figure class="zn-srctable">{{ with $title }}<figcaption class="zn-srctable-cap"><span class="zn-srctable-kicker">Table</span> <span class="zn-srctable-title">{{ . }}</span>{{ with $sub }}<span class="zn-srctable-scope">{{ . }}</span>{{ end }}</figcaption>{{ end }}<div class="zn-srctable-scroll">{{ .Inner | markdownify }}</div></figure>

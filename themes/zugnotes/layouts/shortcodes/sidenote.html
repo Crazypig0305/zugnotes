@@ -1,0 +1,6 @@
+{{- /* sidenote — a reader's aside: who can skip a section, what it does not cover, or the
+     exception to the rule just stated. Hanging mono heading in the left margin, body in serif,
+     opened by a short ink rule (Craig Mod-style marginalia, not a tinted box).
+     Usage: {{< sidenote title="Who can skip this" >}} markdown {{< /sidenote >}} */ -}}
+{{- $title := .Get "title" | default "Who can skip this" -}}
+<aside class="zn-sidenote"><p class="zn-sidenote-head">{{ $title }}</p><div class="zn-sidenote-text">{{ .Inner | markdownify }}</div></aside>
