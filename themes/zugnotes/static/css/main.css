@@ -558,8 +558,7 @@ time, .mono {
   margin: 1.8rem 0 0.5rem;
 }
 
-/* Blockquote = hairline left rule, italic, no green fill.
-   (Also styles the in-body freshness note, written as a markdown blockquote.) */
+/* Blockquote = hairline left rule, italic, no green fill. */
 .article-body blockquote {
   border-left: 2px solid var(--rule);
   margin: 1.8rem 0;
@@ -571,16 +570,6 @@ time, .mono {
   margin-bottom: 0;
   font-style: italic;
   line-height: 1.6;
-}
-/* Dated freshness note: date line = mono field-log label, note = italic below.
-   (Split by layouts/_markup/render-blockquote.html.) */
-.article-body blockquote p.dated-note-meta {
-  font-family: var(--font-mono);
-  font-style: normal;
-  font-size: 0.75rem;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  margin-bottom: 0.4rem;
 }
 /* Quote attribution kept on its own line */
 .article-body blockquote p.bq-attrib {
@@ -679,140 +668,6 @@ time, .mono {
 /* ============================================================
    SHORTCODES — realigned to the neutral hairline language
    ============================================================ */
-
-/* num-highlight → mirrors .data-callout (hairline frame, ink serif figure, no green) */
-.num-highlight {
-  display: flex;
-  gap: 2.5rem;
-  margin: 2rem 0;
-  flex-wrap: wrap;
-  border-top: 1px solid var(--rule);
-  border-bottom: 1px solid var(--rule);
-  padding: 1.2rem 0;
-}
-.num-cell {
-  flex: 1;
-  min-width: 140px;
-}
-.num-label {
-  font-family: var(--font-mono);
-  font-size: 0.66rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--faint);
-  margin-bottom: 0.4rem;
-}
-.num-value {
-  font-family: var(--font-serif);
-  font-size: 2.4rem;
-  font-weight: 600;
-  color: var(--ink);
-  line-height: 1;
-}
-.num-unit {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  color: var(--muted);
-  margin-top: 0.3rem;
-}
-.num-note {
-  font-size: 0.95rem;
-  color: var(--muted);
-  margin-top: 0.35rem;
-  line-height: 1.5;
-}
-
-/* skip-box → neutral tint panel, hairline, mono title, ink icon */
-.skip-box {
-  background: var(--tint);
-  border: 1px solid var(--rule);
-  border-radius: 2px;
-  margin: 2rem 0;
-  overflow: hidden;
-}
-.skip-box-header {
-  display: flex;
-  align-items: center;
-  gap: 0.55rem;
-  padding: 0.6rem 1.1rem;
-  border-bottom: 1px solid var(--rule);
-}
-.skip-box-icon {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 500;
-  color: var(--paper);
-  background: var(--ink);
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-.skip-box-title {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  font-weight: 500;
-  color: var(--ink);
-}
-.skip-box-body {
-  padding: 0.9rem 1.1rem;
-  font-size: 1rem;
-  color: var(--muted);
-  line-height: 1.6;
-}
-.skip-box-body ul { padding-left: 1.2em; margin-bottom: 0; }
-.skip-box-body li { margin-bottom: 0.25em; }
-
-/* budget-table → hairline table, mono head label, no green fills */
-.budget-table-wrap {
-  margin: 2rem 0;
-  overflow-x: auto;
-}
-.budget-table-head {
-  display: flex;
-  align-items: baseline;
-  gap: 0.8rem;
-  margin-bottom: 0.7rem;
-}
-.budget-table-head-title {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--faint);
-  font-weight: 400;
-}
-.budget-table-head-sub {
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-.budget-table-inner table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 1rem;
-}
-.budget-table-inner th {
-  text-align: left;
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  font-weight: 500;
-  padding: 0.5rem 0.7rem;
-  border-bottom: 1.5px solid var(--ink);
-  color: var(--ink);
-}
-.budget-table-inner td {
-  padding: 0.5rem 0.7rem;
-  border-bottom: 1px solid var(--rule);
-  color: var(--muted);
-}
-.budget-table-inner tr:last-child td { border-bottom: none; }
 
 /* datum — a source figure set as a margin figure: old-style numeral left,
    gloss (what it counts / where it is from) right. No box, no tint, no green. */
@@ -1076,7 +931,6 @@ time, .mono {
     font-size: 3.2em;
   }
 
-  .num-highlight { flex-direction: column; gap: 1.4rem; }
   .zn-datum { grid-template-columns: minmax(0, 1fr); row-gap: 0.35rem; }
   .article-body .zn-datum-fig { font-size: 2.35rem; }
   .article-body .zn-datum-words .zn-datum-fig { font-size: 1.4rem; }
