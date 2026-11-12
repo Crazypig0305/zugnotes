@@ -43,6 +43,9 @@ sources:
     desc: "irs.gov — official form page; brokers report gross proceeds on digital asset dispositions (transactions on/after Jan 1 2025, first forms in 2026; basis reporting from Jan 1 2026), accessed June 2026"
 ---
 
+> 📅 Last updated: October 2026
+> Card availability, fees, and tax treatment verified against publicly available sources as of June 2026. Card terms and personal tax positions change — confirm directly with each provider and a Swiss tax advisor before deciding.
+
 A crypto card is a Visa or Mastercard linked to your crypto balance: at the till it converts crypto to local currency in real time, so the shop gets CHF while the card draws from your Bitcoin or stablecoins. That part is the same everywhere. What is not the same everywhere is the tax bill that follows.
 
 In the United States and the United Kingdom, every swipe of a crypto card is a taxable disposal — buying a sandwich can generate a capital gain you owe tax on. In Switzerland, a private investor spending the exact same way triggers no taxable event at all.
@@ -61,7 +64,7 @@ Two things matter here. First, almost all of these are *debit* cards — they sp
 
 ## The Cards a Swiss Resident Can Actually Get in 2026
 
-Switzerland is a genuine market for these products, not an afterthought. As of 2026, Swiss residents can order cards from several providers, and at least one of the notable ones is Swiss-built. Card availability, fees, and tax treatment below were verified against publicly available sources as of June 2026. Card terms and personal tax positions change — confirm directly with each provider and a Swiss tax advisor before deciding.
+Switzerland is a genuine market for these products, not an afterthought. As of 2026, Swiss residents can order cards from several providers, and at least one of the notable ones is Swiss-built.
 
 **[SwissBorg](https://swissborg.com/) Card** — a Mastercard from the Lausanne-headquartered company, with its virtual-card rollout reaching Switzerland and the EEA in Q1 2026. It draws from 100+ assets held in the app and converts to your base currency (CHF for Swiss residents) at the point of sale via SwissBorg's Meta-Exchange aggregator. The virtual card is free, there are no annual fees, and cashback is paid in BORG tokens scaled to your loyalty rank. Real-time conversions are still subject to fees — "no annual fee" is not "no cost."
 

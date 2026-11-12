@@ -50,6 +50,9 @@ sources:
     desc: "Zug Notes — field note on FINMA's January 2026 custody rules, relevant to how crypto is held at Swiss institutions"
 ---
 
+> 📅 Last updated: October 2026
+> Swiss tax rules verified against SFTA Circular No. 36 and the FTA rate list for the 2025 tax year. Canton-level [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) figures are 2026 data. Rules can change — treat this as a starting map, not a filing instruction.
+
 The headline travels well: Switzerland does not tax capital gains on crypto.
 
 That part is accurate. A private investor in Switzerland who buys ETH, holds it, and sells it at a profit pays zero tax on that profit. The gain is simply not subject to income tax or a separate capital gains levy. In a world where most developed countries are building increasingly aggressive crypto tax regimes, this is a genuine structural advantage.
@@ -216,7 +219,7 @@ If your employer pays you partly in crypto, the CHF market value of that crypto 
 
 ## What This Means If You Hold Crypto in Switzerland
 
-The Swiss crypto tax framework is, in practice, favorable — but not in the simple way the "zero capital gains tax" headline implies. The rules here are read from SFTA Circular No. 36 and the FTA rate list for the 2025 tax year, and they can change — treat this as a starting map, not a filing instruction.
+The Swiss crypto tax framework is, in practice, favorable — but not in the simple way the "zero capital gains tax" headline implies.
 
 The real advantage is structural: Switzerland taxes crypto on a wealth model rather than a realization model. You pay a modest annual levy on what you hold, and the appreciation of that holding is permanently exempt from tax upon sale. In a long-term appreciation scenario — buying ETH at CHF 500 and eventually selling at CHF 5,000, or whatever the equivalent looks like a decade from now — the total tax drag is the accumulated wealth tax on the intervening years, not a percentage of the gain itself.
 

@@ -50,7 +50,10 @@ sources:
     desc: "fintechnews.ch — May 2026: Sequence becomes the fifth Swiss company to hold the Article 1b fintech license"
 ---
 
-On October 22, 2025, the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) released a draft amendment to the Financial Institutions Act — FinIA — and opened a public consultation. The document proposes two new license categories: the *crypto-institution* (Krypto-Institut) and the *payment instrument institution* (Zahlungsmittelinstitut). The consultation period closed on February 6, 2026. The proposal is the government's, not FINMA's, though FINMA would supervise the resulting licence holders.
+> 📅 Last updated: October 2026
+> Based on the consultation paper the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) published in October 2025 — the proposal is the government's, not [FINMA](https://www.finma.ch/en/)'s, though FINMA would supervise the resulting licence holders. Regulatory status last checked in September 2026: the consultation closed, the substantive industry responses in, and no dispatch to Parliament yet.
+
+On October 22, 2025, the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) released a draft amendment to the Financial Institutions Act — FinIA — and opened a public consultation. The document proposes two new license categories: the *crypto-institution* (Krypto-Institut) and the *payment instrument institution* (Zahlungsmittelinstitut). The consultation period closed on February 6, 2026.
 
 When [FINMA issued its first banking licenses to [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) in 2019](/posts/finma-crypto-license-2019/), Switzerland signaled it was serious about institutional crypto infrastructure. This proposal feels like the next structural layer: not just licensing a handful of elite firms, but building a taxonomy for the entire sector.
 

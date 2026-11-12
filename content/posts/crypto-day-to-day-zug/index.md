@@ -61,6 +61,9 @@ sources:
     desc: "Zug Notes — the CHF stablecoin sandbox field note: what the pilot actually tests, and why TWINT joining matters for Swiss consumer payment rails."
 ---
 
+> 📅 Last updated: October 2026
+> Merchant availability and payment infrastructure taken from publicly available sources, last checked in September 2026. The landscape changes quickly — confirm with individual merchants before making plans around crypto payments.
+
 The headline is real: you can pay your cantonal taxes with [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) in Zug. The headline has been real since 2021 — see the [field note on the year Zug first let you pay taxes in Bitcoin](/posts/zug-bitcoin-tax-payment-2021/) for how that actually worked when it launched. But the more interesting question, the one that rarely gets answered, is what happens after you file your tax return.
 
 Can you buy lunch with Bitcoin? Fill a prescription? Park your car? Pay the grocery bill?
@@ -100,7 +103,7 @@ It started as a single Spar location, and it did not stay that way. A second sto
 
 ## The Broader Merchant Picture: Where You Can Actually Pay
 
-Beyond Spar, Switzerland has a real but patchy merchant network for crypto. BTCmap.org listed over 1,000 businesses accepting Bitcoin across Switzerland as of 2025, concentrated in Zug, Lugano, and Zurich. Merchant availability and payment infrastructure in this note are taken from publicly available sources, last checked in September 2026. The landscape changes quickly — confirm with individual merchants before making plans around crypto payments.
+Beyond Spar, Switzerland has a real but patchy merchant network for crypto. BTCmap.org listed over 1,000 businesses accepting Bitcoin across Switzerland as of 2025, concentrated in Zug, Lugano, and Zurich.
 
 In Zug specifically, the categories that show up most reliably:
 

@@ -115,11 +115,14 @@ sources:
     desc: "easyglobalbanking.com — tiering of Swiss crypto banks (crypto-native / mainstream-with-access / B2B infrastructure), 2026"
 ---
 
+> 📅 Last updated: October 2026
+> Figures and bank status verified against publicly available sources as of September 2026; the EU-licence status of AMINA, Bank Frick and Sygnum re-checked against regulator and company sources in October 2026. Bank policies and thresholds change — confirm directly with each institution before making decisions.
+
 The pitch sounds clean: Switzerland has [FINMA](https://www.finma.ch/en/)-licensed banks that actually understand crypto. You can hold BTC and CHF in the same place, have your assets genuinely segregated under Swiss law — a protection [FINMA reinforced in its January 2026 custody guidance](https://www.finma.ch/en/news/2026/01/20260112-mm-am-01-26/) — and not worry that your bank will freeze your account the moment it sees an on-chain transfer.
 
 That pitch is true. But there is a fork in the road most coverage skips: "crypto-friendly bank in Switzerland" now means two completely different things. One is the handful of high-threshold, crypto-native banks — AMINA, Sygnum, Bank Frick — built for six-figure-plus relationships. The other is a fast-growing mainstream tier — Swissquote, Yuh, PostFinance and the cantonal banks — that any Swiss resident can open with a four-figure balance, with [UBS](https://www.ubs.com/) reported to be preparing a version of the same thing for selected private-banking clients. As of 2026, roughly 20 Swiss banks offer regulated crypto services across about 2.5 million accounts, the most of any country. Most people searching for a "crypto-friendly Swiss bank account" actually want that second tier.
 
-This field note covers both — starting with the mainstream tier most readers can actually use, then the crypto-native institutions, the thresholds, the KYC depth, and the honest list of who each is really designed to serve. Figures and bank status are verified against publicly available sources as of September 2026; the EU-licence status of AMINA, Bank Frick and Sygnum was re-checked against regulator and company sources in October 2026. Bank policies and thresholds change — confirm directly with each institution before making decisions.
+This field note covers both — starting with the mainstream tier most readers can actually use, then the crypto-native institutions, the thresholds, the KYC depth, and the honest list of who each is really designed to serve.
 
 ## The Tier Most People Actually Want: Mainstream Banks with Crypto Access
 
