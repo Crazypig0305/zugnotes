@@ -50,10 +50,7 @@ sources:
     desc: "fintechnews.ch — May 2026: Sequence becomes the fifth Swiss company to hold the Article 1b fintech license"
 ---
 
-> 📅 Last updated: October 2026
-> Based on the consultation paper the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) published in October 2025 — the proposal is the government's, not [FINMA](https://www.finma.ch/en/)'s, though FINMA would supervise the resulting licence holders. Regulatory status last checked in September 2026: the consultation closed, the substantive industry responses in, and no dispatch to Parliament yet.
-
-On October 22, 2025, the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) released a draft amendment to the Financial Institutions Act — FinIA — and opened a public consultation. The document proposes two new license categories: the *crypto-institution* (Krypto-Institut) and the *payment instrument institution* (Zahlungsmittelinstitut). The consultation period closed on February 6, 2026.
+On October 22, 2025, the [Swiss Federal Council](https://www.admin.ch/gov/en/start.html) released a draft amendment to the Financial Institutions Act — FinIA — and opened a public consultation. The document proposes two new license categories: the *crypto-institution* (Krypto-Institut) and the *payment instrument institution* (Zahlungsmittelinstitut). The consultation period closed on February 6, 2026. The proposal is the government's, not FINMA's, though FINMA would supervise the resulting licence holders.
 
 When [FINMA issued its first banking licenses to [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank) and [Sygnum](https://www.sygnum.com/) in 2019](/posts/finma-crypto-license-2019/), Switzerland signaled it was serious about institutional crypto infrastructure. This proposal feels like the next structural layer: not just licensing a handful of elite firms, but building a taxonomy for the entire sector.
 
@@ -81,9 +78,9 @@ The crypto-institution license is designed for companies providing custody and t
 
 What it explicitly does *not* cover: pure utility tokens, central bank digital currencies (CBDCs), and securities tokens. Those remain in separate regulatory territory.
 
-{{< skip-box title="Who the crypto-institution license is for" >}}
+{{< sidenote title="Who the crypto-institution license is for" >}}
 Think of the firms that currently operate under SRO supervision — exchanges, custodians, brokers that are not banks. The crypto-institution license is built for them. It provides a formal regulatory home that is lighter than a full securities firm license, but requires direct FINMA oversight rather than just SRO registration.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 The regulatory model is explicitly described as lighter than the framework applicable to securities firms. That framing matters. Switzerland already has securities dealer licenses for firms that want full capital markets access. The crypto-institution license is not that. It is calibrated for the specific risk profile of crypto custody and trading — which involves market risk, cybersecurity risk, and custody risk, but not the credit risk or leverage risk that comes with securities dealing.
 
@@ -103,7 +100,7 @@ The specific rights granted under this license include:
 
 One notable structural requirement: traditional banks cannot simply add stablecoin issuance to their existing license. To issue CHF-pegged stablecoins under this framework, a bank would need to establish a separate subsidiary that holds the payment instrument institution license. The activities cannot be combined with traditional banking functions.
 
-{{< num-highlight value="5" label="firms held a Swiss fintech license as of mid-2026" note="The consultation paper cited four when it was drafted in late 2025; Sequence became the fifth in May 2026. Either count makes the same point — single-digit adoption after more than six years. The fintech license never caught on, and the payment instrument institution category is designed to be more commercially viable." >}}
+{{< datum value="5" label="firms held a Swiss fintech license as of mid-2026" note="The consultation paper cited four when it was drafted in late 2025; Sequence became the fifth in May 2026. Either count makes the same point — single-digit adoption after more than six years. The fintech license never caught on, and the payment instrument institution category is designed to be more commercially viable." >}}
 
 ## How This Compares to the Existing License Landscape
 

@@ -43,9 +43,6 @@ sources:
     desc: "CV VC — annual report documenting employment contraction and unicorn count reduction in 2022"
 ---
 
-> 📅 Last updated: October 2026
-> A look at the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) bankruptcy filing through Zug-registered projects and Swiss-regulated banks, built from contemporary reporting and later public data.
-
 For most of the crypto world, the FTX collapse was a story about an exchange in the Bahamas. For Zug, it was a more local question. The town's ecosystem — the coworking spaces around [CV Labs](https://cvlabs.com/) on Dammstrasse, the foundations registered at Zug addresses, the regulated crypto banks a short train ride away — had to work out how much of the damage was its own.
 
 November 11, 2022. FTX filed for Chapter 11. [Sam Bankman-Fried](https://en.wikipedia.org/wiki/Sam_Bankman-Fried) resigned. Eleven billion dollars in customer funds had vanished into the gap between a centralized exchange and its affiliated trading firm.
@@ -62,7 +59,7 @@ The Oxy token lost essentially all of its value within days. The MAPS token foll
 
 The FTX connection in these cases went deeper than custody: Alameda Research, FTX's sister firm, had been the principal investor. The governance structures that should have provided independence from Alameda had not been sufficient to prevent this kind of concentration risk.
 
-{{< num-highlight value="95%" label="Percentage of OXY and MAPS tokens held on FTX at the time of its bankruptcy filing" note="Oxygen Protocol — a Zug-registered project backed by Alameda Research — disclosed this figure in mid-November 2022. Both tokens became effectively worthless within days. Source: [CoinDesk](https://www.coindesk.com/), November 2022." >}}
+{{< datum value="95%" label="Percentage of OXY and MAPS tokens held on FTX at the time of its bankruptcy filing" note="Oxygen Protocol — a Zug-registered project backed by Alameda Research — disclosed this figure in mid-November 2022. Both tokens became effectively worthless within days. Source: [CoinDesk](https://www.coindesk.com/), November 2022." >}}
 
 <!-- IG-synthesis: Reconstruction of the week from contemporary reporting — CoinDesk and finews on the OXY/MAPS exposure, finews on Sygnum inflows and SEBA's Alameda statement, AFP's interview with CV VC founder Mathias Ruch — separating the projects exposed through Alameda from the regulated custody end that gained inflows; no on-site observation is claimed -->
 
@@ -86,7 +83,7 @@ While the exposed projects processed the wreckage, something counterintuitive wa
 
 The PR language was measured, as Swiss banking always is. But the subtext was legible to anyone watching closely: *we are the opposite of what just happened.*
 
-{{< num-highlight value="CHF 270M+" label="Net new inflows reported by [Sygnum Bank](https://www.sygnum.com/) in the first weeks of November 2022" note="CEO Mathias Imbach disclosed this figure to [finews](https://www.finews.com/).com in late November 2022, attributing the inflows to clients moving assets from unregulated exchanges to Swiss-regulated custody. The figure grew to over CHF 400M by month's end." >}}
+{{< datum value="CHF 270M+" label="Net new inflows reported by [Sygnum Bank](https://www.sygnum.com/) in the first weeks of November 2022" note="CEO Mathias Imbach disclosed this figure to [finews](https://www.finews.com/).com in late November 2022, attributing the inflows to clients moving assets from unregulated exchanges to Swiss-regulated custody. The figure grew to over CHF 400M by month's end." >}}
 
 ## The Institutional Investor Silence
 

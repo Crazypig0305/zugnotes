@@ -41,9 +41,6 @@ sources:
     desc: "Related: what the January 2026 FINMA circular means for custody in practice"
 ---
 
-> 📅 Last updated: October 2026
-> Statistics drawn from the [CV VC](https://cvvc.com/) [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) Top 50 & Ecosystem Report published in April 2026, covering year-end 2025 data.
-
 The number that travels the farthest is 1,766.
 
 That is how many active blockchain companies the Crypto Valley ecosystem — Switzerland and Liechtenstein combined — contained as of the most recent CV VC count. The figure circulates in press releases, conference keynotes, and business development pitches from Zurich to Singapore. It is accurate. It is also, like most large round-ish numbers attached to a place's identity, only a partial picture.
@@ -56,15 +53,15 @@ Start with the context that rarely makes the summary slides.
 
 1,766 active blockchain companies at the end of 2025, up 1% year-on-year, and up 134% since 2020. The compound annual growth rate from 2020 to 2024 sat at 18.8% — that was not startup-hype growth, that was sustained institutional expansion. The kind of growth that requires lawyers registering companies, accountants filing accounts, offices paying rent. What 2025 added was a new all-time high and almost no net movement: the curve has flattened out at the top.
 
-{{< num-highlight value="1,766" label="Active blockchain companies" note="Switzerland + Liechtenstein, year-end 2025 CV VC count. Up 134% since 2020, up 1% on 2024." >}}
+{{< datum value="1,766" label="Active blockchain companies" note="Switzerland + Liechtenstein, year-end 2025 CV VC count. Up 134% since 2020, up 1% on 2024." >}}
 
 But "active blockchain company" is a wide category. It includes the infrastructure layer (about 20% of the total), financial services firms (18%), consulting and advisory outfits (17%), and a long tail of security, audit, GameFi, NFT, [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance), software development, and exchange businesses. The ecosystem is diverse in a way that matters: this is not a monoculture built on one protocol or one founder circle. It has redundancy.
 
 The valuation figure for the Top 50 alone — $467 billion as of April 2026 — is the number that tells you something different. It tells you that a very small number of companies hold a very large share of the value. Sixteen of the top 25 blockchain platforms by valuation are headquartered in Zug. Those sixteen account for 97% of the total Top 50 valuation. The broader 1,766 is the whole population. The value concentration is a different story.
 
-{{< skip-box title="What this post does not cover" >}}
+{{< sidenote title="What this post does not cover" >}}
 This is an ecosystem snapshot, not a company directory. For granular breakdowns of specific firms, the [Crypto Valley Top 50 & Ecosystem Report 2026 coverage](https://cryptovalleyjournal.com/hot-topics/news/crypto-valley-top-50-report-2026-47-percent-european-investments/) and the full Top 50 report (downloadable via cv vc.com) are the primary sources. For what [FINMA](https://www.finma.ch/en/)'s January 2026 guidance means for how those companies must handle custody, see the [related field note on FINMA Guidance 01/2026](/posts/finma-crypto-guidance-01-2026/).
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## Zug's Monopoly: 40% of Companies, 88% of the Capital
 
@@ -74,7 +71,7 @@ Of the 1,766 companies, 715 — 40% — are registered in the canton of Zug. Zur
 
 But the incorporation share only tells part of the story. What is more striking is the capital concentration. In 2025, Zug absorbed 88% of all disclosed blockchain investment within Swiss borders.
 
-{{< num-highlight value="88%" label="Swiss blockchain capital concentrated in Zug" note="Of $728M raised across Switzerland in 2025. Source: CV VC Top 50 & Ecosystem Report." >}}
+{{< datum value="88%" label="Swiss blockchain capital concentrated in Zug" note="Of $728M raised across Switzerland in 2025. Source: CV VC Top 50 & Ecosystem Report." >}}
 
 Two reasons explain this. First, the largest companies — [Sygnum Bank](https://www.sygnum.com/) ($58M round in 2025), the TON ecosystem presence, the infrastructure layer firms — are based in Zug. Second, the "Crypto Valley" brand itself creates a network effect in capital: Zug is a short train ride from Zurich, so an investor visiting Switzerland can meet several companies in a single day. The brand concentrates attention, which concentrates capital, which concentrates company formation.
 
@@ -86,7 +83,7 @@ Switzerland raised $728 million across 31 blockchain deals in 2025. That is a 37
 
 The deal count matters. Thirty-one transactions for $728 million means an average of roughly $23.5 million per deal. That is not seed money. That is Series A and B capital going into companies with established business models, regulatory licenses, and real revenue — or credible paths to it.
 
-{{< budget-table title="Switzerland blockchain funding — 2025 key figures" sub="Source: CV VC Top 50 & Ecosystem Report, April 2026" >}}
+{{< source-table title="Switzerland blockchain funding — 2025 key figures" sub="Source: CV VC Top 50 & Ecosystem Report, April 2026" >}}
 | Metric | Figure |
 |---|---|
 | Total raised | $728M |
@@ -96,13 +93,13 @@ The deal count matters. Thirty-one transactions for $728 million means an averag
 | Share of global blockchain funding | 5% |
 | Largest single deal | $400M (TON) |
 | Second largest | $58M (Sygnum Bank) |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 The $400M TON deal is an outlier that inflates the average. Strip it out, and 30 deals raised $328 million — still $10.9 million per deal. Still institutional-scale capital, not angels backing whitepapers.
 
 Switzerland's 47% share of European blockchain venture funding is the statistic that has attracted the most external commentary in 2026. The framing — "Switzerland dominates European crypto VC" — is accurate but slightly misleading. What it reflects is not that Switzerland has become more attractive relative to its historical position. It is that London post-Brexit, Berlin in economic contraction, and Paris facing regulatory ambiguity have all become less reliable as crypto capital destinations. Switzerland's share is partly absolute growth, partly relative to competitors weakening.
 
-{{< num-highlight value="47%" label="Europe's blockchain VC captured by Switzerland in 2025" note="Of all European blockchain venture capital. Switzerland's share has grown consistently since 2020." >}}
+{{< datum value="47%" label="Europe's blockchain VC captured by Switzerland in 2025" note="Of all European blockchain venture capital. Switzerland's share has grown consistently since 2020." >}}
 
 <!-- IG-angle: The registration-vs-presence distinction the ecosystem reports structurally cannot make — CV VC counts registered entities, and registration says nothing about how many of the 1,766 are a Zug address attached to a team in Berlin or Singapore; the headline company count and the number of people actually working in Zug are different variables, and no public source measures the second -->
 
@@ -118,7 +115,7 @@ The lake is genuinely expensive, incidentally. The canton's tax advantages attra
 
 What the 1,766 number does not tell you is how many of those companies have a physical office in Switzerland versus a registered address and a team in Berlin, Lisbon, or Singapore. The CV VC report tracks registrations. Presence is a different variable. Both are real — the legal entity matters, the regulatory address matters — but the company count is not a headcount of people working in Zug, and the report does not claim to be one.
 
-{{< num-highlight value="715" label="Blockchain companies in Zug" note="40% of the total ecosystem, down four companies on 2024. New incorporation share jumped from 35% (2020) to 49% (2024). Source: CV VC." >}}
+{{< datum value="715" label="Blockchain companies in Zug" note="40% of the total ecosystem, down four companies on 2024. New incorporation share jumped from 35% (2020) to 49% (2024). Source: CV VC." >}}
 
 ## The Other Cities Nobody Talks About
 
@@ -132,7 +129,7 @@ Ticino (119 companies, up 15.5% in 2025 — the fastest-growing canton in the la
 
 Liechtenstein's 72 firms punch above their weight because of the Token Act — the principality's 2019 blockchain legislation, which created a legal framework for tokenized assets that predated most European regulatory clarity. Firms that need specific token law treatment sometimes incorporate in Liechtenstein rather than Zug.
 
-{{< budget-table title="Crypto Valley geographic distribution" sub="Beyond Zug — where the rest of the ecosystem sits" >}}
+{{< source-table title="Crypto Valley geographic distribution" sub="Beyond Zug — where the rest of the ecosystem sits" >}}
 | Region | Companies | Share | Notable specialization |
 |---|---|---|---|
 | Zug | 715 | 40% | Capital markets, infrastructure, financial services |
@@ -142,7 +139,7 @@ Liechtenstein's 72 firms punch above their weight because of the Token Act — t
 | Lucerne | 73 | 4% | DeFi concentration |
 | Liechtenstein | 72 | 4% | Token Act, tokenized assets |
 | Vaud | 56 | 3% | — |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 ## CV Labs and What the Co-working Scene Actually Tells You
 

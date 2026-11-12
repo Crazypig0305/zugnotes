@@ -36,9 +36,6 @@ sources:
     desc: "ccn.com — coverage of the 2017–2018 period when Zug municipality expanded its crypto payment experiments"
 ---
 
-> 📅 Last updated: October 2026
-> Canton Zug's [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) and Ether tax payment programme, read from the canton's and Bitcoin Suisse's published information, with the usage figures and limit changes through 2026.
-
 By September 2021, the headline had been running for seven months. "[Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) Lets You Pay Taxes in Bitcoin." It appeared in every major crypto publication, most of the Swiss financial press, and a surprising number of mainstream technology outlets that had never previously cared about Zug.
 
 What the headlines rarely explained was how the system actually worked, what the practical constraints were, or why a crypto-skeptical reader should find this more interesting than a novelty payment stunt.
@@ -63,7 +60,7 @@ The 2021 announcement was the point where exploratory signaling became operation
 
 On February 18, 2021 — during the first major Bitcoin bull run since 2017, with BTC trading above USD 50,000 — Canton Zug announced that both individuals and companies liable to tax in the canton could now pay their tax bills using Bitcoin or Ether.
 
-{{< num-highlight value="CHF 100,000" label="maximum tax bill payable in cryptocurrency per invoice under the 2021 rules" >}}
+{{< datum value="CHF 100,000" label="maximum tax bill payable in cryptocurrency per invoice under the 2021 rules" >}}
 
 The ceiling was set at CHF 100,000 per tax invoice. An invoice below that threshold could be paid in crypto; an invoice above it had to be paid in CHF. Partial payment — some crypto, some CHF — was not permitted. You chose one payment method per bill.
 
@@ -84,7 +81,7 @@ This is where the field note becomes more interesting than most of the 2021 cove
 
 By 2023, two years after launch, Canton Zug had processed approximately 150 crypto tax transactions with a combined volume of roughly CHF 2 million. That works out to an average transaction size of around CHF 13,300.
 
-{{< num-highlight value="~150" label="crypto tax transactions processed by Canton Zug in the first two years after launch (2021–2023)" >}}
+{{< datum value="~150" label="crypto tax transactions processed by Canton Zug in the first two years after launch (2021–2023)" >}}
 
 One hundred and fifty transactions across two years in a canton with 130,000+ residents and thousands of registered companies is a number worth sitting with. It tells you something specific about who the system was actually serving.
 
@@ -104,9 +101,9 @@ Zug's approach was structurally different at every point. Crypto was an optional
 
 The Zug model succeeded as measured by its actual goal: demonstrating that a properly regulated jurisdiction could integrate crypto payment infrastructure for government services without operational disruption. That is a significantly narrower claim than "Bitcoin as money," and it is sustainable precisely because it is narrower.
 
-{{< skip-box title="What Zug's model was not" >}}
+{{< sidenote title="What Zug's model was not" >}}
 The [Canton of Zug](https://en.wikipedia.org/wiki/Canton_of_Zug)'s 2021 tax payment program was not a statement about Bitcoin as legal tender, a crypto reserve policy, or an endorsement of any particular blockchain. It was an optional payment channel for a single use case, immediately converting to CHF, with CHF 100,000 cap. The framework is specifically designed to be immune to crypto price volatility.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## Why September 2021 Was the Right Moment
 
@@ -140,7 +137,7 @@ The broader question — how Switzerland's crypto tax framework itself operates,
 
 Read as of September 2021, the early period looks like this: the program is new, the usage is modest, the comparisons to El Salvador are everywhere, and the infrastructure is demonstrating that the boring version of crypto adoption — optional, properly converted to CHF, bounded by regulation — is the version that lasts.
 
-{{< num-highlight value="2016 → 2021 → 2023" label="Zug's crypto payment milestones: city pilot → canton tax program → CHF 1.5M ceiling increase" >}}
+{{< datum value="2016 → 2021 → 2023" label="Zug's crypto payment milestones: city pilot → canton tax program → CHF 1.5M ceiling increase" >}}
 
 Five years on, that still looks like the right read.
 

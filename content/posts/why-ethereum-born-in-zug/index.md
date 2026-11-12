@@ -46,9 +46,6 @@ sources:
     desc: "[CV Labs](https://cvlabs.com/) — 2024 retrospective with co-founder perspectives on Zug's early ecosystem"
 ---
 
-> 📅 Last updated: October 2026
-> The [Ethereum](https://en.wikipedia.org/wiki/Ethereum) origin history in this note has been verified against primary sources and updated with retrospective detail from co-founder accounts published 2020–2024.
-
 The version of this story that gets told most often goes something like: [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin) chose Switzerland because of low taxes and crypto-friendly banking. That version is not wrong exactly, but it is missing the part that actually mattered in 2014.
 
 The real story is a legal structure problem, a bank account problem, and a six-person email chain problem — and Zug solved all three at a moment when no other jurisdiction in the world had the right framework to do it.
@@ -65,7 +62,7 @@ The question the Ethereum founders actually needed answered in early 2014 was no
 
 That is a foundation law question. And the answer — in 2014 — was Zug.
 
-{{< num-highlight value="2014" label="Year Stiftung Ethereum registered in Zug" note="July 9, 2014. The foundation structure enabled the 2014 presale to proceed with legal clarity unavailable elsewhere." >}}
+{{< datum value="2014" label="Year Stiftung Ethereum registered in Zug" note="July 9, 2014. The foundation structure enabled the 2014 presale to proceed with legal clarity unavailable elsewhere." >}}
 
 <!-- IG-angle: Disentangling the two Swiss entities the origin story collapses into one — EthSuisse (GmbH, operational vehicle, actually conducted the presale) versus Stiftung Ethereum (foundation, registered July 9 2014, stewards the funds) — which is what shows the deciding factor was foundation law offering a founder-independent, purpose-bound container for a public token sale, not the cantonal tax rate the summaries credit -->
 
@@ -81,9 +78,9 @@ Why both? Because Swiss foundation law separates the fundraising mechanics from 
 
 This is the part of the origin story that gets glossed over in the "Switzerland has low taxes" summary. The tax environment was a secondary benefit. The foundation structure was the primary enabler.
 
-{{< skip-box title="What this field note does not cover" >}}
+{{< sidenote title="What this field note does not cover" >}}
 This is a history of Ethereum's legal and structural origin in Zug, not a guide to Swiss foundation law for crypto projects. The regulatory landscape has changed substantially since 2014 — including the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en) (2021), FINMA's updated crypto guidance, and [MiCA](https://en.wikipedia.org/wiki/Markets_in_Crypto-Assets)'s indirect influence. For how Swiss crypto regulation works today, the [field note on FINMA Guidance 01/2026](/posts/finma-crypto-guidance-01-2026/) and the [MiCA vs FINMA comparison](/posts/mica-vs-finma-field-note/) cover the current framework. For how Swiss crypto tax works for individual holders today, see the [Swiss crypto tax advantage guide](/posts/swiss-crypto-tax-advantage-guide/).
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## The June 7 Meeting and the Decision to Go Non-Profit
 
@@ -95,7 +92,7 @@ The agenda was consequential: what kind of entity should Ethereum be? The option
 
 The non-profit decision required Zug. Not every jurisdiction's foundation law would have served. The Swiss Civil Code foundation structure (Stiftung, governed by Art. 80–89a ZGB) allowed the team to hold a large pool of presale funds in an entity that was legally separate from its founders, transparent about its purpose, and not subject to the investor-return obligations that corporate structures carry. Luka Müller, the Zug attorney who set up the foundation, navigated the regulatory groundwork that made the July presale viable.
 
-{{< num-highlight value="8" label="Co-founders gathered in Zug, June 7, 2014" note="The meeting where the non-profit structure was decided. Two co-founders (Hoskinson, Chetrit) left the project shortly after, preferring a commercial model." >}}
+{{< datum value="8" label="Co-founders gathered in Zug, June 7, 2014" note="The meeting where the non-profit structure was decided. Two co-founders (Hoskinson, Chetrit) left the project shortly after, preferring a commercial model." >}}
 
 ## The Person Who Actually Did the Paperwork
 
@@ -119,7 +116,7 @@ The result: approximately 60 million ETH sold, against roughly 31,600 BTC receiv
 
 The legal structure held. There were no successful regulatory challenges to the presale in Switzerland. The Foundation's transparency about how it would use the funds — publishing its development roadmap and budget allocations — set a model that subsequent Zug-based token sales would attempt to replicate, with varying degrees of rigor.
 
-{{< num-highlight value="60M ETH" label="Sold in the 2014 presale" note="42-day sale, July–September 2014. Raised ~$18.3M at the time. Conducted through EthSuisse under Stiftung Ethereum legal structure." >}}
+{{< datum value="60M ETH" label="Sold in the 2014 presale" note="42-day sale, July–September 2014. Raised ~$18.3M at the time. Conducted through EthSuisse under Stiftung Ethereum legal structure." >}}
 
 ## Devcon 0: Berlin, November 2014
 
@@ -137,7 +134,7 @@ But the Ethereum Foundation's presence in Zug had an immediate network effect on
 
 The Crypto Valley Association, formally established in January 2017, arrived after most of the foundational infrastructure already existed. Ethereum created the template. The Association gave it a name and an organization.
 
-{{< num-highlight value="2017" label="Year Crypto Valley Association formally established" note="January 2017. By then ~40 crypto foundations had already registered in Zug, most following the Stiftung Ethereum legal template from 2014." >}}
+{{< datum value="2017" label="Year Crypto Valley Association formally established" note="January 2017. By then ~40 crypto foundations had already registered in Zug, most following the Stiftung Ethereum legal template from 2014." >}}
 
 ## The Misconception in Summary
 

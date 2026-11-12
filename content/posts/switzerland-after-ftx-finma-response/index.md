@@ -51,9 +51,6 @@ sources:
     desc: "cbsnews.com — contemporaneous reporting on the 11 November 2022 Chapter 11 filing and the reported customer-fund shortfall"
 ---
 
-> 📅 Last updated: October 2026
-> How Switzerland's regulator responded to the [FTX](https://en.wikipedia.org/wiki/FTX_(company)) collapse, read from FINMA's published documents and contemporary reporting, with the regulatory follow-on through 2026.
-
 November 11, 2022 was a Friday. FTX filed for Chapter 11 bankruptcy that day. [Sam Bankman-Fried](https://en.wikipedia.org/wiki/Sam_Bankman-Fried) had resigned. [Roughly eight billion dollars of customer funds were missing](https://www.cbsnews.com/news/ftx-bankruptcy-sam-bankman-fried-resigns-cryptocurrency/).
 
 The noise that week was predictable — speculation about contagion, lists of which platforms had exposure to FTX or [Alameda Research](https://en.wikipedia.org/wiki/Alameda_Research), arguments about whether this was the end of crypto or just another cycle bottom. For anyone holding crypto through a Swiss provider, the more useful question was a different one: what was [FINMA](https://www.finma.ch/en/) going to do?
@@ -72,7 +69,7 @@ That last piece — the DEBA amendment — is what made Switzerland's position s
 
 In Switzerland, for firms operating under FINMA supervision, the principle was already the opposite. Client assets had to be segregated. Custodians had to be able to identify and return client assets in bankruptcy. The legal basis existed and was being enforced.
 
-{{< num-highlight value="1 Aug 2021" label="Date Switzerland's DEBA crypto segregation provisions entered into force" note="Part of the broader DLT Act package. Established explicit legal basis for crypto asset protection in bankruptcy — the exact protection FTX's customers lacked when the exchange failed." >}}
+{{< datum value="1 Aug 2021" label="Date Switzerland's DEBA crypto segregation provisions entered into force" note="Part of the broader DLT Act package. Established explicit legal basis for crypto asset protection in bankruptcy — the exact protection FTX's customers lacked when the exchange failed." >}}
 
 ## The Risk Monitor That Landed the Day Before the Bankruptcy
 
@@ -94,9 +91,9 @@ The response to FTX was not a new law. FINMA does not make law — that is the [
 
 **Continued supervisory focus on custody practices.** Throughout 2023, FINMA's supervisory activity — as reflected in enforcement actions and published guidance — maintained consistent pressure on the segregation and custody practices of regulated firms. The 2023 Risk Monitor reiterated the crypto risk categories from the previous year, with the additional data point that the FTX collapse had confirmed what the regulator had been warning about: unregulated platforms with commingled funds were a structural failure waiting to happen.
 
-{{< skip-box title="What didn't change" >}}
+{{< sidenote title="What didn't change" >}}
 Switzerland did not enact emergency crypto legislation in response to FTX. The Federal Council's position was that the existing legal framework — the DLT Act, the DEBA amendments, FINMA's supervisory authority — was sufficient for the licensed segment. The unregulated segment, by definition, was outside FINMA's direct reach. The post-FTX conversation in Switzerland focused on whether the perimeter of FINMA supervision should be expanded, not on whether the existing framework had failed. That perimeter question eventually led to the 2025 consultation on the crypto-institution license category — see [Two New FINMA License Categories Proposed](/posts/finma-crypto-institution-license-2026/).
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## The Swiss Banks and Why They Came Out Ahead
 
@@ -108,7 +105,7 @@ SEBA's situation was more complicated. Alameda Research — the trading firm at 
 
 Both banks survived the FTX period without incident. Neither had their FINMA licences reviewed. Neither commingled client and proprietary assets — the specific failure mode that destroyed FTX — because FINMA supervision required otherwise.
 
-{{< num-highlight value="CHF 270M+" label="Sygnum net inflows in weeks after FTX collapse" note="Reported by Finews, November 2022. Figure expected to reach CHF 400M+ by year-end. Reflected institutional investors moving assets from unregulated platforms to FINMA-supervised banks." >}}
+{{< datum value="CHF 270M+" label="Sygnum net inflows in weeks after FTX collapse" note="Reported by Finews, November 2022. Figure expected to reach CHF 400M+ by year-end. Reflected institutional investors moving assets from unregulated platforms to FINMA-supervised banks." >}}
 
 ## Zug in the Weeks After
 

@@ -61,9 +61,6 @@ sources:
     desc: "inc.com — contemporaneous reporting on the June 2017 Status token sale and the roughly 300,000 ETH raised"
 ---
 
-> 📅 Last updated: October 2026
-> The [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) boom in Zug, reconstructed from the fundraising data, FINMA's documents and contemporary reporting, with the eight-year retrospective.
-
 By December 2017, a small lakeside town in central Switzerland was at the centre of one of the largest fundraising waves the crypto industry had seen. More than a quarter of global ICO money that year went through Swiss-registered entities, and much of the legal structuring behind it ran through Zug.
 
 The ICO boom came to [Crypto Valley](https://en.wikipedia.org/wiki/Crypto_Valley) in 2017. Read through the numbers and documents of the time, it looks different from the post-mortem stories that came later.
@@ -74,7 +71,7 @@ In the first half of 2017, ICOs globally raised more than $1.5 billion. Switzerl
 
 The headline number was Tezos.
 
-{{< num-highlight value="$232M" label="Raised by Tezos Foundation, July 2017" note="65,627 BTC + 361,122 ETH raised over 13 days. Largest ICO at the time, surpassing Bancor's $150M. The Tezos Foundation was registered in Zug on April 17, 2017." >}}
+{{< datum value="$232M" label="Raised by Tezos Foundation, July 2017" note="65,627 BTC + 361,122 ETH raised over 13 days. Largest ICO at the time, surpassing Bancor's $150M. The Tezos Foundation was registered in Zug on April 17, 2017." >}}
 
 The scale was hard to grasp for most people outside the space. A project had raised roughly the equivalent of a medium-sized Series B — except from a global pool of retail participants, in 13 days, with no equity and no formal securities disclosure. The legal structure that made this possible was the Swiss Stiftung: a non-profit foundation that could hold the funds for a defined purpose without being obligated to return them as investor profit.
 
@@ -104,9 +101,9 @@ Three reasons stand out in the record:
 
 **Peer density.** A founder arriving in Zug in 2017 could get to the right lawyer, the right auditor, the right Ethereum developer, the right cantonal official, and the right previous-generation project within a short walk or a short train ride. Singapore and Cayman could not replicate that cluster in 2017. The [Crypto Valley Association](https://cryptovalley.swiss/), formally established in January 2017, had given structure to what had previously been an informal network.
 
-{{< skip-box title="What Switzerland's ICO advantage was not" >}}
+{{< sidenote title="What Switzerland's ICO advantage was not" >}}
 The favorable tax environment — Zug's low cantonal tax rates and Switzerland's zero capital gains tax for private investors — is frequently cited as the primary reason for ICO concentration in Zug. This overstates the tax motive for early-stage projects. An ICO-stage project that has raised funds into a foundation is not yet generating taxable capital gains. The foundation itself is a non-profit entity and its income is generally tax-exempt if used for its stated purpose. The tax advantages that Switzerland offers for crypto holders (covered in the [Swiss crypto tax guide](/posts/swiss-crypto-tax-advantage-guide/)) are primarily relevant to individual investors post-launch, not to foundation fundraising mechanics. The reasons projects chose Zug in 2017 were legal infrastructure, banking access, and peer density — not cantonal tax rates.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## Tezos: The Story That Defined the Era
 
@@ -126,7 +123,7 @@ Under Swiss foundation law, the foundation's board controls the assets. This is 
 
 The dispute played out publicly from October 2017 through early 2018. Gevers eventually resigned in February 2018, receiving $400,000. The foundation board was reconstituted. Tezos went live in September 2018 — delayed by months. Class-action lawsuits were filed in the United States. Some Swiss media, in moments of frustrated commentary, took to calling the episode "Klepto Valley."
 
-{{< num-highlight value="Feb 2018" label="Gevers resigned from Tezos Foundation" note="After months of public dispute, governance crisis resolved with board reconstitution. Tezos mainnet launched September 2018." >}}
+{{< datum value="Feb 2018" label="Gevers resigned from Tezos Foundation" note="After months of public dispute, governance crisis resolved with board reconstitution. Tezos mainnet launched September 2018." >}}
 
 The Tezos story did not kill Crypto Valley. But it demonstrated something important about the ICO model that the boom period had obscured: the Swiss foundation structure was excellent at holding funds and poor at resolving governance conflicts between founders and foundation officers. Projects that were adopting the structure because it was the done thing in Zug, without thinking through what happened if internal relationships broke down, were exposed.
 
@@ -154,7 +151,7 @@ For founders, the catch was in the condition attached to the utility token carve
 
 The informal legal vacuum that had made the 2017 boom possible was gone. [FINMA had received 155 detailed regulatory queries on the ICO framework by the end of 2018](https://www.finma.ch/en/documentation/dossier/dossier-fintech/entwicklungen-im-bereich-fintech/). The enforcement numbers landed a year later, in the regulator's 2019 annual report: [around 60 ICOs analysed, anti-money-laundering breaches identified at ten of them with criminal complaints filed against those responsible, eight further names added to FINMA's public warning list, and formal enforcement proceedings opened against three companies](https://www.finews.com/news/english-news/40673-finma-switzerland-crpytocurrencies-crypto-ico-token-enforcement-proceedings-criminal).
 
-{{< num-highlight value="184" label="ICOs launched in Switzerland in 2018" note="Down to 94 in 2019 — the year FINMA reported analysing around 60 ICOs. The framework that the February 2018 guidelines established became the basis for the [FINMA crypto license structure](/posts/finma-crypto-license-2019/) that followed in 2019." >}}
+{{< datum value="184" label="ICOs launched in Switzerland in 2018" note="Down to 94 in 2019 — the year FINMA reported analysing around 60 ICOs. The framework that the February 2018 guidelines established became the basis for the [FINMA crypto license structure](/posts/finma-crypto-license-2019/) that followed in 2019." >}}
 
 ## The Projects That Made It Through
 

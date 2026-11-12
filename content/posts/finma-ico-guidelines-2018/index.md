@@ -39,9 +39,6 @@ sources:
     desc: "startupticker.ch — Swiss startup ecosystem coverage of the February 2018 announcement"
 ---
 
-> 📅 Last updated: October 2026
-> A plain reading of the [ICO](https://en.wikipedia.org/wiki/Initial_coin_offering) Guidelines [FINMA](https://www.finma.ch/en/) published in February 2018, with the regulatory follow-on through 2026.
-
 February 16, 2018 was not a day that produced a press conference or a major announcement event. FINMA published its ICO guidelines on a Friday, in German and English, six pages long. They went up on the FINMA website with the usual restrained formatting of Swiss regulatory communications.
 
 For Zug's ICO projects, the practical consequence was immediate: a lot of token structures would need a lawyer's second look in the weeks that followed.
@@ -56,7 +53,7 @@ FINMA's ICO guidelines replaced the informal mode with a taxonomy. Instead of "w
 
 That shift — from case-by-case opacity to explicit classification — was the document's most significant move, and it is easy to understate from eight years' distance.
 
-{{< num-highlight value="16 Feb 2018" label="Date FINMA published its ICO Guidelines" note="The document replaced informal case-by-case engagement with an explicit three-category framework. It was the first comprehensive token classification system published by a major financial regulator globally." >}}
+{{< datum value="16 Feb 2018" label="Date FINMA published its ICO Guidelines" note="The document replaced informal case-by-case engagement with an explicit three-category framework. It was the first comprehensive token classification system published by a major financial regulator globally." >}}
 
 ## Three Categories, One Underlying Logic
 
@@ -70,7 +67,7 @@ The phrase "if the utility token can actually be used in this way at the time of
 
 **Asset tokens** were unambiguously securities: tokens representing company stakes, earnings entitlements, or dividend rights. These triggered Swiss securities law requirements and corresponding disclosure obligations. The category was the clearest of the three, because the economic reality was unambiguous. If a token gives you a share of future profits, it is functionally a share.
 
-{{< num-highlight value="3 + hybrid" label="Token categories in FINMA's 2018 framework" note="Payment, utility, asset — plus explicit acknowledgment that hybrid tokens with features of multiple categories would be assessed by their primary economic function. The hybrid concept anticipated governance tokens and [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s before either had standard definitions." >}}
+{{< datum value="3 + hybrid" label="Token categories in FINMA's 2018 framework" note="Payment, utility, asset — plus explicit acknowledgment that hybrid tokens with features of multiple categories would be assessed by their primary economic function. The hybrid concept anticipated governance tokens and [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s before either had standard definitions." >}}
 
 ## Why FINMA Did Not Do What the [SEC](https://www.sec.gov/) Was Doing
 
@@ -86,9 +83,9 @@ This mattered practically. A project issuing a token for genuine access rights t
 
 The case-by-case commitment embedded in the guidelines — FINMA was explicit that final regulatory assessments would be made on a case-by-case basis — was not a retreat from the framework. It was an acknowledgment that the taxonomy was a starting point, not a formula, and that FINMA would remain in dialogue with the industry as structures evolved.
 
-{{< skip-box title="What 'case-by-case' meant in practice in 2018" >}}
+{{< sidenote title="What 'case-by-case' meant in practice in 2018" >}}
 The case-by-case language was sometimes interpreted by commentators outside Switzerland as evidence that the guidelines lacked teeth — that FINMA had provided categories without enforcement clarity. The interpretation misread how Swiss financial supervision operates. FINMA's model is supervisory engagement rather than preemptive rule-setting: publish a framework, remain accessible for inquiries, and apply enforcement to clear violations. The February 2018 guidelines received 155 detailed regulatory queries by year's end. FINMA investigated 60 ICOs in 2018. More than ten were found to violate AML rules; enforcement proceedings were started against eight. The case-by-case commitment was functional, not evasive.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 <!-- IG-angle: Reading the guidelines by who they helped rather than by what they said — projects with a working product at issuance got a clean utility-token answer, while mid-ICO projects funding unbuilt platforms fell into the asset-token zone; derived from the document's own utility-token condition, not from reactions inside Zug's professional community, which is not claimed -->
 
@@ -116,7 +113,7 @@ The [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en), in force from Febr
 
 FINMA's 2026 crypto custody guidance — the [FINMA Crypto Guidance 01/2026 field note](/posts/finma-crypto-guidance-01-2026/) covers the most recent iteration — continues to apply functional analysis to new structures in ways that trace directly to the 2018 approach.
 
-{{< num-highlight value="2018 → 2026" label="Years FINMA's functional analysis framework has operated" note="Payment / utility / asset classification from February 2018 became the basis for the 2019 banking licences, the 2021 DLT Act, and FINMA's 2026 crypto custody guidance. Eight years without a fundamental revision to the underlying analytical logic." >}}
+{{< datum value="2018 → 2026" label="Years FINMA's functional analysis framework has operated" note="Payment / utility / asset classification from February 2018 became the basis for the 2019 banking licences, the 2021 DLT Act, and FINMA's 2026 crypto custody guidance. Eight years without a fundamental revision to the underlying analytical logic." >}}
 
 ## What the Guidelines Say About Swiss Regulatory Philosophy
 

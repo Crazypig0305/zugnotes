@@ -61,9 +61,6 @@ sources:
     desc: "Zug Notes — the CHF stablecoin sandbox field note: what the pilot actually tests, and why TWINT joining matters for Swiss consumer payment rails."
 ---
 
-> 📅 Last updated: October 2026
-> Merchant availability and payment infrastructure taken from publicly available sources, last checked in September 2026. The landscape changes quickly — confirm with individual merchants before making plans around crypto payments.
-
 The headline is real: you can pay your cantonal taxes with [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) in Zug. The headline has been real since 2021 — see the [field note on the year Zug first let you pay taxes in Bitcoin](/posts/zug-bitcoin-tax-payment-2021/) for how that actually worked when it launched. But the more interesting question, the one that rarely gets answered, is what happens after you file your tax return.
 
 Can you buy lunch with Bitcoin? Fill a prescription? Park your car? Pay the grocery bill?
@@ -76,7 +73,7 @@ Start with the headline act, because it is more nuanced than most coverage sugge
 
 Since February 2021, the [Canton of Zug](https://en.wikipedia.org/wiki/Canton_of_Zug) has accepted Bitcoin and Ether for cantonal tax bills up to CHF 1.5 million. The process works through [Bitcoin Suisse](https://www.bitcoinsuisse.com/), which converts the crypto to CHF before settling with the cantonal Finance Department. The canton does not hold crypto itself — it holds CHF, and the currency risk is yours until the moment of conversion.
 
-{{< num-highlight value="1%" label="fee charged by Bitcoin Suisse to convert crypto for Zug tax payments" >}}
+{{< datum value="1%" label="fee charged by Bitcoin Suisse to convert crypto for Zug tax payments" >}}
 
 That 1% fee is levied on the conversion at the time of payment. For a CHF 10,000 tax bill, that is CHF 100 in friction. Not prohibitive, but not free.
 
@@ -95,7 +92,7 @@ In April 2025, a Spar supermarket in Zug became one of the first mainstream groc
 
 The mechanism is straightforward: a QR code at the till, an LNURL-based payment flow, the customer's Lightning wallet, and settlement in seconds. Fees to the customer are under five cents. From the merchant's perspective, DFX.swiss (the payment infrastructure provider) handles the conversion and settlement.
 
-{{< num-highlight value="<$0.05" label="typical Lightning Network transaction fee for in-store payments" >}}
+{{< datum value="<$0.05" label="typical Lightning Network transaction fee for in-store payments" >}}
 
 This matters because it moves the conversation from "novelty corporate PR" into something with functional economics: settlement in seconds, and a fee structure that works at grocery-basket sizes.
 
@@ -103,7 +100,7 @@ It started as a single Spar location, and it did not stay that way. A second sto
 
 ## The Broader Merchant Picture: Where You Can Actually Pay
 
-Beyond Spar, Switzerland has a real but patchy merchant network for crypto. BTCmap.org listed over 1,000 businesses accepting Bitcoin across Switzerland as of 2025, concentrated in Zug, Lugano, and Zurich.
+Beyond Spar, Switzerland has a real but patchy merchant network for crypto. BTCmap.org listed over 1,000 businesses accepting Bitcoin across Switzerland as of 2025, concentrated in Zug, Lugano, and Zurich. Merchant availability and payment infrastructure in this note are taken from publicly available sources, last checked in September 2026. The landscape changes quickly — confirm with individual merchants before making plans around crypto payments.
 
 In Zug specifically, the categories that show up most reliably:
 
@@ -117,7 +114,7 @@ In Zug specifically, the categories that show up most reliably:
 
 <!-- IG-data: Original category-by-category crypto payment coverage table for Zug — cross-referencing public BTCmap listings with reported merchant installations (Spar Lightning checkout, Bitcoin Suisse Pay terminals, cantonal QR tax flow), a practical-availability view the headline coverage never assembles -->
 
-{{< budget-table title="Crypto Payment Coverage in Zug (2026)" sub="Practical availability by category, based on public BTCmap data and reported merchant installations. The Spar store count is a Switzerland-wide figure, not a Zug count." >}}
+{{< source-table title="Crypto Payment Coverage in Zug (2026)" sub="Practical availability by category, based on public BTCmap data and reported merchant installations. The Spar store count is a Switzerland-wide figure, not a Zug count." >}}
 | Category | Bitcoin accepted | Lightning supported | Friction level |
 |---|---|---|---|
 | Tax payments (cantonal) | ✅ BTC + ETH, up to CHF 1.5M | ✅ QR code on bill | Low (1% fee) |
@@ -128,7 +125,7 @@ In Zug specifically, the categories that show up most reliably:
 | Pharmacies / medical | ❌ | ❌ | N/A |
 | Public transport | ❌ | ❌ | N/A |
 | TWINT-only merchants | ❌ | ❌ | N/A |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 ## The Friction That Remains Real
 

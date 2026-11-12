@@ -47,9 +47,6 @@ sources:
 
 <!-- IG-synthesis: Read from the IRS's own 2025 and 2026 Instructions for Form 1099-DA, the 2025 Instructions for Form 8949, Notice 2025-33 and Publication 1099; the year-by-year table and the 1099-DA-to-8949 mapping are assembled from those documents, and the two worked examples use invented round numbers to show the mechanics. No first-hand filing experience is claimed. -->
 
-> 📅 Last updated: 18 October 2026
-> Checked against the IRS's 2026 Instructions for Form 1099-DA (dated February 2026) and the irs.gov form page on 18 October 2026.
-
 Form 1099-DA is the tax form a US crypto broker sends you, and the IRS, for every sale of digital assets it handled for you during the year. Its full name is "Digital Asset Proceeds From Broker Transactions." The first ones covered sales made in 2025 and showed only what you received. For sales from 1 January 2026 onward, brokers must also report what you paid — your cost basis — for crypto you bought on that platform after 2025 and kept there until you sold.
 
 If you sell crypto through a US exchange in 2026, expect a 1099-DA in early 2027. The recipient copy is due by 15 February of the following year under the IRS's [Publication 1099](https://www.irs.gov/pub/irs-pdf/p1099.pdf). It does not tell you how much tax you owe. It tells the IRS what your broker saw, and your return has to reconcile with it.
@@ -68,9 +65,9 @@ Three limits matter for an ordinary holder:
 
 There are also small-amount thresholds. Under the [2026 instructions](https://www.irs.gov/instructions/i1099da), a broker using the optional method for stablecoins does not have to report your stablecoin sales if they total $10,000 or less for the year; the equivalent line for specified NFTs is $600, and payment processors have their own $600 threshold.
 
-{{< num-highlight value="$10,000" label="Stablecoin de minimis per broker, per year" note="optional reporting method; above it, all are reported" >}}
+{{< datum value="$10,000" label="Stablecoin de minimis per broker, per year" note="optional reporting method; above it, all are reported" >}}
 
-{{< num-highlight value="Feb 15" label="Recipient copy due" note="of the year after the sales" >}}
+{{< datum value="Feb 15" label="Recipient copy due" note="of the year after the sales" >}}
 
 ---
 
@@ -78,13 +75,13 @@ There are also small-amount thresholds. Under the [2026 instructions](https://ww
 
 This is the table most explanations leave out. What appears on your 1099-DA depends on the year you sold and when and where you bought.
 
-{{< budget-table title="Form 1099-DA by sale year" sub="From the IRS 2025 and 2026 instructions and Notice 2025-33" >}}
+{{< source-table title="Form 1099-DA by sale year" sub="From the IRS 2025 and 2026 instructions and Notice 2025-33" >}}
 | Sales made in… | Form arrives | Proceeds reported? | Cost basis reported? | Backup withholding |
 |---|---|---|---|---|
 | 2025 | Early 2026 | Yes, mandatory | Not required; broker may add it voluntarily | Not required (Notice 2025-33) |
 | 2026 | Early 2027 | Yes, mandatory | Yes for covered securities (bought on that platform after 2025 and kept there); optional for everything else | Not required for 2026 sales (Notice 2025-33) |
 | 2027 and later | Early 2028 onward | Yes, mandatory | Same covered / noncovered split | Can apply if the broker lacks a certified TIN for you; limited 2027 relief for pre-existing customers (Notice 2025-33) |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 The backup-withholding row is the one people miss. Notice 2025-33 states that backup withholding "will not be required on any digital asset sale effected by a broker during calendar year 2025 or calendar year 2026." That relief runs out for 2027 sales. If a US platform has asked you for a Form W-9, that is why.
 
@@ -108,7 +105,7 @@ For noncovered sales the broker may tick box 9 and leave the basis blank. Your g
 
 The boxes a holder actually needs, with what each one means and where it goes. Box descriptions follow the [2026 instructions](https://www.irs.gov/instructions/i1099da).
 
-{{< budget-table title="Reading a 1099-DA" sub="Boxes that matter to an individual holder" >}}
+{{< source-table title="Reading a 1099-DA" sub="Boxes that matter to an individual holder" >}}
 | Box | What it shows | What to do with it |
 |---|---|---|
 | Applicable checkbox on Form 8949 | A letter: G (short-term, basis reported), H (short-term, basis not reported), J (long-term, basis reported), K (long-term, basis not reported), Y (holding period unknown) | Tells you which box to tick on Form 8949 |
@@ -123,7 +120,7 @@ The boxes a holder actually needs, with what each one means and where it goes. B
 | 9 | Noncovered security | Checked = broker was not required to report basis |
 | 11a–11c | Optional aggregate reporting | Stablecoins or NFTs reported as one total |
 | 12a / 12b | Units and date transferred in | Clue that the basis must come from your earlier records |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 ---
 

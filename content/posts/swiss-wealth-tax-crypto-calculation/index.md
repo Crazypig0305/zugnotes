@@ -50,9 +50,6 @@ sources:
     desc: "Zug Notes — the staking rewards field note: explains the wealth tax double-layer that hits staking holders: income tax on rewards received, then wealth tax on the accumulated tokens at year-end."
 ---
 
-> 📅 Last updated: October 2026
-> How the December 31 valuation works, using the SFTA's 2025 rate list and the 2026 cantonal wealth tax figures.
-
 Every November, Swiss crypto holders run into the same question. Someone who has been happily holding since January starts asking something very specific: "What does my portfolio actually look like on December 31st — and what does that mean for my tax bill?"
 
 The confusion is understandable. Switzerland's most famous crypto advantage — the capital gains exemption — gets all the attention. You buy BTC, it goes up, you sell, you pay nothing. That story spreads fast and spreads far. What travels less is the other side of the ledger: the [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax). It runs quietly in the background every year, calculated on the value of every coin you still hold when midnight hits on December 31st.
@@ -73,9 +70,9 @@ The practical implication: if you are considering a significant withdrawal or re
 
 The Swiss [Federal Tax Administration](https://www.estv.admin.ch/en) (SFTA, or ESTV in German) publishes an official price list — the Kursliste, accessible through the ICTax portal at ictax.admin.ch — every year. This list is updated annually and contains the official December 31st valuation for the most commonly held cryptocurrencies.
 
-{{< num-highlight value="69,571.99 CHF" label="[Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) official SFTA tax value — December 31, 2025" >}}
+{{< datum value="69,571.99 CHF" label="[Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) official SFTA tax value — December 31, 2025" >}}
 
-{{< num-highlight value="2,364.08 CHF" label="[Ethereum](https://en.wikipedia.org/wiki/Ethereum) official SFTA tax value — December 31, 2025" >}}
+{{< datum value="2,364.08 CHF" label="[Ethereum](https://en.wikipedia.org/wiki/Ethereum) official SFTA tax value — December 31, 2025" >}}
 
 These are not necessarily the exact spot prices you see on Coinbase or Kraken at midnight on December 31st. The SFTA calculates an average of prices across multiple exchanges for the reference date. The result is the Steuerwert — the legally recognised tax value that you use when filling in the securities and credits schedule (Wertschriftenverzeichnis) in your cantonal tax form.
 
@@ -97,9 +94,9 @@ The SFTA Kursliste covers a limited number of cryptocurrencies. If you hold anyt
 
 **Level 4 — Zero value:** The only circumstance where a canton will accept zero as the declared value is when the token is demonstrably worthless — meaning the project has collapsed entirely, there is no exchange listing at any price, and there is documented evidence of worthlessness. This is a high bar. "It went down a lot" does not qualify. A project that still trades at fractions of a cent technically has a non-zero value.
 
-{{< skip-box title="Practical note on Level 2 documentation" >}}
+{{< sidenote title="Practical note on Level 2 documentation" >}}
 If you use CoinMarketCap or CoinGecko for Level 2 valuations, save a PDF or screenshot of the historical data page showing the December 31st closing price. Cantonal tax software varies in how it handles manual entry for non-Kursliste assets, but having clear documentation of how you arrived at your figure significantly reduces friction if your return is reviewed.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## Cantonal Rates: The Number That Actually Determines Your Bill
 
@@ -107,14 +104,14 @@ Here is where the Switzerland-is-not-one-country reality hits. Once you know the
 
 Wealth tax in Switzerland is levied exclusively at cantonal and municipal level. The federal government does not levy wealth tax on private individuals. And the cantonal variation is substantial.
 
-{{< budget-table title="Wealth tax on CHF 1,000,000 of taxable net wealth — selected cantons, 2026" >}}
+{{< source-table title="Wealth tax on CHF 1,000,000 of taxable net wealth — selected cantons, 2026" >}}
 | Canton | Estimated annual wealth tax | Effective rate |
 |---|---|---|
 | Zug | ~CHF 1,368 | ~0.14% |
 | Zurich | ~CHF 1,744 | ~0.17% |
 | Bern | ~CHF 4,027 | ~0.40% |
 | Geneva | ~CHF 5,115 | ~0.51% |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 Source: Taxolution Advisory, 2026 cantonal data (married couple filing, cantonal capital residence, no church tax). Note that these are effective rates — cantonal base rate multiplied by the cantonal and municipal multipliers — not the headline percentages printed in the cantonal tax codes.
 

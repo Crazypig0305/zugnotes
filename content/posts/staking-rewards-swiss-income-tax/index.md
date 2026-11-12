@@ -48,9 +48,6 @@ sources:
     desc: "The everyday-use field note — staking as part of everyday crypto use in Crypto Valley: what workflows look like in practice."
 ---
 
-> 📅 Last updated: October 2026
-> How Swiss tax authorities treat [staking](https://en.wikipedia.org/wiki/Proof_of_stake) rewards, read from the SFTA guidance, with current cantonal wealth tax figures and the 2026 AHV rates.
-
 Most explanations of Swiss crypto tax policy start with the good news: capital gains are tax-free for private investors. That part is accurate and important.
 
 What those same explanations often understate is what happens when your crypto generates yield. Staking rewards do not fall under the capital gains exemption. They are taxed as ordinary income — and understanding exactly why, and what that means across different staking setups and Swiss cantons, takes a bit more unpacking than the headline suggests.
@@ -65,7 +62,7 @@ The legal reasoning follows from how Swiss tax law categorizes asset returns. Ca
 
 When you stake ETH or ADA and receive staking rewards, the SFTA treats this as analogous to receiving interest on a savings account or dividends on a share. The tokens you receive are income in the year you receive them.
 
-{{< num-highlight value="Market Value in CHF on Date of Receipt" label="The amount you declare as income for each batch of staking rewards — not the value when you eventually sell them" >}}
+{{< datum value="Market Value in CHF on Date of Receipt" label="The amount you declare as income for each batch of staking rewards — not the value when you eventually sell them" >}}
 
 The practical implication is that you have two separate tax events when staking:
 
@@ -86,15 +83,15 @@ Then December 31st arrives. Those same ETH tokens — assuming you still hold th
 
 The wealth tax portion on a CHF 5,000 staking reward position is modest. But if you are staking at scale — say CHF 50,000 in annual rewards — the interaction is more material. And the wealth tax applies to your entire portfolio value, not just the rewards themselves. A validator running significant ETH at year-end is paying wealth tax on the full staked position.
 
-{{< skip-box title="Is there a deduction for this overlap?" >}}
+{{< sidenote title="Is there a deduction for this overlap?" >}}
 There is no specific Swiss tax mechanism to offset income already paid on staking rewards against the subsequent wealth tax on those same tokens. The two taxes are assessed separately under different legal frameworks — income tax on the receipt event, wealth tax on the year-end snapshot. For smaller stakers, the wealth tax portion is low enough that this is mostly an accounting consideration. For larger staking operations, it is worth quantifying with a Swiss tax professional.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## How Swiss Cantons Treat Staking Income Differently
 
 The federal position on staking rewards as income is uniform. But Switzerland's cantonal tax system means that the *cost* of that income classification varies significantly based on where you live.
 
-{{< budget-table title="Approximate marginal income tax rates for staking rewards: key cantons" sub="Wealth tax column: effective combined cantonal and municipal rate on CHF 1,000,000 of taxable net wealth, married couple, cantonal capital, 2026 (Taxolution Advisory)." >}}
+{{< source-table title="Approximate marginal income tax rates for staking rewards: key cantons" sub="Wealth tax column: effective combined cantonal and municipal rate on CHF 1,000,000 of taxable net wealth, married couple, cantonal capital, 2026 (Taxolution Advisory)." >}}
 | Canton | Approx. marginal income tax rate (CHF 100,000 taxable income) | Effective wealth tax rate on CHF 1m | Notes |
 |---|---|---|---|
 | Zug | ~22% | ~0.14% | Lowest in Switzerland; Zug Stadt specifically is among the lowest communes |
@@ -102,7 +99,7 @@ The federal position on staking rewards as income is uniform. But Switzerland's 
 | Zurich | ~38–40% | ~0.17% | Cheap on wealth at CHF 1m, steeply progressive above it (~0.46% at CHF 5m) |
 | Geneva | ~41–43% | ~0.51% | Highest among major Swiss cantons; Geneva city rates are at the top |
 | Bern | ~38–42% | ~0.40% | Similar income bracket to Zurich, materially higher on wealth |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 The same CHF 5,000 in staking rewards costs roughly CHF 1,100 in income tax for a Zug resident and roughly CHF 2,150 for a Geneva resident. The difference compounds at scale.
 
@@ -118,7 +115,7 @@ The basic income-at-receipt rule applies cleanly to direct staking: you validate
 
 **DeFi yield farming and lending protocols** fall into the same income category as staking, but with more case-by-case judgment. Yield from lending ETH or [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s on Aave or Compound is treated as capital income at receipt. Complex DeFi positions — impermanent loss compensation, governance token rewards, protocol incentives — are often assessed individually by cantonal offices. The principle remains: if you receive tokens as compensation for providing capital or services, that is income. The specifics of how liquidity providing, yield farming, and governance tokens each get handled deserve more room than this section gives them — there is a dedicated set of [field notes on DeFi tax treatment in Switzerland](/posts/defi-tax-treatment-switzerland/) that works through each case.
 
-{{< num-highlight value="Date of Receipt" label="The valuation date for all staking and DeFi reward income — not the date you sell, swap, or unstake" >}}
+{{< datum value="Date of Receipt" label="The valuation date for all staking and DeFi reward income — not the date you sell, swap, or unstake" >}}
 
 ## AHV Contributions: When Staking Becomes Self-Employment
 
@@ -143,9 +140,9 @@ The complete picture at filing time:
 - Total crypto portfolio value on December 31st, using SFTA Kursliste rates (or exchange rates for unlisted assets)
 - This includes any staked tokens you hold on December 31st — even those locked in a smart contract or validator contract
 
-{{< skip-box title="Reconstructing receipt-date values from staking history" >}}
+{{< sidenote title="Reconstructing receipt-date values from staking history" >}}
 Most staking platforms (and centralized exchanges) provide downloadable transaction history that includes reward distributions with timestamps. For tax purposes, you need the CHF value at each receipt date — which means cross-referencing the reward amount with SFTA rates or CMC historical prices for that specific date. Tools like Koinly or Blockpit can automate most of this for common networks, but you should verify the outputs against your actual reward history.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 The full practical sequence for declaring staking rewards is covered in the [Swiss tax return field note](/posts/declaring-crypto-swiss-tax-return/). The [Swiss Crypto Tax Advantage guide](/posts/swiss-crypto-tax-advantage-guide/) covers the broader framework — particularly the private investor status criteria that keep your underlying capital gains tax-free even as your staking income is taxed.
 

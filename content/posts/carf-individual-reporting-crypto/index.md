@@ -46,9 +46,6 @@ sources:
     desc: "coincub.com — plain-language breakdown of what exchanges report and what the data trail looks like"
 ---
 
-> 📅 Last updated: October 2026
-> A plain reading of the [OECD](https://www.oecd.org/) [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) text for individual holders, checked against the State Secretariat for International Finance FAQ, which is clearer than most coverage about how much of the framework Switzerland actually switched off.
-
 Most coverage of CARF focuses on the timeline: when will data cross borders, which countries are included, what does the Swiss delay actually mean. Those are reasonable questions, and I have written about them separately.
 
 What this field note covers is a different question: when CARF does operate, exactly what does it report about you?
@@ -87,7 +84,7 @@ Each category is reported on an annual aggregate basis — total amount received
 
 **Category 4: Transfer destination indicators.** When you transfer crypto out of your exchange to a wallet not held by another RCASP, the service provider must indicate whether the destination is your own self-hosted wallet or a third-party wallet. This "transfer wallet" element exists specifically to flag movements to self-custody — not to penalize self-custody (which is legal and common in Switzerland), but to allow tax authorities to trace the data trail when assets move off-exchange.
 
-{{< num-highlight value="4" label="Data categories" note="Identity / TIN / Transaction aggregates / Transfer destination indicators — all collected at RCASP level, reported annually" >}}
+{{< datum value="4" label="Data categories" note="Identity / TIN / Transaction aggregates / Transfer destination indicators — all collected at RCASP level, reported annually" >}}
 
 ## What CARF Does Not Report
 
@@ -101,9 +98,9 @@ The framework has clear limits, and understanding them is as important as unders
 
 **Account balances are not the primary reporting element.** Unlike CRS, which reports ending balances, CARF focuses on transaction flows. A holder who buys [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) through a Swiss exchange and does nothing else for a year would have limited reportable activity — the acquisition event itself, and potentially a fair market value figure for any fiat-to-crypto exchange.
 
-{{< skip-box title="What about non-reporting assets?" >}}
+{{< sidenote title="What about non-reporting assets?" >}}
 CBDC (central bank digital currencies) are explicitly excluded from CARF's scope. Stablecoins issued by regulated financial institutions may also be excluded depending on their classification. The framework includes a mechanism for jurisdictions to remove specific assets from scope if those assets are already covered by other reporting regimes. Check the OECD's current asset classification guidance if you hold instruments at the boundary of the definition.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## Individual vs. Entity: How CARF Treats Them Differently
 
@@ -115,7 +112,7 @@ For **entities** (companies, foundations, trusts, partnerships), the reporting o
 
 <!-- IG-data: Side-by-side breakdown of CARF's individual vs. entity reporting — the look-through obligation and passive-NFI rule that general CARF coverage collapses into a single "reporting" label, assembled here from the OECD framework text -->
 
-{{< budget-table title="CARF: Individual vs. Entity Reporting — Key Differences" sub="How the framework treats personal and corporate crypto holdings differently" >}}
+{{< source-table title="CARF: Individual vs. Entity Reporting — Key Differences" sub="How the framework treats personal and corporate crypto holdings differently" >}}
 | | Individual Holder | Entity Holder |
 |---|---|---|
 | Primary reportable person | The individual directly | The entity + controlling persons |
@@ -124,7 +121,7 @@ For **entities** (companies, foundations, trusts, partnerships), the reporting o
 | Transaction data | Aggregated by asset type and category | Same, at account level |
 | Look-through obligation | N/A | Yes — RCASP must identify beneficial owners |
 | Passive NFI rule | N/A | Entities with primarily passive income must identify controlling persons |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 The practical implication: if you hold crypto through a Zug-registered foundation or GmbH rather than personally, CARF does not let the entity structure shield you from personal identification. The look-through rule exists precisely to prevent that.
 
@@ -138,7 +135,7 @@ Readers who have followed the older international tax transparency frameworks wi
 
 The interaction between the three frameworks is formally managed to avoid duplication: where a transaction is already reportable under CRS, CARF is designed to turn off overlapping reporting. The deduplication logic is built into the framework.
 
-{{< budget-table title="CARF vs. CRS vs. FATCA — Structural Comparison" sub="How the three international reporting frameworks differ in scope and design" >}}
+{{< source-table title="CARF vs. CRS vs. FATCA — Structural Comparison" sub="How the three international reporting frameworks differ in scope and design" >}}
 | | CARF | CRS | FATCA |
 |---|---|---|---|
 | Primary asset class | Crypto-assets | Bank accounts, securities | All foreign financial accounts |
@@ -147,7 +144,7 @@ The interaction between the three frameworks is formally managed to avoid duplic
 | Who reports | RCASPs | Financial institutions | Foreign financial institutions |
 | Effective for Switzerland | Legal basis in place, provisions not applicable in 2026; 2027 at the earliest | Active, ongoing | Active (FATCA IGA since 2014) |
 | DeFi coverage | No (no RCASP involved) | No | No |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 The key insight from this comparison: CARF is not a rupture with the existing transparency system. It is a logical extension. Countries that have already adapted to CRS — which includes Switzerland, which has been a CRS participant since 2017 — already have the institutional infrastructure for CARF. The new piece is crypto-specific reporting at the RCASP level.
 
@@ -178,9 +175,9 @@ For holders with material unreported crypto positions — in any jurisdiction, n
 
 For holders in jurisdictions not on the reportable list — countries that are not CARF partner states — the distinction only starts to matter on the day Switzerland switches the framework on. From that point, a Swiss RCASP will collect and hold your data under its due-diligence duties like anyone else's, but there is no partner state for it to be exchanged with, so it stays in Switzerland. Before that day — which includes all of 2026 — nothing is being collected under CARF at all, for residents of partner and non-partner countries alike. This is a meaningful distinction for holders in the US (which has FATCA but is not a CARF exchange partner in the conventional multilateral sense), in China, and in Saudi Arabia. Inside the US, the domestic counterpart is a broker form rather than a data exchange between states: [Form 1099-DA, explained box by box](/posts/what-is-form-1099-da/).
 
-{{< skip-box title="This is not advice on your specific situation" >}}
+{{< sidenote title="This is not advice on your specific situation" >}}
 Nothing in this field note is legal or tax advice. The application of CARF to any specific holder depends on their tax residency, the type of assets held, which Swiss institutions they use, the laws of their home country, and the status of exchange agreements at the time data is transmitted. The landscape is evolving. A professional who knows your situation is the appropriate first call.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## What to Do With This Information
 

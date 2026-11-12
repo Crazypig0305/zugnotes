@@ -79,7 +79,7 @@ When a FINMA-licensed bank holds crypto directly for clients, the assets must be
 
 Swiss law (via the [DLT Act](https://www.sif.admin.ch/en/dlt-blockchain-en) and existing banking law) already requires this in principle. The guidance makes it explicit: client assets must be segregated at the individual ledger address level, not just as an aggregate balance. The bank's own holdings must remain separate from client holdings at all times.
 
-{{< num-highlight value="2" label="Custody types FINMA accepts" note="individual segregation or collective custody with documented client shares" >}}
+{{< datum value="2" label="Custody types FINMA accepts" note="individual segregation or collective custody with documented client shares" >}}
 
 ### 2. Delegation to Foreign Custodians
 
@@ -93,11 +93,11 @@ Swiss institutions can delegate crypto custody to foreign providers — but only
 
 This dual-requirement approach is tighter than what many institutions had previously assumed. Meeting one condition without the other is not sufficient.
 
-{{< skip-box title="When does this affect you as an individual holder?" >}}
+{{< sidenote title="When does this affect you as an individual holder?" >}}
 If you hold crypto through a Swiss bank or regulated asset manager — not directly, not on a foreign exchange — your custodian is subject to these rules. The guidance changes the custodian's internal obligations, not your direct relationship with your assets.
 
 If your custodian delegates to a foreign provider that does not meet both conditions above, the guidance requires your custodian to either restructure the arrangement or obtain your explicit written consent acknowledging the elevated risk.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ### 3. Portfolio Management (Individual Clients)
 
@@ -135,7 +135,7 @@ What does change more materially:
 
 **For existing non-compliant arrangements:** The written consent mechanism is a transitional provision, not a permanent solution. The implicit message is that institutions should be moving toward compliant structures, with client consent as a documented interim state.
 
-{{< budget-table title="FINMA Guidance 01/2026: What Changed for Each Scenario" sub="Summary across the five custody contexts" >}}
+{{< source-table title="FINMA Guidance 01/2026: What Changed for Each Scenario" sub="Summary across the five custody contexts" >}}
 | Scenario | Key Obligation | What's New |
 |---|---|---|
 | Swiss bank custody | Individual segregation at ledger level | Made explicit (was principle, now written rule) |
@@ -143,7 +143,7 @@ What does change more materially:
 | Portfolio management | Per-client segregation; non-compliant arrangements need documented consent | Consent mechanism formalized |
 | Collective investment schemes | Swiss custodian bank as default; delegation only if equivalent + disclosed | Prospectus disclosure now required |
 | Structured products / ETPs | Legally enforceable guarantees over underlying assets | Retail product collateral chain clarified |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 <!-- IG-angle: Reading a compliance-officer circular for the boundary an individual holder actually needs — the four places the guidance stops (self-custody, tax treatment, stablecoin custody, and the absent equivalence whitelist); the legal commentary maps what the document covers, not where it becomes irrelevant to you -->
 

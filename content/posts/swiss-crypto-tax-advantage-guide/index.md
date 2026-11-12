@@ -50,9 +50,6 @@ sources:
     desc: "Zug Notes — field note on FINMA's January 2026 custody rules, relevant to how crypto is held at Swiss institutions"
 ---
 
-> 📅 Last updated: October 2026
-> Swiss tax rules verified against SFTA Circular No. 36 and the FTA rate list for the 2025 tax year. Canton-level [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) figures are 2026 data. Rules can change — treat this as a starting map, not a filing instruction.
-
 The headline travels well: Switzerland does not tax capital gains on crypto.
 
 That part is accurate. A private investor in Switzerland who buys ETH, holds it, and sells it at a profit pays zero tax on that profit. The gain is simply not subject to income tax or a separate capital gains levy. In a world where most developed countries are building increasingly aggressive crypto tax regimes, this is a genuine structural advantage.
@@ -69,7 +66,7 @@ Under Swiss tax law, gains from the sale of private assets — stocks, bonds, re
 
 For a private investor, the logic is: you earned money, paid income tax on it, invested it as private capital, and the appreciation of that capital is not a new income event. The gain is yours, untaxed.
 
-{{< num-highlight value="0%" label="Capital gains tax rate for private crypto investors" note="Switzerland — applies to spot buying/selling. Does not apply to staking rewards, mining income, or professional traders." >}}
+{{< datum value="0%" label="Capital gains tax rate for private crypto investors" note="Switzerland — applies to spot buying/selling. Does not apply to staking rewards, mining income, or professional traders." >}}
 
 This is structurally different from how most jurisdictions treat crypto. The United States taxes crypto capital gains (short or long term depending on holding period). Germany taxes gains on crypto held under a year. The UK has a capital gains tax allowance, then levies gains above it. Australia treats most crypto sales as taxable events.
 
@@ -89,9 +86,9 @@ The SFTA's Circular No. 36 established five safe-haven criteria. Meeting all fiv
 
 **5. Derivatives only for hedging.** Using futures, options, or other derivatives is permissible if used to hedge existing positions. Using them as a primary trading strategy takes you outside the safe-haven rules.
 
-{{< skip-box title="If you miss one criterion" >}}
+{{< sidenote title="If you miss one criterion" >}}
 Missing a single criterion does not automatically reclassify you as a professional trader — Swiss authorities look at the overall picture. But missing multiple criteria, or missing one consistently across multiple tax years, significantly increases the risk of reclassification. No canton publishes a written tolerance standard for active holders, so treat any claim that one tax office is more lenient as unverified. If your activity is borderline, the right move is a ruling request (*Steuerruling*) to your cantonal tax authority before filing.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 If you are reclassified as a professional trader, your net capital gains become fully taxable as business income — subject to both income tax and AHV (social security contributions, currently 10% for self-employed individuals). This is the scenario the capital gains exemption was designed to avoid.
 
@@ -105,13 +102,13 @@ The SFTA publishes an official rate list (Kursliste) each year, typically in Feb
 
 For the 2025 tax year (filed in 2026): [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)'s official SFTA reference value on December 31, 2025 was CHF 69,571.99, and [Ethereum](https://en.wikipedia.org/wiki/Ethereum)'s was CHF 2,364.08. For the 2024 tax year the same two values were CHF 85,926.49 and CHF 3,083.56. For cryptocurrencies not on the official list, most cantons accept documented market prices from platforms like coinmarketcap.com on that date.
 
-{{< num-highlight value="Dec 31" label="The only date that determines your taxable crypto wealth" note="Hold or sell before midnight: that determines whether the position appears in your wealth tax declaration for that year." >}}
+{{< datum value="Dec 31" label="The only date that determines your taxable crypto wealth" note="Hold or sell before midnight: that determines whether the position appears in your wealth tax declaration for that year." >}}
 
 For 2023 (for historical context): Bitcoin's SFTA value was CHF 35,541.63. The practical implication: a holder who held through the end of 2023 and sold in late 2024 would have declared wealth at the 2023 value, then sold at a far higher price — with zero capital gains tax on that difference.
 
 **Wealth tax rates by canton.** The rate you pay on that December 31st value depends on where you live:
 
-{{< budget-table title="Wealth tax comparison: selected Swiss cantons (2026)" sub="Annual wealth tax on CHF 1,000,000 of taxable net wealth — married couple, cantonal capital, no church tax. Source: Taxolution Advisory, 2026 cantonal data." >}}
+{{< source-table title="Wealth tax comparison: selected Swiss cantons (2026)" sub="Annual wealth tax on CHF 1,000,000 of taxable net wealth — married couple, cantonal capital, no church tax. Source: Taxolution Advisory, 2026 cantonal data." >}}
 | Canton | Annual bill on CHF 1m | Effective rate | Notes |
 |---|---|---|---|
 | Nidwalden | ~CHF 1,253 | ~0.13% | Flat rate; consistently among the lowest |
@@ -121,7 +118,7 @@ For 2023 (for historical context): Bitcoin's SFTA value was CHF 35,541.63. The p
 | Bern | ~CHF 4,027 | ~0.40% | Progressive |
 | Geneva | ~CHF 5,115 | ~0.51% | High cantonal rate plus municipal surcharge; progressive — roughly 0.76% at CHF 5m |
 | Neuchâtel | ~CHF 6,804 | ~0.68% | Among the highest in Switzerland |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 These are effective rates — cantonal base rate multiplied by the cantonal and municipal tax multipliers — not the headline percentages in the cantonal tax code. They also move with portfolio size, because most cantons are progressive: Zurich is one of the cheaper cantons at CHF 1m and one of the more expensive at CHF 5m.
 
@@ -139,7 +136,7 @@ The practical difference: capital gains are exempt for private investors. Capita
 
 Staking rewards must be declared in the year they are received, at their CHF market value on the date of receipt. If you receive 0.5 ETH in staking rewards in March 2025 when ETH is trading at CHF 2,800, you declare CHF 1,400 as income for the 2025 tax year — regardless of whether you sell the ETH or hold it. Your marginal income tax rate applies to that amount.
 
-{{< num-highlight value="100%" label="Staking rewards subject to income tax" note="Classified as Kapitalertrag (capital income), not capital gains. Taxed at your marginal rate in the year received, at CHF value on date of receipt." >}}
+{{< datum value="100%" label="Staking rewards subject to income tax" note="Classified as Kapitalertrag (capital income), not capital gains. Taxed at your marginal rate in the year received, at CHF value on date of receipt." >}}
 
 If you subsequently sell those staked ETH at a profit, the capital gain on the appreciation above your cost basis (the CHF value when received) remains tax-free for private investors. The income event and the capital gains event are separate.
 
@@ -157,9 +154,9 @@ In a typical capital-gains-tax jurisdiction, the incentive is to delay selling �
 
 A simple illustration: assume you hold BTC worth CHF 1 million on December 31st. Using the effective rates in the table above, that position costs about CHF 1,370 in wealth tax in Zug and about CHF 5,120 in Geneva — regardless of whether you intend to sell in January. If BTC then falls 40% by March and you sell, you still paid wealth tax on the December peak value.
 
-{{< skip-box title="The December 31st sell-before-year-end question" >}}
+{{< sidenote title="The December 31st sell-before-year-end question" >}}
 Some crypto holders in Switzerland deliberately reduce positions before December 31st to lower their taxable wealth. This is legal and common. The tax saving is direct: applied at the effective rates above, shedding CHF 200,000 of crypto before year-end saves roughly CHF 280 in Zug (~0.14%) and roughly CHF 1,020 in Geneva (~0.51%). The flip side: if you sell and then repurchase in January, you are resetting your holding period, which matters for the six-month private investor criterion. For active holders, these decisions require mapping both the wealth tax exposure and the private investor status implications simultaneously.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## Canton-Level Differences That Actually Matter for Crypto Holders
 
@@ -219,7 +216,7 @@ If your employer pays you partly in crypto, the CHF market value of that crypto 
 
 ## What This Means If You Hold Crypto in Switzerland
 
-The Swiss crypto tax framework is, in practice, favorable — but not in the simple way the "zero capital gains tax" headline implies.
+The Swiss crypto tax framework is, in practice, favorable — but not in the simple way the "zero capital gains tax" headline implies. The rules here are read from SFTA Circular No. 36 and the FTA rate list for the 2025 tax year, and they can change — treat this as a starting map, not a filing instruction.
 
 The real advantage is structural: Switzerland taxes crypto on a wealth model rather than a realization model. You pay a modest annual levy on what you hold, and the appreciation of that holding is permanently exempt from tax upon sale. In a long-term appreciation scenario — buying ETH at CHF 500 and eventually selling at CHF 5,000, or whatever the equivalent looks like a decade from now — the total tax drag is the accumulated wealth tax on the intervening years, not a percentage of the gain itself.
 

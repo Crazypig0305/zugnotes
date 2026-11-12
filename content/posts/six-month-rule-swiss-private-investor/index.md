@@ -45,9 +45,6 @@ sources:
     desc: "Zug Notes — the wealth tax calculation field note: wealth tax applies to all crypto holders regardless of investor status; how the December 31 portfolio valuation works."
 ---
 
-> 📅 Last updated: October 2026
-> The SFTA's professional-trader criteria read from Circular No. 36 and the federal crypto working paper, with the 2026 AHV rates.
-
 The Swiss crypto tax headline is simple: capital gains are tax-free for private investors. Most people stop reading there.
 
 What the headline omits is that "private investor" is not a default state. It is a classification you need to actively maintain — and the Swiss [Federal Tax Administration](https://www.estv.admin.ch/en) has published five specific criteria that determine whether you qualify.
@@ -70,7 +67,7 @@ The financial gap between the two classifications is significant. This is why th
 
 The Swiss Federal Tax Administration's Kreisschreiben Nr. 36, issued in July 2012 and formally applied to crypto in December 2021, defines five conditions. Meeting all five creates a strong presumption of private investor status. These conditions are cumulative — the intent is that you need to satisfy all of them, not a majority.
 
-{{< budget-table title="SFTA KS 36 — Five safe-harbour criteria for private investor status" >}}
+{{< source-table title="SFTA KS 36 — Five safe-harbour criteria for private investor status" >}}
 | # | Criterion | What it means in practice |
 |---|---|---|
 | 1 | **Holding period ≥ 6 months** | Each position you sell must have been held for at least six months before the sale. Individual coin tracking matters here — FIFO or specific identification. |
@@ -78,7 +75,7 @@ The Swiss Federal Tax Administration's Kreisschreiben Nr. 36, issued in July 201
 | 3 | **Capital gains < 50% of net income** | Your realized crypto gains for the year must not represent more than half of your total taxable income. If trading profits are your primary income source, this criterion fails. |
 | 4 | **No debt financing** | You are not using borrowed money (loans, margin, leverage) to fund crypto positions. Or if you are, the income from your crypto assets exceeds the interest cost. |
 | 5 | **Derivatives for hedging only** | Options, futures, and other derivatives are used only to hedge existing positions — not as standalone speculative instruments. |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 <!-- IG-angle: Identifying which of the five cumulative criteria actually produces reclassifications — the six-month rule carries the name and the attention, but the transaction-volume test (5x opening balance, where every swap counts as both a sale and a purchase) is the one that catches active holders without warning; worked out from the arithmetic of the criteria themselves (a swap-heavy year multiplies volume fast), not from observing individual cases, which is not claimed -->
 
@@ -88,7 +85,7 @@ The holding period criterion is the most visible, but on the arithmetic of the f
 
 **The transaction volume criterion catches active traders.** If you started 2020 with CHF 100,000 in crypto and executed CHF 550,000 in combined purchases and sales during the year, you have exceeded the five-times threshold. This can happen faster than people expect during volatile markets when they are rotating between Bitcoin, ETH, and altcoins. Each swap is a sale plus a purchase — both sides count.
 
-{{< num-highlight value="5×" label="The maximum transaction volume relative to your opening portfolio balance — above this, the volume criterion fails" >}}
+{{< datum value="5×" label="The maximum transaction volume relative to your opening portfolio balance — above this, the volume criterion fails" >}}
 
 **The income criterion catches people who had a very good year.** If your salary is CHF 80,000 and you realized CHF 50,000 in crypto gains, the gains represent roughly 62% of your total taxable income. That exceeds the 50% threshold. The criterion is designed to identify people for whom trading has essentially become their primary income source.
 
@@ -107,9 +104,9 @@ In practice, this means:
 - If you specifically identify coins to sell (a method some cantons allow), you can choose which acquisition dates apply to each sale.
 - Staking rewards and airdropped tokens have their own acquisition dates from when they were received — which can complicate holding period tracking if you sell those positions.
 
-{{< skip-box title="What about DCA (regular purchases)?" >}}
+{{< sidenote title="What about DCA (regular purchases)?" >}}
 Dollar-cost averaging into a position over months creates multiple acquisition dates. If you buy small amounts of Bitcoin weekly for six months and then sell the entire position at month seven, only the earliest purchases meet the six-month threshold under strict FIFO. This is an area where using a crypto tax tool that tracks individual lot acquisition dates is worthwhile rather than trying to reconstruct from memory.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## Cantonal Practice: The Gap Between the Written Rule and Reality
 

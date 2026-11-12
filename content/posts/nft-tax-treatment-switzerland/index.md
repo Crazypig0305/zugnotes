@@ -54,9 +54,6 @@ sources:
 image: /og-default.jpg
 ---
 
-> 📅 Last updated: October 2026
-> Swiss NFT tax principles cross-verified against SFTA Circular No. 36, the IFLR practitioner analysis, and Blockpit/Koinly 2026 guides; the CARF section re-checked in September 2026 against the State Secretariat for International Finance FAQ. The SFTA has still published no NFT-specific guidance — its crypto working paper covers payment, asset and utility tokens — so rules are applied by analogy from general crypto principles, and case-by-case analysis is recommended for complex situations.
-
 Switzerland does not publish a rulebook for [NFT](https://en.wikipedia.org/wiki/Non-fungible_token) taxation. What it does instead is apply its existing crypto tax framework — built primarily around fungible assets like Bitcoin and Ether — to a class of asset that is structurally different in ways that create real ambiguity.
 
 The result is a three-tier framework that most explanations skip over: private collectors who hold NFTs as personal investments sit in a genuinely favorable position; professional traders who flip NFTs systematically face income tax on their gains; and NFT creators — the people who mint and sell — find themselves classified as self-employed, with income tax and potentially VAT exposure that catches many off guard.

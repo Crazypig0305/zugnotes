@@ -37,9 +37,6 @@ sources:
     desc: "caplaw.ch — legal commentary on the licence conditions and simultaneous AML guidance, 2019"
 ---
 
-> 📅 Last updated: October 2026
-> The [FINMA](https://www.finma.ch/en/) announcement read from the official release, with the current [SEBA](https://en.wikipedia.org/wiki/SEBA_Bank)/[Sygnum](https://www.sygnum.com/) status taken from the banks' own disclosures.
-
 August 26, 2019 was not a day that made headlines outside of crypto circles. But for anyone who had been tracking FINMA's posture toward blockchain companies over the previous five years, it was a significant moment.
 
 FINMA had granted banking and securities dealer licences to two firms — SEBA Crypto AG and Sygnum — describing them in the official press release as the first "pure-play blockchain service providers" to receive this authorisation in Switzerland. The phrase "pure-play" was deliberate. Traditional Swiss banks had been experimenting with digital asset services for years. What was new was a bank built entirely around crypto, licensed to operate on the same regulatory footing as the institutions it was meant to replace.
@@ -52,7 +49,7 @@ What it did not say — but what the legal significance implied — was that thi
 
 The simultaneous grant to both firms was reportedly deliberate. FINMA wanted to avoid the appearance of giving one applicant a regulatory head start over the other. Both applications had been proceeding in parallel. Both were approved the same day.
 
-{{< num-highlight value="26 Aug 2019" label="Date FINMA granted Switzerland's first crypto banking licences" note="Simultaneous grant to SEBA Crypto AG and Sygnum — the first 'pure-play blockchain service providers' to receive full Swiss banking and securities dealer authorisation." >}}
+{{< datum value="26 Aug 2019" label="Date FINMA granted Switzerland's first crypto banking licences" note="Simultaneous grant to SEBA Crypto AG and Sygnum — the first 'pure-play blockchain service providers' to receive full Swiss banking and securities dealer authorisation." >}}
 
 ## Why This Mattered Then
 
@@ -66,9 +63,9 @@ The August 2019 licences answered a question that had been hanging over the Zug 
 
 The answer, in FINMA's language, was integration.
 
-{{< skip-box title="What this did not resolve" >}}
+{{< sidenote title="What this did not resolve" >}}
 The 2019 banking licences were a structural milestone, not an end point. They did not resolve questions about how crypto assets would be taxed in Switzerland at the individual level — [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) treatment and the capital gains exemption for private investors remained governed by cantonal practice and federal guidance that continues to evolve. For how Swiss crypto tax works today, see the [Swiss crypto tax advantage guide](/posts/swiss-crypto-tax-advantage-guide/). The 2019 licences also did not address the cross-border reporting framework that [CARF](https://www.oecd.org/tax/exchange-of-tax-information/crypto-asset-reporting-framework-and-amendments-to-the-common-reporting-standard.htm) later established — for that context, see [Switzerland's CARF delay explained](/posts/switzerland-carf-delay-2027/).
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## The Two Banks and Their Backers
 
@@ -82,7 +79,7 @@ SEBA was operational by October 2019, having met the "secondary criteria" FINMA 
 
 Sygnum's path since 2019 has been methodical. It reported its first profitable half-year in H1 2024, with client assets exceeding $4.5 billion. In September 2024 it registered a subsidiary with Liechtenstein's financial regulator — the entry point for MiCA-compliant EU expansion across all 30 EU and EEA countries, planned for Q1 2025.
 
-{{< num-highlight value="$4.5B" label="Sygnum client assets as of mid-2024" note="Reported alongside H1 2024 profit. Sygnum simultaneously reported a 500% rise in crypto derivatives trading volume and a >360% increase in loan volumes." >}}
+{{< datum value="$4.5B" label="Sygnum client assets as of mid-2024" note="Reported alongside H1 2024 profit. Sygnum simultaneously reported a 500% rise in crypto derivatives trading volume and a >360% increase in loan volumes." >}}
 
 <!-- IG-angle: Separating what the licences changed at once (the legal answer a Swiss crypto firm could now give foreign counterparties and correspondent banks) from what they did not (SEBA only became operational in October 2019, and the ecosystem was still repairing the 2018 downturn); read from FINMA's release and the banks' later disclosures, no on-site observation is claimed -->
 

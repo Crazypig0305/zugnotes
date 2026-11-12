@@ -59,7 +59,7 @@ The six banking partners are not issuing the stablecoin themselves. They are par
 
 The sandbox runs throughout 2026 and is open to additional participants — and additional participants have since joined. The safeguards the partners describe are a limited participant pool and transaction limits; they have not published the size of those limits, and no public figure for a volume cap exists.
 
-{{< num-highlight value="9" label="Sandbox participants as of September 2026" note="The six founding banks plus Swiss Stablecoin AG, joined by SIX and TWINT on September 8, 2026." >}}
+{{< datum value="9" label="Sandbox participants as of September 2026" note="The six founding banks plus Swiss Stablecoin AG, joined by SIX and TWINT on September 8, 2026." >}}
 
 ## The Regulatory Scaffolding: What Is Settled and What Is Not
 
@@ -89,9 +89,9 @@ The CHFD stablecoin being tested now is issued by Swiss Stablecoin AG — a non-
 
 This is not a minor distinction for a practitioner audience.
 
-{{< skip-box title="Why this matters if you hold or clear CHF on-chain" >}}
+{{< sidenote title="Why this matters if you hold or clear CHF on-chain" >}}
 Deposit tokens (bank-issued, direct claim) and stablecoins (non-bank issuer, reserve-backed) carry different counterparty risk profiles, insolvency treatment under Swiss law, and AML identification requirements. The sandbox is specifically designed to stress-test the stablecoin structure — not to replace the September 2025 deposit token experiment, but to run alongside it.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## What the Founding Six-Bank Composition Signals
 
@@ -120,7 +120,7 @@ There is no retail-accessible, broadly programmable CHF on-chain asset.
 
 The CHFD sandbox is exploring whether a licensed-but-non-bank issuer model, operating within a clear FINMA framework, can close that gap. The [Ethereum](https://en.wikipedia.org/wiki/Ethereum) ERC-20 choice matters here — it means the token is designed for interoperability with existing DeFi infrastructure from day one, not siloed in a permissioned private chain.
 
-{{< num-highlight value="3" label="Parallel CHF digital money tracks" note="Wholesale CBDC ([SNB](https://www.snb.ch/en)) / Deposit token (banks) / Stablecoin (Swiss Stablecoin AG)" >}}
+{{< datum value="3" label="Parallel CHF digital money tracks" note="Wholesale CBDC ([SNB](https://www.snb.ch/en)) / Deposit token (banks) / Stablecoin (Swiss Stablecoin AG)" >}}
 
 <!-- IG-angle: Separating the two experiments the launch coverage merges — September 2025 was deposit tokens (bank-issued, direct claim, interbank settlement), April 2026 is CHFD (non-bank issuer, external reserves, programmable access); they carry different counterparty risk and insolvency treatment, address different layers, and are not competing, so reading them as one story misreads the regulatory signal entirely -->
 

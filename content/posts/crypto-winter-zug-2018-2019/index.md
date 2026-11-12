@@ -54,9 +54,6 @@ sources:
     desc: "fintechnews.ch — 2019 Top 50 list showing ecosystem structure at end of the crypto winter"
 ---
 
-> 📅 Last updated: October 2026
-> The 2018-2019 crypto winter in Zug, reconstructed from FINMA enforcement records, CV VC reports and contemporary reporting, with the later recovery data.
-
 January 2019. [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) was trading around $3,500 — down 82% from its December 2017 peak.
 
 This note is not about the price chart (you've seen it). It is about what the winter did to the town that had spent two years calling itself the world's crypto capital, as far as the public record shows it: what closed, what survived, and why one piece of news in August 2019 mattered more than any token recovery.
@@ -81,9 +78,9 @@ Thirty-seven thousand investors. More than CHF 90 million. A registered seat in 
 
 The public record of smaller failures is thin. Most small ICO-funded teams were never FINMA enforcement cases and left no court ruling behind, so their wind-downs show up only indirectly. What the aggregate data does show is churn: CV VC counted 629 blockchain companies in Switzerland and Liechtenstein at the end of September 2018 and 750 by the end of December ([netzwoche.ch](https://www.netzwoche.ch/news/2019-01-25/firmen-im-crypto-valley-verlieren-massiv-an-wert)). The headline number kept growing because new entrants kept registering, which means a rising count can hide closures underneath it. If you want to check what happened to a specific project, the Swiss commercial register ([zefix.ch](https://www.zefix.ch/en/search/entity/welcome)) shows whether the company is still active, in liquidation or deleted.
 
-{{< skip-box title="What the Envion collapse revealed" >}}
+{{< sidenote title="What the Envion collapse revealed" >}}
 Envion's failure was not primarily a market story — it was a governance story. The company had taken investor funds without FINMA authorisation, and the governance structure of a Swiss foundation made it difficult for investors to recover anything. The same foundation model that had enabled the 2017 ICO boom (flexible, no profit-distribution obligations) became a liability when things went wrong: once money was in the Stiftung, the foundation board controlled it. This is one reason FINMA's subsequent regulatory work focused heavily on formalising custody and governance requirements for token issuers.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## The Firms That Stayed — and Why
 

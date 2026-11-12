@@ -86,7 +86,7 @@ A standard USDT transfer consumes about 65,000 energy when the recipient's walle
 
 <!-- IG-data: Fee table independently recalculated from current on-chain parameters (65k/130k energy, 100 sun unit price post-Proposal #104) rather than copied from pre-2025 sources still citing 13.5/27 TRX burn costs at the old 210-sun rate -->
 
-{{< budget-table title="What a single USDT transfer costs on TRON (June 2026)" sub="Energy priced at 100 sun per unit since Proposal #104" >}}
+{{< source-table title="What a single USDT transfer costs on TRON (June 2026)" sub="Energy priced at 100 sun per unit since Proposal #104" >}}
 
 | Scenario | Energy needed | Cost by burning TRX | Cost with rented energy |
 |---|---|---|---|
@@ -94,13 +94,13 @@ A standard USDT transfer consumes about 65,000 energy when the recipient's walle
 | Recipient wallet never held USDT | ~130,000 | ~13 TRX | ~2–4 TRX |
 | Bandwidth (both cases) | ~345 points | Free up to 600/day; ~0.3 TRX if exceeded | Same |
 
-{{< /budget-table >}}
+{{< /source-table >}}
 
 Two things in that table deserve a plain-language translation. First, the "empty wallet" surcharge is not a scam — it is the cost of writing a brand-new entry into the USDT contract's storage, and it is why your first transfer to any fresh address stings the most. Second, burned TRX is destroyed, not paid to anyone. The network removes it from circulation entirely.
 
 For scale: this fee question is not a niche concern. TRON [closed the second quarter of 2026 with $87.9 billion of USDT on the chain](https://cryptobriefing.com/tron-usdt-circulation-q2-2026/) — about 47.6% of all [Tether](https://en.wikipedia.org/wiki/Tether_(cryptocurrency)) in circulation, more than any other chain — and roughly three out of four USDT transfers globally settle on TRON. CoinDesk and Messari research counted [$2.0 trillion in USDT transfers on TRON in the first quarter of 2026 alone](https://www.newsfilecorp.com/release/293406/TRON-Powers-2T-in-USDT-Transfers-in-Q1-CoinDesk-and-Messari-Research-Highlight-AI-Institutional-Growth). Multiply a few TRX of avoidable cost by that volume and you understand why an entire sub-industry exists to optimize it.
 
-{{< num-highlight value="~85%" label="Maximum fee reduction via rented energy" note="~13 TRX burned vs ~2 TRX rented, empty-wallet transfer, June 2026" >}}
+{{< datum value="~85%" label="Maximum fee reduction via rented energy" note="~13 TRX burned vs ~2 TRX rented, empty-wallet transfer, June 2026" >}}
 
 ## Why an Energy Rental Market Exists at All
 
@@ -124,9 +124,9 @@ The user-facing flow is short. You request energy for a transfer, pay a small fe
 
 The other side of the marketplace is supply. Services like this source energy from accounts with idle staked TRX, and TRXFlow also runs participation programs — browser-based network monitoring at the simple end, resource allocation at the committed end — that reward contributors from the platform's business revenue. Those rewards float with actual business volume. They are not fixed, not guaranteed, and the platform itself does not frame them as a yield product — a framing I would treat as a red flag anywhere in crypto if it appeared.
 
-{{< skip-box title="When you don't need any of this" >}}
+{{< sidenote title="When you don't need any of this" >}}
 If your USDT never leaves an exchange — you buy, hold, and sell on the same platform — these fees do not apply to you. Exchange-internal transfers are bookkeeping entries, not on-chain transactions. Energy costs only enter your life when you withdraw to a self-custody wallet or send USDT peer-to-peer on-chain.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## The Honest Caveats
 

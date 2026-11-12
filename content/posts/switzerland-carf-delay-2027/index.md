@@ -84,7 +84,7 @@ If the exchange is delayed, what did 1 January 2026 activate? Less than many exp
 
 **Providers may still prepare voluntarily.** SIF confirmed that a provider can, on its own initiative and on its own contractual basis, bring its self-certification into line with the OECD framework from 1 January 2026. Some have; others paused the build. That is a commercial choice rather than a legal duty, and it is why two Swiss institutions can currently ask you for quite different things. Registration with the Swiss [Federal Tax Administration](https://www.estv.admin.ch/estv/en/home.html) (SFTA), by contrast, is not a 2026 obligation at all.
 
-{{< num-highlight value="74" label="Partner jurisdictions" note="The Federal Council's June 2025 dispatch describes the list as all EU member states, the UK and most G20 countries, except the USA and Saudi Arabia" >}}
+{{< datum value="74" label="Partner jurisdictions" note="The Federal Council's June 2025 dispatch describes the list as all EU member states, the UK and most G20 countries, except the USA and Saudi Arabia" >}}
 
 ## What Gets Reported When CARF Does Take Effect
 
@@ -94,11 +94,11 @@ Understanding what CARF covers requires understanding what counts as a reportabl
 
 **Out of scope:** non-tradable digital collectibles (think limited-edition art with no secondary market), central bank digital currencies, and — critically — self-custodied assets held without any Swiss service provider involvement. If you hold crypto in your own hardware wallet and never use a Swiss exchange or bank to acquire, transfer, or trade it, there is no RCASP to report on your behalf.
 
-{{< skip-box title="Does CARF apply to self-custody?" >}}
+{{< sidenote title="Does CARF apply to self-custody?" >}}
 CARF's reporting obligation falls on Reporting Crypto-Asset Service Providers, not on individual holders directly. If you hold crypto entirely in self-custody — acquired outside Switzerland, held in your own wallet, transacted without using a Swiss-supervised institution — no Swiss RCASP has an obligation to report your holdings.
 
 This does not affect your Swiss [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) or income tax obligations, which exist independently of CARF. It means, more narrowly, that CARF data exchange would not be the mechanism through which foreign tax authorities learn about those holdings.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## The 2026 vs. 2027 Comparison That Actually Matters
 
@@ -106,7 +106,7 @@ Most coverage focused on what changed (the exchange date). The more useful compa
 
 <!-- IG-data: Row-by-row 2026 vs 2027 comparison built for the individual holder rather than the compliance department — separating what the postponement actually switched off (due diligence, collection, registration, exchange in both directions) from what it never touched (wealth tax, income tax, self-custody scope); assembled from the SIF FAQ, which contradicts most of the "Switzerland delays crypto tax sharing" coverage -->
 
-{{< budget-table title="Switzerland CARF: 2026 vs. 2027 — What Actually Changes" sub="For individual crypto holders using Swiss service providers" >}}
+{{< source-table title="Switzerland CARF: 2026 vs. 2027 — What Actually Changes" sub="For individual crypto holders using Swiss service providers" >}}
 | | 2026 | 2027 at the earliest |
 |---|---|---|
 | CARF law | On the statute book, provisions not applicable | Applies from the date Parliament activates it |
@@ -117,7 +117,7 @@ Most coverage focused on what changed (the exchange date). The more useful compa
 | Swiss domestic reporting | No change — wealth tax and income tax obligations exist independently | No change |
 | Self-custody impact | None | None |
 | Action required from holders | Get your declarations in order while the channel is dark | Ensure foreign tax obligations are met before data reaches foreign authorities |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 The core practical difference is not where 2026 data sits. It is that there is no CARF data for 2026. Your wealth tax and income tax obligations for the year are untouched — what has not started is the parallel channel that would let another tax authority check them against your platform's records.
 
@@ -158,9 +158,9 @@ It does not mean foreign tax authorities cannot access information about your Sw
 
 What the postponement does mean, practically: if you have been intending to review your holding structure, assess your reporting obligations in your country of tax residence, or check that your Swiss bank accounts and exchange positions are reflected correctly in your domestic filings — the window is open, and it is wider than the January coverage implied, because nothing is accumulating under CARF yet. That is a thing to use, not a thing to wait out.
 
-{{< skip-box title="A note on the legal advice you are not reading here" >}}
+{{< sidenote title="A note on the legal advice you are not reading here" >}}
 Nothing in this field note constitutes tax or legal advice. CARF's application to any specific holding structure depends on facts that require qualified professional assessment — your tax residency, the type of assets held, which Swiss institutions you use, and the relevant laws of your country of residence. The landscape is genuinely complex. A professional who knows your situation is the appropriate first call.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## What Comes Next
 

@@ -73,9 +73,9 @@ The most important thing to understand about MiCA and FINMA is that they are sol
 
 This distinction matters because it reframes the whole comparison. Asking "Is FINMA better than MiCA?" is like asking whether a driver's license is better than a train ticket. They are different things for different journeys.
 
-{{< num-highlight value="27" label="EU member states" note="accessible via single MiCA CASP authorization" >}}
+{{< datum value="27" label="EU member states" note="accessible via single MiCA CASP authorization" >}}
 
-{{< num-highlight value="1" label="Country covered" note="by FINMA authorization alone (Switzerland)" >}}
+{{< datum value="1" label="Country covered" note="by FINMA authorization alone (Switzerland)" >}}
 
 ---
 
@@ -91,7 +91,7 @@ MiCA, by contrast, was finally adopted by the European Parliament in **April 202
 
 Switzerland had seven years of operational experience with crypto regulation before MiCA became applicable. That gap explains a lot about why Swiss firms feel comfortable in their home regulatory environment: they have been navigating it, with direct FINMA dialogue, for nearly a decade.
 
-{{< budget-table title="Regulatory Timeline Comparison" sub="Key milestones for FINMA and MiCA frameworks" >}}
+{{< source-table title="Regulatory Timeline Comparison" sub="Key milestones for FINMA and MiCA frameworks" >}}
 | Milestone | Switzerland (FINMA) | EU (MiCA) |
 |---|---|---|
 | First crypto-specific guidance | 2017 (ICO guidance) | April 2023 (MiCA adopted) |
@@ -99,7 +99,7 @@ Switzerland had seven years of operational experience with crypto regulation bef
 | Full enforcement | Ongoing since 2017 | December 30, 2024 |
 | Transition deadline | N/A | 1 July 2026 (for existing CASPs), now expired |
 | Enforcement fines issued | Case-by-case under banking law | No regulator-level total published |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 ---
 
@@ -165,9 +165,9 @@ This creates a real operational question for Zug-based firms. Options include:
 
 The third path is increasingly common. Several Swiss crypto firms have established EU entities specifically to hold CASP authorizations — AMINA through an Austrian MiCA licence and Sygnum through a Liechtenstein subsidiary, as the [2019 licensing field note](/posts/finma-crypto-license-2019/) records — while keeping core operations and custody infrastructure in Switzerland under FINMA supervision. This is not regulatory arbitrage — it is practical compliance with two distinct frameworks that cover adjacent geographic markets.
 
-{{< skip-box title="What Changed in January 2026" >}}
+{{< sidenote title="What Changed in January 2026" >}}
 FINMA Guidance 01/2026 introduced an explicit equivalence pathway for MiCA-regulated custodians. Swiss-licensed entities can now delegate crypto custody to EU-based CASPs — provided those CASPs meet MiCA's full custody requirements — and satisfy FINMA's delegation standards. This is the clearest formal recognition that the two frameworks are being designed to interact, not to exclude each other.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ---
 
@@ -199,7 +199,7 @@ I want to be direct about what each framework actually delivers, because the mar
 - Smaller domestic market — Switzerland's roughly 9.1 million residents are a fraction of the EU's 450 million
 - Capital requirements are case-by-case, which creates uncertainty in early planning stages
 
-{{< budget-table title="MiCA vs FINMA: Key Dimensions" sub="Field notes from public sources — not legal advice" >}}
+{{< source-table title="MiCA vs FINMA: Key Dimensions" sub="Field notes from public sources — not legal advice" >}}
 | Dimension | MiCA (EU) | FINMA (Switzerland) |
 |---|---|---|
 | Regulatory philosophy | Rules-based, explicit codes | Principles-based, substance review |
@@ -212,7 +212,7 @@ I want to be direct about what each framework actually delivers, because the mar
 | Cross-border interaction | Passporting within EU | Reverse solicitation for EU clients |
 | Crypto bank licensing | Not applicable | Full banking license available (AMINA, [Sygnum](https://www.sygnum.com/) model) |
 | First crypto-specific framework | Adopted April 2023, fully applicable December 2024 | 2017 (ICO guidance) |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 ---
 

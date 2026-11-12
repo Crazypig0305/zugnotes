@@ -47,9 +47,6 @@ sources:
 
 <!-- IG-synthesis: Built from the two official bill texts on govinfo.gov (the House-passed version and the Senate Banking Committee substitute reported 1 June 2026) and the congress.gov action history, read side by side; the who-changes-what table and the House-vs-Senate table are assembled from section numbers in those texts, not from news summaries. No first-hand involvement is claimed. -->
 
-> 📅 Last updated: 18 October 2026
-> Bill status checked against congress.gov on 18 October 2026: last recorded action is the failed cloture vote of 15 September 2026.
-
 The CLARITY Act is a US bill that would write the rules for crypto markets into federal law: which regulator oversees which tokens, how exchanges and brokers register, and what protections ordinary holders and software developers get. It is not law. The House passed it 294–134 on 17 July 2025; on 15 September 2026 the Senate fell 11 votes short of even starting debate — 49 in favour, 50 against, with 60 needed. As of 18 October 2026, nothing has happened since.
 
 That is the short answer. The longer one matters because two different texts now carry the CLARITY name, and most summaries describe only one of them. This note reads both, and keeps the parts that would reach you apart from the parts that only reach firms.
@@ -66,9 +63,9 @@ The official title is the Digital Asset Market Clarity Act, H.R. 3633 in the 119
 4. **Protects self-custody and builders.** A US individual keeps the right, for personal use, to hold crypto in their own hardware or software wallet and to transact peer-to-peer (Sec. 105(c)); developers who do not control a network get a separate carve-out (Sec. 109).
 5. **Bans a Federal Reserve retail CBDC.** Title VI, the Anti-CBDC Surveillance State Act, rides along in the House version.
 
-{{< num-highlight value="294–134" label="House vote, 17 July 2025" note="bipartisan passage" >}}
+{{< datum value="294–134" label="House vote, 17 July 2025" note="bipartisan passage" >}}
 
-{{< num-highlight value="49–50" label="Senate cloture vote, 15 September 2026" note="60 needed to proceed" >}}
+{{< datum value="49–50" label="Senate cloture vote, 15 September 2026" note="60 needed to proceed" >}}
 
 ---
 
@@ -91,7 +88,7 @@ GENIUS takes effect on the earlier of 18 months after enactment (18 January 2027
 
 This is the part most summaries skip. The bill the Senate tried to take up in September 2026 is still numbered H.R. 3633, but the Senate Banking Committee replaced everything after the enacting clause with its own text — a substitute that runs to nine titles and calls its first title the "Lummis-Gillibrand Responsible Financial Innovation Act of 2026." The CFTC side of the Senate effort sits in a separate bill, the Agriculture Committee's [Digital Commodity Intermediaries Act, S. 3755](https://www.congress.gov/bill/119th-congress/senate-bill/3755).
 
-{{< budget-table title="House-passed CLARITY vs the Senate Banking substitute" sub="Section numbers from the two govinfo.gov texts" >}}
+{{< source-table title="House-passed CLARITY vs the Senate Banking substitute" sub="Section numbers from the two govinfo.gov texts" >}}
 | Question | House version (passed 17 July 2025) | Senate Banking substitute (reported 1 June 2026) |
 |---|---|---|
 | Structure | 6 titles; CFTC registration regime is inside the bill (Title IV) | 9 titles; CFTC regime left to the Agriculture Committee's S. 3755 |
@@ -103,7 +100,7 @@ This is the part most summaries skip. The bill the Senate tried to take up in Se
 | Customer property in bankruptcy | Not a separate title | Separate title (Title VII, Secs. 701–702) |
 | Retail CBDC ban | Yes (Title VI) | No anti-CBDC title in the table of contents |
 | When it would start | Titles II and III: 360 days after enactment, or 60 days after a final rule if later (Secs. 206, 313); CFTC title: 270 days (Sec. 414) | Whole Act: 360 days after enactment, or 60 days after a final rule if later (Sec. 906) |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 My read: the two versions agree on the architecture — two regulators, registered intermediaries, protected self-custody — and disagree on the details that move money, above all whether a crypto platform can pay you for holding a stablecoin. That is the fault line to watch if the bill comes back.
 
@@ -113,7 +110,7 @@ My read: the two versions agree on the architecture — two regulators, register
 
 The table below is the practical version: what each group would face if the Senate text, the most recent version, became law. Each row cites the section that does it.
 
-{{< budget-table title="Who the CLARITY Act reaches" sub="Read from the Senate Banking substitute unless marked House" >}}
+{{< source-table title="Who the CLARITY Act reaches" sub="Read from the Senate Banking substitute unless marked House" >}}
 | If you are… | What would change | Where it is in the text |
 |---|---|---|
 | A US crypto exchange or broker | Registration with a federal regulator; customer assets held apart; no paying "interest" on stablecoin balances | House Title IV; Senate Secs. 404, 701 |
@@ -122,7 +119,7 @@ The table below is the practical version: what each group would face if the Sena
 | A bank | Clearer permission to custody and handle digital assets | Senate Title IV (Sec. 401); House Sec. 310 |
 | An individual US holder | A statutory self-custody protection (broad in the House text, limited to a defined "covered user" in the Senate text); stablecoin "rewards" limited to activity-based ones | Senate Secs. 404, 605; House Sec. 105(c) |
 | A holder outside the US | No direct effect; indirect effect through which US platforms and stablecoins can serve you | — |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 The self-custody clause is the line that reaches ordinary people most directly. In the Senate text:
 
@@ -135,7 +132,7 @@ Who counts as a "covered user" matters. Sec. 605(b)(1) defines it as "a United S
 
 ## Where the CLARITY Act Stands (Timeline)
 
-{{< budget-table title="CLARITY Act timeline" sub="Dates from congress.gov unless marked" >}}
+{{< source-table title="CLARITY Act timeline" sub="Dates from congress.gov unless marked" >}}
 | Date | What happened |
 |---|---|
 | 29 May 2025 | Introduced in the House |
@@ -149,7 +146,7 @@ Who counts as a "covered user" matters. Sec. 605(b)(1) defines it as "a United S
 | 8 Aug 2026 | Motion to proceed and cloture motion filed |
 | 15 Sept 2026 | Cloture on the motion to proceed fails, 49–50; Sen. Tillis enters a motion to reconsider |
 | 18 Oct 2026 | No further action recorded |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 Two procedural facts decide what happens next. First, the motion to reconsider means the Senate can hold the same vote again without starting from scratch. Second, the 119th Congress ends in early January 2027; a bill that has not passed both chambers by then dies and must be reintroduced. US midterm elections fall on 3 November 2026, which leaves a short post-election session as the realistic window.
 

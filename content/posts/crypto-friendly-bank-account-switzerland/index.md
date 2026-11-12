@@ -115,14 +115,11 @@ sources:
     desc: "easyglobalbanking.com — tiering of Swiss crypto banks (crypto-native / mainstream-with-access / B2B infrastructure), 2026"
 ---
 
-> 📅 Last updated: October 2026
-> Figures and bank status verified against publicly available sources as of September 2026; the EU-licence status of AMINA, Bank Frick and Sygnum re-checked against regulator and company sources in October 2026. Bank policies and thresholds change — confirm directly with each institution before making decisions.
-
 The pitch sounds clean: Switzerland has [FINMA](https://www.finma.ch/en/)-licensed banks that actually understand crypto. You can hold BTC and CHF in the same place, have your assets genuinely segregated under Swiss law — a protection [FINMA reinforced in its January 2026 custody guidance](https://www.finma.ch/en/news/2026/01/20260112-mm-am-01-26/) — and not worry that your bank will freeze your account the moment it sees an on-chain transfer.
 
 That pitch is true. But there is a fork in the road most coverage skips: "crypto-friendly bank in Switzerland" now means two completely different things. One is the handful of high-threshold, crypto-native banks — AMINA, Sygnum, Bank Frick — built for six-figure-plus relationships. The other is a fast-growing mainstream tier — Swissquote, Yuh, PostFinance and the cantonal banks — that any Swiss resident can open with a four-figure balance, with [UBS](https://www.ubs.com/) reported to be preparing a version of the same thing for selected private-banking clients. As of 2026, roughly 20 Swiss banks offer regulated crypto services across about 2.5 million accounts, the most of any country. Most people searching for a "crypto-friendly Swiss bank account" actually want that second tier.
 
-This field note covers both — starting with the mainstream tier most readers can actually use, then the crypto-native institutions, the thresholds, the KYC depth, and the honest list of who each is really designed to serve.
+This field note covers both — starting with the mainstream tier most readers can actually use, then the crypto-native institutions, the thresholds, the KYC depth, and the honest list of who each is really designed to serve. Figures and bank status are verified against publicly available sources as of September 2026; the EU-licence status of AMINA, Bank Frick and Sygnum was re-checked against regulator and company sources in October 2026. Bank policies and thresholds change — confirm directly with each institution before making decisions.
 
 ## The Tier Most People Actually Want: Mainstream Banks with Crypto Access
 
@@ -138,7 +135,7 @@ If you hold a mid-five-figure amount of crypto and just want a regulated Swiss b
 
 <!-- IG-angle: Original two-tier split separating the crypto-native institutional banks (the four names everyone lists) from the mainstream retail tier (Swissquote/Yuh/PostFinance/cantonal/UBS) that now serves the vast majority of Swiss crypto accounts — a distinction most "Swiss crypto bank" coverage collapses into one -->
 
-{{< budget-table title="Mainstream Swiss Banks with Retail Crypto Access" sub="Regulated banks any resident can realistically open (2026)" >}}
+{{< source-table title="Mainstream Swiss Banks with Retail Crypto Access" sub="Regulated banks any resident can realistically open (2026)" >}}
 | Bank | Type | Entry point | Crypto range | Best for |
 |---|---|---|---|---|
 | Swissquote | Listed FINMA bank | CHF 1,000 min. deposit | 50+ coins | Individuals wanting a full trading account |
@@ -146,7 +143,7 @@ If you hold a mid-five-figure amount of crypto and just want a regulated Swiss b
 | PostFinance | State-owned bank | Existing account | BTC/ETH+ via Swissquote | Existing customers wanting one tab |
 | Cantonal banks (ZKB, Luzerner, St.Galler, Zuger) | Cantonal banks | Existing account | BTC/ETH (Sygnum/AMINA rails) | Residents already banking cantonally |
 | UBS | Global wealth bank | Private-banking client | BTC/ETH (reported, selected clients) | Existing UBS wealth clients |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 The trade-off with this tier is depth: you generally get trading and custody — plus staking on a handful of major coins at Swissquote and PostFinance — but not lending, tokenization, or bespoke institutional structuring. For most individuals, that is exactly enough. The crypto-native banks below exist for the cases where it is not.
 
@@ -171,7 +168,7 @@ Now the other end of the market. Switzerland has four institutions that sit in t
 
 This is where the gap between marketing and reality is widest.
 
-{{< num-highlight value="CHF 500,000" label="approximate liquid asset minimum for professional client status at AMINA" >}}
+{{< datum value="CHF 500,000" label="approximate liquid asset minimum for professional client status at AMINA" >}}
 
 AMINA Bank does not publish a hard minimum deposit figure. What it does publish is the threshold for **professional client status** — which is a regulatory classification, not an arbitrary number. To qualify, a client needs either:
 
@@ -186,14 +183,14 @@ Bank Frick's thresholds are not publicly listed and are negotiated as part of th
 
 <!-- IG-data: Original four-bank comparison assembling what the marketing pages leave out — realistic entry thresholds, KYC depth, and which institutions accept individuals at all (InCore is B2B-only, Bank Frick negotiates undisclosed minimums), cross-referenced from published professional-client criteria and practitioner reviews -->
 
-{{< budget-table title="Swiss Crypto-Native Bank Comparison" sub="FINMA-licensed crypto-native institutions (2026)" >}}
+{{< source-table title="Swiss Crypto-Native Bank Comparison" sub="FINMA-licensed crypto-native institutions (2026)" >}}
 | Bank | FINMA licence | Individual accounts | Approx. AUM/crypto minimum | KYC depth |
 |---|---|---|---|---|
 | AMINA (formerly SEBA) | ✅ Full banking | ✅ Yes (retail + professional) | ~CHF 500K for professional status | Medium-high |
 | Sygnum | ✅ Full banking | ✅ Yes (professional clients) | ~CHF 50-100K in crypto | High |
 | Bank Frick | ✅ (via Liechtenstein FMA) | ⚠️ Limited (intermediaries preferred) | Negotiated, not disclosed | High |
 | InCore | ✅ Full banking | ❌ B2B only | — | N/A for individuals |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 ## The KYC Process: What They Actually Ask For
 
@@ -228,9 +225,9 @@ Sygnum's stated client base is about 2,300 clients across 80-plus countries. Its
 
 This is not a criticism of either bank. They have a business model, regulatory obligations, and compliance costs that shape who they can profitably serve. It is, however, relevant information for anyone who reads "we accept individual clients" and assumes the door is equally open.
 
-{{< skip-box title="Who Swiss crypto-native banks are realistically designed for" >}}
+{{< sidenote title="Who Swiss crypto-native banks are realistically designed for" >}}
 The client profile that moves through Swiss crypto-native bank onboarding with the least friction looks something like this: CHF 100,000+ in assets (crypto plus fiat), multi-year documented transaction history across regulated exchanges, no exposure to mixers or anonymity tools, tax-compliant in home jurisdiction, and either professionally active in financial markets or otherwise familiar with the documentation burden. Individuals who do not fit that profile are not necessarily excluded, but onboarding takes longer, asks for more, and does not always end in approval. If that is you, a practical order is to open crypto access in the mainstream tier first — Swissquote or Yuh, or check whether your cantonal bank offers a crypto tab — and build a documented history there, then approach a crypto-native bank once your holdings reach the six-figure range these banks are built around, or sooner if you need services the mainstream tier does not offer, such as crypto-backed lending or institutional structuring. Either way, prepare the three KYC layers above as one pack: ID and proof of address, 12+ months of exchange exports with the bank transfers that funded them, and confirmation that your holdings are declared.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## Timeline: How Long Does It Actually Take?
 

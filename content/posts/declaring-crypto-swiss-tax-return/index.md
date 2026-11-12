@@ -62,9 +62,6 @@ sources:
     desc: "Zug Notes — the Swiss crypto bank account field note: statements from AMINA or Sygnum can serve as source documentation for your tax declaration."
 ---
 
-> 📅 Last updated: October 2026
-> Built on the current [Federal Tax Administration](https://www.estv.admin.ch/en) rate list, with a section on what CARF reporting means for individual holders in the 2026-2027 window.
-
 Switzerland's crypto tax framework is structurally simple: private investors pay no capital gains tax, but they do pay [wealth tax](https://en.wikipedia.org/wiki/Wealth_tax) on the full market value of their portfolio — and that market value is assessed on one specific date every year.
 
 That date is December 31st.
@@ -81,7 +78,7 @@ Switzerland does not tax your crypto gains when you sell. It taxes the value you
 
 The practical implication: if you bought ETH in October and it has doubled in value by December 31st, you pay wealth tax on the doubled value even though you have not sold anything. If the price then crashes in January, that does not affect last year's tax bill — the snapshot has already been taken.
 
-{{< num-highlight value="December 31st" label="The single valuation date that determines your entire crypto wealth tax position for the year" >}}
+{{< datum value="December 31st" label="The single valuation date that determines your entire crypto wealth tax position for the year" >}}
 
 For most Swiss residents, this is an annual exercise that takes a few hours: calculate the total CHF value of your crypto holdings on December 31st, enter that figure in the correct section of your cantonal tax return, and declare any income-type events (staking, yield) separately. The mechanics are more bureaucratic than technically difficult.
 
@@ -101,9 +98,9 @@ For reference, the most recent SFTA Kursliste values (December 31, 2025) are:
 
 A year earlier, on December 31, 2024, the same two assets were listed at CHF 85,926.49 and CHF 3,083.56 — and on December 31, 2023, at CHF 35,541.63 and CHF 1,948.01. Three consecutive year-ends, three very different wealth tax bases, with nothing bought or sold in between.
 
-{{< skip-box title="Where to actually find the SFTA Kursliste" >}}
+{{< sidenote title="Where to actually find the SFTA Kursliste" >}}
 The Kursliste does not live on the main estv.admin.ch site. It is published on the FTA's separate **ICTax** portal: go to [ictax.admin.ch](https://www.ictax.admin.ch/extern/en.html#/ratelist), switch the language to English if you need to, pick the **tax year** (the 2025 list is the one you use for the return you file in 2026), and search the asset by name — "Bitcoin", "Ethereum", "Cardano". Each entry shows the CHF tax value as of December 31st. The FTA's own note on the rate list confirms these are the [closing prices of the last trading day in December](https://www.estv.admin.ch/de/kurslisten-ictax), supplied by SIX Financial Information, and that they serve as the *Steuerwert am 31. Dezember*. The list is published early in the following year. It covers Bitcoin, Ethereum, and a selection of other widely held assets — Cardano, Solana, BNB, Litecoin, Ripple, Polkadot among them. Anything not on the list defaults to option 2 above.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 The implication for planning: the wealth tax is not something you can avoid by timing your trades. Even if you sell all your crypto on December 30th and buy back on January 2nd, the snapshot date catches you either holding or not holding. Some people do time positions around December 31st for wealth tax purposes, but that is an active decision with its own transaction costs.
 
@@ -113,7 +110,7 @@ Every Swiss canton uses its own tax software (Zug uses ZugTax, Zurich uses ZHTax
 
 **Crypto goes in the securities and credits schedule** — typically called the "Wertschriftenverzeichnis" or "Liste des titres et créances." This is the same section where you would list shares, bonds, or fund units. Crypto is treated as a movable intangible asset and declared here.
 
-{{< budget-table title="Where to find crypto in Swiss cantonal tax software" >}}
+{{< source-table title="Where to find crypto in Swiss cantonal tax software" >}}
 | Asset Type | Tax Software Section | Notes |
 |---|---|---|
 | BTC, ETH, major altcoins on SFTA list | Securities/Wertschriften schedule | Enter CHF value at SFTA Kursliste rate |
@@ -122,7 +119,7 @@ Every Swiss canton uses its own tax software (Zug uses ZugTax, Zurich uses ZHTax
 | Mining income | Independent activity / self-employment income | Separate from investment income |
 | Crypto held in centralized exchange | "Accounts" or "bank accounts" section (some cantons) | Check your canton's specific guidance |
 | Self-custodied crypto | "Securities" or "other assets" | Declare total CHF value as of Dec 31st |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 The exact field names vary. Zug-specific: in ZugTax, crypto is declared under "Wertschriften und Guthaben" (Securities and Credits) with the asset name, the number of units, and the CHF value as of December 31st. The software does the multiplication if you provide the unit count and price.
 
@@ -134,7 +131,7 @@ If you hold crypto across several wallets or exchanges, you have two options for
 
 **Aggregating is generally acceptable.** Most cantonal guidance and practitioner consensus is that you can declare the total CHF value of all your crypto holdings as a single line item — you do not need to break down each wallet, each exchange account, or each individual token separately (unless you have tokens with meaningfully different tax treatments, like staking versus holding).
 
-{{< num-highlight value="Total Portfolio Value" label="The number you are declaring — aggregate CHF value across all wallets and exchanges as of December 31st" >}}
+{{< datum value="Total Portfolio Value" label="The number you are declaring — aggregate CHF value across all wallets and exchanges as of December 31st" >}}
 
 **What you should document even if you aggregate:**
 
@@ -158,9 +155,9 @@ For assets not on the Kursliste: get the December 31st price in USD (or EUR), th
 
 **Stablecoins:** USDC, USDT, and similar USD-pegged [stablecoin](https://en.wikipedia.org/wiki/Stablecoin)s are declared at their CHF equivalent — essentially the CHF/USD exchange rate on December 31st multiplied by the number of stablecoin units. They are not treated as USD cash. They are treated as crypto assets and go in the securities schedule.
 
-{{< skip-box title="EUR-priced and DAI-type stablecoins" >}}
+{{< sidenote title="EUR-priced and DAI-type stablecoins" >}}
 Euro-pegged stablecoins (EURS, for example) follow the same logic: declare in CHF using the EUR/CHF rate on December 31st. DAI (or other algorithmically stabilized assets) — declare at whatever the actual market value was on December 31st, not at the theoretical USD 1.00 peg.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 ## The Business vs. Private Investor Line
 
@@ -188,9 +185,9 @@ If you stake through a pool (Lido, RocketPool, etc.), the periodic reward distri
 
 **DeFi yield positions:** Broadly similar to staking in tax treatment. Yield from liquidity provision, lending protocols, or yield farming is treated as income at the moment you receive or can claim it. At December 31st, you also need to declare any tokens still locked in a protocol at their current market value — this is the wealth tax snapshot applied to DeFi positions.
 
-{{< skip-box title="Locked liquidity positions and LP tokens" >}}
+{{< sidenote title="Locked liquidity positions and LP tokens" >}}
 If you hold liquidity pool (LP) tokens or have funds locked in a smart contract on December 31st, those assets are still part of your wealth and should be declared. The value to use is the underlying asset value (what your LP position could be redeemed for at that date), not the nominal value of the LP token itself, unless they trade at parity.
-{{< /skip-box >}}
+{{< /sidenote >}}
 
 **NFTs:** The SFTA has still not issued dedicated NFT guidance. The practical approach that most Swiss tax advisors recommend: treat NFTs as intangible assets, declare them at market value on December 31st if that value is determinable (a recent sale, a floor price from a recognized marketplace), or at original purchase price in CHF if no current market value exists. Income from NFT royalties is taxable when received.
 
@@ -206,14 +203,14 @@ That distinction matters because it changes what you actually need to do. Your o
 
 CARF is structurally different from the wealth tax in one important way. The Swiss wealth tax is an annual *snapshot* — one value, on one date. CARF is **transaction-level**. Your platform reports activity across the year, not a single year-end figure. Under the [OECD framework](https://en.wikipedia.org/wiki/Crypto-Asset_Reporting_Framework), an RCASP collects a self-certification of your tax residence plus your [taxpayer identification number](https://en.wikipedia.org/wiki/Taxpayer_Identification_Number) (TIN), then reports four categories of activity annually:
 
-{{< budget-table title="What an RCASP reports about you under CARF" >}}
+{{< source-table title="What an RCASP reports about you under CARF" >}}
 | Reportable category | What it covers | Note |
 |---|---|---|
 | Crypto-to-fiat exchanges | Selling crypto for CHF, USD, EUR, etc. | Aggregate value per year |
 | Crypto-to-crypto exchanges | Swapping one crypto-asset for another | Each swap counts |
 | Transfers | Sends and receives, including to unhosted (self-custody) wallets | Transfers off-platform are flagged |
 | Reportable retail payments | Paying a merchant in crypto for goods/services | Only above the USD 50,000 threshold |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 The OECD's own framing is unambiguous about where the duty lands:
 
@@ -247,7 +244,7 @@ Two details are worth knowing before you start, and both come straight from cant
 
 The interest accumulates from when the tax would originally have been due, so the cost increases the longer you wait. For someone who has held significant crypto since 2017 and never declared, the interest portion alone can be substantial.
 
-{{< num-highlight value="10 years" label="Maximum look-back for a voluntary disclosure — back taxes plus default interest on at most ten prior tax periods (cantonal tax office guidance, Zurich and Bern)" >}}
+{{< datum value="10 years" label="Maximum look-back for a voluntary disclosure — back taxes plus default interest on at most ten prior tax periods (cantonal tax office guidance, Zurich and Bern)" >}}
 
 One practical note: Nachdeklaration requires you to reconstruct your December 31st portfolio value for each prior year. This means pulling historical exchange rates and SFTA Kursliste values going back to when you first held. The SFTA publishes historical rate lists. CoinMarketCap maintains daily historical price data. It is tedious, but the documentation is available.
 
@@ -255,7 +252,7 @@ One practical note: Nachdeklaration requires you to reconstruct your December 31
 
 Every February-March, when Swiss cantonal tax return deadlines approach, the same sequence applies:
 
-{{< budget-table title="Crypto tax declaration checklist — annual sequence" >}}
+{{< source-table title="Crypto tax declaration checklist — annual sequence" >}}
 | Step | What to do | Notes |
 |---|---|---|
 | 1 | Export year-end statements from all exchanges | Balance as of December 31st |
@@ -267,7 +264,7 @@ Every February-March, when Swiss cantonal tax return deadlines approach, the sam
 | 7 | Separately calculate staking/yield income received in year | Date received × CHF value at that date |
 | 8 | Enter staking/yield income in income/revenue section | Separate from wealth declaration |
 | 9 | Keep all documentation | Cantonal office can request it for up to 10 years |
-{{< /budget-table >}}
+{{< /source-table >}}
 
 The declaration itself is not technically complex — the valuation and conversion calculation is the most time-consuming part for anyone with a diversified portfolio. Software tools like Koinly or Blockpit can automate most of steps 1-5 and generate a report formatted for Swiss cantonal returns.
 
