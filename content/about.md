@@ -2,15 +2,13 @@
 title: "About Zug Notes"
 description: "Field notes on Swiss crypto regulation and Crypto Valley, built from primary sources — FINMA, the federal and cantonal tax authorities, and official registers."
 date: 2026-04-30
-lastmod: 2026-10-13
+lastmod: 2026-11-21
 draft: false
 ---
 
 ## About This Site
 
-Zug Notes is a field notes blog about Swiss crypto regulation, the Crypto Valley ecosystem, and what holding crypto in Switzerland actually involves.
-
-Not a lawyer, not a financial advisor. A plain-language reading of the primary sources, with context — not professional guidance.
+Zug Notes is a field notes blog about Swiss crypto regulation, the Crypto Valley ecosystem, and what holding crypto in Switzerland actually involves — plain-language readings of the primary sources, with context.
 
 ## What You'll Find Here
 
@@ -20,7 +18,7 @@ Not a lawyer, not a financial advisor. A plain-language reading of the primary s
 
 ## How These Notes Are Made
 
-Each note is built from primary sources — FINMA publications, federal and cantonal tax guidance, official registers, and the institutions' own disclosures — and from published reporting and analysis, linked in the text. The notes do not report personal visits, meetings, or conversations. Where a figure is an estimate, the note says so and shows what it is based on.
+Each note is built from primary sources — FINMA publications, federal and cantonal tax guidance, official registers, and the institutions' own disclosures — and from published reporting and analysis, linked in the text. Where a figure is an estimate, the note says so and shows what it is based on.
 
 ## What This Is Not
 
