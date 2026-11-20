@@ -107,7 +107,7 @@ That track record is probably the most significant thing about the 2019 announce
 
 What those institutions are able to offer most people who hold crypto in Switzerland — and what the KYC depth and minimum thresholds make practically accessible — is a separate question. For that, see the [field note on what getting a crypto-friendly bank account in Switzerland actually takes](/posts/crypto-friendly-bank-account-switzerland/).
 
-The 2019 licences established that the infrastructure could exist under Swiss law. The subsequent years have been the test of whether that infrastructure is accessible.
+The 2019 licences established that the infrastructure could exist under Swiss law. The subsequent years have been the test of whether that infrastructure is accessible. The licensing ladder below the banks — SRO membership today, a crypto-institution licence proposed for tomorrow — is laid out in [which Swiss crypto license a firm needs in 2026](/posts/finma-crypto-institution-license-2026/).
 
 ---
 

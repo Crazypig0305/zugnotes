@@ -1,13 +1,13 @@
 ---
-title: "What Getting a Crypto-Friendly Bank Account in Switzerland Actually Takes"
+title: "Swiss Crypto Banks in 2026: What Getting a Crypto-Friendly Bank Account Actually Takes"
 date: 2023-06-12
-lastmod: 2026-10-13
-description: "Switzerland now has two very different kinds of crypto-friendly bank: high-threshold crypto-native institutions (AMINA, Sygnum, Bank Frick) and a fast-growing mainstream tier (Swissquote, Yuh, PostFinance, UBS) any resident can open. A plain-language field note on which one you actually need, the real thresholds, and the KYC depth behind each."
+lastmod: 2026-11-21
+description: "Switzerland now has two very different kinds of crypto-friendly bank: high-threshold crypto-native institutions (AMINA, Sygnum, Bank Frick) and a fast-growing mainstream tier (Swissquote, Yuh, PostFinance, UBS) any resident can open. A plain-language field note on which one you actually need, the real thresholds, the KYC depth behind each, and the realistic alternatives to AMINA."
 categories: ["holding"]
 tags: ["swiss crypto bank", "SEBA bank", "Sygnum bank", "AMINA bank", "FINMA banking license", "KYC", "source of funds", "crypto custody switzerland"]
 draft: false
 image: hero.jpg
-readtime: 9
+readtime: 11
 canonicalURL: "https://zugnotes.com/posts/crypto-friendly-bank-account-switzerland/"
 glossary:
   - term: "FINMA banking license"
@@ -110,13 +110,22 @@ sources:
   - name: "FINMA — Guidance 2026/1 on risks of crypto-asset custody"
     url: "https://www.finma.ch/en/news/2026/01/20260112-mm-am-01-26/"
     desc: "finma.ch — official 12 Jan 2026 guidance on segregated custody of crypto-based assets under the Banking Act"
+  - name: "Crypto Briefing — Sygnum brings Bitcoin, Ethereum and Solana trading to BancaStato"
+    url: "https://cryptobriefing.com/sygnum-brings-bitcoin-ethereum-and-solana-trading-to-swiss-bank-bancastato/"
+    desc: "cryptobriefing.com — 23 July 2026: Ticino cantonal bank BancaStato adds BTC, ETH, LTC and SOL trading, with custody on Sygnum's infrastructure"
+  - name: "AMINA — Swiss crypto bank reports 69% revenue growth for 2024"
+    url: "https://uk.aminagroup.com/press/amina-bank-emerges-as-switzerlands-fastest-growing-crypto-bank-with-69-revenue-surge/"
+    desc: "aminagroup.com — 28 May 2025 press release: 2024 revenue USD 40.4 million (+69%), assets under management USD 4.2 billion (+136%)"
+  - name: "Zug Notes — Switzerland Crypto License in 2026: SRO Membership, FINMA, and the New Crypto-Institution License"
+    url: "/posts/finma-crypto-institution-license-2026/"
+    desc: "Zug Notes — the business side: which licence a Swiss crypto firm needs, from SRO membership to the proposed crypto-institution licence"
   - name: "Easy Global Banking — Swiss Crypto Banks 2026: Three Types"
     url: "https://www.easyglobalbanking.com/swiss-banking/swiss-crypto-banks/"
     desc: "easyglobalbanking.com — tiering of Swiss crypto banks (crypto-native / mainstream-with-access / B2B infrastructure), 2026"
 ---
 
-> 📅 Last updated: October 2026
-> Figures and bank status verified against publicly available sources as of September 2026; the EU-licence status of AMINA, Bank Frick and Sygnum re-checked against regulator and company sources in October 2026. Bank policies and thresholds change — confirm directly with each institution before making decisions.
+> 📅 Last updated: November 2026
+> Figures and bank status verified against publicly available sources as of September 2026; the EU-licence status of AMINA, Bank Frick and Sygnum re-checked against regulator and company sources in October 2026; cantonal-bank list and AMINA results re-checked in November 2026. Bank policies and thresholds change — confirm directly with each institution before making decisions.
 
 The pitch sounds clean: Switzerland has [FINMA](https://www.finma.ch/en/)-licensed banks that actually understand crypto. You can hold BTC and CHF in the same place, have your assets genuinely segregated under Swiss law — a protection [FINMA reinforced in its January 2026 custody guidance](https://www.finma.ch/en/news/2026/01/20260112-mm-am-01-26/) — and not worry that your bank will freeze your account the moment it sees an on-chain transfer.
 
@@ -132,7 +141,7 @@ If you hold a mid-five-figure amount of crypto and just want a regulated Swiss b
 
 **Yuh** — the mobile-first option. Launched in 2021 as a joint venture between [PostFinance](https://www.postfinance.ch/) and Swissquote — and wholly owned by Swissquote since PostFinance [sold its 50% stake in July 2025](https://www.postfinance.ch/en/about-us/media/newsroom/postfinance-yuh-swissquote.html) — the Yuh app bundles payments, saving, investing, and access to around 34 cryptocurrencies in one place. It reached roughly 340,000 customers in about four years, which tells you how much appetite there is for crypto access that does not involve a private-banking onboarding.
 
-**PostFinance and the cantonal banks** — the incumbents. PostFinance, a systemically important state-owned bank, launched crypto trading in 2024 (routed through Swissquote infrastructure) and opened tens of thousands of crypto custody accounts in its first year. Several cantonal banks — Zürcher Kantonalbank, plus Luzerner, St.Galler, and Zuger Kantonalbank — now offer Bitcoin and Ethereum trading, typically powered behind the scenes by Sygnum's or AMINA's custody rails. For an existing customer, crypto is often just a new tab in the same banking app.
+**PostFinance and the cantonal banks** — the incumbents. PostFinance, a systemically important state-owned bank, launched crypto trading in 2024 (routed through Swissquote infrastructure) and opened tens of thousands of crypto custody accounts in its first year. Several cantonal banks — Zürcher Kantonalbank, plus Luzerner, St.Galler, and Zuger Kantonalbank — now offer Bitcoin and Ethereum trading, typically powered behind the scenes by Sygnum's or AMINA's custody rails. The list keeps growing: in July 2026 Ticino's BancaStato [added Bitcoin, Ethereum, Litecoin and Solana trading](https://cryptobriefing.com/sygnum-brings-bitcoin-ethereum-and-solana-trading-to-swiss-bank-bancastato/), with client assets held on Sygnum's custody infrastructure, off the bank's balance sheet. For an existing customer, crypto is often just a new tab in the same banking app.
 
 **[UBS](https://www.ubs.com/)** — the one to watch. In January 2026 Bloomberg reported that UBS, historically one of the most conservative names in wealth management, was preparing to let selected private-banking clients in Switzerland buy and sell Bitcoin and Ethereum directly. UBS itself would only say it was exploring the initiative, and I have not been able to find a confirmation that the service actually went live — so treat this as reported intent, not an open door. The signal still matters: the country's largest bank has stopped treating crypto as off-limits.
 
@@ -144,7 +153,7 @@ If you hold a mid-five-figure amount of crypto and just want a regulated Swiss b
 | Swissquote | Listed FINMA bank | CHF 1,000 min. deposit | 50+ coins | Individuals wanting a full trading account |
 | Yuh | App (Swissquote-owned, ex-PostFinance JV) | Standard app signup | ~34 coins | Mobile-first, small balances |
 | PostFinance | State-owned bank | Existing account | BTC/ETH+ via Swissquote | Existing customers wanting one tab |
-| Cantonal banks (ZKB, Luzerner, St.Galler, Zuger) | Cantonal banks | Existing account | BTC/ETH (Sygnum/AMINA rails) | Residents already banking cantonally |
+| Cantonal banks (ZKB, Luzerner, St.Galler, Zuger, BancaStato) | Cantonal banks | Existing account | BTC/ETH (Sygnum/AMINA rails); BancaStato also LTC/SOL | Residents already banking cantonally |
 | UBS | Global wealth bank | Private-banking client | BTC/ETH (reported, selected clients) | Existing UBS wealth clients |
 {{< /source-table >}}
 
@@ -275,6 +284,27 @@ AMINA's Austrian MiCA licence, granted in October 2025 and announced that Novemb
 The split between institutional and mass-market crypto banking has now clearly arrived. At the institutional end, Sygnum's unicorn status, USD 6 billion in client assets, and new discretionary-mandate business show the crypto-native banks deepening upmarket. At the mass-market end, the opposite is happening: crypto has become a normal banking product. Roughly 20 Swiss banks — the most of any country — now serve crypto to about 2.5 million accounts, and UBS was reported in January 2026 to be preparing to join them for selected private-banking clients. Retail-accessible crypto banking did come from neobanks, licensed brokers, and incumbent banks rather than the full crypto-native institutions. What is thinning is the middle: as an individual, you are increasingly choosing between a mainstream bank's crypto tab and a crypto-native bank's six-figure onboarding, with less and less in between.
 
 For a direct link to the FINMA banking licence history that put AMINA and Sygnum on the map, the [FINMA regulatory guidance on crypto custody](/posts/finma-crypto-guidance-01-2026/) provides additional context on the legal framework these institutions operate within. The [Swiss crypto tax overview](/posts/swiss-crypto-tax-advantage-guide/) is also relevant for anyone thinking through the full picture of holding crypto in Switzerland — the bank account is one piece of a larger structure.
+
+## Is AMINA Bank Legit?
+
+Yes, in the sense that matters for safety: AMINA (formerly SEBA) has held a FINMA banking and securities dealer licence since August 2019, is headquartered in Zug, and operates under the same Swiss banking supervision as any other licensed bank. It reports like one, too — its [own figures for 2024](https://uk.aminagroup.com/press/amina-bank-emerges-as-switzerlands-fastest-growing-crypto-bank-with-69-revenue-surge/) showed revenue up 69% to USD 40.4 million and assets under management up 136% to USD 4.2 billion, and [finews, reading its 2025 annual report](https://www.finews.com/news/english-news/72812-krypto-banken-amina-sygnum-comparison-annual-reports-2025), found interest income up 17%, commission income up 22% and trading income up 7% in a weaker crypto year. "Legit" is not the same as "right for you," though: the thresholds and KYC depth above still apply, and its EU arm serves professional investors only.
+
+## What Are the Alternatives to AMINA Bank?
+
+It depends on why you were looking at AMINA in the first place:
+
+- **You want the same kind of bank, a fully licensed crypto-native institution:** Sygnum is the only like-for-like Swiss alternative, and it onboards professional and institutional clients, not retail. Bank Frick in Liechtenstein is the third option in that tier, aimed at intermediaries and professional investors.
+- **You are an individual who wants regulated Swiss crypto custody without a six-figure relationship:** Swissquote, Yuh, PostFinance or a cantonal bank's crypto tab — the mainstream tier at the top of this note.
+- **You are in the EU and wanted AMINA for its MiCA passport:** Bank Frick and Sygnum's Liechtenstein subsidiary now hold MiCA authorisations too, so the EEA-passport route is no longer AMINA's alone.
+- **You are a company, not an individual, setting up a crypto business:** the bank is only one piece; the Swiss licensing route (usually SRO membership) comes first, as explained in the [Switzerland crypto license field note](/posts/finma-crypto-institution-license-2026/).
+
+## Do Crypto Banks Actually Exist?
+
+Yes. A crypto bank is a bank with a national banking licence that offers crypto trading, custody and conversion to fiat alongside ordinary banking — which is different from an exchange, which typically holds no bank licence. Switzerland has the clearest examples: AMINA and Sygnum were licensed by FINMA as banks in 2019, and roughly 20 Swiss banks now offer some regulated crypto service.
+
+## Is Crypto Trading Legal in Switzerland?
+
+Yes, for individuals and businesses alike. Buying, holding and selling crypto is legal, and the banks above offer it under FINMA supervision. Businesses that trade or hold crypto *for clients* need to sit inside the anti-money-laundering framework — in most cases by joining a FINMA-recognised self-regulatory organisation — which the [field note on Swiss crypto licensing](/posts/finma-crypto-institution-license-2026/) walks through step by step.
 
 ## The Honest Summary
 

@@ -113,7 +113,7 @@ Authorization under MiCA takes **6 to 12 months** in most EU member states, with
 
 **FINMA** is a principles-based framework. Switzerland's financial regulation is built on the principle that FINMA assesses the *substance and risk profile* of what you are doing, not whether your specific activity falls under a predefined code. The same crypto activity might be regulated under banking law, securities law, or the Anti-Money Laundering Act, depending on how FINMA categorizes it.
 
-The consequence of this is that obtaining a FINMA-supervised license — a banking license, a securities dealer license, or a FinTech license — typically takes **12 to 18 months**. Switzerland's process is slower, not because FINMA is bureaucratically inefficient, but because the substance-over-form assessment genuinely takes longer than a rules-checklist review.
+The consequence of this is that obtaining a FINMA-supervised license — a banking license, a securities dealer license, or a FinTech license — typically takes **12 to 18 months**. Switzerland's process is slower, not because FINMA is bureaucratically inefficient, but because the substance-over-form assessment genuinely takes longer than a rules-checklist review. Most crypto firms in Switzerland never take that route at all — they join a FINMA-recognised SRO instead, as the [guide to Swiss SRO membership and crypto licensing](/posts/finma-crypto-institution-license-2026/) explains.
 
 The firms that succeed with FINMA are typically the ones who engage early, document their governance and risk management thoroughly, and maintain ongoing regulatory dialogue. This is harder to do from abroad than it sounds.
 

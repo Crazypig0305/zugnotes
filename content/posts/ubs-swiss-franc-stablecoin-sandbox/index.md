@@ -72,7 +72,7 @@ The more consequential regulatory context is happening in parallel. In October 2
 1. **Payment institutions** — for stablecoin issuers. Unlike the existing fintech licence, which caps deposits at CHF 100 million, the new payment institution category removes that ceiling entirely while requiring AML compliance, governance standards, and reserve segregation.
 2. **Crypto institutions** — for custody providers handling digital assets at scale.
 
-Legislative implementation is not expected before 2027. The sandbox running in 2026 is, in part, about generating evidence before that legislative window opens.
+Legislative implementation is not expected before 2027. The sandbox running in 2026 is, in part, about generating evidence before that legislative window opens. For what the crypto-institution route would mean for firms that today run on SRO membership, see the [Switzerland crypto license field note](/posts/finma-crypto-institution-license-2026/).
 
 <div class="data-callout">
 <p class="callout-label">Reading the pilot design — May 2026</p>
