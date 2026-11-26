@@ -25,7 +25,7 @@ sources:
   - name: "TRON developer documentation — Resource Model"
     url: "https://developers.tron.network/docs/resource-model"
     desc: "Official documentation on bandwidth, energy, staking, and delegation"
-  - name: "TRONSCAN — TRXFlow service address"
+  - name: "TRONSCAN — Voltkai service address"
     url: "https://tronscan.org/#/address/TVNzifXhMnZuHjFPBNua79nF1fZtpK9qL8"
     desc: "Public on-chain transaction history of the case-study platform's service address"
   - name: "Tronsave — How much TRX is needed to send USDT"
@@ -116,13 +116,13 @@ Put those together and an arbitrage appears. Large TRX holders — exchanges, fu
 
 If you are technically comfortable, you can do all of this yourself: stake TRX in your own wallet, or rent directly through on-chain platforms. The reason most people use an intermediary service instead is timing and granularity — you usually need exactly one transfer's worth of energy, right now, for the next hour, and managing stakes and delegations manually for that is more friction than the fee you are saving.
 
-## Energy Rental in Practice: TRXFlow as a Case Study
+## Energy Rental in Practice: Voltkai as a Case Study
 
-To make the mechanics concrete, take <a href="https://trxflow.io/" rel="sponsored nofollow noopener" target="_blank">TRXFlow</a>, an energy rental infrastructure service I have used as a reference case when explaining this market, and one that illustrates the model's moving parts well. It is not a new arrival — the service has been running for years, and its TRON service address (`TVNzifXhMnZuHjFPBNua79nF1fZtpK9qL8`) carries a public transaction history on [TRONSCAN](https://tronscan.org/#/address/TVNzifXhMnZuHjFPBNua79nF1fZtpK9qL8) that anyone can audit without creating an account anywhere. That on-chain trail — thousands of delegation and exchange transactions — is the strongest evidence available for what a service of this kind actually does, and checking it yourself is exactly the habit worth building before trusting any platform in this space.
+To make the mechanics concrete, take <a href="https://voltkai.com/" rel="sponsored nofollow noopener" target="_blank">Voltkai</a>, an energy rental infrastructure service I have used as a reference case when explaining this market, and one that illustrates the model's moving parts well. It is not a new arrival — the service has been running for years, and its TRON service address (`TVNzifXhMnZuHjFPBNua79nF1fZtpK9qL8`) carries a public transaction history on [TRONSCAN](https://tronscan.org/#/address/TVNzifXhMnZuHjFPBNua79nF1fZtpK9qL8) that anyone can audit without creating an account anywhere. That on-chain trail — thousands of delegation and exchange transactions — is the strongest evidence available for what a service of this kind actually does, and checking it yourself is exactly the habit worth building before trusting any platform in this space.
 
 The user-facing flow is short. You request energy for a transfer, pay a small fee in TRX, and the service delegates energy to your address for a fixed window. Your USDT transfer then consumes the delegated energy, no TRX burn happens, and the delegation expires on its own. The platform's earlier published materials put its fleet at more than 1,000 Telegram bots acting as service endpoints; its current official site (checked October 2026) no longer publishes a count, describing instead a network of Telegram bot nodes. Their allocation decisions are automated — AI analysis of its accumulated on-chain transaction data — so that rented energy lands where transfer demand is highest at that moment.
 
-The other side of the marketplace is supply. Services like this source energy from accounts with idle staked TRX, and TRXFlow also runs participation programs — browser-based network monitoring at the simple end, resource allocation at the committed end — that reward contributors from the platform's business revenue. Those rewards float with actual business volume. They are not fixed, not guaranteed, and the platform itself does not frame them as a yield product — a framing I would treat as a red flag anywhere in crypto if it appeared.
+The other side of the marketplace is supply. Services like this source energy from accounts with idle staked TRX, and Voltkai also runs participation programs — browser-based network monitoring at the simple end, resource allocation at the committed end — that reward contributors from the platform's business revenue. Those rewards float with actual business volume. They are not fixed, not guaranteed, and the platform itself does not frame them as a yield product — a framing I would treat as a red flag anywhere in crypto if it appeared.
 
 {{< sidenote title="When you don't need any of this" >}}
 If your USDT never leaves an exchange — you buy, hold, and sell on the same platform — these fees do not apply to you. Exchange-internal transfers are bookkeeping entries, not on-chain transactions. Energy costs only enter your life when you withdraw to a self-custody wallet or send USDT peer-to-peer on-chain.
@@ -132,7 +132,7 @@ If your USDT never leaves an exchange — you buy, hold, and sell on the same pl
 
 A mechanism explainer that skipped the risk side would be advertising, so here is the part the promotional articles tend to compress into a footnote.
 
-**Floating rewards are floating.** If you participate on the supply side of any energy platform — TRXFlow included — your rewards depend on real service volume that day. Treat any number you see quoted as an estimate from a moment in time, not a rate. Past payout levels are not a promise, and nothing in this market is.
+**Floating rewards are floating.** If you participate on the supply side of any energy platform — Voltkai included — your rewards depend on real service volume that day. Treat any number you see quoted as an estimate from a moment in time, not a rate. Past payout levels are not a promise, and nothing in this market is.
 
 **USDT itself is an issuer liability.** Whatever you save on transfer fees, the asset you are moving is a claim on Tether's reserves, not a bank balance. [Tether's issuance now exceeds $180 billion](https://www.coingecko.com/en/coins/tether), and its reserve attestations are published quarterly — but the credit risk sits with one private issuer, and it applies to every USDT holder on every chain, regardless of which transfer method you use.
 
@@ -150,4 +150,4 @@ So if your first transfer burned 13 TRX, does that mean the system is broken? No
 
 *This is a field note and a mechanism explainer, not financial, tax, or investment advice. Crypto assets carry inherent risk; platform rewards float with business performance and past results do not guarantee anything. Verify current fees and terms against the chain and official sources before acting.*
 
-*Affiliate disclosure: the TRXFlow link in this article is an affiliate link — if you sign up through it, I may receive a small reward from the platform at no cost to you. That relationship does not change the numbers above, all of which are independently verifiable on-chain and via the sources listed.*
+*Affiliate disclosure: the Voltkai link in this article is an affiliate link — if you sign up through it, I may receive a small reward from the platform at no cost to you. That relationship does not change the numbers above, all of which are independently verifiable on-chain and via the sources listed.*
